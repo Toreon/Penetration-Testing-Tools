@@ -23,7 +23,29 @@ website: https://wpscan.com/
 docs_url: https://github.com/wpscanteam/wpscan/wiki
 download_url: https://github.com/wpscanteam/wpscan
 github_repo: wpscanteam/wpscan
-stars: 9000
+stars: 9448
+pricing:
+  type: freemium
+  notes: Free for non-commercial use, commercial licenses available
+installation:
+  methods:
+    - Ruby gem
+    - Docker
+    - Git clone
+  commands:
+    - gem install wpscan
+    - docker pull wpscanteam/wpscan
+    - git clone https://github.com/wpscanteam/wpscan.git
+  package_managers:
+    - gem
+    - docker
+maintainers:
+  - wpscanteam
+authors:
+  - wpscanteam
+  - erwanlr
+  - firefart
+  - pvdl
 use_cases:
   - WordPress security auditing
   - Plugin and theme vulnerability detection
@@ -32,4 +54,6 @@ use_cases:
 related_tools:
   - sqlmap
   - wapiti
-added_at: "2024-01-15"
+similar_tools:
+  - wapiti
+added_at: '2024-01-15'

@@ -61,6 +61,33 @@ npm run build
 
 The build artifacts will be stored in the `dist/` directory.
 
+### Auto-Updating Tools from GitHub
+
+The project includes a utility script that can automatically update tool metadata from GitHub:
+
+```bash
+npm run update-tools
+```
+
+This script will:
+- ✅ Fetch the latest star count from GitHub
+- ✅ Update maintainers/authors from repository owner and top contributors
+- ✅ Add missing descriptions, websites, and licenses from GitHub
+- ✅ Respect GitHub API rate limits (1 second delay between requests)
+
+**Note**: The script only updates tools that have a `github_repo` field. Tools without GitHub repositories will be skipped.
+
+**Rate Limits**: The script uses the GitHub API without authentication, which has a rate limit of 60 requests per hour. For higher limits, you can set a `GITHUB_TOKEN` environment variable:
+
+```bash
+GITHUB_TOKEN=your_token_here npm run update-tools
+```
+
+To get a GitHub token:
+1. Go to GitHub Settings → Developer settings → Personal access tokens
+2. Generate a new token with `public_repo` scope
+3. Use it as shown above
+
 ## Project Structure
 
 ```

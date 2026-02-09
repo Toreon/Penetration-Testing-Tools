@@ -27,6 +27,11 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets",
+                "output": "/assets"
               }
             ],
             "styles": [
@@ -48,7 +53,10 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "/Penetration-Testing-Tools/"
+              "baseHref": "/Penetration-Testing-Tools/",
+              "optimization": {
+                "fonts": false
+              }
             },
             "development": {
               "optimization": false,

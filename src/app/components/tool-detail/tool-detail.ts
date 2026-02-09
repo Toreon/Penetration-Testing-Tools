@@ -1,8 +1,8 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, ChangeDetectorRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { Subject } from 'rxjs';
-import { takeUntil } from 'rxjs/operators';
+import { takeUntil, filter, switchMap, take, first } from 'rxjs/operators';
 
 import { MatCardModule } from '@angular/material/card';
 import { MatChipsModule } from '@angular/material/chips';
@@ -38,7 +38,8 @@ export class ToolDetail implements OnInit, OnDestroy {
   constructor(
     private route: ActivatedRoute,
     private router: Router,
-    private toolsService: ToolsService
+    private toolsService: ToolsService,
+    private cdr: ChangeDetectorRef
   ) {}
 
   ngOnInit(): void {
@@ -57,22 +58,53 @@ export class ToolDetail implements OnInit, OnDestroy {
 
   loadTool(id: string): void {
     this.loading = true;
-    this.toolsService.getToolById(id)
-      .pipe(takeUntil(this.destroy$))
-      .subscribe(tool => {
-        if (!tool) {
+    this.tool = undefined;
+    this.cdr.detectChanges();
+    
+    // First, ensure tools are loaded by subscribing to getAllTools
+    // This will trigger the HTTP request if it hasn't been made yet
+    this.toolsService.getAllTools()
+      .pipe(
+        filter(tools => tools.length > 0), // Wait until we have tools
+        take(1), // Take the first emission with tools
+        switchMap(() => this.toolsService.getToolById(id)),
+        takeUntil(this.destroy$)
+      )
+      .subscribe({
+        next: (tool) => {
+          if (!tool) {
+            this.loading = false;
+            this.cdr.detectChanges();
+            this.router.navigate(['/tools']);
+            return;
+          }
+          this.tool = tool;
+          this.loading = false;
+          this.cdr.detectChanges();
+          this.loadRelatedTools();
+          this.loadGitHubStars();
+        },
+        error: (error) => {
+          console.error('Error loading tool:', error);
+          this.loading = false;
+          this.cdr.detectChanges();
           this.router.navigate(['/tools']);
-          return;
         }
-        this.tool = tool;
-        this.loading = false;
-        this.loadRelatedTools();
-        this.loadGitHubStars();
       });
   }
 
   loadRelatedTools(): void {
-    if (!this.tool?.related_tools || this.tool.related_tools.length === 0) {
+    const relatedIds: string[] = [];
+    
+    if (this.tool?.related_tools && this.tool.related_tools.length > 0) {
+      relatedIds.push(...this.tool.related_tools);
+    }
+    
+    if (this.tool?.similar_tools && this.tool.similar_tools.length > 0) {
+      relatedIds.push(...this.tool.similar_tools);
+    }
+    
+    if (relatedIds.length === 0) {
       return;
     }
 
@@ -80,7 +112,7 @@ export class ToolDetail implements OnInit, OnDestroy {
       .pipe(takeUntil(this.destroy$))
       .subscribe(tools => {
         this.relatedTools = tools.filter(t => 
-          this.tool!.related_tools!.includes(t.id)
+          relatedIds.includes(t.id)
         );
       });
   }

@@ -9,13 +9,20 @@
         <mat-icon>arrow_back</mat-icon>
         Back to Catalogue
       </button>
-      <h1>{{ tool.name }}</h1>
-      @if (currentStars !== null || tool.stars) {
-        <div class="stars">
-          <mat-icon>star</mat-icon>
-          <span>{{ currentStars ?? tool.stars }}</span>
+      <div class="header-content">
+        @if (tool.image_url) {
+          <img [src]="tool.image_url" [alt]="tool.name + ' logo'" class="tool-image">
+        }
+        <div class="header-text">
+          <h1>{{ tool.name }}</h1>
+          @if (currentStars !== null || tool.stars) {
+            <div class="stars">
+              <mat-icon>star</mat-icon>
+              <span>{{ currentStars ?? tool.stars | number }}</span>
+            </div>
+          }
         </div>
-      }
+      </div>
     </div>
 
     <div class="content-grid">
@@ -48,10 +55,48 @@
           </mat-card>
         }
 
+        @if (tool.installation && ((tool.installation.methods && tool.installation.methods.length > 0) || (tool.installation.commands && tool.installation.commands.length > 0))) {
+          <mat-card class="installation-card">
+            <mat-card-header>
+              <mat-card-title>Installation</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+              @if (tool.installation.methods && tool.installation.methods.length > 0) {
+                <div class="installation-methods">
+                  <h4>Methods:</h4>
+                  <ul>
+                    @for (method of tool.installation.methods; track method) {
+                      <li>{{ method }}</li>
+                    }
+                  </ul>
+                </div>
+              }
+              @if (tool.installation.commands && tool.installation.commands.length > 0) {
+                <div class="installation-commands">
+                  <h4>Commands:</h4>
+                  <pre><code>@for (cmd of tool.installation.commands; track cmd) {
+{{ cmd }}
+}</code></pre>
+                </div>
+              }
+              @if (tool.installation.package_managers && tool.installation.package_managers.length > 0) {
+                <div class="package-managers">
+                  <h4>Package Managers:</h4>
+                  <div class="package-badges">
+                    @for (pm of tool.installation.package_managers; track pm) {
+                      <span class="package-badge">{{ pm }}</span>
+                    }
+                  </div>
+                </div>
+              }
+            </mat-card-content>
+          </mat-card>
+        }
+
         @if (relatedTools.length > 0) {
           <mat-card class="related-tools-card">
             <mat-card-header>
-              <mat-card-title>Related Tools</mat-card-title>
+              <mat-card-title>Related & Similar Tools</mat-card-title>
             </mat-card-header>
             <mat-card-content>
               <div class="related-tools-list">
@@ -67,6 +112,14 @@
       </div>
 
       <div class="sidebar">
+        @if (tool.image_url) {
+          <mat-card class="image-card">
+            <mat-card-content>
+              <img [src]="tool.image_url" [alt]="tool.name + ' logo'" class="tool-image-large">
+            </mat-card-content>
+          </mat-card>
+        }
+
         <mat-card class="info-card">
           <mat-card-header>
             <mat-card-title>Information</mat-card-title>
@@ -107,6 +160,59 @@
                 {{ tool.maturity }}
               </span>
             </div>
+
+            @if (tool.pricing) {
+              <mat-divider></mat-divider>
+              <div class="info-item">
+                <strong>Pricing:</strong>
+                <div class="pricing-info">
+                  <span class="pricing-type" [class]="'pricing-' + tool.pricing.type">
+                    {{ tool.pricing.type.replace('_', ' ') }}
+                  </span>
+                  @if (tool.pricing.price) {
+                    <span class="pricing-price">
+                      @if (tool.pricing.currency) {
+                        {{ tool.pricing.currency }}
+                      }
+                      {{ tool.pricing.price }}
+                    </span>
+                  }
+                  @if (tool.pricing.notes) {
+                    <p class="pricing-notes">{{ tool.pricing.notes }}</p>
+                  }
+                </div>
+              </div>
+            }
+
+            @if (tool.maintainers && tool.maintainers.length > 0) {
+              <mat-divider></mat-divider>
+              <div class="info-item">
+                <strong>Maintainers:</strong>
+                <div class="maintainers-list">
+                  @for (maintainer of tool.maintainers; track maintainer) {
+                    <a [href]="'https://github.com/' + maintainer" target="_blank" rel="noopener" class="maintainer-link">
+                      <mat-icon>person</mat-icon>
+                      {{ maintainer }}
+                    </a>
+                  }
+                </div>
+              </div>
+            }
+
+            @if (tool.authors && tool.authors.length > 0) {
+              <mat-divider></mat-divider>
+              <div class="info-item">
+                <strong>Authors:</strong>
+                <div class="authors-list">
+                  @for (author of tool.authors; track author) {
+                    <a [href]="'https://github.com/' + author" target="_blank" rel="noopener" class="author-link">
+                      <mat-icon>code</mat-icon>
+                      {{ author }}
+                    </a>
+                  }
+                </div>
+              </div>
+            }
 
             @if (tool.tags && tool.tags.length > 0) {
               <mat-divider></mat-divider>

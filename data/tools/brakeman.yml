@@ -23,11 +23,29 @@ website: https://brakemanscanner.org/
 docs_url: https://brakemanscanner.org/docs/
 download_url: https://github.com/presidentbeef/brakeman
 github_repo: presidentbeef/brakeman
-stars: 7000
+stars: 7195
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Ruby gem
+    - Git clone
+  commands:
+    - gem install brakeman
+    - git clone https://github.com/presidentbeef/brakeman.git
+  package_managers:
+    - gem
+maintainers:
+  - presidentbeef
+authors:
+  - presidentbeef
+  - oreoshake
+  - ptoomey3
 use_cases:
   - Rails application security scanning
   - Static code analysis
   - CI/CD security integration
   - Vulnerability detection
 related_tools: []
-added_at: "2024-01-15"
+similar_tools: []
+added_at: '2024-01-15'

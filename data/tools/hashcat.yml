@@ -22,7 +22,28 @@ website: https://hashcat.net/
 docs_url: https://hashcat.net/wiki/
 download_url: https://hashcat.net/hashcat/
 github_repo: hashcat/hashcat
-stars: 20000
+stars: 25386
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Binary download
+    - Git clone
+    - Package manager
+  commands:
+    - git clone https://github.com/hashcat/hashcat.git
+    - make install
+  package_managers:
+    - apt
+    - brew
+    - yum
+maintainers:
+  - hashcat
+authors:
+  - hashcat
+  - jsteube
+  - matrix
+  - philsmd
 use_cases:
   - Password hash cracking
   - Security testing
@@ -31,4 +52,7 @@ use_cases:
 related_tools:
   - john_the_ripper
   - hydra
-added_at: "2024-01-15"
+similar_tools:
+  - john_the_ripper
+  - hydra
+added_at: '2024-01-15'

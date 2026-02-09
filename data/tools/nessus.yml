@@ -23,6 +23,21 @@ docs_url: https://docs.tenable.com/nessus/
 download_url: https://www.tenable.com/downloads/nessus
 github_repo: null
 stars: null
+pricing:
+  type: freemium
+  price: "Free tier available, paid plans start at $4,000/year"
+  notes: "Nessus Essentials (free) for personal use, commercial licenses available"
+installation:
+  methods:
+    - Download installer
+    - Package manager
+  package_managers:
+    - apt
+    - yum
+maintainers:
+  - Tenable
+authors:
+  - Tenable
 use_cases:
   - Network vulnerability scanning
   - Compliance auditing
@@ -30,5 +45,7 @@ use_cases:
   - Patch management
 related_tools:
   - sqlmap
+  - wapiti
+similar_tools:
   - wapiti
 added_at: "2024-01-15"

@@ -22,7 +22,28 @@ website: https://www.openwall.com/john/
 docs_url: https://www.openwall.com/john/doc/
 download_url: https://www.openwall.com/john/
 github_repo: openwall/john
-stars: 9000
+stars: 12687
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Source compilation
+    - Binary download
+    - Package manager
+  commands:
+    - git clone https://github.com/openwall/john.git
+    - cd john/src && ./configure && make
+  package_managers:
+    - apt
+    - brew
+    - yum
+maintainers:
+  - openwall
+authors:
+  - openwall
+  - magnumripper
+  - solardiz
+  - jfoug
 use_cases:
   - Password hash cracking
   - Security testing
@@ -31,4 +52,7 @@ use_cases:
 related_tools:
   - hashcat
   - hydra
-added_at: "2024-01-15"
+similar_tools:
+  - hashcat
+  - hydra
+added_at: '2024-01-15'

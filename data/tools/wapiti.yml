@@ -22,7 +22,27 @@ website: https://wapiti.sourceforge.io/
 docs_url: https://wapiti.readthedocs.io/
 download_url: https://github.com/wapiti-scanner/wapiti
 github_repo: wapiti-scanner/wapiti
-stars: 5000
+stars: 1625
+pricing:
+  type: open_source
+installation:
+  methods:
+    - pip install
+    - Git clone
+  commands:
+    - pip install wapiti3
+    - git clone https://github.com/wapiti-scanner/wapiti.git
+  package_managers:
+    - pip
+    - apt
+    - brew
+maintainers:
+  - wapiti-scanner
+authors:
+  - wapiti-scanner
+  - devl00p
+  - bretfourbe
+  - OussamaBeng
 use_cases:
   - Web application security scanning
   - Vulnerability detection
@@ -32,4 +52,7 @@ related_tools:
   - sqlmap
   - nessus
   - wpscan
-added_at: "2024-01-15"
+similar_tools:
+  - sqlmap
+  - wpscan
+added_at: '2024-01-15'

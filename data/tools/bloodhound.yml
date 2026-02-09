@@ -22,11 +22,31 @@ website: https://bloodhound.readthedocs.io/
 docs_url: https://bloodhound.readthedocs.io/
 download_url: https://github.com/BloodHoundAD/BloodHound
 github_repo: BloodHoundAD/BloodHound
-stars: 10000
+stars: 10537
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Binary download
+    - Docker
+    - Git clone
+  commands:
+    - docker pull bloodhoundad/bloodhound
+    - git clone https://github.com/BloodHoundAD/BloodHound.git
+  package_managers:
+    - docker
+maintainers:
+  - BloodHoundAD
+authors:
+  - BloodHoundAD
+  - rvazarkar
+  - andyrobbins
+  - JonasBK
 use_cases:
   - Active Directory security analysis
   - Attack path identification
   - Security auditing
   - Penetration testing
 related_tools: []
-added_at: "2024-01-15"
+similar_tools: []
+added_at: '2024-01-15'

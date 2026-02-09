@@ -1,24 +1,30 @@
 <div class="home-container">
-  <mat-card class="hero-card">
+  <div class="hero-section">
     <h1>Pentest Tools Catalogue</h1>
-    <p class="subtitle">
+    <p class="hero-subtitle">
       A comprehensive reference platform for penetration testing tools and technologies used by 
       Vulnerability Assessment centers, pentesting experts, and related organizations across Europe.
     </p>
-    <p>
+    <p class="hero-description">
       This platform serves as a collective representation of common tools used in the field, 
       building upon recommendations and tools being used by experts throughout Europe.
     </p>
-    <div class="actions">
-      <a mat-raised-button color="primary" routerLink="/tools">Browse Tools</a>
-      <a mat-button routerLink="/about">Learn More</a>
+    <div class="hero-actions">
+      <a mat-raised-button color="primary" routerLink="/tools" class="cta-button">
+        <mat-icon>explore</mat-icon>
+        Browse Tools
+      </a>
+      <a mat-button routerLink="/about" class="secondary-button">
+        Learn More
+      </a>
     </div>
-  </mat-card>
+  </div>
 
   <div class="categories-section">
     <h2>Tool Categories</h2>
     <div class="category-grid">
-      <mat-card class="category-card">
+      <mat-card class="category-card" routerLink="/tools">
+        <div class="category-icon">🔍</div>
         <mat-card-header>
           <mat-card-title>Web Application Scanners</mat-card-title>
         </mat-card-header>
@@ -27,7 +33,8 @@
         </mat-card-content>
       </mat-card>
 
-      <mat-card class="category-card">
+      <mat-card class="category-card" routerLink="/tools">
+        <div class="category-icon">🔐</div>
         <mat-card-header>
           <mat-card-title>Password Crackers</mat-card-title>
         </mat-card-header>
@@ -36,7 +43,8 @@
         </mat-card-content>
       </mat-card>
 
-      <mat-card class="category-card">
+      <mat-card class="category-card" routerLink="/tools">
+        <div class="category-icon">🛡️</div>
         <mat-card-header>
           <mat-card-title>Vulnerability Scanners</mat-card-title>
         </mat-card-header>
@@ -45,7 +53,8 @@
         </mat-card-content>
       </mat-card>
 
-      <mat-card class="category-card">
+      <mat-card class="category-card" routerLink="/tools">
+        <div class="category-icon">☁️</div>
         <mat-card-header>
           <mat-card-title>Cloud Security</mat-card-title>
         </mat-card-header>
@@ -57,14 +66,19 @@
   </div>
 
   <div class="contribute-section">
-    <mat-card>
+    <mat-card class="contribute-card">
       <mat-card-content>
-        <h2>Contribute</h2>
-        <p>
-          This is an open-source project. Help us expand the catalogue by adding new tools 
-          or improving existing entries. Check out our contribution guidelines to get started.
-        </p>
-        <a mat-raised-button color="accent" routerLink="/contribute">How to Contribute</a>
+        <div class="contribute-content">
+          <h2>Contribute</h2>
+          <p>
+            This is an open-source project. Help us expand the catalogue by adding new tools 
+            or improving existing entries. Check out our contribution guidelines to get started.
+          </p>
+          <a mat-raised-button color="accent" routerLink="/contribute" class="contribute-button">
+            <mat-icon>code</mat-icon>
+            How to Contribute
+          </a>
+        </div>
       </mat-card-content>
     </mat-card>
   </div>

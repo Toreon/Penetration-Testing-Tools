@@ -7,6 +7,7 @@
     "build": "npm run convert-yaml && ng build",
     "build:data": "node scripts/convert-yaml-to-json.js",
     "convert-yaml": "node scripts/convert-yaml-to-json.js",
+    "update-tools": "node scripts/update-tools-from-github.js",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

@@ -22,7 +22,27 @@ website: https://sqlmap.org/
 docs_url: https://github.com/sqlmapproject/sqlmap/wiki
 download_url: https://github.com/sqlmapproject/sqlmap
 github_repo: sqlmapproject/sqlmap
-stars: 30000
+stars: 36554
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - pip install
+  commands:
+    - git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
+    - pip install sqlmap
+  package_managers:
+    - pip
+    - apt
+    - brew
+maintainers:
+  - sqlmapproject
+authors:
+  - sqlmapproject
+  - stamparm
+  - bdamele
+  - guinslym
 use_cases:
   - Automated SQL injection detection
   - Database fingerprinting
@@ -32,4 +52,6 @@ use_cases:
 related_tools:
   - nessus
   - wapiti
-added_at: "2024-01-15"
+similar_tools:
+  - wapiti
+added_at: '2024-01-15'

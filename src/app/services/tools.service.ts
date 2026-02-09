@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, BehaviorSubject, combineLatest, of } from 'rxjs';
-import { map, shareReplay, catchError } from 'rxjs/operators';
+import { map, shareReplay, catchError, startWith, tap, filter, take } from 'rxjs/operators';
 import { Tool } from '../models/tool.interface';
 
 export interface FilterOptions {
@@ -24,14 +24,26 @@ export class ToolsService {
   private filters$ = new BehaviorSubject<FilterOptions>({});
   private searchQuery$ = new BehaviorSubject<string>('');
   private sortOption$ = new BehaviorSubject<SortOption>({ field: 'stars', direction: 'desc' });
+  private toolsLoaded$ = new BehaviorSubject<boolean>(false);
 
   constructor(private http: HttpClient) {
     this.tools$ = this.http.get<Tool[]>('assets/data/tools.json').pipe(
       shareReplay(1),
+      tap(() => this.toolsLoaded$.next(true)),
       catchError(error => {
         console.error('Error loading tools data:', error);
+        this.toolsLoaded$.next(true); // Mark as loaded even on error
         return of([]);
       })
+    );
+  }
+
+  getToolsLoaded(): Observable<boolean> {
+    // Return observable that emits true when tools are loaded
+    // If already loaded, emit immediately; otherwise wait
+    return this.toolsLoaded$.asObservable().pipe(
+      filter(loaded => loaded === true), // Only emit when loaded is true
+      take(1) // Take only the first true value
     );
   }
 
@@ -47,12 +59,16 @@ export class ToolsService {
 
   getFilteredAndSortedTools(): Observable<Tool[]> {
     return combineLatest([
-      this.tools$,
+      this.tools$.pipe(startWith([] as Tool[])),
       this.filters$,
       this.searchQuery$,
       this.sortOption$
     ]).pipe(
       map(([tools, filters, searchQuery, sortOption]) => {
+        // Return empty array if tools haven't loaded yet
+        if (!tools || tools.length === 0) {
+          return [];
+        }
         let filtered = [...tools];
 
         // Apply filters

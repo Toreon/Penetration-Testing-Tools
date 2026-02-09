@@ -23,7 +23,24 @@ website: https://github.com/digininja/CeWL
 docs_url: https://github.com/digininja/CeWL/wiki
 download_url: https://github.com/digininja/CeWL
 github_repo: digininja/CeWL
-stars: 3000
+stars: 2565
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Ruby gem
+    - Git clone
+  commands:
+    - gem install cewl
+    - git clone https://github.com/digininja/CeWL.git
+  package_managers:
+    - gem
+maintainers:
+  - digininja
+authors:
+  - digininja
+  - dependabot[bot]
+  - g0tmi1k
 use_cases:
   - Custom wordlist generation
   - Password cracking preparation
@@ -32,4 +49,6 @@ use_cases:
 related_tools:
   - hashcat
   - john_the_ripper
-added_at: "2024-01-15"
+similar_tools:
+  - john_the_ripper
+added_at: '2024-01-15'

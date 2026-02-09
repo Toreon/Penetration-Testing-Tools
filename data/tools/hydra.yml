@@ -22,7 +22,26 @@ website: https://github.com/vanhauser-thc/thc-hydra
 docs_url: https://github.com/vanhauser-thc/thc-hydra/wiki
 download_url: https://github.com/vanhauser-thc/thc-hydra
 github_repo: vanhauser-thc/thc-hydra
-stars: 8000
+stars: 11634
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Package manager
+  commands:
+    - git clone https://github.com/vanhauser-thc/thc-hydra.git
+    - ./configure && make && make install
+  package_managers:
+    - apt
+    - brew
+    - yum
+maintainers:
+  - vanhauser-thc
+authors:
+  - vanhauser-thc
+  - dmaciejak
+  - Diadlo
 use_cases:
   - Network login brute-forcing
   - Protocol testing
@@ -32,4 +51,7 @@ related_tools:
   - hashcat
   - medusa
   - john_the_ripper
-added_at: "2024-01-15"
+similar_tools:
+  - medusa
+  - hashcat
+added_at: '2024-01-15'

@@ -23,7 +23,26 @@ website: https://github.com/jmk-foofus/medusa
 docs_url: https://github.com/jmk-foofus/medusa/wiki
 download_url: https://github.com/jmk-foofus/medusa
 github_repo: jmk-foofus/medusa
-stars: 2000
+stars: 847
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Package manager
+  commands:
+    - git clone https://github.com/jmk-foofus/medusa.git
+    - ./configure && make && make install
+  package_managers:
+    - apt
+    - brew
+    - yum
+maintainers:
+  - jmk-foofus
+authors:
+  - jmk-foofus
+  - ycaibb
+  - bismark-foofus
 use_cases:
   - Network login brute-forcing
   - Protocol testing
@@ -32,4 +51,6 @@ use_cases:
 related_tools:
   - hydra
   - hashcat
-added_at: "2024-01-15"
+similar_tools:
+  - hydra
+added_at: '2024-01-15'

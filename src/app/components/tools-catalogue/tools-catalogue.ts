@@ -1,20 +1,18 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, ChangeDetectorRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { FormsModule, ReactiveFormsModule, FormBuilder, FormGroup } from '@angular/forms';
 import { Subject } from 'rxjs';
-import { takeUntil, debounceTime, distinctUntilChanged } from 'rxjs/operators';
+import { takeUntil, debounceTime, distinctUntilChanged, tap } from 'rxjs/operators';
 
 import { MatCardModule } from '@angular/material/card';
-import { MatChipsModule } from '@angular/material/chips';
 import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatCheckboxModule } from '@angular/material/checkbox';
-import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
-import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 import { ToolsService, FilterOptions, SortOption } from '../../services/tools.service';
 import { Tool } from '../../models/tool.interface';
@@ -27,15 +25,13 @@ import { Tool } from '../../models/tool.interface';
     FormsModule,
     ReactiveFormsModule,
     MatCardModule,
-    MatChipsModule,
     MatButtonModule,
     MatInputModule,
     MatSelectModule,
     MatCheckboxModule,
-    MatSidenavModule,
     MatIconModule,
-    MatToolbarModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatProgressSpinnerModule
   ],
   templateUrl: './tools-catalogue.html',
   styleUrl: './tools-catalogue.scss'
@@ -46,16 +42,19 @@ export class ToolsCatalogue implements OnInit, OnDestroy {
   categories: string[] = [];
   platforms: string[] = [];
   licenses: string[] = [];
+  loading = true;
+  filtersExpanded = true;
   
-  filterForm: FormGroup;
-  searchControl: any;
-  sortControl: any;
+  filterForm!: FormGroup;
+  searchControl!: any;
+  sortControl!: any;
   
   private destroy$ = new Subject<void>();
 
   constructor(
     private toolsService: ToolsService,
-    private fb: FormBuilder
+    private fb: FormBuilder,
+    private cdr: ChangeDetectorRef
   ) {
     this.searchControl = this.fb.control('');
     this.sortControl = this.fb.control('stars-desc');
@@ -68,24 +67,47 @@ export class ToolsCatalogue implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
-    // Load available filter options
-    this.toolsService.getAvailableCategories()
+    // Track when tools are actually loaded from HTTP
+    this.toolsService.getToolsLoaded()
       .pipe(takeUntil(this.destroy$))
-      .subscribe(cats => this.categories = cats);
-
-    this.toolsService.getAvailablePlatforms()
-      .pipe(takeUntil(this.destroy$))
-      .subscribe(platforms => this.platforms = platforms);
-
-    this.toolsService.getAvailableLicenses()
-      .pipe(takeUntil(this.destroy$))
-      .subscribe(licenses => this.licenses = licenses);
+      .subscribe((loaded: boolean) => {
+        if (loaded) {
+          this.loading = false;
+          this.cdr.detectChanges();
+        }
+      });
 
     // Subscribe to filtered and sorted tools
     this.toolsService.getFilteredAndSortedTools()
+      .pipe(
+        takeUntil(this.destroy$),
+        tap(tools => {
+          this.filteredTools = tools;
+          this.cdr.detectChanges();
+        })
+      )
+      .subscribe();
+
+    // Load available filter options
+    this.toolsService.getAvailableCategories()
       .pipe(takeUntil(this.destroy$))
-      .subscribe(tools => {
-        this.filteredTools = tools;
+      .subscribe(cats => {
+        this.categories = cats;
+        this.cdr.detectChanges();
+      });
+
+    this.toolsService.getAvailablePlatforms()
+      .pipe(takeUntil(this.destroy$))
+      .subscribe(platforms => {
+        this.platforms = platforms;
+        this.cdr.detectChanges();
+      });
+
+    this.toolsService.getAvailableLicenses()
+      .pipe(takeUntil(this.destroy$))
+      .subscribe(licenses => {
+        this.licenses = licenses;
+        this.cdr.detectChanges();
       });
 
     // Watch for filter changes
@@ -113,11 +135,29 @@ export class ToolsCatalogue implements OnInit, OnDestroy {
         const [field, direction] = (sortValue || 'stars-desc').split('-');
         this.toolsService.setSortOption({ field: field as any, direction: direction as 'asc' | 'desc' });
       });
+
+    // Set initial sort option
+    const [field, direction] = (this.sortControl.value || 'stars-desc').split('-');
+    this.toolsService.setSortOption({ field: field as any, direction: direction as 'asc' | 'desc' });
   }
 
   ngOnDestroy(): void {
     this.destroy$.next();
     this.destroy$.complete();
+  }
+
+  toggleFilters(): void {
+    this.filtersExpanded = !this.filtersExpanded;
+  }
+
+  get activeFiltersCount(): number {
+    const filters = this.filterForm.value;
+    let count = 0;
+    if (filters.categories?.length) count += filters.categories.length;
+    if (filters.platforms?.length) count += filters.platforms.length;
+    if (filters.licenses?.length) count += filters.licenses.length;
+    if (filters.maturity?.length) count += filters.maturity.length;
+    return count;
   }
 
   clearFilters(): void {
@@ -159,5 +199,24 @@ export class ToolsCatalogue implements OnInit, OnDestroy {
 
   isPlatformSelected(platform: string): boolean {
     return (this.filterForm.get('platforms')?.value || []).includes(platform);
+  }
+
+  toggleMaturity(maturity: string): void {
+    const current = this.filterForm.get('maturity')?.value || [];
+    const index = current.indexOf(maturity);
+    if (index >= 0) {
+      current.splice(index, 1);
+    } else {
+      current.push(maturity);
+    }
+    this.filterForm.get('maturity')?.setValue([...current]);
+  }
+
+  isMaturitySelected(maturity: string): boolean {
+    return (this.filterForm.get('maturity')?.value || []).includes(maturity);
+  }
+
+  formatCategory(category: string): string {
+    return category.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
   }
 }
