@@ -23,7 +23,7 @@ website: https://wpscan.com/
 docs_url: https://github.com/wpscanteam/wpscan/wiki
 download_url: https://github.com/wpscanteam/wpscan
 github_repo: wpscanteam/wpscan
-stars: 9448
+stars: 9446
 pricing:
   type: freemium
   notes: Free for non-commercial use, commercial licenses available

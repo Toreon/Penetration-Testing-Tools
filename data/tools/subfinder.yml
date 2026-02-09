@@ -21,7 +21,7 @@ website: https://github.com/projectdiscovery/subfinder
 docs_url: https://github.com/projectdiscovery/subfinder/wiki
 download_url: https://github.com/projectdiscovery/subfinder/releases
 github_repo: projectdiscovery/subfinder
-stars: 12000
+stars: 13039
 pricing:
   type: open_source
 installation:
@@ -35,6 +35,9 @@ maintainers:
   - projectdiscovery
 authors:
   - projectdiscovery
+  - dependabot[bot]
+  - Ice3man543
+  - ehsandeep
 use_cases:
   - Subdomain discovery
   - OSINT gathering

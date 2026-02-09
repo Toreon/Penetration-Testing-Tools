@@ -21,7 +21,7 @@ website: https://github.com/RhinoSecurityLabs/pacu
 docs_url: https://rhinosecuritylabs.com/aws/pacu-open-source-aws-exploitation-framework/
 download_url: https://github.com/RhinoSecurityLabs/pacu
 github_repo: RhinoSecurityLabs/pacu
-stars: 3500
+stars: 5063
 pricing:
   type: open_source
 installation:
@@ -35,6 +35,9 @@ maintainers:
   - RhinoSecurityLabs
 authors:
   - RhinoSecurityLabs
+  - SpenGietz
+  - DaveYesland
+  - BenFriedland-Rhino
 use_cases:
   - AWS security testing
   - Cloud exploitation

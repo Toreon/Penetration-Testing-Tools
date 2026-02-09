@@ -21,7 +21,7 @@ website: https://github.com/epsylon/xsser
 docs_url: https://github.com/epsylon/xsser
 download_url: https://github.com/epsylon/xsser
 github_repo: epsylon/xsser
-stars: 2000
+stars: 1415
 pricing:
   type: open_source
 installation:
@@ -35,6 +35,8 @@ maintainers:
   - epsylon
 authors:
   - epsylon
+  - elboulangero
+  - dougsko
 use_cases:
   - XSS vulnerability testing
   - Cross-site scripting exploitation

@@ -20,7 +20,7 @@ website: https://github.com/1N3/Sn1per
 docs_url: https://github.com/1N3/Sn1per/wiki
 download_url: https://github.com/1N3/Sn1per
 github_repo: 1N3/Sn1per
-stars: 6500
+stars: 9382
 pricing:
   type: open_source
 installation:
@@ -33,6 +33,8 @@ maintainers:
   - 1N3
 authors:
   - 1N3
+  - abnerrizzi
+  - ifly53e
 use_cases:
   - Automated penetration testing
   - Security assessment

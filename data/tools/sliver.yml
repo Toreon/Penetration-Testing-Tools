@@ -22,7 +22,7 @@ website: https://github.com/BishopFox/sliver
 docs_url: https://github.com/BishopFox/sliver/wiki
 download_url: https://github.com/BishopFox/sliver/releases
 github_repo: BishopFox/sliver
-stars: 8500
+stars: 10669
 pricing:
   type: open_source
 installation:
@@ -35,6 +35,9 @@ maintainers:
   - BishopFox
 authors:
   - BishopFox
+  - moloch--
+  - rkervella
+  - dependabot[bot]
 use_cases:
   - Command and control
   - Post-exploitation

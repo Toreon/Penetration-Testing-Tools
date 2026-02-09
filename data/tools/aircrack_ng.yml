@@ -21,7 +21,7 @@ website: https://www.aircrack-ng.org/
 docs_url: https://www.aircrack-ng.org/doku.php
 download_url: https://www.aircrack-ng.org/downloads.html
 github_repo: aircrack-ng/aircrack-ng
-stars: 6902
+stars: 6903
 pricing:
   type: open_source
 installation:

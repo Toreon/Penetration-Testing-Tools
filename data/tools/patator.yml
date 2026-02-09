@@ -22,7 +22,7 @@ website: https://github.com/lanjelot/patator
 docs_url: https://github.com/lanjelot/patator
 download_url: https://github.com/lanjelot/patator
 github_repo: lanjelot/patator
-stars: 3500
+stars: 3845
 pricing:
   type: open_source
 installation:
@@ -37,6 +37,8 @@ maintainers:
   - lanjelot
 authors:
   - lanjelot
+  - g0tmi1k
+  - Zamanry
 use_cases:
   - Password brute-forcing
   - Service authentication testing

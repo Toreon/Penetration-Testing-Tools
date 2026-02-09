@@ -21,7 +21,7 @@ website: https://cirt.net/Nikto2
 docs_url: https://cirt.net/Nikto2
 download_url: https://github.com/sullo/nikto
 github_repo: sullo/nikto
-stars: 7500
+stars: 10067
 pricing:
   type: open_source
 installation:
@@ -38,6 +38,8 @@ maintainers:
 authors:
   - sullo
   - cirt
+  - tautology0
+  - opt9
 use_cases:
   - Web server scanning
   - Vulnerability detection

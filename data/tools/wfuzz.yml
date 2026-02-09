@@ -23,7 +23,7 @@ website: https://github.com/xmendez/wfuzz
 docs_url: https://wfuzz.readthedocs.io/
 download_url: https://github.com/xmendez/wfuzz
 github_repo: xmendez/wfuzz
-stars: 5500
+stars: 6412
 pricing:
   type: open_source
 installation:
@@ -40,6 +40,8 @@ maintainers:
   - xmendez
 authors:
   - xmendez
+  - PaperTsar
+  - oscarbc96
 use_cases:
   - Directory enumeration
   - Parameter fuzzing

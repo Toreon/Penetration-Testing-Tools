@@ -21,7 +21,7 @@ website: https://github.com/nicocha30/ligolo-ng
 docs_url: https://github.com/nicocha30/ligolo-ng
 download_url: https://github.com/nicocha30/ligolo-ng/releases
 github_repo: nicocha30/ligolo-ng
-stars: 3500
+stars: 4259
 pricing:
   type: open_source
 installation:
@@ -34,6 +34,8 @@ maintainers:
   - nicocha30
 authors:
   - nicocha30
+  - ElGrandeCha
+  - joehacksalot
 use_cases:
   - Network tunneling
   - Pivoting

@@ -23,7 +23,7 @@ website: https://github.com/skylot/jadx
 docs_url: https://github.com/skylot/jadx/wiki
 download_url: https://github.com/skylot/jadx/releases
 github_repo: skylot/jadx
-stars: 40000
+stars: 47243
 pricing:
   type: open_source
 installation:
@@ -36,6 +36,8 @@ maintainers:
   - skylot
 authors:
   - skylot
+  - jpstotz
+  - asashour
 use_cases:
   - Android app decompilation
   - Reverse engineering

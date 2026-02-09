@@ -20,10 +20,10 @@ website: https://portswigger.net/burp/documentation/desktop/tools/turbo-intruder
 docs_url: https://portswigger.net/burp/documentation/desktop/tools/turbo-intruder
 download_url: https://github.com/PortSwigger/turbo-intruder
 github_repo: PortSwigger/turbo-intruder
-stars: 2500
+stars: 1719
 pricing:
   type: free
-  notes: "Free extension for Burp Suite"
+  notes: Free extension for Burp Suite
 installation:
   methods:
     - Burp Suite extension
@@ -33,6 +33,9 @@ maintainers:
   - PortSwigger
 authors:
   - PortSwigger
+  - albinowax
+  - dnet
+  - PortSwiggerSupport
 use_cases:
   - High-speed fuzzing
   - Parameter testing

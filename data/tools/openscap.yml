@@ -20,7 +20,7 @@ website: https://www.open-scap.org/
 docs_url: https://www.open-scap.org/documentation/
 download_url: https://www.open-scap.org/tools/
 github_repo: OpenSCAP/openscap
-stars: 1200
+stars: 1661
 pricing:
   type: open_source
 installation:
@@ -36,6 +36,9 @@ maintainers:
   - OpenSCAP
 authors:
   - OpenSCAP
+  - jan-cerny
+  - isimluk
+  - pvrabec
 use_cases:
   - Security compliance checking
   - Vulnerability assessment

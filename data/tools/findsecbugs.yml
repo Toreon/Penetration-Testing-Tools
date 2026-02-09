@@ -22,7 +22,7 @@ website: https://find-sec-bugs.github.io/
 docs_url: https://find-sec-bugs.github.io/bugs.htm
 download_url: https://github.com/find-sec-bugs/find-sec-bugs
 github_repo: find-sec-bugs/find-sec-bugs
-stars: 2500
+stars: 2411
 pricing:
   type: open_source
 installation:
@@ -38,6 +38,9 @@ maintainers:
   - find-sec-bugs
 authors:
   - find-sec-bugs
+  - h3xstream
+  - formanek
+  - topolik
 use_cases:
   - Static code analysis
   - Security vulnerability detection

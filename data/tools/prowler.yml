@@ -21,7 +21,7 @@ website: https://github.com/prowler-cloud/prowler
 docs_url: https://docs.prowler.cloud/
 download_url: https://github.com/prowler-cloud/prowler
 github_repo: prowler-cloud/prowler
-stars: 8500
+stars: 12953
 pricing:
   type: open_source
 installation:
@@ -38,6 +38,9 @@ maintainers:
   - prowler-cloud
 authors:
   - prowler-cloud
+  - MrCloudSec
+  - dependabot[bot]
+  - toniblyx
 use_cases:
   - AWS security assessment
   - Compliance auditing

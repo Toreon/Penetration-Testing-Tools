@@ -22,7 +22,7 @@ website: https://github.com/assetnote/kiterunner
 docs_url: https://github.com/assetnote/kiterunner
 download_url: https://github.com/assetnote/kiterunner/releases
 github_repo: assetnote/kiterunner
-stars: 2500
+stars: 3083
 pricing:
   type: open_source
 installation:
@@ -35,6 +35,9 @@ maintainers:
   - assetnote
 authors:
   - assetnote
+  - minight
+  - ngkogkos
+  - Albonycal
 use_cases:
   - API endpoint discovery
   - Route enumeration

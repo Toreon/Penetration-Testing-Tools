@@ -22,7 +22,7 @@ website: https://github.com/lgandx/Responder
 docs_url: https://github.com/lgandx/Responder/wiki
 download_url: https://github.com/lgandx/Responder
 github_repo: lgandx/Responder
-stars: 5000
+stars: 6309
 pricing:
   type: open_source
 installation:
@@ -36,6 +36,8 @@ maintainers:
   - lgandx
 authors:
   - lgandx
+  - jrmdev
+  - nobbd
 use_cases:
   - LLMNR/NBT-NS poisoning
   - Credential harvesting

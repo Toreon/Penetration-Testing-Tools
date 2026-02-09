@@ -21,7 +21,7 @@ website: https://github.com/aboul3la/Sublist3r
 docs_url: https://github.com/aboul3la/Sublist3r
 download_url: https://github.com/aboul3la/Sublist3r
 github_repo: aboul3la/Sublist3r
-stars: 7500
+stars: 10800
 pricing:
   type: open_source
 installation:
@@ -37,6 +37,8 @@ maintainers:
   - aboul3la
 authors:
   - aboul3la
+  - mikemadden42
+  - the-st0rm
 use_cases:
   - Subdomain enumeration
   - OSINT gathering

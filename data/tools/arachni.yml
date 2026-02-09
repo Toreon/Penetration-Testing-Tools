@@ -18,7 +18,7 @@ platforms:
   - windows
   - macos
 license: Apache-2.0
-maturity: stable
+maturity: archived
 website: http://www.arachni-scanner.com/
 docs_url: http://www.arachni-scanner.com/help
 download_url: http://www.arachni-scanner.com/download

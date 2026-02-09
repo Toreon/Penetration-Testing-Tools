@@ -23,7 +23,7 @@ website: https://www.wireshark.org/
 docs_url: https://www.wireshark.org/docs/
 download_url: https://www.wireshark.org/download.html
 github_repo: wireshark/wireshark
-stars: 6500
+stars: 8987
 pricing:
   type: open_source
 installation:
@@ -41,6 +41,9 @@ maintainers:
   - wireshark
 authors:
   - wireshark
+  - guyharris
+  - geraldcombs
+  - AndersBroman
 use_cases:
   - Network traffic analysis
   - Protocol debugging

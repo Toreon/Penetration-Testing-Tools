@@ -20,7 +20,7 @@ website: https://github.com/PowerShellMafia/PowerSploit
 docs_url: https://github.com/PowerShellMafia/PowerSploit/wiki
 download_url: https://github.com/PowerShellMafia/PowerSploit
 github_repo: PowerShellMafia/PowerSploit
-stars: 10000
+stars: 12863
 pricing:
   type: open_source
 installation:
@@ -32,6 +32,9 @@ maintainers:
   - PowerShellMafia
 authors:
   - PowerShellMafia
+  - HarmJ0y
+  - ICanHazDonuts
+  - clymb3r
 use_cases:
   - Post-exploitation
   - Privilege escalation

@@ -22,7 +22,7 @@ website: http://www.hping.org/
 docs_url: http://www.hping.org/manpage.html
 download_url: http://www.hping.org/download.html
 github_repo: antirez/hping
-stars: 1500
+stars: 1667
 pricing:
   type: open_source
 installation:
@@ -38,6 +38,8 @@ maintainers:
   - antirez
 authors:
   - antirez
+  - ewust
+  - clevertension
 use_cases:
   - Network security testing
   - Firewall testing

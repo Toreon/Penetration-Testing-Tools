@@ -22,7 +22,7 @@ website: https://github.com/ffuf/ffuf
 docs_url: https://github.com/ffuf/ffuf/wiki
 download_url: https://github.com/ffuf/ffuf/releases
 github_repo: ffuf/ffuf
-stars: 12000
+stars: 15556
 pricing:
   type: open_source
 installation:
@@ -36,6 +36,9 @@ maintainers:
   - ffuf
 authors:
   - ffuf
+  - joohoi
+  - delic
+  - denandz
 use_cases:
   - Web fuzzing
   - Directory enumeration

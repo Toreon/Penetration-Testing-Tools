@@ -21,7 +21,7 @@ website: https://github.com/laramies/theHarvester
 docs_url: https://github.com/laramies/theHarvester/wiki
 download_url: https://github.com/laramies/theHarvester
 github_repo: laramies/theHarvester
-stars: 10000
+stars: 15603
 pricing:
   type: open_source
 installation:
@@ -38,6 +38,9 @@ maintainers:
   - laramies
 authors:
   - laramies
+  - L1ghtn1ng
+  - dependabot[bot]
+  - NotoriousRebel
 use_cases:
   - OSINT gathering
   - Email harvesting

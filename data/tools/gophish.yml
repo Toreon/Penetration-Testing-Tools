@@ -21,7 +21,7 @@ website: https://getgophish.com/
 docs_url: https://docs.getgophish.com/
 download_url: https://github.com/gophish/gophish/releases
 github_repo: gophish/gophish
-stars: 12000
+stars: 13562
 pricing:
   type: open_source
 installation:
@@ -35,6 +35,9 @@ maintainers:
   - gophish
 authors:
   - gophish
+  - jordan-wright
+  - wjwoodson
+  - glennzw
 use_cases:
   - Phishing campaigns
   - Security awareness training

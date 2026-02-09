@@ -22,7 +22,7 @@ website: https://hashcat.net/
 docs_url: https://hashcat.net/wiki/
 download_url: https://hashcat.net/hashcat/
 github_repo: hashcat/hashcat
-stars: 25386
+stars: 25385
 pricing:
   type: open_source
 installation:

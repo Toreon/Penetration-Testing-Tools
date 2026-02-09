@@ -22,7 +22,7 @@ website: https://www.zaproxy.org/
 docs_url: https://www.zaproxy.org/docs/
 download_url: https://www.zaproxy.org/download/
 github_repo: zaproxy/zaproxy
-stars: 12000
+stars: 14724
 pricing:
   type: open_source
 installation:
@@ -40,6 +40,9 @@ maintainers:
   - OWASP
 authors:
   - OWASP
+  - psiinon
+  - thc202
+  - kingthorin
 use_cases:
   - Web application security scanning
   - Vulnerability detection

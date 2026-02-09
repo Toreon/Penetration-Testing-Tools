@@ -21,7 +21,7 @@ website: https://github.com/lanmaster53/recon-ng
 docs_url: https://github.com/lanmaster53/recon-ng/wiki
 download_url: https://github.com/lanmaster53/recon-ng
 github_repo: lanmaster53/recon-ng
-stars: 5500
+stars: 5350
 pricing:
   type: open_source
 installation:
@@ -37,6 +37,8 @@ maintainers:
   - lanmaster53
 authors:
   - lanmaster53
+  - WebBreacher
+  - shipcod3
 use_cases:
   - OSINT gathering
   - Domain reconnaissance

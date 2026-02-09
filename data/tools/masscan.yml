@@ -21,7 +21,7 @@ website: https://github.com/robertdavidgraham/masscan
 docs_url: https://github.com/robertdavidgraham/masscan
 download_url: https://github.com/robertdavidgraham/masscan
 github_repo: robertdavidgraham/masscan
-stars: 25000
+stars: 25303
 pricing:
   type: open_source
 installation:
@@ -38,6 +38,8 @@ maintainers:
   - robertdavidgraham
 authors:
   - robertdavidgraham
+  - p-l-
+  - mzpqnxow
 use_cases:
   - Fast port scanning
   - Large-scale network scanning

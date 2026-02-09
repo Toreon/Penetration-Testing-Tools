@@ -22,7 +22,7 @@ website: https://github.com/projectdiscovery/nuclei
 docs_url: https://docs.nuclei.sh/
 download_url: https://github.com/projectdiscovery/nuclei/releases
 github_repo: projectdiscovery/nuclei
-stars: 18000
+stars: 26940
 pricing:
   type: open_source
 installation:
@@ -36,6 +36,9 @@ maintainers:
   - projectdiscovery
 authors:
   - projectdiscovery
+  - dependabot[bot]
+  - Mzack9999
+  - Ice3man543
 use_cases:
   - Vulnerability scanning
   - Security assessment

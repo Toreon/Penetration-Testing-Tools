@@ -21,7 +21,7 @@ website: https://github.com/Gallopsled/pwntools
 docs_url: https://docs.pwntools.com/
 download_url: https://github.com/Gallopsled/pwntools
 github_repo: Gallopsled/pwntools
-stars: 5500
+stars: 13239
 pricing:
   type: open_source
 installation:
@@ -35,6 +35,9 @@ maintainers:
   - Gallopsled
 authors:
   - Gallopsled
+  - zachriggle
+  - Arusekk
+  - br0ns
 use_cases:
   - Exploit development
   - CTF competitions

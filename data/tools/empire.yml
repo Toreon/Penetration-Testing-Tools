@@ -22,7 +22,7 @@ website: https://github.com/BC-SECURITY/Empire
 docs_url: https://github.com/BC-SECURITY/Empire/wiki
 download_url: https://github.com/BC-SECURITY/Empire
 github_repo: BC-SECURITY/Empire
-stars: 7500
+stars: 5029
 pricing:
   type: open_source
 installation:
@@ -36,6 +36,9 @@ maintainers:
   - BC-SECURITY
 authors:
   - BC-SECURITY
+  - Cx01N
+  - vinnybod
+  - xorrior
 use_cases:
   - Post-exploitation
   - Command and control

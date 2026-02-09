@@ -22,7 +22,7 @@ website: https://github.com/fortra/impacket
 docs_url: https://www.fortra.com/impacket
 download_url: https://github.com/fortra/impacket
 github_repo: fortra/impacket
-stars: 15000
+stars: 15436
 pricing:
   type: open_source
 installation:
@@ -38,6 +38,9 @@ maintainers:
   - Fortra
 authors:
   - Fortra
+  - asolino
+  - 0xdeaddood
+  - dirkjanm
 use_cases:
   - Network protocol attacks
   - AD exploitation

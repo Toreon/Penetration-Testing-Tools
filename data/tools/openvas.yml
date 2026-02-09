@@ -21,10 +21,10 @@ website: https://www.openvas.org/
 docs_url: https://www.greenbone.net/en/documentation/
 download_url: https://www.greenbone.net/en/install-use-gvm/
 github_repo: greenbone/openvas-scanner
-stars: 3500
+stars: 4406
 pricing:
   type: open_source
-  notes: "Open source version available, Greenbone offers commercial support"
+  notes: Open source version available, Greenbone offers commercial support
 installation:
   methods:
     - Package manager
@@ -40,6 +40,9 @@ maintainers:
 authors:
   - Greenbone
   - openvas
+  - jjnicola
+  - nichtsfrei
+  - Tehforsch
 use_cases:
   - Vulnerability scanning
   - Network security assessment

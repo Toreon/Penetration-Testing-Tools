@@ -21,7 +21,7 @@ website: https://github.com/lc/gau
 docs_url: https://github.com/lc/gau
 download_url: https://github.com/lc/gau/releases
 github_repo: lc/gau
-stars: 4500
+stars: 4818
 pricing:
   type: open_source
 installation:
@@ -35,6 +35,8 @@ maintainers:
   - lc
 authors:
   - lc
+  - lavafroth
+  - bp0lr
 use_cases:
   - URL discovery
   - Historical endpoint finding

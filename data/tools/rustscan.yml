@@ -21,7 +21,7 @@ website: https://github.com/RustScan/RustScan
 docs_url: https://github.com/RustScan/RustScan/wiki
 download_url: https://github.com/RustScan/RustScan/releases
 github_repo: RustScan/RustScan
-stars: 12000
+stars: 19173
 pricing:
   type: open_source
 installation:
@@ -35,6 +35,9 @@ maintainers:
   - RustScan
 authors:
   - RustScan
+  - bee-san
+  - dependabot[bot]
+  - PsypherPunk
 use_cases:
   - Fast port scanning
   - Network reconnaissance

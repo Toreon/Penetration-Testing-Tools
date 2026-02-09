@@ -23,7 +23,7 @@ website: https://www.kismetwireless.net/
 docs_url: https://www.kismetwireless.net/documentation/
 download_url: https://www.kismetwireless.net/downloads/
 github_repo: kismetwireless/kismet
-stars: 3500
+stars: 2043
 pricing:
   type: open_source
 installation:
@@ -39,6 +39,9 @@ maintainers:
   - kismetwireless
 authors:
   - kismetwireless
+  - dragorn
+  - bergeraaron
+  - buzzdeee
 use_cases:
   - Wireless network detection
   - Network monitoring

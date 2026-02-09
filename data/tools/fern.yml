@@ -19,7 +19,7 @@ website: https://github.com/savio-code/fern-wifi-cracker
 docs_url: https://github.com/savio-code/fern-wifi-cracker
 download_url: https://github.com/savio-code/fern-wifi-cracker
 github_repo: savio-code/fern-wifi-cracker
-stars: 2000
+stars: 1504
 pricing:
   type: open_source
 installation:
@@ -31,6 +31,8 @@ maintainers:
   - savio-code
 authors:
   - savio-code
+  - theS1LV3R
+  - elboulangero
 use_cases:
   - WiFi password cracking
   - Wireless security auditing

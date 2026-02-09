@@ -19,7 +19,7 @@ website: https://github.com/GhostPack/Rubeus
 docs_url: https://github.com/GhostPack/Rubeus
 download_url: https://github.com/GhostPack/Rubeus
 github_repo: GhostPack/Rubeus
-stars: 3500
+stars: 4867
 pricing:
   type: open_source
 installation:
@@ -32,6 +32,9 @@ maintainers:
   - GhostPack
 authors:
   - GhostPack
+  - '0xe7'
+  - HarmJ0y
+  - CCob
 use_cases:
   - Kerberos ticket manipulation
   - Golden ticket creation

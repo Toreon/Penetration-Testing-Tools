@@ -22,7 +22,7 @@ website: https://github.com/Pennyw0rth/NetExec
 docs_url: https://github.com/Pennyw0rth/NetExec/wiki
 download_url: https://github.com/Pennyw0rth/NetExec
 github_repo: Pennyw0rth/NetExec
-stars: 3500
+stars: 5243
 pricing:
   type: open_source
 installation:
@@ -38,6 +38,9 @@ maintainers:
   - Pennyw0rth
 authors:
   - Pennyw0rth
+  - NeffIsBack
+  - Marshall-Hallenbeck
+  - mpgn
 use_cases:
   - AD security assessment
   - Credential spraying

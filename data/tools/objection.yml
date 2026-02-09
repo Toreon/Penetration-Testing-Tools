@@ -21,7 +21,7 @@ website: https://github.com/sensepost/objection
 docs_url: https://github.com/sensepost/objection/wiki
 download_url: https://github.com/sensepost/objection
 github_repo: sensepost/objection
-stars: 6500
+stars: 8883
 pricing:
   type: open_source
 installation:
@@ -37,6 +37,9 @@ maintainers:
   - sensepost
 authors:
   - sensepost
+  - leonjza
+  - IPMegladon
+  - CDuPlooy
 use_cases:
   - Mobile app security testing
   - Runtime manipulation

@@ -22,7 +22,7 @@ website: https://github.com/OJ/gobuster
 docs_url: https://github.com/OJ/gobuster
 download_url: https://github.com/OJ/gobuster/releases
 github_repo: OJ/gobuster
-stars: 8500
+stars: 13379
 pricing:
   type: open_source
 installation:
@@ -36,6 +36,8 @@ maintainers:
   - OJ
 authors:
   - OJ
+  - firefart
+  - dependabot[bot]
 use_cases:
   - Directory enumeration
   - Subdomain brute-forcing

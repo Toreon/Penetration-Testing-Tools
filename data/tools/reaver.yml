@@ -19,7 +19,7 @@ website: https://github.com/t6x/reaver-wps-fork-t6x
 docs_url: https://github.com/t6x/reaver-wps-fork-t6x
 download_url: https://github.com/t6x/reaver-wps-fork-t6x
 github_repo: t6x/reaver-wps-fork-t6x
-stars: 2500
+stars: 1912
 pricing:
   type: open_source
 installation:
@@ -34,6 +34,9 @@ maintainers:
   - t6x
 authors:
   - t6x
+  - rofl0r
+  - feitoi
+  - kcdtv
 use_cases:
   - WPS PIN brute forcing
   - WPA/WPA2 password recovery

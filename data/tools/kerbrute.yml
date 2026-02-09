@@ -23,7 +23,7 @@ website: https://github.com/ropnop/kerbrute
 docs_url: https://github.com/ropnop/kerbrute
 download_url: https://github.com/ropnop/kerbrute/releases
 github_repo: ropnop/kerbrute
-stars: 2500
+stars: 3241
 pricing:
   type: open_source
 installation:
@@ -37,6 +37,7 @@ maintainers:
   - ropnop
 authors:
   - ropnop
+  - audibleblink
 use_cases:
   - Kerberos brute-forcing
   - Username enumeration

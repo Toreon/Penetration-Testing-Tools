@@ -23,7 +23,7 @@ website: https://www.ettercap-project.org/
 docs_url: https://www.ettercap-project.org/documentation/
 download_url: https://github.com/Ettercap/ettercap
 github_repo: Ettercap/ettercap
-stars: 2500
+stars: 2670
 pricing:
   type: open_source
 installation:
@@ -41,6 +41,9 @@ maintainers:
 authors:
   - Ettercap
   - alor
+  - LocutusOfBorg
+  - eaescob
+  - koeppea
 use_cases:
   - Man-in-the-middle attacks
   - Network sniffing

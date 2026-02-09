@@ -23,7 +23,7 @@ website: https://w3af.org/
 docs_url: https://w3af.readthedocs.io/
 download_url: https://github.com/andresriancho/w3af
 github_repo: andresriancho/w3af
-stars: 5500
+stars: 4853
 pricing:
   type: open_source
 installation:
@@ -39,6 +39,8 @@ maintainers:
   - andresriancho
 authors:
   - andresriancho
+  - stamparm
+  - bdamele
 use_cases:
   - Web application security scanning
   - Vulnerability detection

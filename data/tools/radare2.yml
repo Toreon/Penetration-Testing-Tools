@@ -22,7 +22,7 @@ website: https://www.radare.org/
 docs_url: https://book.rada.re/
 download_url: https://github.com/radareorg/radare2
 github_repo: radareorg/radare2
-stars: 20000
+stars: 23061
 pricing:
   type: open_source
 installation:
@@ -39,6 +39,9 @@ maintainers:
   - radareorg
 authors:
   - radareorg
+  - radare
+  - trufae
+  - condret
 use_cases:
   - Reverse engineering
   - Binary analysis

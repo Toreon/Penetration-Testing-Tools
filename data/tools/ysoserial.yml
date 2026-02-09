@@ -21,7 +21,7 @@ website: https://github.com/frohoff/ysoserial
 docs_url: https://github.com/frohoff/ysoserial
 download_url: https://github.com/frohoff/ysoserial/releases
 github_repo: frohoff/ysoserial
-stars: 7000
+stars: 8738
 pricing:
   type: open_source
 installation:
@@ -35,6 +35,8 @@ maintainers:
   - frohoff
 authors:
   - frohoff
+  - mbechler
+  - matthiaskaiser
 use_cases:
   - Deserialization exploit generation
   - Java vulnerability testing

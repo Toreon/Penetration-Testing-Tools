@@ -21,7 +21,7 @@ website: https://github.com/MobSF/Mobile-Security-Framework-MobSF
 docs_url: https://mobsf.github.io/docs/
 download_url: https://github.com/MobSF/Mobile-Security-Framework-MobSF
 github_repo: MobSF/Mobile-Security-Framework-MobSF
-stars: 15000
+stars: 20357
 pricing:
   type: open_source
 installation:
@@ -37,6 +37,9 @@ maintainers:
   - MobSF
 authors:
   - MobSF
+  - ajinabraham
+  - superpoussin22
+  - pyup-bot
 use_cases:
   - Mobile app analysis
   - File system access

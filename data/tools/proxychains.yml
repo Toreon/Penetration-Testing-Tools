@@ -21,7 +21,7 @@ website: https://github.com/haad/proxychains
 docs_url: https://github.com/haad/proxychains
 download_url: https://github.com/haad/proxychains
 github_repo: haad/proxychains
-stars: 8500
+stars: 7687
 pricing:
   type: open_source
 installation:
@@ -38,6 +38,8 @@ maintainers:
   - haad
 authors:
   - haad
+  - rofl0r
+  - jianingy
 use_cases:
   - Proxy chaining
   - Anonymity

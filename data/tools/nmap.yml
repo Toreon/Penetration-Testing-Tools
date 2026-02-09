@@ -23,7 +23,7 @@ website: https://nmap.org/
 docs_url: https://nmap.org/docs.html
 download_url: https://nmap.org/download.html
 github_repo: nmap/nmap
-stars: 10123
+stars: 12368
 pricing:
   type: open_source
 installation:
@@ -44,6 +44,9 @@ maintainers:
 authors:
   - nmap
   - fyodor
+  - bonsaiviking
+  - G10h4ck
+  - tremblerz
 use_cases:
   - Network discovery
   - Port scanning

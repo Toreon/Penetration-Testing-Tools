@@ -19,7 +19,7 @@ website: https://github.com/aircrack-ng/mdk4
 docs_url: https://github.com/aircrack-ng/mdk4
 download_url: https://github.com/aircrack-ng/mdk4
 github_repo: aircrack-ng/mdk4
-stars: 1500
+stars: 755
 pricing:
   type: open_source
 installation:
@@ -34,6 +34,9 @@ maintainers:
   - aircrack-ng
 authors:
   - aircrack-ng
+  - E7mer
+  - samueloph
+  - sbrun
 use_cases:
   - Wireless protocol testing
   - Deauthentication attacks

@@ -22,7 +22,7 @@ website: https://github.com/epi052/feroxbuster
 docs_url: https://github.com/epi052/feroxbuster/wiki
 download_url: https://github.com/epi052/feroxbuster/releases
 github_repo: epi052/feroxbuster
-stars: 8500
+stars: 7491
 pricing:
   type: open_source
 installation:
@@ -36,6 +36,8 @@ maintainers:
   - epi052
 authors:
   - epi052
+  - allcontributors[bot]
+  - godylockz
 use_cases:
   - Directory enumeration
   - Hidden file discovery

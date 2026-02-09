@@ -19,7 +19,7 @@ website: https://github.com/carlospolop/PEASS-ng
 docs_url: https://github.com/carlospolop/PEASS-ng
 download_url: https://github.com/carlospolop/PEASS-ng
 github_repo: carlospolop/PEASS-ng
-stars: 15000
+stars: 19271
 pricing:
   type: open_source
 installation:
@@ -33,6 +33,8 @@ maintainers:
   - carlospolop
 authors:
   - carlospolop
+  - makikvues
+  - RandolphConley
 use_cases:
   - Linux privilege escalation
   - Security assessment

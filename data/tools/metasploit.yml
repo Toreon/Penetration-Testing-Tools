@@ -22,10 +22,10 @@ website: https://www.metasploit.com/
 docs_url: https://docs.metasploit.com/
 download_url: https://github.com/rapid7/metasploit-framework
 github_repo: rapid7/metasploit-framework
-stars: 35000
+stars: 37476
 pricing:
   type: freemium
-  notes: "Metasploit Framework (free), Metasploit Pro (commercial)"
+  notes: Metasploit Framework (free), Metasploit Pro (commercial)
 installation:
   methods:
     - Git clone
@@ -43,6 +43,9 @@ authors:
   - rapid7
   - hdm
   - skape
+  - wvu
+  - msjenkins-r7
+  - h00die
 use_cases:
   - Penetration testing
   - Vulnerability exploitation

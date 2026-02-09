@@ -19,7 +19,7 @@ website: https://github.com/derv82/wifite2
 docs_url: https://github.com/derv82/wifite2
 download_url: https://github.com/derv82/wifite2
 github_repo: derv82/wifite2
-stars: 4500
+stars: 7587
 pricing:
   type: open_source
 installation:
@@ -34,6 +34,8 @@ maintainers:
   - derv82
 authors:
   - derv82
+  - deix
+  - kimocoder
 use_cases:
   - Automated WiFi attacks
   - WEP/WPA cracking

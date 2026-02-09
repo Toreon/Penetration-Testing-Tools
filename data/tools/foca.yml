@@ -20,7 +20,7 @@ website: https://github.com/ElevenPaths/FOCA
 docs_url: https://github.com/ElevenPaths/FOCA
 download_url: https://github.com/ElevenPaths/FOCA/releases
 github_repo: ElevenPaths/FOCA
-stars: 3000
+stars: 3415
 pricing:
   type: open_source
 installation:
@@ -33,6 +33,9 @@ maintainers:
   - ElevenPaths
 authors:
   - ElevenPaths
+  - Argaide
+  - isperk
+  - iosebyte
 use_cases:
   - Metadata extraction
   - Document analysis

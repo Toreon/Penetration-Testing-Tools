@@ -22,7 +22,7 @@ website: https://sqlmap.org/
 docs_url: https://github.com/sqlmapproject/sqlmap/wiki
 download_url: https://github.com/sqlmapproject/sqlmap
 github_repo: sqlmapproject/sqlmap
-stars: 36554
+stars: 36557
 pricing:
   type: open_source
 installation:

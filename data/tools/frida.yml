@@ -24,7 +24,7 @@ website: https://frida.re/
 docs_url: https://frida.re/docs/
 download_url: https://github.com/frida/frida
 github_repo: frida/frida
-stars: 13000
+stars: 19690
 pricing:
   type: open_source
 installation:
@@ -40,6 +40,9 @@ maintainers:
   - frida
 authors:
   - frida
+  - oleavr
+  - s1341
+  - karltk
 use_cases:
   - Dynamic analysis
   - Runtime manipulation

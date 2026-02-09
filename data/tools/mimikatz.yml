@@ -21,7 +21,7 @@ website: https://github.com/gentilkiwi/mimikatz
 docs_url: https://github.com/gentilkiwi/mimikatz/wiki
 download_url: https://github.com/gentilkiwi/mimikatz/releases
 github_repo: gentilkiwi/mimikatz
-stars: 18000
+stars: 21245
 pricing:
   type: open_source
 installation:
@@ -34,6 +34,8 @@ maintainers:
   - gentilkiwi
 authors:
   - gentilkiwi
+  - hubert3
+  - vletoux
 use_cases:
   - Credential extraction
   - Pass-the-hash attacks

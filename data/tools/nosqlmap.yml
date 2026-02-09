@@ -22,7 +22,7 @@ website: https://github.com/codingo/NoSQLMap
 docs_url: https://github.com/codingo/NoSQLMap
 download_url: https://github.com/codingo/NoSQLMap
 github_repo: codingo/NoSQLMap
-stars: 2500
+stars: 3228
 pricing:
   type: open_source
 installation:
@@ -36,6 +36,8 @@ maintainers:
   - codingo
 authors:
   - codingo
+  - tcstool
+  - za
 use_cases:
   - NoSQL injection testing
   - Database enumeration

@@ -19,7 +19,7 @@ website: https://github.com/BloodHoundAD/SharpHound
 docs_url: https://github.com/BloodHoundAD/SharpHound
 download_url: https://github.com/BloodHoundAD/SharpHound/releases
 github_repo: BloodHoundAD/SharpHound
-stars: 2000
+stars: 1188
 pricing:
   type: open_source
 installation:
@@ -32,6 +32,9 @@ maintainers:
   - BloodHoundAD
 authors:
   - BloodHoundAD
+  - rvazarkar
+  - JonasBK
+  - ddlees
 use_cases:
   - AD data collection
   - Attack path analysis
