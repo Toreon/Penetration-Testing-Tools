@@ -1,0 +1,50 @@
+id: autorecon
+name: AutoRecon
+summary: Multi-threaded network reconnaissance tool that performs automated discovery and scanning.
+description: |
+  AutoRecon is a multi-threaded network reconnaissance tool that performs automated discovery and scanning. It's designed to be fast, efficient, and comprehensive, automatically running various tools and techniques to gather information about target networks. AutoRecon is particularly useful for initial reconnaissance phases of penetration tests, combining multiple tools into a single automated workflow.
+categories:
+  - reconnaissance
+tags:
+  - automated_reconnaissance
+  - network_scanning
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://github.com/Tib3rius/AutoRecon
+docs_url: https://github.com/Tib3rius/AutoRecon
+download_url: https://github.com/Tib3rius/AutoRecon
+github_repo: Tib3rius/AutoRecon
+stars: 4500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - pip install
+    - Git clone
+  commands:
+    - pip install autorecon
+    - git clone https://github.com/Tib3rius/AutoRecon.git
+  package_managers:
+    - pip
+maintainers:
+  - Tib3rius
+authors:
+  - Tib3rius
+use_cases:
+  - Automated reconnaissance
+  - Network discovery
+  - Initial scanning
+  - Information gathering
+related_tools:
+  - nmap
+  - rustscan
+similar_tools:
+  - sn1per
+  - reconftw
+added_at: '2026-02-09'

@@ -1,0 +1,51 @@
+id: droopescan
+name: DroopeScan
+summary: Plugin-based scanner that aids security researchers in identifying issues with several CMSs.
+description: |
+  DroopeScan is a plugin-based scanner that aids security researchers in identifying issues with several Content Management Systems (CMSs). It's designed to scan and identify vulnerabilities in popular CMS platforms including Drupal, WordPress, Joomla, and SilverStripe. DroopeScan is particularly useful for web application security testing and CMS-specific vulnerability assessment.
+categories:
+  - web_app_scanner
+tags:
+  - cms_scanner
+  - web_application
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://github.com/droope/droopescan
+docs_url: https://github.com/droope/droopescan
+download_url: https://github.com/droope/droopescan
+github_repo: droope/droopescan
+stars: 1400
+pricing:
+  type: open_source
+installation:
+  methods:
+    - pip install
+    - Git clone
+  commands:
+    - pip install droopescan
+    - git clone https://github.com/droope/droopescan.git
+  package_managers:
+    - pip
+maintainers:
+  - droope
+authors:
+  - droope
+use_cases:
+  - CMS vulnerability scanning
+  - Web application security
+  - Drupal security testing
+  - WordPress security testing
+related_tools:
+  - wpscan
+  - wapiti
+similar_tools:
+  - wpscan
+  - wpscan
+added_at: '2026-02-09'

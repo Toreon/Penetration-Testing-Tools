@@ -1,0 +1,46 @@
+id: sherlock
+name: Sherlock
+summary: PowerShell script to quickly find missing software patches or locally exploitable vulnerabilities.
+description: |
+  Sherlock is a PowerShell script to quickly find missing software patches or locally exploitable vulnerabilities. It's designed to help security professionals identify potential privilege escalation vectors in Windows environments. Sherlock checks for various Windows vulnerabilities and misconfigurations that could lead to privilege escalation, making it particularly useful for penetration testing and security assessments.
+categories:
+  - active_directory
+  - network_attack
+tags:
+  - privilege_escalation
+  - windows
+  - oss
+  - cli
+  - powershell
+platforms:
+  - windows
+license: GPL-3.0
+maturity: stable
+website: https://github.com/rasta-mouse/Sherlock
+docs_url: https://github.com/rasta-mouse/Sherlock
+download_url: https://github.com/rasta-mouse/Sherlock
+github_repo: rasta-mouse/Sherlock
+stars: 2500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+  commands:
+    - git clone https://github.com/rasta-mouse/Sherlock.git
+maintainers:
+  - rasta-mouse
+authors:
+  - rasta-mouse
+use_cases:
+  - Windows privilege escalation
+  - Vulnerability detection
+  - Security assessment
+  - Red team operations
+related_tools:
+  - winpeas
+  - powersploit
+similar_tools:
+  - winpeas
+  - windows-exploit-suggester
+added_at: '2026-02-09'

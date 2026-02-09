@@ -1,12 +1,12 @@
 id: eaphammer
 name: EAPHammer
-summary: Targeted evil twin attacks against WPA2-Enterprise networks that allows for credential harvesting and lateral movement.
+summary: Targeted evil twin attacks against WPA2-Enterprise networks that bypasses common security controls.
 description: |
-  EAPHammer is a toolkit for performing targeted evil twin attacks against WPA2-Enterprise networks. Unlike other tools, EAPHammer is designed specifically to be used during physical security assessments. It allows for credential harvesting and lateral movement by creating rogue access points that mimic legitimate enterprise networks.
+  EAPHammer is a tool for performing targeted evil twin attacks against WPA2-Enterprise networks. It's designed to bypass common security controls and perform sophisticated wireless attacks. EAPHammer is particularly useful for testing the security of enterprise wireless networks and identifying vulnerabilities in authentication mechanisms.
 categories:
   - network_attack
 tags:
-  - wireless_security
+  - wireless_attack
   - evil_twin
   - oss
   - cli
@@ -19,7 +19,7 @@ website: https://github.com/s0lst1c3/eaphammer
 docs_url: https://github.com/s0lst1c3/eaphammer/wiki
 download_url: https://github.com/s0lst1c3/eaphammer
 github_repo: s0lst1c3/eaphammer
-stars: 2456
+stars: 2000
 pricing:
   type: open_source
 installation:
@@ -27,20 +27,20 @@ installation:
     - Git clone
   commands:
     - git clone https://github.com/s0lst1c3/eaphammer.git
+    - cd eaphammer && ./kali-setup.sh
 maintainers:
   - s0lst1c3
 authors:
   - s0lst1c3
-  - D3vil0p3r
-  - r4ulcl
 use_cases:
+  - Wireless security testing
   - Evil twin attacks
-  - WPA2-Enterprise attacks
-  - Credential harvesting
+  - Enterprise network testing
+  - Authentication bypass
 related_tools:
   - aircrack_ng
-  - wifite
+  - kismet
 similar_tools:
-  - aircrack_ng
   - wifite
-added_at: '2024-01-15'
+  - mdk4
+added_at: '2026-02-09'

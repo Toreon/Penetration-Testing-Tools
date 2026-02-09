@@ -17,7 +17,7 @@ platforms:
   - windows
   - macos
 license: GPL-2.0
-maturity: stable
+maturity: archived
 website: https://github.com/xxgrunge/sqlninja
 docs_url: https://github.com/xxgrunge/sqlninja
 download_url: https://github.com/xxgrunge/sqlninja
@@ -48,4 +48,4 @@ related_tools:
 similar_tools:
   - sqlmap
   - havij
-added_at: '2024-01-15'
+added_at: '2026-02-09'

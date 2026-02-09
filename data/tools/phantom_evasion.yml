@@ -1,0 +1,48 @@
+id: phantom_evasion
+name: Phantom Evasion
+summary: Advanced antivirus evasion tool that generates undetectable payloads.
+description: |
+  Phantom Evasion is an advanced antivirus evasion tool that generates undetectable payloads. It's designed to help security professionals create payloads that can bypass antivirus and endpoint detection systems during penetration tests. Phantom Evasion uses various techniques including encryption, encoding, and obfuscation to create payloads that are less likely to be detected by security software.
+categories:
+  - network_attack
+tags:
+  - av_evasion
+  - payload_generation
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: archived
+website: https://github.com/oddcod3/Phantom-Evasion
+docs_url: https://github.com/oddcod3/Phantom-Evasion
+download_url: https://github.com/oddcod3/Phantom-Evasion
+github_repo: oddcod3/Phantom-Evasion
+stars: 1500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+  commands:
+    - git clone https://github.com/oddcod3/Phantom-Evasion.git
+    - cd Phantom-Evasion && pip install -r requirements.txt
+maintainers:
+  - oddcod3
+authors:
+  - oddcod3
+use_cases:
+  - AV evasion
+  - Payload generation
+  - Red team operations
+  - Security testing
+related_tools:
+  - veil
+  - shellter
+similar_tools:
+  - veil
+  - shellter
+added_at: '2026-02-09'

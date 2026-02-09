@@ -1,8 +1,8 @@
 id: havoc
 name: Havoc
-summary: Modern and malleable post-exploitation command and control framework that provides advanced capabilities for red team operations.
+summary: Modern C2 framework written in C++ that provides advanced post-exploitation capabilities.
 description: |
-  Havoc is a modern and malleable post-exploitation command and control framework that provides advanced capabilities for red team operations. It's designed to be flexible, extensible, and powerful, offering features for post-exploitation, lateral movement, and persistence. Havoc provides a team server architecture and supports multiple operating systems.
+  Havoc is a modern C2 (Command and Control) framework written in C++ that provides advanced post-exploitation capabilities. It's designed to be a modern alternative to traditional C2 frameworks, offering a clean interface, advanced evasion techniques, and comprehensive post-exploitation modules. Havoc is particularly useful for red team operations and advanced penetration testing scenarios.
 categories:
   - network_attack
 tags:
@@ -10,44 +10,42 @@ tags:
   - post_exploitation
   - red_team
   - oss
-  - gui
-  - c
+  - cli
   - cpp
 platforms:
   - linux
   - windows
+  - macos
 license: AGPL-3.0
 maturity: stable
 website: https://github.com/HavocFramework/Havoc
 docs_url: https://github.com/HavocFramework/Havoc/wiki
-download_url: https://github.com/HavocFramework/Havoc
+download_url: https://github.com/HavocFramework/Havoc/releases
 github_repo: HavocFramework/Havoc
-stars: 8147
+stars: 8500
 pricing:
   type: open_source
 installation:
   methods:
-    - Git clone
     - Build from source
+    - Download binary
   commands:
     - git clone https://github.com/HavocFramework/Havoc.git
+    - cd Havoc && make
 maintainers:
   - HavocFramework
 authors:
   - HavocFramework
-  - S4ntiagoP
-  - Cracked5pider
-  - p4p1
 use_cases:
   - Command and control
   - Post-exploitation
   - Red team operations
-  - Lateral movement
+  - Advanced evasion
 related_tools:
-  - metasploit
   - cobalt_strike
+  - sliver
 similar_tools:
-  - metasploit
   - cobalt_strike
+  - sliver
   - covenant
-added_at: '2024-01-15'
+added_at: '2026-02-09'

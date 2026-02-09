@@ -1,0 +1,47 @@
+id: reconftw
+name: reconFTW
+summary: Automated reconnaissance framework that performs comprehensive security assessments.
+description: |
+  reconFTW is an automated reconnaissance framework that performs comprehensive security assessments. It combines multiple reconnaissance tools and techniques into a single automated workflow, making it easier to perform thorough security assessments. reconFTW is designed to be fast, efficient, and comprehensive, covering various aspects of reconnaissance including subdomain enumeration, port scanning, and vulnerability detection.
+categories:
+  - reconnaissance
+tags:
+  - automated_reconnaissance
+  - subdomain_enumeration
+  - oss
+  - cli
+  - bash
+platforms:
+  - linux
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://github.com/six2dez/reconftw
+docs_url: https://github.com/six2dez/reconftw/wiki
+download_url: https://github.com/six2dez/reconftw
+github_repo: six2dez/reconftw
+stars: 5500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+  commands:
+    - git clone https://github.com/six2dez/reconftw.git
+    - cd reconftw && ./install.sh
+maintainers:
+  - six2dez
+authors:
+  - six2dez
+use_cases:
+  - Automated reconnaissance
+  - Subdomain enumeration
+  - Security assessment
+  - Bug bounty hunting
+related_tools:
+  - amass
+  - subfinder
+similar_tools:
+  - sn1per
+  - autorecon
+added_at: '2026-02-09'

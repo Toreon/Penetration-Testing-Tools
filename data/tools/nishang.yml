@@ -1,0 +1,46 @@
+id: nishang
+name: Nishang
+summary: PowerShell framework and collection of scripts and payloads for penetration testing and red teaming.
+description: |
+  Nishang is a PowerShell framework and collection of scripts and payloads for penetration testing and red teaming. It provides a comprehensive set of PowerShell scripts for various phases of penetration testing including reconnaissance, scanning, exploitation, and post-exploitation. Nishang is particularly useful for Windows environments and Active Directory security testing.
+categories:
+  - active_directory
+  - network_attack
+tags:
+  - powershell
+  - post_exploitation
+  - oss
+  - cli
+  - powershell
+platforms:
+  - windows
+license: GPL-3.0
+maturity: stable
+website: https://github.com/samratashok/nishang
+docs_url: https://github.com/samratashok/nishang/wiki
+download_url: https://github.com/samratashok/nishang
+github_repo: samratashok/nishang
+stars: 8000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+  commands:
+    - git clone https://github.com/samratashok/nishang.git
+maintainers:
+  - samratashok
+authors:
+  - samratashok
+use_cases:
+  - PowerShell exploitation
+  - Post-exploitation
+  - Active Directory testing
+  - Red team operations
+related_tools:
+  - powersploit
+  - empire
+similar_tools:
+  - powersploit
+  - empire
+added_at: '2026-02-09'

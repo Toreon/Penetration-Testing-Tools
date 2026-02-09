@@ -16,7 +16,7 @@ platforms:
   - windows
   - macos
 license: GPL-2.0
-maturity: stable
+maturity: archived
 website: https://github.com/laramies/metagoofil
 docs_url: https://github.com/laramies/metagoofil
 download_url: https://github.com/laramies/metagoofil
@@ -47,4 +47,4 @@ related_tools:
 similar_tools:
   - exiftool
   - binwalk
-added_at: '2024-01-15'
+added_at: '2026-02-09'

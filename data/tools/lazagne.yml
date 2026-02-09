@@ -1,0 +1,52 @@
+id: lazagne
+name: LaZagne
+summary: Open source application that retrieves stored passwords from many software on a computer.
+description: |
+  LaZagne is an open source application that retrieves stored passwords from many software on a computer. It's designed to help security professionals recover passwords during penetration tests and security assessments. LaZagne supports a wide range of applications including browsers, email clients, databases, and system credentials. It's particularly useful for credential harvesting and post-exploitation activities.
+categories:
+  - password_cracker
+  - network_attack
+tags:
+  - credential_harvesting
+  - password_recovery
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: LGPL-3.0
+maturity: stable
+website: https://github.com/AlessandroZ/LaZagne
+docs_url: https://github.com/AlessandroZ/LaZagne
+download_url: https://github.com/AlessandroZ/LaZagne/releases
+github_repo: AlessandroZ/LaZagne
+stars: 12000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - pip install
+    - Git clone
+  commands:
+    - pip install lazagne
+    - git clone https://github.com/AlessandroZ/LaZagne.git
+  package_managers:
+    - pip
+maintainers:
+  - AlessandroZ
+authors:
+  - AlessandroZ
+use_cases:
+  - Credential harvesting
+  - Password recovery
+  - Post-exploitation
+  - Security assessment
+related_tools:
+  - mimikatz
+  - powersploit
+similar_tools:
+  - mimikatz
+  - creddump
+added_at: '2026-02-09'
