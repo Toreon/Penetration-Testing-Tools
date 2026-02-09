@@ -1,0 +1,35 @@
+id: medusa
+name: Medusa
+summary: Speedy, parallel, modular, login brute-forcer that supports multiple protocols for network authentication attacks.
+description: |
+  Medusa is intended to be a speedy, massively parallel, modular, login brute-forcer. The goal is to support as many services which allow remote authentication as possible. The author considers following items as some of the key features of this application: thread-based parallel testing, flexible user input, modular design, and multiple protocols supported.
+categories:
+  - password_cracker
+  - network_attack
+tags:
+  - brute_force
+  - login_cracking
+  - network_protocols
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://github.com/jmk-foofus/medusa
+docs_url: https://github.com/jmk-foofus/medusa/wiki
+download_url: https://github.com/jmk-foofus/medusa
+github_repo: jmk-foofus/medusa
+stars: 2000
+use_cases:
+  - Network login brute-forcing
+  - Protocol testing
+  - Password strength testing
+  - Security auditing
+related_tools:
+  - hydra
+  - hashcat
+added_at: "2024-01-15"

@@ -1,0 +1,156 @@
+<div class="contribute-container">
+  <h1>How to Contribute</h1>
+
+  <mat-card class="section-card">
+    <mat-card-header>
+      <mat-card-title>Adding a New Tool</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>To add a new tool to the catalogue:</p>
+      <ol>
+        <li>Create a new YAML file in the <code>data/tools/</code> directory</li>
+        <li>Name the file using the tool's ID (e.g., <code>my-tool.yml</code>)</li>
+        <li>Fill in all required fields following the schema below</li>
+        <li>Submit a pull request with your changes</li>
+      </ol>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="section-card">
+    <mat-card-header>
+      <mat-card-title>YAML Schema</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>Each tool YAML file should follow this structure:</p>
+      <pre><code>id: unique-tool-id
+name: Tool Name
+summary: Short one-paragraph description
+description: | (optional)
+  Longer description with multiple paragraphs
+categories:
+  - category1
+  - category2
+tags:
+  - tag1
+  - tag2
+platforms:
+  - linux
+  - windows
+  - macos
+license: License Name
+maturity: stable | active | experimental | archived
+website: https://example.com (optional)
+docs_url: https://docs.example.com (optional)
+download_url: https://download.example.com (optional)
+github_repo: owner/repo (optional)
+stars: 12345 (optional, cached GitHub stars)
+use_cases: (optional)
+  - Use case 1
+  - Use case 2
+related_tools: (optional)
+  - tool-id-1
+  - tool-id-2
+added_at: "2024-01-15" (optional, ISO date)</code></pre>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="section-card">
+    <mat-card-header>
+      <mat-card-title>Required Fields</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <ul>
+        <li><strong>id:</strong> URL-safe identifier (lowercase, hyphens allowed)</li>
+        <li><strong>name:</strong> Human-readable tool name</li>
+        <li><strong>summary:</strong> One-paragraph description</li>
+        <li><strong>categories:</strong> List of applicable categories</li>
+        <li><strong>tags:</strong> List of relevant tags</li>
+        <li><strong>platforms:</strong> List of supported platforms</li>
+        <li><strong>license:</strong> License name or identifier</li>
+        <li><strong>maturity:</strong> One of: stable, active, experimental, archived</li>
+      </ul>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="section-card">
+    <mat-card-header>
+      <mat-card-title>Updating Existing Tools</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>To update an existing tool:</p>
+      <ol>
+        <li>Find the tool's YAML file in <code>data/tools/</code></li>
+        <li>Make your changes (e.g., update description, add tags, fix links)</li>
+        <li>Submit a pull request with your improvements</li>
+      </ol>
+      <p>
+        Common updates include: fixing broken links, adding new tags, updating descriptions, 
+        correcting license information, or adding related tools.
+      </p>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="section-card">
+    <mat-card-header>
+      <mat-card-title>Proposing New Categories or Tags</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+        If you believe a new category or tag would be useful, please open an issue to discuss 
+        it with the maintainers. Categories should represent broad tool types, while tags can 
+        be more specific and numerous.
+      </p>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="section-card">
+    <mat-card-header>
+      <mat-card-title>Example Tool Entry</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>Here's an example of a complete tool entry:</p>
+      <pre><code>id: example-tool
+name: Example Security Tool
+summary: A powerful tool for security testing and analysis.
+description: |
+  This tool provides comprehensive security testing capabilities
+  for web applications and networks.
+categories:
+  - web_app_scanner
+  - vulnerability_scanner
+tags:
+  - security
+  - testing
+  - oss
+platforms:
+  - linux
+  - windows
+license: MIT
+maturity: stable
+website: https://example.com
+docs_url: https://docs.example.com
+github_repo: owner/example-tool
+stars: 5000
+use_cases:
+  - Web application scanning
+  - Vulnerability detection
+related_tools:
+  - sqlmap
+  - nessus
+added_at: "2024-01-15"</code></pre>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="section-card">
+    <mat-card-content>
+      <p>
+        For more detailed information, please refer to the 
+        <a href="https://github.com/your-repo/blob/main/CONTRIBUTING.md" target="_blank">CONTRIBUTING.md</a> 
+        file in the repository.
+      </p>
+      <p>
+        Thank you for contributing to the Pentest Tools Catalogue!
+      </p>
+    </mat-card-content>
+  </mat-card>
+</div>

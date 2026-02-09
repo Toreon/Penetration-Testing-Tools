@@ -1,0 +1,166 @@
+@if (loading) {
+  <div class="loading">
+    <p>Loading tool information...</p>
+  </div>
+} @else if (tool) {
+  <div class="tool-detail-container">
+    <div class="header-section">
+      <button mat-button routerLink="/tools">
+        <mat-icon>arrow_back</mat-icon>
+        Back to Catalogue
+      </button>
+      <h1>{{ tool.name }}</h1>
+      @if (currentStars !== null || tool.stars) {
+        <div class="stars">
+          <mat-icon>star</mat-icon>
+          <span>{{ currentStars ?? tool.stars }}</span>
+        </div>
+      }
+    </div>
+
+    <div class="content-grid">
+      <div class="main-content">
+        <mat-card class="summary-card">
+          <mat-card-content>
+            <h2>Summary</h2>
+            <p>{{ tool.summary }}</p>
+            @if (tool.description) {
+              <div class="description">
+                <h3>Description</h3>
+                <p [innerHTML]="tool.description.replace(/\n/g, '<br>')"></p>
+              </div>
+            }
+          </mat-card-content>
+        </mat-card>
+
+        @if (tool.use_cases && tool.use_cases.length > 0) {
+          <mat-card class="use-cases-card">
+            <mat-card-header>
+              <mat-card-title>Use Cases</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+              <ul>
+                @for (useCase of tool.use_cases; track useCase) {
+                  <li>{{ useCase }}</li>
+                }
+              </ul>
+            </mat-card-content>
+          </mat-card>
+        }
+
+        @if (relatedTools.length > 0) {
+          <mat-card class="related-tools-card">
+            <mat-card-header>
+              <mat-card-title>Related Tools</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+              <div class="related-tools-list">
+                @for (relatedTool of relatedTools; track relatedTool.id) {
+                  <a mat-button [routerLink]="['/tools', relatedTool.id]">
+                    {{ relatedTool.name }}
+                  </a>
+                }
+              </div>
+            </mat-card-content>
+          </mat-card>
+        }
+      </div>
+
+      <div class="sidebar">
+        <mat-card class="info-card">
+          <mat-card-header>
+            <mat-card-title>Information</mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <div class="info-item">
+              <strong>Categories:</strong>
+              <div class="chips">
+                @for (category of tool.categories; track category) {
+                  <mat-chip>{{ formatCategory(category) }}</mat-chip>
+                }
+              </div>
+            </div>
+
+            <mat-divider></mat-divider>
+
+            <div class="info-item">
+              <strong>Platforms:</strong>
+              <div class="platforms">
+                @for (platform of tool.platforms; track platform) {
+                  <span class="platform-badge">{{ platform }}</span>
+                }
+              </div>
+            </div>
+
+            <mat-divider></mat-divider>
+
+            <div class="info-item">
+              <strong>License:</strong>
+              <span>{{ tool.license }}</span>
+            </div>
+
+            <mat-divider></mat-divider>
+
+            <div class="info-item">
+              <strong>Maturity:</strong>
+              <span class="maturity-badge" [class]="'maturity-' + tool.maturity">
+                {{ tool.maturity }}
+              </span>
+            </div>
+
+            @if (tool.tags && tool.tags.length > 0) {
+              <mat-divider></mat-divider>
+              <div class="info-item">
+                <strong>Tags:</strong>
+                <div class="tags">
+                  @for (tag of tool.tags; track tag) {
+                    <span class="tag">{{ tag }}</span>
+                  }
+                </div>
+              </div>
+            }
+          </mat-card-content>
+        </mat-card>
+
+        <mat-card class="links-card">
+          <mat-card-header>
+            <mat-card-title>Links</mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <div class="links">
+              @if (tool.website) {
+                <a mat-raised-button color="primary" [href]="tool.website" target="_blank" rel="noopener">
+                  <mat-icon>language</mat-icon>
+                  Website
+                </a>
+              }
+              @if (tool.docs_url) {
+                <a mat-raised-button [href]="tool.docs_url" target="_blank" rel="noopener">
+                  <mat-icon>description</mat-icon>
+                  Documentation
+                </a>
+              }
+              @if (tool.download_url) {
+                <a mat-raised-button [href]="tool.download_url" target="_blank" rel="noopener">
+                  <mat-icon>download</mat-icon>
+                  Download
+                </a>
+              }
+              @if (tool.github_repo) {
+                <a mat-raised-button [href]="'https://github.com/' + tool.github_repo" target="_blank" rel="noopener">
+                  <mat-icon>code</mat-icon>
+                  GitHub
+                </a>
+              }
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+} @else {
+  <div class="error">
+    <p>Tool not found.</p>
+    <button mat-raised-button routerLink="/tools">Back to Catalogue</button>
+  </div>
+}

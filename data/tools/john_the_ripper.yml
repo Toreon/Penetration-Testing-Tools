@@ -1,0 +1,34 @@
+id: john_the_ripper
+name: John the Ripper
+summary: Fast password cracker designed to detect weak Unix passwords and supports hundreds of hash and cipher types.
+description: |
+  John the Ripper is a fast password cracker, currently available for many flavors of Unix, Windows, DOS, BeOS, and OpenVMS. Its primary purpose is to detect weak Unix passwords. Besides several crypt(3) password hash types most commonly found on various Unix systems, supported out of the box, John the Ripper supports many other hashes and ciphers.
+categories:
+  - password_cracker
+  - cryptography
+tags:
+  - password_recovery
+  - hash_cracking
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://www.openwall.com/john/
+docs_url: https://www.openwall.com/john/doc/
+download_url: https://www.openwall.com/john/
+github_repo: openwall/john
+stars: 9000
+use_cases:
+  - Password hash cracking
+  - Security testing
+  - Password recovery
+  - Penetration testing
+related_tools:
+  - hashcat
+  - hydra
+added_at: "2024-01-15"

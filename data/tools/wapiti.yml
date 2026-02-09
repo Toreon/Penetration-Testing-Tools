@@ -1,0 +1,35 @@
+id: wapiti
+name: Wapiti
+summary: Web application vulnerability scanner that performs black-box scanning and detects security flaws in web applications.
+description: |
+  Wapiti allows you to audit the security of your web applications. It performs "black-box" scans, i.e. it does not study the source code of the application but will scan the web pages of the deployed web application, looking for scripts and forms where it can inject data. Once it gets the list of URLs, forms and various inputs, Wapiti acts like a fuzzer, injecting payloads to see if a script is vulnerable.
+categories:
+  - web_app_scanner
+  - vulnerability_scanner
+tags:
+  - web_application
+  - fuzzing
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://wapiti.sourceforge.io/
+docs_url: https://wapiti.readthedocs.io/
+download_url: https://github.com/wapiti-scanner/wapiti
+github_repo: wapiti-scanner/wapiti
+stars: 5000
+use_cases:
+  - Web application security scanning
+  - Vulnerability detection
+  - Security auditing
+  - Penetration testing
+related_tools:
+  - sqlmap
+  - nessus
+  - wpscan
+added_at: "2024-01-15"

@@ -1,0 +1,35 @@
+id: scout_suite
+name: Scout Suite
+summary: Multi-cloud security auditing tool that assesses the security posture of cloud environments across AWS, Azure, GCP, and more.
+description: |
+  Scout Suite is an open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments. With Scout Suite, you can assess the security posture of your cloud infrastructure and identify potential risks and misconfigurations across multiple cloud providers including AWS, Azure, GCP, Alibaba Cloud, and Oracle Cloud.
+categories:
+  - cloud_enumeration
+  - cloud_security
+tags:
+  - cloud
+  - aws
+  - azure
+  - gcp
+  - security_auditing
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://github.com/nccgroup/ScoutSuite
+docs_url: https://github.com/nccgroup/ScoutSuite/wiki
+download_url: https://github.com/nccgroup/ScoutSuite
+github_repo: nccgroup/ScoutSuite
+stars: 6000
+use_cases:
+  - Cloud security auditing
+  - Multi-cloud assessment
+  - Compliance checking
+  - Security posture analysis
+related_tools: []
+added_at: "2024-01-15"

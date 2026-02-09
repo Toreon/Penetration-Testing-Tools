@@ -1,0 +1,33 @@
+id: brakeman
+name: Brakeman
+summary: Static analysis security vulnerability scanner for Ruby on Rails applications that detects security issues in application code.
+description: |
+  Brakeman is an open source static analysis security vulnerability scanner for Ruby on Rails applications. It scans Rails application code to find security issues at any stage of development. Brakeman is designed to be fast and easy to use, and can be integrated into CI/CD pipelines.
+categories:
+  - static_analysis
+  - code_scanner
+tags:
+  - ruby_on_rails
+  - static_analysis
+  - code_security
+  - oss
+  - cli
+  - ruby
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://brakemanscanner.org/
+docs_url: https://brakemanscanner.org/docs/
+download_url: https://github.com/presidentbeef/brakeman
+github_repo: presidentbeef/brakeman
+stars: 7000
+use_cases:
+  - Rails application security scanning
+  - Static code analysis
+  - CI/CD security integration
+  - Vulnerability detection
+related_tools: []
+added_at: "2024-01-15"

@@ -1,0 +1,35 @@
+id: hydra
+name: Hydra
+summary: Fast and flexible network login cracker that supports numerous protocols for brute-force attacks.
+description: |
+  Hydra is a parallelized login cracker which supports numerous protocols to attack. It is very fast and flexible, and new modules are easy to add. This tool makes it possible for researchers and security consultants to show how easy it would be to gain unauthorized access to a system remotely.
+categories:
+  - password_cracker
+  - network_attack
+tags:
+  - brute_force
+  - login_cracking
+  - network_protocols
+  - oss
+  - cli
+platforms:
+  - linux
+  - windows
+  - macos
+license: AGPL-3.0
+maturity: stable
+website: https://github.com/vanhauser-thc/thc-hydra
+docs_url: https://github.com/vanhauser-thc/thc-hydra/wiki
+download_url: https://github.com/vanhauser-thc/thc-hydra
+github_repo: vanhauser-thc/thc-hydra
+stars: 8000
+use_cases:
+  - Network login brute-forcing
+  - Protocol testing
+  - Password strength testing
+  - Security auditing
+related_tools:
+  - hashcat
+  - medusa
+  - john_the_ripper
+added_at: "2024-01-15"

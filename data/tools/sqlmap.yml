@@ -1,0 +1,35 @@
+id: sqlmap
+name: SQLMap
+summary: Automatic SQL injection and database takeover tool that supports multiple database management systems and injection techniques.
+description: |
+  SQLMap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over database servers. It comes with a powerful detection engine, many niche features for the ultimate penetration tester, and a broad range of switches lasting from database fingerprinting, over data fetching from the database, to accessing the underlying file system and executing commands on the operating system via out-of-band connections.
+categories:
+  - web_app_scanner
+  - database_exploitation
+tags:
+  - sql_injection
+  - database
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://sqlmap.org/
+docs_url: https://github.com/sqlmapproject/sqlmap/wiki
+download_url: https://github.com/sqlmapproject/sqlmap
+github_repo: sqlmapproject/sqlmap
+stars: 30000
+use_cases:
+  - Automated SQL injection detection
+  - Database fingerprinting
+  - Data extraction from databases
+  - Database server takeover
+  - File system access via database
+related_tools:
+  - nessus
+  - wapiti
+added_at: "2024-01-15"

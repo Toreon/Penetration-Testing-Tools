@@ -1,0 +1,34 @@
+id: hashcat
+name: Hashcat
+summary: Advanced password recovery tool and the world's fastest password cracker, supporting over 300 hash types.
+description: |
+  Hashcat is the world's fastest and most advanced password recovery utility, supporting five unique modes of attack for over 300 highly-optimized hashing algorithms. Hashcat currently supports CPUs, GPUs, and other hardware accelerators on Linux, Windows, and macOS, and can utilize multiple devices in parallel.
+categories:
+  - password_cracker
+  - cryptography
+tags:
+  - password_recovery
+  - hash_cracking
+  - gpu_acceleration
+  - oss
+  - cli
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://hashcat.net/
+docs_url: https://hashcat.net/wiki/
+download_url: https://hashcat.net/hashcat/
+github_repo: hashcat/hashcat
+stars: 20000
+use_cases:
+  - Password hash cracking
+  - Security testing
+  - Password recovery
+  - Penetration testing
+related_tools:
+  - john_the_ripper
+  - hydra
+added_at: "2024-01-15"

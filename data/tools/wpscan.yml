@@ -1,0 +1,35 @@
+id: wpscan
+name: WPScan
+summary: Black box WordPress security scanner that identifies vulnerabilities in WordPress installations, themes, and plugins.
+description: |
+  WPScan is a free, for non-commercial use, black box WordPress security scanner written for security professionals and blog maintainers to test the security of their WordPress websites. It can enumerate WordPress users, themes, plugins, and timthumbs, and can check for vulnerable versions of WordPress core, themes, and plugins.
+categories:
+  - web_app_scanner
+  - cms_scanner
+tags:
+  - wordpress
+  - cms
+  - vulnerability_scanning
+  - oss
+  - cli
+  - ruby
+platforms:
+  - linux
+  - windows
+  - macos
+license: Dual (GPL-3.0 / Commercial)
+maturity: stable
+website: https://wpscan.com/
+docs_url: https://github.com/wpscanteam/wpscan/wiki
+download_url: https://github.com/wpscanteam/wpscan
+github_repo: wpscanteam/wpscan
+stars: 9000
+use_cases:
+  - WordPress security auditing
+  - Plugin and theme vulnerability detection
+  - User enumeration
+  - WordPress version detection
+related_tools:
+  - sqlmap
+  - wapiti
+added_at: "2024-01-15"

@@ -1,0 +1,28 @@
+@use '@angular/material' as mat;
+
+// Include the common styles for Angular Material
+@include mat.core();
+
+// Create a simple dark theme
+$dark-theme: mat.define-theme((
+  color: (
+    theme-type: dark,
+    primary: mat.$azure-palette,
+    tertiary: mat.$blue-palette,
+  )
+));
+
+// Apply theme
+@include mat.all-component-themes($dark-theme);
+
+// Custom global styles
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+code, pre {
+  font-family: 'Courier New', Courier, monospace;
+}

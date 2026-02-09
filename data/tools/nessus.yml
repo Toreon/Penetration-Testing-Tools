@@ -1,0 +1,34 @@
+id: nessus
+name: Nessus
+summary: Comprehensive vulnerability scanner that identifies security vulnerabilities, misconfigurations, and compliance issues across networks and systems.
+description: |
+  Nessus is one of the most popular vulnerability scanners in the world, used by tens of thousands of organizations. It helps identify vulnerabilities, misconfigurations, and compliance issues across networks, systems, and applications. Nessus provides both free and commercial versions, with the free version (Nessus Essentials) suitable for personal use and small environments.
+categories:
+  - vulnerability_scanner
+  - network_scanner
+tags:
+  - vulnerability_assessment
+  - compliance
+  - commercial
+  - gui
+  - cli
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary (Free tier available)
+maturity: stable
+website: https://www.tenable.com/products/nessus
+docs_url: https://docs.tenable.com/nessus/
+download_url: https://www.tenable.com/downloads/nessus
+github_repo: null
+stars: null
+use_cases:
+  - Network vulnerability scanning
+  - Compliance auditing
+  - Configuration assessment
+  - Patch management
+related_tools:
+  - sqlmap
+  - wapiti
+added_at: "2024-01-15"
