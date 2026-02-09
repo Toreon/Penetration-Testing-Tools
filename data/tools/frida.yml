@@ -1,0 +1,54 @@
+id: frida
+name: Frida
+summary: Dynamic instrumentation toolkit that lets you inject JavaScript into native applications on Windows, macOS, Linux, iOS, Android, and QNX.
+description: |
+  Frida is a dynamic instrumentation toolkit that lets you inject JavaScript into native applications. It's designed for reverse engineers, security researchers, and developers who need to analyze and modify the behavior of applications at runtime. Frida supports multiple platforms and provides powerful APIs for hooking functions, modifying memory, and interacting with applications.
+categories:
+  - static_analysis
+tags:
+  - dynamic_instrumentation
+  - reverse_engineering
+  - oss
+  - cli
+  - python
+  - javascript
+platforms:
+  - linux
+  - windows
+  - macos
+  - android
+  - ios
+license: LGPL-2.1
+maturity: stable
+website: https://frida.re/
+docs_url: https://frida.re/docs/
+download_url: https://github.com/frida/frida
+github_repo: frida/frida
+stars: 13000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - pip install
+    - Package manager
+  commands:
+    - pip install frida-tools
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - frida
+authors:
+  - frida
+use_cases:
+  - Dynamic analysis
+  - Runtime manipulation
+  - Mobile app analysis
+  - Reverse engineering
+related_tools:
+  - objection
+  - ghidra
+similar_tools:
+  - objection
+  - xposed
+added_at: '2024-01-15'

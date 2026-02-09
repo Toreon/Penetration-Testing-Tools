@@ -1,0 +1,49 @@
+id: chisel
+name: Chisel
+summary: Fast TCP/UDP tunnel over HTTP, secured via SSH that allows you to create secure tunnels for network pivoting.
+description: |
+  Chisel is a fast TCP/UDP tunnel over HTTP, secured via SSH. It's designed to allow you to create secure tunnels for network pivoting during penetration tests. Chisel is written in Go and provides a client-server architecture that allows you to tunnel traffic through firewalls and NAT devices. It's particularly useful for establishing reverse tunnels and accessing internal networks.
+categories:
+  - network_attack
+tags:
+  - tunneling
+  - network_pivoting
+  - oss
+  - cli
+  - go
+platforms:
+  - linux
+  - windows
+  - macos
+license: AGPL-3.0
+maturity: stable
+website: https://github.com/jpillora/chisel
+docs_url: https://github.com/jpillora/chisel/wiki
+download_url: https://github.com/jpillora/chisel/releases
+github_repo: jpillora/chisel
+stars: 12000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Go install
+  commands:
+    - go install github.com/jpillora/chisel@latest
+    - Download from https://github.com/jpillora/chisel/releases
+maintainers:
+  - jpillora
+authors:
+  - jpillora
+use_cases:
+  - Network tunneling
+  - Pivoting
+  - Bypassing firewalls
+  - Reverse tunneling
+related_tools:
+  - ligolo_ng
+  - proxychains
+similar_tools:
+  - ligolo_ng
+  - sshuttle
+added_at: '2024-01-15'

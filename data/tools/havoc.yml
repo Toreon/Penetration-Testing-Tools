@@ -1,0 +1,50 @@
+id: havoc
+name: Havoc
+summary: Modern and malleable post-exploitation command and control framework that provides advanced capabilities for red team operations.
+description: |
+  Havoc is a modern and malleable post-exploitation command and control framework that provides advanced capabilities for red team operations. It's designed to be flexible, extensible, and powerful, offering features for post-exploitation, lateral movement, and persistence. Havoc provides a team server architecture and supports multiple operating systems.
+categories:
+  - network_attack
+tags:
+  - command_and_control
+  - post_exploitation
+  - red_team
+  - oss
+  - gui
+  - c
+  - cpp
+platforms:
+  - linux
+  - windows
+license: AGPL-3.0
+maturity: stable
+website: https://github.com/HavocFramework/Havoc
+docs_url: https://github.com/HavocFramework/Havoc/wiki
+download_url: https://github.com/HavocFramework/Havoc
+github_repo: HavocFramework/Havoc
+stars: 8000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Build from source
+  commands:
+    - git clone https://github.com/HavocFramework/Havoc.git
+maintainers:
+  - HavocFramework
+authors:
+  - HavocFramework
+use_cases:
+  - Command and control
+  - Post-exploitation
+  - Red team operations
+  - Lateral movement
+related_tools:
+  - metasploit
+  - cobalt_strike
+similar_tools:
+  - metasploit
+  - cobalt_strike
+  - covenant
+added_at: '2024-01-15'

@@ -1,0 +1,48 @@
+id: mimikatz
+name: Mimikatz
+summary: Post-exploitation tool that allows extraction of plaintext passwords, hash, PIN code and kerberos tickets from memory.
+description: |
+  Mimikatz is a post-exploitation tool that allows extraction of plaintext passwords, hash, PIN code and kerberos tickets from memory. It's a leading tool for credential harvesting on Windows systems. Mimikatz can extract credentials from memory, perform pass-the-hash attacks, create golden tickets, and perform various other Windows security testing operations. It's widely used in penetration testing and red team exercises.
+categories:
+  - password_cracker
+  - active_directory
+tags:
+  - credential_extraction
+  - windows
+  - post_exploitation
+  - oss
+  - cli
+  - c
+platforms:
+  - windows
+license: BSD-3-Clause
+maturity: stable
+website: https://github.com/gentilkiwi/mimikatz
+docs_url: https://github.com/gentilkiwi/mimikatz/wiki
+download_url: https://github.com/gentilkiwi/mimikatz/releases
+github_repo: gentilkiwi/mimikatz
+stars: 18000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Source compilation
+  commands:
+    - Download from https://github.com/gentilkiwi/mimikatz/releases
+maintainers:
+  - gentilkiwi
+authors:
+  - gentilkiwi
+use_cases:
+  - Credential extraction
+  - Pass-the-hash attacks
+  - Golden ticket creation
+  - Windows security testing
+related_tools:
+  - bloodhound
+  - cain
+similar_tools:
+  - cain
+  - lsassy
+added_at: '2024-01-15'

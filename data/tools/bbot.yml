@@ -1,0 +1,52 @@
+id: bbot
+name: BBOT (Black Lantern Security OSINT Tool)
+summary: Modular OSINT framework for automated reconnaissance that performs subdomain enumeration, attack surface mapping, and more.
+description: |
+  BBOT (Black Lantern Security OSINT Tool) is a modular OSINT framework for automated reconnaissance. It performs subdomain enumeration, attack surface mapping, and various other reconnaissance tasks. BBOT is designed to be fast, efficient, and modular, allowing users to customize and extend its functionality for their specific needs.
+categories:
+  - reconnaissance
+tags:
+  - osint
+  - subdomain_enumeration
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://github.com/blacklanternsecurity/bbot
+docs_url: https://github.com/blacklanternsecurity/bbot/wiki
+download_url: https://github.com/blacklanternsecurity/bbot
+github_repo: blacklanternsecurity/bbot
+stars: 3500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - pip install
+    - Git clone
+  commands:
+    - pip install bbot
+    - git clone https://github.com/blacklanternsecurity/bbot.git
+  package_managers:
+    - pip
+maintainers:
+  - blacklanternsecurity
+authors:
+  - blacklanternsecurity
+use_cases:
+  - Subdomain enumeration
+  - Attack surface mapping
+  - OSINT gathering
+  - Reconnaissance automation
+related_tools:
+  - amass
+  - theharvester
+similar_tools:
+  - amass
+  - subfinder
+  - assetfinder
+added_at: '2024-01-15'

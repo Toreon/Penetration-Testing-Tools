@@ -1,0 +1,47 @@
+id: linpeas
+name: LinPEAS
+summary: Linux Privilege Escalation Awesome Script that checks for common privilege escalation vectors on Linux systems.
+description: |
+  LinPEAS (Linux Privilege Escalation Awesome Script) is a script that checks for common privilege escalation vectors on Linux systems. It performs automated checks for misconfigurations, weak permissions, exposed credentials, and other security issues that could lead to privilege escalation. LinPEAS is part of the PEASS suite and is widely used in penetration testing and CTF competitions.
+categories:
+  - network_attack
+tags:
+  - privilege_escalation
+  - linux
+  - oss
+  - cli
+  - bash
+platforms:
+  - linux
+license: GPL-3.0
+maturity: stable
+website: https://github.com/carlospolop/PEASS-ng
+docs_url: https://github.com/carlospolop/PEASS-ng
+download_url: https://github.com/carlospolop/PEASS-ng
+github_repo: carlospolop/PEASS-ng
+stars: 15000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download script
+    - Git clone
+  commands:
+    - curl -L https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh | sh
+    - git clone https://github.com/carlospolop/PEASS-ng.git
+maintainers:
+  - carlospolop
+authors:
+  - carlospolop
+use_cases:
+  - Linux privilege escalation
+  - Security assessment
+  - CTF competitions
+  - Security auditing
+related_tools:
+  - winpeas
+  - linenum
+similar_tools:
+  - linenum
+  - unix-privesc-check
+added_at: '2024-01-15'

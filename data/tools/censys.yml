@@ -1,0 +1,51 @@
+id: censys
+name: Censys
+summary: Search engine that enables computer scientists to ask questions about the devices and networks that compose the Internet.
+description: |
+  Censys is a search engine that enables computer scientists to ask questions about the devices and networks that compose the Internet. It provides comprehensive data about Internet-connected devices, certificates, and services. Censys is used by security researchers, penetration testers, and network administrators to discover exposed services, analyze SSL/TLS certificates, and perform Internet-wide research.
+categories:
+  - reconnaissance
+tags:
+  - search_engine
+  - osint
+  - commercial
+  - web_interface
+  - api
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary
+maturity: stable
+website: https://search.censys.io/
+docs_url: https://search.censys.io/help
+download_url: https://search.censys.io/
+github_repo: null
+stars: null
+pricing:
+  type: freemium
+  price: "Free tier available, paid plans available"
+  notes: "Free tier with limited queries"
+installation:
+  methods:
+    - Web interface
+    - API access
+    - Python library
+  commands:
+    - pip install censys
+maintainers:
+  - Censys
+authors:
+  - Censys
+use_cases:
+  - Device discovery
+  - Certificate analysis
+  - Service enumeration
+  - Internet-wide research
+related_tools:
+  - shodan
+  - zoomeye
+similar_tools:
+  - shodan
+  - zoomeye
+added_at: '2024-01-15'

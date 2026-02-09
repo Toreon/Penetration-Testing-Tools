@@ -1,0 +1,50 @@
+id: responder
+name: Responder
+summary: LLMNR, NBT-NS and MDNS poisoner that answers to specific NBT-NS (NetBIOS Name Service) queries based on their name suffix.
+description: |
+  Responder is a LLMNR, NBT-NS and MDNS poisoner that answers to specific NBT-NS (NetBIOS Name Service) queries based on their name suffix. It's designed to capture authentication credentials in Active Directory environments by poisoning name resolution protocols. Responder is widely used in penetration testing and red team operations for credential harvesting.
+categories:
+  - active_directory
+  - network_attack
+tags:
+  - llmnr_poisoning
+  - credential_harvesting
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://github.com/lgandx/Responder
+docs_url: https://github.com/lgandx/Responder/wiki
+download_url: https://github.com/lgandx/Responder
+github_repo: lgandx/Responder
+stars: 5000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - pip install
+  commands:
+    - git clone https://github.com/lgandx/Responder.git
+    - pip install -r requirements.txt
+maintainers:
+  - lgandx
+authors:
+  - lgandx
+use_cases:
+  - LLMNR/NBT-NS poisoning
+  - Credential harvesting
+  - NetNTLM hash capture
+  - AD security testing
+related_tools:
+  - impacket
+  - crackmapexec
+similar_tools:
+  - impacket
+  - mitm6
+added_at: '2024-01-15'

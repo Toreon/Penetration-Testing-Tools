@@ -1,0 +1,50 @@
+id: openscap
+name: OpenSCAP
+summary: Open Source Security Content Automation Protocol (SCAP) framework that provides tools for security compliance checking and vulnerability assessment.
+description: |
+  OpenSCAP is an Open Source Security Content Automation Protocol (SCAP) framework that provides tools for security compliance checking and vulnerability assessment. It helps organizations maintain security compliance by automating security configuration checks, vulnerability scanning, and compliance reporting. OpenSCAP supports various SCAP standards and can be used for both Linux and Windows systems.
+categories:
+  - vulnerability_scanner
+tags:
+  - compliance
+  - security_automation
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - windows
+license: LGPL-2.1
+maturity: stable
+website: https://www.open-scap.org/
+docs_url: https://www.open-scap.org/documentation/
+download_url: https://www.open-scap.org/tools/
+github_repo: OpenSCAP/openscap
+stars: 1200
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Package manager
+    - Source compilation
+  commands:
+    - sudo apt-get install openscap-utils
+  package_managers:
+    - apt
+    - yum
+maintainers:
+  - OpenSCAP
+authors:
+  - OpenSCAP
+use_cases:
+  - Security compliance checking
+  - Vulnerability assessment
+  - Configuration scanning
+  - Compliance reporting
+related_tools:
+  - nessus
+  - openvas
+similar_tools:
+  - nessus
+  - openvas
+added_at: '2024-01-15'

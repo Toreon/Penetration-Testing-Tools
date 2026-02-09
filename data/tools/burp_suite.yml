@@ -1,0 +1,55 @@
+id: burp_suite
+name: Burp Suite
+summary: Web application security testing platform with both free Community Edition and professional versions.
+description: |
+  Burp Suite is an integrated platform for performing security testing of web applications. Its various tools work seamlessly together to support the entire testing process, from initial mapping and analysis of an application's attack surface, through to finding and exploiting security vulnerabilities. Burp Suite includes a proxy server, web application scanner, intruder tool, repeater, sequencer, decoder, and many other features.
+categories:
+  - web_app_scanner
+  - vulnerability_scanner
+tags:
+  - web_application
+  - proxy
+  - commercial
+  - gui
+  - java
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary (Free Community Edition available)
+maturity: stable
+website: https://portswigger.net/burp
+docs_url: https://portswigger.net/burp/documentation
+download_url: https://portswigger.net/burp/communitydownload
+github_repo: null
+stars: null
+pricing:
+  type: freemium
+  price: "Professional: $399/year, Enterprise: Custom pricing"
+  notes: "Burp Suite Community Edition is free, Professional and Enterprise versions available"
+installation:
+  methods:
+    - Download installer
+    - Java JAR file
+  commands:
+    - java -jar burpsuite_community.jar
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - PortSwigger
+authors:
+  - PortSwigger
+use_cases:
+  - Web application security testing
+  - Vulnerability scanning
+  - Manual penetration testing
+  - API security testing
+related_tools:
+  - owasp_zap
+  - acunetix
+similar_tools:
+  - owasp_zap
+  - acunetix
+  - invicti
+added_at: '2024-01-15'

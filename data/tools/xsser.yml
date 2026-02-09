@@ -1,0 +1,48 @@
+id: xsser
+name: XSSer
+summary: Automatic XSS vulnerability finder and exploiter that helps identify and exploit cross-site scripting vulnerabilities.
+description: |
+  XSSer is an automatic XSS vulnerability finder and exploiter that helps identify and exploit cross-site scripting vulnerabilities. It's designed to automate the process of finding and testing XSS vulnerabilities in web applications. XSSer can perform various attacks including reflected XSS, stored XSS, and DOM-based XSS testing.
+categories:
+  - web_app_scanner
+tags:
+  - xss
+  - web_application
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://github.com/epsylon/xsser
+docs_url: https://github.com/epsylon/xsser
+download_url: https://github.com/epsylon/xsser
+github_repo: epsylon/xsser
+stars: 2000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - pip install
+  commands:
+    - git clone https://github.com/epsylon/xsser.git
+    - pip install -r requirements.txt
+maintainers:
+  - epsylon
+authors:
+  - epsylon
+use_cases:
+  - XSS vulnerability testing
+  - Cross-site scripting exploitation
+  - Web application security testing
+related_tools:
+  - burp_suite
+  - owasp_zap
+similar_tools:
+  - xssstrike
+  - xsser
+added_at: '2024-01-15'

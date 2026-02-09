@@ -1,0 +1,48 @@
+id: seclists
+name: SecLists
+summary: Collection of multiple types of lists used during security assessments, collected in one place.
+description: |
+  SecLists is a collection of multiple types of lists used during security assessments, collected in one place. It includes wordlists for password cracking, directory brute-forcing, usernames, payloads, and many other security testing scenarios. SecLists is maintained by Daniel Miessler and is widely used in penetration testing and security assessments.
+categories:
+  - reconnaissance
+tags:
+  - wordlists
+  - security_resources
+  - oss
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://github.com/danielmiessler/SecLists
+docs_url: https://github.com/danielmiessler/SecLists
+download_url: https://github.com/danielmiessler/SecLists
+github_repo: danielmiessler/SecLists
+stars: 55000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Package manager
+  commands:
+    - git clone https://github.com/danielmiessler/SecLists.git
+  package_managers:
+    - apt
+maintainers:
+  - danielmiessler
+authors:
+  - danielmiessler
+use_cases:
+  - Wordlist collection
+  - Password cracking
+  - Directory brute-forcing
+  - Security testing resources
+related_tools:
+  - hashcat
+  - john_the_ripper
+similar_tools:
+  - rockyou
+  - wordlists
+added_at: '2024-01-15'

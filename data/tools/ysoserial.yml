@@ -1,0 +1,48 @@
+id: ysoserial
+name: YSoserial
+summary: Proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization.
+description: |
+  YSoserial is a proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization. It's widely used in security research and penetration testing to demonstrate and test deserialization vulnerabilities. YSoserial can generate payloads for various Java libraries and frameworks that are vulnerable to deserialization attacks.
+categories:
+  - static_analysis
+tags:
+  - deserialization
+  - java_exploitation
+  - oss
+  - cli
+  - java
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://github.com/frohoff/ysoserial
+docs_url: https://github.com/frohoff/ysoserial
+download_url: https://github.com/frohoff/ysoserial/releases
+github_repo: frohoff/ysoserial
+stars: 7000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download JAR
+    - Build from source
+  commands:
+    - Download from https://github.com/frohoff/ysoserial/releases
+    - java -jar ysoserial.jar
+maintainers:
+  - frohoff
+authors:
+  - frohoff
+use_cases:
+  - Deserialization exploit generation
+  - Java vulnerability testing
+  - Security research
+  - Proof-of-concept development
+related_tools:
+  - burp_suite
+  - java tools
+similar_tools:
+  - marshalsec
+added_at: '2024-01-15'

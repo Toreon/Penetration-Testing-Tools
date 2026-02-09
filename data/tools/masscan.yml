@@ -1,0 +1,53 @@
+id: masscan
+name: Masscan
+summary: Ultra-fast port scanner that can scan the entire Internet in under 6 minutes, transmitting 10 million packets per second.
+description: |
+  Masscan is an ultra-fast port scanner that can scan the entire Internet in under 6 minutes, transmitting 10 million packets per second. It's designed to be the fastest port scanner available, using asynchronous transmission and custom TCP/IP stack. Masscan is useful for large-scale network scanning and reconnaissance.
+categories:
+  - network_scanner
+tags:
+  - port_scanning
+  - network_scanning
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - windows
+  - macos
+license: AGPL-3.0
+maturity: stable
+website: https://github.com/robertdavidgraham/masscan
+docs_url: https://github.com/robertdavidgraham/masscan
+download_url: https://github.com/robertdavidgraham/masscan
+github_repo: robertdavidgraham/masscan
+stars: 25000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Package manager
+  commands:
+    - git clone https://github.com/robertdavidgraham/masscan.git
+    - cd masscan && make
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - robertdavidgraham
+authors:
+  - robertdavidgraham
+use_cases:
+  - Fast port scanning
+  - Large-scale network scanning
+  - Internet-wide scanning
+  - Network reconnaissance
+related_tools:
+  - nmap
+  - rustscan
+similar_tools:
+  - nmap
+  - rustscan
+  - zmap
+added_at: '2024-01-15'

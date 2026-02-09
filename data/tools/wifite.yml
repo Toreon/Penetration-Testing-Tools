@@ -1,0 +1,47 @@
+id: wifite
+name: WiFite
+summary: Automated wireless attack tool that targets WEP and WPA encrypted networks.
+description: |
+  WiFite is an automated wireless attack tool that targets WEP and WPA encrypted networks. It's designed to automate the process of attacking wireless networks by combining various tools like Aircrack-ng, Reaver, and others. WiFite simplifies the process of cracking WEP and WPA passwords by automating the entire workflow.
+categories:
+  - network_attack
+tags:
+  - wireless_security
+  - wifi_cracking
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+license: GPL-2.0
+maturity: stable
+website: https://github.com/derv82/wifite2
+docs_url: https://github.com/derv82/wifite2
+download_url: https://github.com/derv82/wifite2
+github_repo: derv82/wifite2
+stars: 4500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Package manager
+  commands:
+    - git clone https://github.com/derv82/wifite2.git
+  package_managers:
+    - apt
+maintainers:
+  - derv82
+authors:
+  - derv82
+use_cases:
+  - Automated WiFi attacks
+  - WEP/WPA cracking
+  - Wireless penetration testing
+related_tools:
+  - aircrack_ng
+  - reaver
+similar_tools:
+  - aircrack_ng
+  - reaver
+added_at: '2024-01-15'

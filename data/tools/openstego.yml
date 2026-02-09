@@ -1,0 +1,48 @@
+id: openstego
+name: OpenStego
+summary: Open source steganography application that provides functionality to hide data inside image files.
+description: |
+  OpenStego is an open source steganography application that provides functionality to hide data inside image files. It supports various image formats and provides both data hiding and watermarking capabilities. OpenStego is useful for security professionals testing steganography detection capabilities and for legitimate data hiding purposes.
+categories:
+  - reconnaissance
+tags:
+  - steganography
+  - data_hiding
+  - oss
+  - gui
+  - java
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://www.openstego.com/
+docs_url: https://www.openstego.com/
+download_url: https://github.com/syvaidya/openstego/releases
+github_repo: syvaidya/openstego
+stars: 1200
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Source compilation
+  commands:
+    - Download from https://github.com/syvaidya/openstego/releases
+maintainers:
+  - syvaidya
+authors:
+  - syvaidya
+use_cases:
+  - Data hiding
+  - Steganography testing
+  - Watermarking
+related_tools:
+  - steghide
+  - snow
+similar_tools:
+  - steghide
+  - snow
+  - outguess
+added_at: '2024-01-15'

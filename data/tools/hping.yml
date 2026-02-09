@@ -1,0 +1,52 @@
+id: hping
+name: Hping
+summary: Command-line oriented TCP/IP packet assembler/analyzer that can be used for network security testing.
+description: |
+  Hping is a command-line oriented TCP/IP packet assembler/analyzer. The interface is inspired to the ping(8) unix command, but hping isn't only able to send ICMP echo requests. It supports TCP, UPD, ICMP and RAW-IP protocols, has a traceroute mode, the ability to send files between a covered channel, and many other features. Hping is useful for network security testing, firewall testing, and network performance analysis.
+categories:
+  - network_scanner
+  - network_attack
+tags:
+  - packet_crafting
+  - network_testing
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: http://www.hping.org/
+docs_url: http://www.hping.org/manpage.html
+download_url: http://www.hping.org/download.html
+github_repo: antirez/hping
+stars: 1500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Package manager
+    - Source compilation
+  commands:
+    - sudo apt-get install hping3
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - antirez
+authors:
+  - antirez
+use_cases:
+  - Network security testing
+  - Firewall testing
+  - Packet crafting
+  - Network performance analysis
+related_tools:
+  - nmap
+  - wireshark
+similar_tools:
+  - nmap
+  - scapy
+added_at: '2024-01-15'

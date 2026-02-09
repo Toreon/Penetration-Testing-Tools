@@ -1,0 +1,51 @@
+id: shodan
+name: Shodan
+summary: Search engine for Internet-connected devices that allows you to find specific types of computers and services.
+description: |
+  Shodan is a search engine for Internet-connected devices. It's the world's first search engine for Internet-connected devices. Shodan lets you find specific types of computers and services (routers, servers, etc.) using a variety of filters. It's widely used by security researchers, penetration testers, and network administrators to discover exposed services and vulnerabilities.
+categories:
+  - reconnaissance
+tags:
+  - search_engine
+  - osint
+  - commercial
+  - web_interface
+  - api
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary
+maturity: stable
+website: https://www.shodan.io/
+docs_url: https://help.shodan.io/
+download_url: https://www.shodan.io/
+github_repo: null
+stars: null
+pricing:
+  type: freemium
+  price: "Free tier available, paid plans start at $59/month"
+  notes: "Free tier with limited queries, paid plans for more access"
+installation:
+  methods:
+    - Web interface
+    - API access
+    - Python library
+  commands:
+    - pip install shodan
+maintainers:
+  - Shodan
+authors:
+  - Shodan
+use_cases:
+  - Device discovery
+  - Service enumeration
+  - Vulnerability research
+  - Network reconnaissance
+related_tools:
+  - censys
+  - maltego
+similar_tools:
+  - censys
+  - zoomeye
+added_at: '2024-01-15'

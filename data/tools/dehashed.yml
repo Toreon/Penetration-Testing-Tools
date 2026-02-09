@@ -1,0 +1,50 @@
+id: dehashed
+name: Dehashed
+summary: Data breach search engine that allows you to search for compromised credentials and leaked data.
+description: |
+  Dehashed is a data breach search engine that allows you to search for compromised credentials and leaked data. It provides access to a database of leaked credentials, emails, and other sensitive information from various data breaches. Dehashed is useful for security researchers, penetration testers, and organizations looking to identify compromised credentials.
+categories:
+  - reconnaissance
+tags:
+  - data_breach
+  - credential_search
+  - commercial
+  - web_interface
+  - api
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary
+maturity: stable
+website: https://www.dehashed.com/
+docs_url: https://www.dehashed.com/docs
+download_url: https://www.dehashed.com/
+github_repo: null
+stars: null
+pricing:
+  type: paid
+  price: "Starting at $9.99/month"
+  notes: "Free tier with limited searches available"
+installation:
+  methods:
+    - Web interface
+    - API access
+    - Python library
+  commands:
+    - pip install dehashed
+maintainers:
+  - Dehashed
+authors:
+  - Dehashed
+use_cases:
+  - Credential search
+  - Data breach research
+  - Password auditing
+  - OSINT gathering
+related_tools:
+  - haveibeenpwned
+similar_tools:
+  - haveibeenpwned
+  - breachdirectory
+added_at: '2024-01-15'

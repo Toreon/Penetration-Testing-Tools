@@ -1,0 +1,50 @@
+id: proxychains
+name: ProxyChains
+summary: Tool that forces any TCP connection made by any given application to follow through proxy like TOR or any other SOCKS4, SOCKS5 or HTTP proxies.
+description: |
+  ProxyChains is a tool that forces any TCP connection made by any given application to follow through proxy like TOR or any other SOCKS4, SOCKS5 or HTTP proxies. It is a proxifier that works on Unix-like systems. ProxyChains allows you to run any program through one or more proxies of various types, making it useful for anonymity and bypassing network restrictions.
+categories:
+  - network_attack
+  - reconnaissance
+tags:
+  - proxy
+  - anonymity
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://github.com/haad/proxychains
+docs_url: https://github.com/haad/proxychains
+download_url: https://github.com/haad/proxychains
+github_repo: haad/proxychains
+stars: 8500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Package manager
+  commands:
+    - git clone https://github.com/haad/proxychains.git
+    - cd proxychains && ./configure && make && sudo make install
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - haad
+authors:
+  - haad
+use_cases:
+  - Proxy chaining
+  - Anonymity
+  - Bypassing network restrictions
+  - TOR integration
+related_tools:
+  - tor
+similar_tools:
+  - proxifier
+added_at: '2024-01-15'

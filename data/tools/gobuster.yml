@@ -1,0 +1,51 @@
+id: gobuster
+name: Gobuster
+summary: Directory/file brute-forcer tool written in Go that is used to find hidden URLs, directories, and files on web servers.
+description: |
+  Gobuster is a directory/file brute-forcer tool written in Go that is used to find hidden URLs, directories, and files on web servers. It's designed to be fast and efficient, making it ideal for directory enumeration during penetration testing. Gobuster supports multiple modes including directory/file brute-forcing, DNS subdomain brute-forcing, and S3 bucket brute-forcing.
+categories:
+  - web_app_scanner
+  - reconnaissance
+tags:
+  - directory_brute_force
+  - web_application
+  - oss
+  - cli
+  - go
+platforms:
+  - linux
+  - windows
+  - macos
+license: Apache-2.0
+maturity: stable
+website: https://github.com/OJ/gobuster
+docs_url: https://github.com/OJ/gobuster
+download_url: https://github.com/OJ/gobuster/releases
+github_repo: OJ/gobuster
+stars: 8500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Go install
+  commands:
+    - go install github.com/OJ/gobuster/v3@latest
+    - Download from https://github.com/OJ/gobuster/releases
+maintainers:
+  - OJ
+authors:
+  - OJ
+use_cases:
+  - Directory enumeration
+  - Subdomain brute-forcing
+  - S3 bucket enumeration
+  - Hidden file discovery
+related_tools:
+  - dirbuster
+  - dirb
+similar_tools:
+  - dirbuster
+  - dirb
+  - wfuzz
+added_at: '2024-01-15'

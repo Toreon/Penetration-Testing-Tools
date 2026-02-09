@@ -1,0 +1,48 @@
+id: ligolo_ng
+name: Ligolo-ng
+summary: Advanced tunneling/pivoting tool that uses a TUN interface to route traffic through encrypted connections.
+description: |
+  Ligolo-ng is an advanced tunneling/pivoting tool that uses a TUN interface to route traffic through encrypted connections. It's designed to be fast, reliable, and easy to use for network pivoting during penetration tests. Ligolo-ng provides a simple interface for establishing tunnels and routing traffic through compromised hosts.
+categories:
+  - network_attack
+tags:
+  - tunneling
+  - network_pivoting
+  - oss
+  - cli
+  - go
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://github.com/nicocha30/ligolo-ng
+docs_url: https://github.com/nicocha30/ligolo-ng
+download_url: https://github.com/nicocha30/ligolo-ng/releases
+github_repo: nicocha30/ligolo-ng
+stars: 3500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Build from source
+  commands:
+    - Download from https://github.com/nicocha30/ligolo-ng/releases
+maintainers:
+  - nicocha30
+authors:
+  - nicocha30
+use_cases:
+  - Network tunneling
+  - Pivoting
+  - Traffic routing
+  - Network access
+related_tools:
+  - chisel
+  - proxychains
+similar_tools:
+  - chisel
+  - sshuttle
+added_at: '2024-01-15'

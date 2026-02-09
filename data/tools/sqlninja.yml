@@ -1,0 +1,51 @@
+id: sqlninja
+name: SQLNinja
+summary: SQL injection tool that exploits SQL injection vulnerabilities to take over remote database servers.
+description: |
+  SQLNinja is a SQL injection tool that exploits SQL injection vulnerabilities to take over remote database servers. It's designed to work with Microsoft SQL Server and can perform various attacks including command execution, file system access, and database takeover. SQLNinja is useful for penetration testing and security assessment of web applications.
+categories:
+  - web_app_scanner
+  - database_exploitation
+tags:
+  - sql_injection
+  - database_exploitation
+  - oss
+  - cli
+  - perl
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://github.com/xxgrunge/sqlninja
+docs_url: https://github.com/xxgrunge/sqlninja
+download_url: https://github.com/xxgrunge/sqlninja
+github_repo: xxgrunge/sqlninja
+stars: 800
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Package manager
+  commands:
+    - git clone https://github.com/xxgrunge/sqlninja.git
+  package_managers:
+    - apt
+maintainers:
+  - xxgrunge
+authors:
+  - xxgrunge
+use_cases:
+  - SQL injection exploitation
+  - Database takeover
+  - Command execution
+  - File system access
+related_tools:
+  - sqlmap
+  - havij
+similar_tools:
+  - sqlmap
+  - havij
+added_at: '2024-01-15'

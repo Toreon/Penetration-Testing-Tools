@@ -1,0 +1,53 @@
+id: netcat
+name: Netcat
+summary: Network utility for reading from and writing to network connections using TCP or UDP.
+description: |
+  Netcat is a computer networking utility for reading from and writing to network connections using TCP or UDP. Netcat is designed to be a reliable back-end tool that can be used directly or easily driven by other programs and scripts. At the same time, it is a feature-rich network debugging and exploration tool, since it can create almost any kind of connection you would need and has several interesting built-in capabilities.
+categories:
+  - network_scanner
+  - reconnaissance
+tags:
+  - network_utility
+  - port_forwarding
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: http://netcat.sourceforge.net/
+docs_url: http://netcat.sourceforge.net/
+download_url: http://netcat.sourceforge.net/
+github_repo: null
+stars: null
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Source compilation
+    - Package manager
+  commands:
+    - Download from sourceforge.net
+  package_managers:
+    - apt
+    - yum
+    - brew
+maintainers:
+  - netcat
+authors:
+  - netcat
+use_cases:
+  - Network connectivity testing
+  - Port scanning
+  - Backdoor creation
+  - File transfer
+related_tools:
+  - ncat
+  - nmap
+similar_tools:
+  - ncat
+  - socat
+added_at: '2024-01-15'

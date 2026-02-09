@@ -1,0 +1,49 @@
+id: cobalt_strike
+name: Cobalt Strike
+summary: Adversary simulation and red team operations platform designed to execute targeted attacks and emulate the post-exploitation actions of advanced threat actors.
+description: |
+  Cobalt Strike is a threat emulation platform for red team operations and adversary simulation. It provides a post-exploitation agent and covert channels to give security professionals a way to emulate a quiet, long-term embedded actor in their customer's network. Cobalt Strike is used by security professionals to test defenses and train blue teams. It includes features for command and control, lateral movement, privilege escalation, and persistence.
+categories:
+  - network_attack
+tags:
+  - red_team
+  - post_exploitation
+  - commercial
+  - gui
+  - java
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary
+maturity: stable
+website: https://www.cobaltstrike.com/
+docs_url: https://www.cobaltstrike.com/help-cobalt-strike
+download_url: https://www.cobaltstrike.com/download
+github_repo: null
+stars: null
+pricing:
+  type: paid
+  price: "Starting at $3,500/year per user"
+  notes: "Academic and training licenses available"
+installation:
+  methods:
+    - Download package
+  commands:
+    - Download from https://www.cobaltstrike.com/download
+maintainers:
+  - HelpSystems
+authors:
+  - Raphael Mudge
+use_cases:
+  - Red team operations
+  - Adversary simulation
+  - Post-exploitation
+  - Command and control
+related_tools:
+  - metasploit
+  - core_impact
+similar_tools:
+  - metasploit
+  - core_impact
+added_at: '2024-01-15'

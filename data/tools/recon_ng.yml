@@ -1,0 +1,52 @@
+id: recon_ng
+name: Recon-ng
+summary: Full-featured Web Reconnaissance framework written in Python that provides a powerful environment to conduct open source web-based reconnaissance quickly and thoroughly.
+description: |
+  Recon-ng is a full-featured Web Reconnaissance framework written in Python. Recon-ng provides a powerful environment to conduct open source web-based reconnaissance quickly and thoroughly. It has a modular structure that allows you to install and use various modules for different reconnaissance tasks. Recon-ng is included in Kali Linux and is a standard tool for OSINT gathering.
+categories:
+  - reconnaissance
+tags:
+  - osint
+  - information_gathering
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://github.com/lanmaster53/recon-ng
+docs_url: https://github.com/lanmaster53/recon-ng/wiki
+download_url: https://github.com/lanmaster53/recon-ng
+github_repo: lanmaster53/recon-ng
+stars: 5500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Package manager
+  commands:
+    - git clone https://github.com/lanmaster53/recon-ng.git
+    - pip install -r REQUIREMENTS
+  package_managers:
+    - apt
+maintainers:
+  - lanmaster53
+authors:
+  - lanmaster53
+use_cases:
+  - OSINT gathering
+  - Domain reconnaissance
+  - Email harvesting
+  - Information gathering
+related_tools:
+  - theharvester
+  - maltego
+similar_tools:
+  - theharvester
+  - maltego
+  - spiderfoot
+added_at: '2024-01-15'

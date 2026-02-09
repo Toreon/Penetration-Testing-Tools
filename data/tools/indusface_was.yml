@@ -1,0 +1,51 @@
+id: indusface_was
+name: Indusface WAS
+summary: Web Application Security Scanner that provides comprehensive vulnerability assessment and penetration testing for web applications.
+description: |
+  Indusface WAS (Web Application Scanner) is a comprehensive web application security scanner that helps identify vulnerabilities in web applications and APIs. It provides automated scanning capabilities along with manual testing tools to ensure thorough security assessment. The platform offers detailed reporting, vulnerability prioritization, and remediation guidance.
+categories:
+  - web_app_scanner
+  - vulnerability_scanner
+tags:
+  - web_application
+  - automated_scanning
+  - commercial
+  - gui
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary
+maturity: stable
+website: https://www.indusface.com/web-application-scanner/
+docs_url: https://www.indusface.com/support/
+download_url: https://www.indusface.com/web-application-scanner/download/
+github_repo: null
+stars: null
+pricing:
+  type: paid
+  price: "Custom pricing"
+  notes: "Free trial available"
+installation:
+  methods:
+    - Download installer
+    - SaaS platform
+  commands:
+    - Download from https://www.indusface.com/web-application-scanner/download/
+maintainers:
+  - Indusface
+authors:
+  - Indusface
+use_cases:
+  - Web application security scanning
+  - API security testing
+  - Vulnerability assessment
+  - Compliance testing
+related_tools:
+  - acunetix
+  - invicti
+similar_tools:
+  - acunetix
+  - invicti
+  - burp_suite
+added_at: '2024-01-15'

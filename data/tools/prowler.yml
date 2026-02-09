@@ -1,0 +1,52 @@
+id: prowler
+name: Prowler
+summary: AWS security assessment tool that performs security best practices assessments, audits, incident response, and continuous monitoring.
+description: |
+  Prowler is an AWS security assessment tool that performs security best practices assessments, audits, incident response, and continuous monitoring. It helps security professionals identify misconfigurations, security issues, and compliance violations in AWS environments. Prowler provides comprehensive security checks based on AWS security best practices and compliance frameworks.
+categories:
+  - cloud_security
+tags:
+  - aws_security
+  - cloud_compliance
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: Apache-2.0
+maturity: stable
+website: https://github.com/prowler-cloud/prowler
+docs_url: https://docs.prowler.cloud/
+download_url: https://github.com/prowler-cloud/prowler
+github_repo: prowler-cloud/prowler
+stars: 8500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - pip install
+    - Docker
+    - Git clone
+  commands:
+    - pip install prowler
+    - docker pull toniblyx/prowler:latest
+  package_managers:
+    - pip
+maintainers:
+  - prowler-cloud
+authors:
+  - prowler-cloud
+use_cases:
+  - AWS security assessment
+  - Compliance auditing
+  - Security best practices checking
+  - Continuous monitoring
+related_tools:
+  - scout_suite
+  - pacu
+similar_tools:
+  - scout_suite
+  - cloudsploit
+added_at: '2024-01-15'

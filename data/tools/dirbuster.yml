@@ -1,0 +1,49 @@
+id: dirbuster
+name: DirBuster
+summary: Multi-threaded Java application designed to brute force directories and files names on web/application servers.
+description: |
+  DirBuster is a multi-threaded Java application designed to brute force directories and files names on web/application servers. Often web servers are misconfigured and allow directory listing, or files that are not intended for public consumption are left accessible. DirBuster attempts to find these hidden files and directories by launching dictionary-based attacks.
+categories:
+  - web_app_scanner
+  - reconnaissance
+tags:
+  - directory_brute_force
+  - web_application
+  - oss
+  - gui
+  - java
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://www.owasp.org/index.php/Category:OWASP_DirBuster_Project
+docs_url: https://sourceforge.net/projects/dirbuster/
+download_url: https://sourceforge.net/projects/dirbuster/
+github_repo: null
+stars: null
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download JAR file
+  commands:
+    - Download from SourceForge
+    - java -jar DirBuster-1.0-RC1.jar
+maintainers:
+  - OWASP
+authors:
+  - OWASP
+use_cases:
+  - Directory enumeration
+  - Hidden file discovery
+  - Web server reconnaissance
+related_tools:
+  - gobuster
+  - dirb
+similar_tools:
+  - gobuster
+  - dirb
+  - wfuzz
+added_at: '2024-01-15'

@@ -1,0 +1,49 @@
+id: rustscan
+name: RustScan
+summary: Fast port scanner written in Rust that can scan 65k ports in 3 seconds and integrates with Nmap.
+description: |
+  RustScan is a fast port scanner written in Rust that can scan 65k ports in 3 seconds. It's designed to be faster than traditional port scanners while maintaining accuracy. RustScan can integrate with Nmap for detailed service detection and version scanning. It's particularly useful for initial reconnaissance and large-scale scanning.
+categories:
+  - network_scanner
+tags:
+  - port_scanning
+  - network_scanning
+  - oss
+  - cli
+  - rust
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://github.com/RustScan/RustScan
+docs_url: https://github.com/RustScan/RustScan/wiki
+download_url: https://github.com/RustScan/RustScan/releases
+github_repo: RustScan/RustScan
+stars: 12000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Cargo install
+  commands:
+    - cargo install rustscan
+    - Download from https://github.com/RustScan/RustScan/releases
+maintainers:
+  - RustScan
+authors:
+  - RustScan
+use_cases:
+  - Fast port scanning
+  - Network reconnaissance
+  - Large-scale scanning
+  - Initial scanning
+related_tools:
+  - nmap
+  - masscan
+similar_tools:
+  - nmap
+  - masscan
+added_at: '2024-01-15'

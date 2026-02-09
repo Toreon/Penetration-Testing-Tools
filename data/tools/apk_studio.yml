@@ -1,0 +1,48 @@
+id: apk_studio
+name: APK Studio
+summary: IDE for reverse engineering Android applications that provides a graphical interface for APK analysis and modification.
+description: |
+  APK Studio is an IDE for reverse engineering Android applications. It provides a graphical interface for APK analysis, decompilation, modification, and recompilation. APK Studio makes it easier to work with Android applications by providing an integrated development environment specifically designed for Android reverse engineering tasks.
+categories:
+  - static_analysis
+tags:
+  - android_security
+  - mobile_security
+  - reverse_engineering
+  - oss
+  - gui
+  - cpp
+platforms:
+  - linux
+  - windows
+  - macos
+license: Apache-2.0
+maturity: stable
+website: https://github.com/vaibhavpandeyvpz/apkstudio
+docs_url: https://github.com/vaibhavpandeyvpz/apkstudio
+download_url: https://github.com/vaibhavpandeyvpz/apkstudio/releases
+github_repo: vaibhavpandeyvpz/apkstudio
+stars: 2000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Source compilation
+  commands:
+    - Download from https://github.com/vaibhavpandeyvpz/apkstudio/releases
+maintainers:
+  - vaibhavpandeyvpz
+authors:
+  - vaibhavpandeyvpz
+use_cases:
+  - Android app reverse engineering
+  - APK analysis
+  - Mobile security research
+related_tools:
+  - drozer
+  - apkx
+similar_tools:
+  - apktool
+  - jadx
+added_at: '2024-01-15'

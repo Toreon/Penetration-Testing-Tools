@@ -1,0 +1,51 @@
+id: cloudbrute
+name: CloudBrute
+summary: Tool to find a company (target) infrastructure, files, and apps on the top cloud providers.
+description: |
+  CloudBrute is a tool to find a company (target) infrastructure, files, and apps on the top cloud providers. It uses multiple techniques including DNS enumeration, subdomain brute-forcing, and cloud service enumeration to discover exposed resources. CloudBrute helps security researchers and penetration testers identify misconfigured cloud resources and exposed services.
+categories:
+  - cloud_security
+  - cloud_enumeration
+tags:
+  - cloud_enumeration
+  - reconnaissance
+  - oss
+  - cli
+  - go
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://github.com/0xsha/CloudBrute
+docs_url: https://github.com/0xsha/CloudBrute
+download_url: https://github.com/0xsha/CloudBrute
+github_repo: 0xsha/CloudBrute
+stars: 1200
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Go install
+  commands:
+    - git clone https://github.com/0xsha/CloudBrute.git
+    - go install github.com/0xsha/CloudBrute@latest
+maintainers:
+  - 0xsha
+authors:
+  - 0xsha
+use_cases:
+  - Cloud resource discovery
+  - S3 bucket enumeration
+  - Cloud infrastructure mapping
+  - Misconfiguration detection
+related_tools:
+  - scout_suite
+  - pacu
+similar_tools:
+  - scout_suite
+  - pacu
+  - cloud_enum
+added_at: '2024-01-15'

@@ -1,0 +1,49 @@
+id: kali_linux
+name: Kali Linux
+summary: Advanced Penetration Testing Linux distribution used for Penetration Testing, Ethical Hacking and network security assessments.
+description: |
+  Kali Linux is an open source, Debian-based Linux distribution aimed at advanced Penetration Testing and Security Auditing. Kali contains several hundred tools which are geared towards various information security tasks, such as Penetration Testing, Security research, Computer Forensics and Reverse Engineering. Kali Linux is developed, funded and maintained by Offensive Security, a leading information security training company.
+categories:
+  - reconnaissance
+tags:
+  - linux_distribution
+  - penetration_testing
+  - oss
+  - operating_system
+platforms:
+  - linux
+license: Various (GPL and others)
+maturity: stable
+website: https://www.kali.org/
+docs_url: https://www.kali.org/docs/
+download_url: https://www.kali.org/get-kali/
+github_repo: null
+stars: null
+pricing:
+  type: open_source
+installation:
+  methods:
+    - ISO download
+    - Virtual machine image
+    - Cloud images
+  commands:
+    - Download ISO from https://www.kali.org/get-kali/
+  package_managers:
+    - apt
+maintainers:
+  - OffensiveSecurity
+authors:
+  - OffensiveSecurity
+use_cases:
+  - Penetration testing
+  - Security auditing
+  - Digital forensics
+  - Reverse engineering
+related_tools:
+  - metasploit
+  - nmap
+  - wireshark
+similar_tools:
+  - parrot_os
+  - blackarch
+added_at: '2024-01-15'

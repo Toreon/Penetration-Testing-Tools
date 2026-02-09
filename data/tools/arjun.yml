@@ -1,0 +1,51 @@
+id: arjun
+name: Arjun
+summary: HTTP parameter discovery suite that can find hidden GET, POST, PUT, and DELETE parameters.
+description: |
+  Arjun is an HTTP parameter discovery suite that can find hidden GET, POST, PUT, and DELETE parameters. It's designed to help penetration testers and security researchers discover parameters that are not visible in the normal application flow. Arjun uses various techniques including wordlist-based brute-forcing and intelligent parameter discovery to find hidden parameters.
+categories:
+  - web_app_scanner
+  - reconnaissance
+tags:
+  - parameter_discovery
+  - web_application
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://github.com/s0md3v/Arjun
+docs_url: https://github.com/s0md3v/Arjun
+download_url: https://github.com/s0md3v/Arjun
+github_repo: s0md3v/Arjun
+stars: 4500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - pip install
+    - Git clone
+  commands:
+    - pip install arjun
+    - git clone https://github.com/s0md3v/Arjun.git
+  package_managers:
+    - pip
+maintainers:
+  - s0md3v
+authors:
+  - s0md3v
+use_cases:
+  - HTTP parameter discovery
+  - Hidden parameter finding
+  - API endpoint testing
+related_tools:
+  - burp_suite
+  - ffuf
+similar_tools:
+  - parameth
+  - paramspider
+added_at: '2024-01-15'

@@ -1,0 +1,50 @@
+id: sliver
+name: Sliver
+summary: Go-based cross-platform adversary emulation framework that can be used by organizations of all sizes to perform security testing.
+description: |
+  Sliver is a Go-based cross-platform adversary emulation framework that can be used by organizations of all sizes to perform security testing. It's designed to be fast, reliable, and easy to use. Sliver provides a command and control framework with support for multiple protocols, including HTTP, HTTPS, DNS, and mutual-TLS. It includes features for post-exploitation, lateral movement, and persistence.
+categories:
+  - network_attack
+tags:
+  - command_and_control
+  - post_exploitation
+  - red_team
+  - oss
+  - cli
+  - go
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://github.com/BishopFox/sliver
+docs_url: https://github.com/BishopFox/sliver/wiki
+download_url: https://github.com/BishopFox/sliver/releases
+github_repo: BishopFox/sliver
+stars: 8500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Build from source
+  commands:
+    - Download from https://github.com/BishopFox/sliver/releases
+maintainers:
+  - BishopFox
+authors:
+  - BishopFox
+use_cases:
+  - Command and control
+  - Post-exploitation
+  - Red team operations
+  - Adversary emulation
+related_tools:
+  - metasploit
+  - cobalt_strike
+similar_tools:
+  - metasploit
+  - cobalt_strike
+  - covenant
+added_at: '2024-01-15'

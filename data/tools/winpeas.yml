@@ -1,0 +1,49 @@
+id: winpeas
+name: WinPEAS
+summary: Windows Privilege Escalation Awesome Script that checks for common privilege escalation vectors on Windows systems.
+description: |
+  WinPEAS (Windows Privilege Escalation Awesome Script) is a script that checks for common privilege escalation vectors on Windows systems. It performs automated checks for misconfigurations, weak permissions, exposed credentials, and other security issues that could lead to privilege escalation. WinPEAS is part of the PEASS suite and is widely used in penetration testing and red team operations.
+categories:
+  - active_directory
+  - network_attack
+tags:
+  - privilege_escalation
+  - windows
+  - oss
+  - cli
+  - powershell
+  - batch
+platforms:
+  - windows
+license: GPL-3.0
+maturity: stable
+website: https://github.com/carlospolop/PEASS-ng
+docs_url: https://github.com/carlospolop/PEASS-ng
+download_url: https://github.com/carlospolop/PEASS-ng
+github_repo: carlospolop/PEASS-ng
+stars: 15000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download script
+    - Git clone
+  commands:
+    - Download from https://github.com/carlospolop/PEASS-ng/releases
+    - git clone https://github.com/carlospolop/PEASS-ng.git
+maintainers:
+  - carlospolop
+authors:
+  - carlospolop
+use_cases:
+  - Windows privilege escalation
+  - Security assessment
+  - Red team operations
+  - Security auditing
+related_tools:
+  - linpeas
+  - powersploit
+similar_tools:
+  - windows-exploit-suggester
+  - sherlock
+added_at: '2024-01-15'

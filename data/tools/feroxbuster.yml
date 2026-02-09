@@ -1,0 +1,50 @@
+id: feroxbuster
+name: Feroxbuster
+summary: Fast, simple, recursive content discovery tool written in Rust that finds hidden files and directories.
+description: |
+  Feroxbuster is a fast, simple, recursive content discovery tool written in Rust. It's designed to find hidden files and directories on web servers quickly and efficiently. Feroxbuster is multithreaded and can perform directory brute-forcing at high speeds, making it ideal for penetration testing and security assessments.
+categories:
+  - web_app_scanner
+  - reconnaissance
+tags:
+  - directory_brute_force
+  - web_application
+  - oss
+  - cli
+  - rust
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://github.com/epi052/feroxbuster
+docs_url: https://github.com/epi052/feroxbuster/wiki
+download_url: https://github.com/epi052/feroxbuster/releases
+github_repo: epi052/feroxbuster
+stars: 8500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Cargo install
+  commands:
+    - cargo install feroxbuster
+    - Download from https://github.com/epi052/feroxbuster/releases
+maintainers:
+  - epi052
+authors:
+  - epi052
+use_cases:
+  - Directory enumeration
+  - Hidden file discovery
+  - Web server reconnaissance
+related_tools:
+  - gobuster
+  - dirbuster
+similar_tools:
+  - gobuster
+  - dirbuster
+  - ffuf
+added_at: '2024-01-15'

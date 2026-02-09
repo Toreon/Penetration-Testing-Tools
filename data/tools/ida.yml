@@ -1,0 +1,49 @@
+id: ida
+name: IDA (Interactive Disassembler)
+summary: Disassembler and debugger that is widely used for reverse engineering and malware analysis.
+description: |
+  IDA (Interactive Disassembler) is a disassembler for computer software which generates assembly language source code from machine-executable code. It is widely used for reverse engineering and malware analysis. IDA Pro is the commercial version, while IDA Free is available for non-commercial use. It supports a wide range of processor architectures and file formats.
+categories:
+  - static_analysis
+tags:
+  - disassembler
+  - reverse_engineering
+  - commercial
+  - gui
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary
+maturity: stable
+website: https://www.hex-rays.com/products/ida/
+docs_url: https://www.hex-rays.com/products/ida/support/
+download_url: https://www.hex-rays.com/products/ida/support/download_freeware/
+github_repo: null
+stars: null
+pricing:
+  type: paid
+  price: "Starting at $1,000+"
+  notes: "IDA Free available for non-commercial use"
+installation:
+  methods:
+    - Download installer
+  commands:
+    - Download from https://www.hex-rays.com/products/ida/support/download_freeware/
+maintainers:
+  - Hex-Rays
+authors:
+  - Hex-Rays
+use_cases:
+  - Reverse engineering
+  - Malware analysis
+  - Binary analysis
+  - Exploit development
+related_tools:
+  - ollydbg
+  - gdb
+similar_tools:
+  - ghidra
+  - radare2
+  - hopper
+added_at: '2024-01-15'

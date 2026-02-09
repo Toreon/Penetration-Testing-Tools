@@ -1,0 +1,49 @@
+id: zenmap
+name: Zenmap
+summary: Official graphical user interface (GUI) for the Nmap Security Scanner that makes it easier to use Nmap.
+description: |
+  Zenmap is the official graphical user interface (GUI) for the Nmap Security Scanner. It's a multi-platform, free and open source application that makes Nmap easy to use for beginners while providing advanced features for experienced users. Zenmap provides network topology visualization, scan profiles, and result comparison features.
+categories:
+  - network_scanner
+tags:
+  - network_scanning
+  - gui
+  - oss
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: Nmap Public Source License
+maturity: stable
+website: https://nmap.org/zenmap/
+docs_url: https://nmap.org/book/zenmap.html
+download_url: https://nmap.org/download.html
+github_repo: nmap/nmap
+stars: 10123
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Package manager
+    - Download installer
+  commands:
+    - Part of Nmap package
+  package_managers:
+    - apt
+    - yum
+    - brew
+maintainers:
+  - nmap
+authors:
+  - nmap
+use_cases:
+  - Network scanning
+  - Network topology visualization
+  - Scan profile management
+  - Result comparison
+related_tools:
+  - nmap
+similar_tools:
+  - nmap
+added_at: '2024-01-15'

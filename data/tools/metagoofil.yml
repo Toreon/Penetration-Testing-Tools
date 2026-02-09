@@ -1,0 +1,50 @@
+id: metagoofil
+name: Metagoofil
+summary: Information gathering tool designed for extracting metadata of public documents (pdf, doc, xls, ppt, odt, etc) available in the target's website.
+description: |
+  Metagoofil is an information gathering tool designed for extracting metadata of public documents (pdf, doc, xls, ppt, odt, etc) available in the target's website. Metagoofil will perform a search in Google to identify and download the documents to a local directory and then will extract the metadata with different libraries like Hachoir, PdfMiner, and others. With the results you can extract usernames, software versions, and servers from the documents.
+categories:
+  - reconnaissance
+tags:
+  - metadata_extraction
+  - information_gathering
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://github.com/laramies/metagoofil
+docs_url: https://github.com/laramies/metagoofil
+download_url: https://github.com/laramies/metagoofil
+github_repo: laramies/metagoofil
+stars: 2500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Package manager
+  commands:
+    - git clone https://github.com/laramies/metagoofil.git
+  package_managers:
+    - apt
+maintainers:
+  - laramies
+authors:
+  - laramies
+use_cases:
+  - Metadata extraction
+  - Information gathering
+  - OSINT
+  - Document analysis
+related_tools:
+  - exiftool
+  - theharvester
+similar_tools:
+  - exiftool
+  - binwalk
+added_at: '2024-01-15'

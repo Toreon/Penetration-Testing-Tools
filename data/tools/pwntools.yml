@@ -1,0 +1,49 @@
+id: pwntools
+name: Pwntools
+summary: CTF framework and exploit development library that makes exploit writing simpler and more efficient.
+description: |
+  Pwntools is a CTF framework and exploit development library that makes exploit writing simpler and more efficient. It provides a set of Python libraries and tools for writing exploits, interacting with binaries, and performing various exploit development tasks. Pwntools is widely used in CTF competitions and exploit development.
+categories:
+  - static_analysis
+tags:
+  - exploit_development
+  - ctf
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://github.com/Gallopsled/pwntools
+docs_url: https://docs.pwntools.com/
+download_url: https://github.com/Gallopsled/pwntools
+github_repo: Gallopsled/pwntools
+stars: 5500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - pip install
+  commands:
+    - pip install pwntools
+  package_managers:
+    - pip
+maintainers:
+  - Gallopsled
+authors:
+  - Gallopsled
+use_cases:
+  - Exploit development
+  - CTF competitions
+  - Binary exploitation
+  - Pwn challenges
+related_tools:
+  - gdb
+  - radare2
+similar_tools:
+  - ropper
+  - ropeme
+added_at: '2024-01-15'

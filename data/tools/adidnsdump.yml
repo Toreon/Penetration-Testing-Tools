@@ -1,0 +1,52 @@
+id: adidnsdump
+name: ADIDNSdump
+summary: Active Directory Integrated DNS dump tool that helps enumerate DNS records in Active Directory environments.
+description: |
+  ADIDNSdump is an Active Directory Integrated DNS dump tool that helps enumerate DNS records in Active Directory environments. It's designed to extract DNS information from Active Directory without requiring DNS zone transfer permissions. ADIDNSdump is useful for reconnaissance and attack surface mapping in Active Directory environments.
+categories:
+  - active_directory
+  - reconnaissance
+tags:
+  - dns_enumeration
+  - ad_enumeration
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://github.com/dirkjanm/adidnsdump
+docs_url: https://github.com/dirkjanm/adidnsdump
+download_url: https://github.com/dirkjanm/adidnsdump
+github_repo: dirkjanm/adidnsdump
+stars: 1500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - pip install
+    - Git clone
+  commands:
+    - pip install adidnsdump
+    - git clone https://github.com/dirkjanm/adidnsdump.git
+  package_managers:
+    - pip
+maintainers:
+  - dirkjanm
+authors:
+  - dirkjanm
+use_cases:
+  - DNS enumeration
+  - AD reconnaissance
+  - Attack surface mapping
+  - Reconnaissance
+related_tools:
+  - bloodhound
+  - impacket
+similar_tools:
+  - dnsrecon
+  - dnsenum
+added_at: '2024-01-15'

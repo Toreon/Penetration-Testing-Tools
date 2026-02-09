@@ -1,0 +1,48 @@
+id: windbg
+name: WinDbg
+summary: Multipurpose debugger for the Microsoft Windows computer operating system, used to debug user mode applications, drivers, and the operating system itself.
+description: |
+  WinDbg is a multipurpose debugger for the Microsoft Windows computer operating system, distributed by Microsoft. WinDbg can be used to debug user mode applications, drivers, and the operating system itself in kernel mode. It's an essential tool for Windows kernel debugging, driver development, and crash dump analysis.
+categories:
+  - static_analysis
+tags:
+  - debugger
+  - reverse_engineering
+  - windows
+  - commercial
+  - gui
+  - cli
+platforms:
+  - windows
+license: Proprietary (Free)
+maturity: stable
+website: https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/
+docs_url: https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/
+download_url: https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools
+github_repo: null
+stars: null
+pricing:
+  type: free
+  notes: "Free from Microsoft"
+installation:
+  methods:
+    - Download from Microsoft
+    - Windows SDK
+  commands:
+    - Download Windows SDK or WinDbg Preview from Microsoft Store
+maintainers:
+  - Microsoft
+authors:
+  - Microsoft
+use_cases:
+  - Kernel debugging
+  - Driver development
+  - Crash dump analysis
+  - Windows debugging
+related_tools:
+  - ollydbg
+  - immunity_debugger
+similar_tools:
+  - ollydbg
+  - immunity_debugger
+added_at: '2024-01-15'

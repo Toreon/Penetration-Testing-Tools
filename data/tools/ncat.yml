@@ -1,0 +1,53 @@
+id: ncat
+name: Ncat
+summary: Netcat implementation with advanced features including SSL support, proxy connections, and connection brokering.
+description: |
+  Ncat is a feature-packed networking utility which reads and writes data across networks from the command line. Ncat was written for the Nmap Project and is the culmination of the flexible Netcat-like tools that came before it. It uses both TCP and UDP for communication and is designed to be a reliable back-end tool to instantly provide network connectivity to other applications and users.
+categories:
+  - network_scanner
+  - reconnaissance
+tags:
+  - network_utility
+  - port_forwarding
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - windows
+  - macos
+license: Nmap Public Source License
+maturity: stable
+website: https://nmap.org/ncat/
+docs_url: https://nmap.org/book/ncat-man.html
+download_url: https://nmap.org/download.html
+github_repo: nmap/nmap
+stars: 10123
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Package manager
+    - Source compilation
+  commands:
+    - Part of Nmap package
+  package_managers:
+    - apt
+    - yum
+    - brew
+maintainers:
+  - nmap
+authors:
+  - nmap
+use_cases:
+  - Network connectivity testing
+  - Port forwarding
+  - Backdoor creation
+  - Network debugging
+related_tools:
+  - nmap
+  - netcat
+similar_tools:
+  - netcat
+  - socat
+added_at: '2024-01-15'

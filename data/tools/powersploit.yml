@@ -1,0 +1,46 @@
+id: powersploit
+name: PowerSploit
+summary: PowerShell Post-Exploitation Framework that provides a collection of PowerShell modules for post-exploitation activities.
+description: |
+  PowerSploit is a PowerShell Post-Exploitation Framework that provides a collection of PowerShell modules for post-exploitation activities. It includes modules for code execution, persistence, privilege escalation, reconnaissance, and exfiltration. PowerSploit is widely used in penetration testing and red team operations for Windows environments.
+categories:
+  - active_directory
+  - network_attack
+tags:
+  - post_exploitation
+  - powershell
+  - oss
+  - cli
+  - powershell
+platforms:
+  - windows
+license: BSD-3-Clause
+maturity: stable
+website: https://github.com/PowerShellMafia/PowerSploit
+docs_url: https://github.com/PowerShellMafia/PowerSploit/wiki
+download_url: https://github.com/PowerShellMafia/PowerSploit
+github_repo: PowerShellMafia/PowerSploit
+stars: 10000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+  commands:
+    - git clone https://github.com/PowerShellMafia/PowerSploit.git
+maintainers:
+  - PowerShellMafia
+authors:
+  - PowerShellMafia
+use_cases:
+  - Post-exploitation
+  - Privilege escalation
+  - Credential harvesting
+  - Lateral movement
+related_tools:
+  - empire
+  - mimikatz
+similar_tools:
+  - empire
+  - nishang
+added_at: '2024-01-15'

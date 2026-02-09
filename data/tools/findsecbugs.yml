@@ -1,0 +1,52 @@
+id: findsecbugs
+name: Find Security Bugs (FindBugs)
+summary: Static analysis tool for Java applications that identifies security vulnerabilities in code.
+description: |
+  Find Security Bugs (formerly FindBugs) is a static analysis tool for Java applications that identifies security vulnerabilities in code. It's a plugin for popular IDEs and build tools that helps developers find security issues before code is deployed. Find Security Bugs focuses on identifying common security vulnerabilities like SQL injection, XSS, path traversal, and insecure cryptographic operations.
+categories:
+  - static_analysis
+  - code_scanner
+tags:
+  - static_analysis
+  - java
+  - oss
+  - ide_plugin
+  - java
+platforms:
+  - linux
+  - windows
+  - macos
+license: LGPL-2.1
+maturity: stable
+website: https://find-sec-bugs.github.io/
+docs_url: https://find-sec-bugs.github.io/bugs.htm
+download_url: https://github.com/find-sec-bugs/find-sec-bugs
+github_repo: find-sec-bugs/find-sec-bugs
+stars: 2500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - IDE plugin
+    - Maven/Gradle plugin
+  commands:
+    - Install as plugin in IntelliJ IDEA, Eclipse, or Android Studio
+  package_managers:
+    - maven
+    - gradle
+maintainers:
+  - find-sec-bugs
+authors:
+  - find-sec-bugs
+use_cases:
+  - Static code analysis
+  - Security vulnerability detection
+  - Code review
+related_tools:
+  - brakeman
+  - sonarqube
+similar_tools:
+  - brakeman
+  - sonarqube
+  - checkmarx
+added_at: '2024-01-15'

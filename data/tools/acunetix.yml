@@ -1,0 +1,51 @@
+id: acunetix
+name: Acunetix
+summary: Automated web application security testing and vulnerability scanner.
+description: |
+  Acunetix is an automated web application security testing tool that audits your web applications by checking for vulnerabilities like SQL Injection, Cross site scripting, and other exploitable vulnerabilities. It provides comprehensive scanning for web applications and APIs, with both automated and manual testing capabilities. Acunetix helps security professionals and developers identify and fix security vulnerabilities before they can be exploited.
+categories:
+  - web_app_scanner
+  - vulnerability_scanner
+tags:
+  - web_application
+  - automated_scanning
+  - commercial
+  - gui
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary
+maturity: stable
+website: https://www.acunetix.com/
+docs_url: https://www.acunetix.com/support/
+download_url: https://www.acunetix.com/download/
+github_repo: null
+stars: null
+pricing:
+  type: paid
+  price: "Starting at $4,500/year"
+  notes: "Free trial available"
+installation:
+  methods:
+    - Download installer
+    - Docker container
+  commands:
+    - Download from https://www.acunetix.com/download/
+maintainers:
+  - Acunetix
+authors:
+  - Acunetix
+use_cases:
+  - Web application security scanning
+  - API security testing
+  - Vulnerability assessment
+  - Compliance testing
+related_tools:
+  - burp_suite
+  - invicti
+similar_tools:
+  - burp_suite
+  - invicti
+  - nessus
+added_at: '2024-01-15'

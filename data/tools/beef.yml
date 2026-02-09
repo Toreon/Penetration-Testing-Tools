@@ -1,0 +1,51 @@
+id: beef
+name: BeEF (Browser Exploitation Framework)
+summary: Penetration testing tool that focuses on the web browser and exploits browser vulnerabilities.
+description: |
+  BeEF (The Browser Exploitation Framework) is a penetration testing tool that focuses on the web browser. BeEF is short for The Browser Exploitation Framework. It is a penetration testing tool that focuses on the web browser. Amid growing concerns about web-borne attacks against clients, including mobile clients, BeEF allows the professional penetration tester to assess the actual security posture of a target environment using client-side attack vectors. Unlike other security frameworks, BeEF looks past the hardened network perimeter and client system, and examines exploitability within the context of the one open door: the web browser.
+categories:
+  - web_app_scanner
+  - network_attack
+tags:
+  - browser_exploitation
+  - xss
+  - oss
+  - web_interface
+  - ruby
+platforms:
+  - linux
+  - windows
+  - macos
+license: Apache-2.0
+maturity: stable
+website: https://beefproject.com/
+docs_url: https://github.com/beefproject/beef/wiki
+download_url: https://github.com/beefproject/beef
+github_repo: beefproject/beef
+stars: 8500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Package manager (Kali Linux)
+  commands:
+    - git clone https://github.com/beefproject/beef.git
+    - cd beef && ./install
+  package_managers:
+    - apt
+maintainers:
+  - beefproject
+authors:
+  - beefproject
+use_cases:
+  - Browser exploitation
+  - XSS testing
+  - Client-side attacks
+  - Social engineering
+related_tools:
+  - metasploit
+  - burp_suite
+similar_tools:
+  - xsser
+added_at: '2024-01-15'

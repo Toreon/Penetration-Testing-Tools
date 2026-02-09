@@ -1,0 +1,54 @@
+id: openvas
+name: OpenVAS (Greenbone Vulnerability Manager)
+summary: Open source vulnerability scanner and manager that provides comprehensive vulnerability assessment capabilities.
+description: |
+  OpenVAS (Open Vulnerability Assessment Scanner) is a framework of several services and tools offering a comprehensive and powerful vulnerability scanning and vulnerability management solution. The Greenbone Vulnerability Manager (GVM) is the central service that controls OpenVAS and other security scanners. It provides a web-based user interface for managing scans, viewing results, and generating reports. OpenVAS is capable of scanning for thousands of vulnerabilities across networks, systems, and applications.
+categories:
+  - vulnerability_scanner
+  - network_scanner
+tags:
+  - vulnerability_assessment
+  - network_scanning
+  - oss
+  - gui
+  - web_interface
+  - c
+platforms:
+  - linux
+license: GPL-2.0
+maturity: stable
+website: https://www.openvas.org/
+docs_url: https://www.greenbone.net/en/documentation/
+download_url: https://www.greenbone.net/en/install-use-gvm/
+github_repo: greenbone/openvas-scanner
+stars: 3500
+pricing:
+  type: open_source
+  notes: "Open source version available, Greenbone offers commercial support"
+installation:
+  methods:
+    - Package manager
+    - Docker
+    - Source compilation
+  commands:
+    - sudo apt-get install openvas
+    - docker run -d -p 443:443 --name openvas mikesplain/openvas
+  package_managers:
+    - apt
+maintainers:
+  - Greenbone
+authors:
+  - Greenbone
+  - openvas
+use_cases:
+  - Vulnerability scanning
+  - Network security assessment
+  - Compliance testing
+  - Security monitoring
+related_tools:
+  - nessus
+  - rapid7_insightvm
+similar_tools:
+  - nessus
+  - rapid7_insightvm
+added_at: '2024-01-15'

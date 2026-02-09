@@ -1,0 +1,47 @@
+id: sn1per
+name: Sn1per
+summary: Automated penetration testing framework that performs comprehensive security assessments.
+description: |
+  Sn1per is an automated penetration testing framework that performs comprehensive security assessments. It combines multiple security tools and techniques into a single framework, making it easier to perform penetration tests. Sn1per includes reconnaissance, scanning, exploitation, and reporting capabilities, and is designed to be used by both beginners and experienced penetration testers.
+categories:
+  - vulnerability_scanner
+  - reconnaissance
+tags:
+  - automated_penetration_testing
+  - oss
+  - cli
+  - bash
+platforms:
+  - linux
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://github.com/1N3/Sn1per
+docs_url: https://github.com/1N3/Sn1per/wiki
+download_url: https://github.com/1N3/Sn1per
+github_repo: 1N3/Sn1per
+stars: 6500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+  commands:
+    - git clone https://github.com/1N3/Sn1per.git
+    - cd Sn1per && sudo ./install.sh
+maintainers:
+  - 1N3
+authors:
+  - 1N3
+use_cases:
+  - Automated penetration testing
+  - Security assessment
+  - Vulnerability scanning
+  - Reconnaissance
+related_tools:
+  - metasploit
+  - nmap
+similar_tools:
+  - metasploit
+  - reconftw
+added_at: '2024-01-15'

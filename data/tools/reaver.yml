@@ -1,0 +1,47 @@
+id: reaver
+name: Reaver
+summary: Brute force attack tool against WPS (Wi-Fi Protected Setup) PIN in order to recover WPA/WPA2 passphrases.
+description: |
+  Reaver is a brute force attack tool against WPS (Wi-Fi Protected Setup) PIN in order to recover WPA/WPA2 passphrases. Reaver implements a brute force attack against WPS to recover WPA/WPA2 passphrases. It's designed to exploit a vulnerability in the WPS protocol that allows for the recovery of the WPA/WPA2 passphrase by brute forcing the 8-digit PIN.
+categories:
+  - network_attack
+tags:
+  - wireless_security
+  - wps_attack
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+license: GPL-3.0
+maturity: stable
+website: https://github.com/t6x/reaver-wps-fork-t6x
+docs_url: https://github.com/t6x/reaver-wps-fork-t6x
+download_url: https://github.com/t6x/reaver-wps-fork-t6x
+github_repo: t6x/reaver-wps-fork-t6x
+stars: 2500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Package manager
+  commands:
+    - git clone https://github.com/t6x/reaver-wps-fork-t6x.git
+  package_managers:
+    - apt
+maintainers:
+  - t6x
+authors:
+  - t6x
+use_cases:
+  - WPS PIN brute forcing
+  - WPA/WPA2 password recovery
+  - Wireless penetration testing
+related_tools:
+  - aircrack_ng
+  - wifite
+similar_tools:
+  - aircrack_ng
+  - wifite
+added_at: '2024-01-15'

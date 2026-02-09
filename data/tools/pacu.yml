@@ -1,0 +1,49 @@
+id: pacu
+name: Pacu
+summary: AWS exploitation framework designed for offensive security testing against cloud environments.
+description: |
+  Pacu is an AWS exploitation framework designed for offensive security testing against cloud environments. It provides a modular framework for exploiting common misconfigurations and security issues in AWS environments. Pacu helps penetration testers and red teams assess the security posture of AWS infrastructure and identify potential attack paths.
+categories:
+  - cloud_security
+tags:
+  - aws_security
+  - cloud_exploitation
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: BSD-3-Clause
+maturity: stable
+website: https://github.com/RhinoSecurityLabs/pacu
+docs_url: https://rhinosecuritylabs.com/aws/pacu-open-source-aws-exploitation-framework/
+download_url: https://github.com/RhinoSecurityLabs/pacu
+github_repo: RhinoSecurityLabs/pacu
+stars: 3500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - pip install
+  commands:
+    - git clone https://github.com/RhinoSecurityLabs/pacu.git
+    - pip install -r requirements.txt
+maintainers:
+  - RhinoSecurityLabs
+authors:
+  - RhinoSecurityLabs
+use_cases:
+  - AWS security testing
+  - Cloud exploitation
+  - Privilege escalation
+  - Data exfiltration
+related_tools:
+  - scout_suite
+  - cloudbrute
+similar_tools:
+  - scout_suite
+  - cloudbrute
+added_at: '2024-01-15'

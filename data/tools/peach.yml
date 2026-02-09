@@ -1,0 +1,51 @@
+id: peach
+name: Peach Fuzzer
+summary: Smart fuzzer that is capable of performing both generation and mutation based fuzzing.
+description: |
+  Peach is a smart fuzzer that is capable of performing both generation and mutation based fuzzing. Peach is designed to help security researchers find vulnerabilities in software by automatically generating malformed inputs and monitoring the target application for crashes or other anomalous behavior. Peach supports a wide range of protocols and file formats.
+categories:
+  - static_analysis
+tags:
+  - fuzzing
+  - vulnerability_research
+  - commercial
+  - gui
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary (Community Edition available)
+maturity: stable
+website: https://www.peach.tech/
+docs_url: https://www.peach.tech/documentation/
+download_url: https://www.peach.tech/download/
+github_repo: null
+stars: null
+pricing:
+  type: freemium
+  price: "Commercial licenses available"
+  notes: "Community Edition available for free"
+installation:
+  methods:
+    - Download installer
+  commands:
+    - Download from https://www.peach.tech/download/
+maintainers:
+  - Peach Tech
+authors:
+  - Peach Tech
+use_cases:
+  - Fuzzing
+  - Vulnerability discovery
+  - Protocol testing
+  - File format testing
+related_tools:
+  - afl
+  - radamsa
+similar_tools:
+  - afl
+  - radamsa
+  - boofuzz
+added_at: '2024-01-15'

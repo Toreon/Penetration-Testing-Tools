@@ -1,0 +1,48 @@
+id: rapid7_insightvm
+name: Rapid7 InsightVM
+summary: Vulnerability management solution that provides continuous visibility into your security posture and helps prioritize remediation efforts.
+description: |
+  Rapid7 InsightVM (formerly Nexpose) is a vulnerability management solution that provides continuous visibility into your security posture. It helps security teams identify, assess, and prioritize vulnerabilities across their entire IT infrastructure. InsightVM combines vulnerability scanning with risk-based prioritization, asset management, and reporting capabilities to help organizations reduce their attack surface.
+categories:
+  - vulnerability_scanner
+tags:
+  - vulnerability_management
+  - risk_assessment
+  - commercial
+  - gui
+platforms:
+  - linux
+  - windows
+license: Proprietary
+maturity: stable
+website: https://www.rapid7.com/products/insightvm/
+docs_url: https://docs.rapid7.com/insightvm/
+download_url: https://www.rapid7.com/products/insightvm/download/
+github_repo: null
+stars: null
+pricing:
+  type: paid
+  price: "Custom pricing"
+  notes: "Free trial available"
+installation:
+  methods:
+    - Download installer
+  commands:
+    - Download from https://www.rapid7.com/products/insightvm/download/
+maintainers:
+  - Rapid7
+authors:
+  - Rapid7
+use_cases:
+  - Vulnerability management
+  - Risk assessment
+  - Compliance reporting
+  - Asset management
+related_tools:
+  - nessus
+  - openvas
+similar_tools:
+  - nessus
+  - openvas
+  - qualys
+added_at: '2024-01-15'

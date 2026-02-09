@@ -1,0 +1,55 @@
+id: owasp_zap
+name: OWASP ZAP (Zed Attack Proxy)
+summary: Free, open-source web application security scanner that helps find vulnerabilities in web applications.
+description: |
+  OWASP ZAP (Zed Attack Proxy) is a free, open-source web application security scanner. It's designed to be used by both those new to application security as well as professional penetration testers. ZAP provides automated scanners as well as a set of tools that allow you to find security vulnerabilities manually. It's maintained by the OWASP Foundation and is one of the most popular web application security testing tools.
+categories:
+  - web_app_scanner
+  - vulnerability_scanner
+tags:
+  - web_application
+  - automated_scanning
+  - oss
+  - gui
+  - java
+platforms:
+  - linux
+  - windows
+  - macos
+license: Apache-2.0
+maturity: stable
+website: https://www.zaproxy.org/
+docs_url: https://www.zaproxy.org/docs/
+download_url: https://www.zaproxy.org/download/
+github_repo: zaproxy/zaproxy
+stars: 12000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download installer
+    - Package manager
+    - Docker
+  commands:
+    - Download from https://www.zaproxy.org/download/
+    - docker run -t owasp/zap2docker-stable zap-baseline.py -t http://target
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - OWASP
+authors:
+  - OWASP
+use_cases:
+  - Web application security scanning
+  - Vulnerability detection
+  - API security testing
+  - Manual penetration testing
+related_tools:
+  - burp_suite
+  - wapiti
+similar_tools:
+  - burp_suite
+  - wapiti
+  - nikto
+added_at: '2024-01-15'

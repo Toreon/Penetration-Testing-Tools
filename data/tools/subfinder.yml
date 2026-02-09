@@ -1,0 +1,50 @@
+id: subfinder
+name: Subfinder
+summary: Subdomain discovery tool that discovers valid subdomains for websites by using passive online sources.
+description: |
+  Subfinder is a subdomain discovery tool that discovers valid subdomains for websites by using passive online sources. It's designed to be fast and accurate, using multiple passive sources to find subdomains. Subfinder is part of the ProjectDiscovery suite and is widely used in bug bounty hunting and penetration testing.
+categories:
+  - reconnaissance
+tags:
+  - subdomain_enumeration
+  - osint
+  - oss
+  - cli
+  - go
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://github.com/projectdiscovery/subfinder
+docs_url: https://github.com/projectdiscovery/subfinder/wiki
+download_url: https://github.com/projectdiscovery/subfinder/releases
+github_repo: projectdiscovery/subfinder
+stars: 12000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Go install
+  commands:
+    - go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+    - Download from https://github.com/projectdiscovery/subfinder/releases
+maintainers:
+  - projectdiscovery
+authors:
+  - projectdiscovery
+use_cases:
+  - Subdomain discovery
+  - OSINT gathering
+  - Attack surface mapping
+  - Bug bounty hunting
+related_tools:
+  - amass
+  - sublist3r
+similar_tools:
+  - amass
+  - sublist3r
+  - assetfinder
+added_at: '2024-01-15'

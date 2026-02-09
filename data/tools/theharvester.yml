@@ -1,0 +1,53 @@
+id: theharvester
+name: theHarvester
+summary: Simple tool designed to be used in the early stages of a penetration test to gather open source intelligence (OSINT) on a company or domain.
+description: |
+  theHarvester is a simple tool designed to be used in the early stages of a penetration test to gather open source intelligence (OSINT) on a company or domain. It searches multiple public data sources to gather information about email addresses, subdomains, hosts, employee names, open ports, and banners. theHarvester is included in Kali Linux and is a standard tool for reconnaissance.
+categories:
+  - reconnaissance
+tags:
+  - osint
+  - information_gathering
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://github.com/laramies/theHarvester
+docs_url: https://github.com/laramies/theHarvester/wiki
+download_url: https://github.com/laramies/theHarvester
+github_repo: laramies/theHarvester
+stars: 10000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Package manager
+  commands:
+    - git clone https://github.com/laramies/theHarvester.git
+    - pip install -r requirements.txt
+  package_managers:
+    - apt
+    - pip
+maintainers:
+  - laramies
+authors:
+  - laramies
+use_cases:
+  - OSINT gathering
+  - Email harvesting
+  - Subdomain enumeration
+  - Information gathering
+related_tools:
+  - maltego
+  - recon-ng
+similar_tools:
+  - maltego
+  - recon-ng
+  - shodan
+added_at: '2024-01-15'

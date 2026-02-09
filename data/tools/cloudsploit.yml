@@ -1,0 +1,51 @@
+id: cloudsploit
+name: CloudSploit
+summary: Open-source security and compliance scanner for cloud infrastructure that helps identify misconfigurations and security issues.
+description: |
+  CloudSploit is an open-source security and compliance scanner for cloud infrastructure. It helps identify misconfigurations and security issues in cloud environments including AWS, Azure, and GCP. CloudSploit provides comprehensive security checks and compliance assessments for cloud resources.
+categories:
+  - cloud_security
+tags:
+  - cloud_security
+  - cloud_compliance
+  - oss
+  - cli
+  - nodejs
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://github.com/aquasecurity/cloudsploit
+docs_url: https://github.com/aquasecurity/cloudsploit
+download_url: https://github.com/aquasecurity/cloudsploit
+github_repo: aquasecurity/cloudsploit
+stars: 2500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - npm install
+    - Git clone
+  commands:
+    - npm install -g cloudsploit
+    - git clone https://github.com/aquasecurity/cloudsploit.git
+  package_managers:
+    - npm
+maintainers:
+  - aquasecurity
+authors:
+  - aquasecurity
+use_cases:
+  - Cloud security assessment
+  - Compliance auditing
+  - Misconfiguration detection
+  - Security scanning
+related_tools:
+  - scout_suite
+  - prowler
+similar_tools:
+  - scout_suite
+  - prowler
+added_at: '2024-01-15'

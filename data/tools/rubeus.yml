@@ -1,0 +1,46 @@
+id: rubeus
+name: Rubeus
+summary: C# toolset for raw Kerberos interaction and abuse that helps security professionals test Kerberos security in Active Directory environments.
+description: |
+  Rubeus is a C# toolset for raw Kerberos interaction and abuse. It helps security professionals test Kerberos security in Active Directory environments by providing tools for ticket manipulation, credential extraction, and various Kerberos attacks. Rubeus is widely used in penetration testing and red team operations for Active Directory security assessment.
+categories:
+  - active_directory
+tags:
+  - kerberos
+  - ticket_manipulation
+  - oss
+  - cli
+  - csharp
+platforms:
+  - windows
+license: BSD-3-Clause
+maturity: stable
+website: https://github.com/GhostPack/Rubeus
+docs_url: https://github.com/GhostPack/Rubeus
+download_url: https://github.com/GhostPack/Rubeus
+github_repo: GhostPack/Rubeus
+stars: 3500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Build from source
+  commands:
+    - Download from https://github.com/GhostPack/Rubeus/releases
+maintainers:
+  - GhostPack
+authors:
+  - GhostPack
+use_cases:
+  - Kerberos ticket manipulation
+  - Golden ticket creation
+  - Silver ticket creation
+  - AD security testing
+related_tools:
+  - mimikatz
+  - impacket
+similar_tools:
+  - mimikatz
+  - impacket
+added_at: '2024-01-15'

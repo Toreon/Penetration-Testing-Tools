@@ -1,0 +1,50 @@
+id: aquatone
+name: Aquatone
+summary: Domain flyover tool that performs subdomain discovery and takes screenshots of web services found on common ports.
+description: |
+  Aquatone is a domain flyover tool that performs subdomain discovery and takes screenshots of web services found on common ports. It's designed to help security researchers and penetration testers quickly identify and visualize the attack surface of a target domain. Aquatone can discover subdomains, take screenshots, and generate reports.
+categories:
+  - reconnaissance
+tags:
+  - subdomain_enumeration
+  - screenshot
+  - osint
+  - oss
+  - cli
+  - go
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://github.com/michenriksen/aquatone
+docs_url: https://github.com/michenriksen/aquatone
+download_url: https://github.com/michenriksen/aquatone/releases
+github_repo: michenriksen/aquatone
+stars: 5500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Go install
+  commands:
+    - go install github.com/michenriksen/aquatone@latest
+    - Download from https://github.com/michenriksen/aquatone/releases
+maintainers:
+  - michenriksen
+authors:
+  - michenriksen
+use_cases:
+  - Subdomain discovery
+  - Screenshot capture
+  - Attack surface visualization
+  - Reconnaissance
+related_tools:
+  - sublist3r
+  - subfinder
+similar_tools:
+  - sublist3r
+  - eyewitness
+added_at: '2024-01-15'

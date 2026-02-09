@@ -1,0 +1,45 @@
+id: turbo_intruder
+name: Turbo Intruder
+summary: Burp Suite extension that provides a fast and efficient way to perform web application attacks.
+description: |
+  Turbo Intruder is a Burp Suite extension that provides a fast and efficient way to perform web application attacks. It's designed to handle large-scale attacks and can send requests at very high speeds. Turbo Intruder is particularly useful for parameter fuzzing, directory brute-forcing, and other high-volume attack scenarios.
+categories:
+  - web_app_scanner
+tags:
+  - web_fuzzing
+  - burp_extension
+  - oss
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: Apache-2.0
+maturity: stable
+website: https://portswigger.net/burp/documentation/desktop/tools/turbo-intruder
+docs_url: https://portswigger.net/burp/documentation/desktop/tools/turbo-intruder
+download_url: https://github.com/PortSwigger/turbo-intruder
+github_repo: PortSwigger/turbo-intruder
+stars: 2500
+pricing:
+  type: free
+  notes: "Free extension for Burp Suite"
+installation:
+  methods:
+    - Burp Suite extension
+  commands:
+    - Install via Burp Suite's Extensions tab
+maintainers:
+  - PortSwigger
+authors:
+  - PortSwigger
+use_cases:
+  - High-speed fuzzing
+  - Parameter testing
+  - Directory brute-forcing
+  - Large-scale attacks
+related_tools:
+  - burp_suite
+similar_tools:
+  - burp_suite
+added_at: '2024-01-15'

@@ -1,0 +1,55 @@
+id: wireshark
+name: Wireshark
+summary: Network protocol analyzer that lets you capture and interactively browse the traffic running on a computer network.
+description: |
+  Wireshark is a network protocol analyzer, or an application that captures packets from a network connection, such as from your computer to your home office or the internet. Packet is the name given to a discrete unit of data in a typical Ethernet network. Wireshark is the most often-used packet sniffer in the world. Like any other packet sniffer, Wireshark does three things: Packet Capture, Filtering, and Visualization.
+categories:
+  - network_scanner
+  - reconnaissance
+tags:
+  - packet_analysis
+  - network_protocol
+  - oss
+  - gui
+  - cli
+  - c
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://www.wireshark.org/
+docs_url: https://www.wireshark.org/docs/
+download_url: https://www.wireshark.org/download.html
+github_repo: wireshark/wireshark
+stars: 6500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Package manager
+    - Binary download
+  commands:
+    - git clone https://github.com/wireshark/wireshark.git
+  package_managers:
+    - apt
+    - yum
+    - brew
+    - chocolatey
+maintainers:
+  - wireshark
+authors:
+  - wireshark
+use_cases:
+  - Network traffic analysis
+  - Protocol debugging
+  - Network troubleshooting
+  - Security analysis
+related_tools:
+  - nmap
+  - ettercap
+similar_tools:
+  - tcpdump
+  - tshark
+added_at: '2024-01-15'

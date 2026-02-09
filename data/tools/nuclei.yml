@@ -1,0 +1,51 @@
+id: nuclei
+name: Nuclei
+summary: Fast and customizable vulnerability scanner that uses templates to perform security scans.
+description: |
+  Nuclei is a fast and customizable vulnerability scanner that uses templates to perform security scans. It's designed to be fast, accurate, and extensible, allowing security researchers to create custom templates for specific vulnerabilities. Nuclei can scan for thousands of vulnerabilities across web applications, networks, and cloud infrastructure.
+categories:
+  - vulnerability_scanner
+  - web_app_scanner
+tags:
+  - vulnerability_scanning
+  - template_based
+  - oss
+  - cli
+  - go
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://github.com/projectdiscovery/nuclei
+docs_url: https://docs.nuclei.sh/
+download_url: https://github.com/projectdiscovery/nuclei/releases
+github_repo: projectdiscovery/nuclei
+stars: 18000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Go install
+  commands:
+    - go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
+    - Download from https://github.com/projectdiscovery/nuclei/releases
+maintainers:
+  - projectdiscovery
+authors:
+  - projectdiscovery
+use_cases:
+  - Vulnerability scanning
+  - Security assessment
+  - Template-based scanning
+  - Fast security scanning
+related_tools:
+  - nmap
+  - nessus
+similar_tools:
+  - nessus
+  - openvas
+  - nikto
+added_at: '2024-01-15'

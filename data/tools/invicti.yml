@@ -1,0 +1,51 @@
+id: invicti
+name: Invicti
+summary: Web application security scanner that automatically finds vulnerabilities in web applications and APIs.
+description: |
+  Invicti (formerly Netsparker) is a web application security scanner that automatically finds vulnerabilities in web applications and APIs. It provides proof-based scanning technology that verifies vulnerabilities without false positives, making it easier for security teams to prioritize and remediate issues. Invicti offers both on-premises and cloud-based solutions for comprehensive web application security testing.
+categories:
+  - web_app_scanner
+  - vulnerability_scanner
+tags:
+  - web_application
+  - automated_scanning
+  - commercial
+  - gui
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary
+maturity: stable
+website: https://www.invicti.com/
+docs_url: https://www.invicti.com/support/
+download_url: https://www.invicti.com/download/
+github_repo: null
+stars: null
+pricing:
+  type: paid
+  price: "Starting at $4,500/year"
+  notes: "Free trial available"
+installation:
+  methods:
+    - Download installer
+    - SaaS platform
+  commands:
+    - Download from https://www.invicti.com/download/
+maintainers:
+  - Invicti
+authors:
+  - Invicti
+use_cases:
+  - Web application security scanning
+  - API security testing
+  - Vulnerability verification
+  - Compliance testing
+related_tools:
+  - acunetix
+  - burp_suite
+similar_tools:
+  - acunetix
+  - burp_suite
+  - indusface_was
+added_at: '2024-01-15'

@@ -1,0 +1,55 @@
+id: ettercap
+name: Ettercap
+summary: Comprehensive suite for man-in-the-middle attacks on LAN, featuring sniffing of live connections and content filtering.
+description: |
+  Ettercap is a comprehensive suite for man in the middle attacks. It features sniffing of live connections, content filtering on the fly and many other interesting tricks. It supports active and passive dissection of many protocols and includes many features for network and host analysis. Ettercap is capable of intercepting traffic on a network segment, capturing passwords, and conducting active eavesdropping against a number of common protocols.
+categories:
+  - network_attack
+  - network_scanner
+tags:
+  - man_in_the_middle
+  - network_sniffing
+  - oss
+  - cli
+  - gui
+  - c
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://www.ettercap-project.org/
+docs_url: https://www.ettercap-project.org/documentation/
+download_url: https://github.com/Ettercap/ettercap
+github_repo: Ettercap/ettercap
+stars: 2500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Source compilation
+    - Package manager
+  commands:
+    - git clone https://github.com/Ettercap/ettercap.git
+    - cd ettercap && mkdir build && cd build && cmake .. && make && sudo make install
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - Ettercap
+authors:
+  - Ettercap
+  - alor
+use_cases:
+  - Man-in-the-middle attacks
+  - Network sniffing
+  - ARP poisoning
+  - Credential harvesting
+related_tools:
+  - wireshark
+  - nmap
+similar_tools:
+  - bettercap
+  - mitmf
+added_at: '2024-01-15'

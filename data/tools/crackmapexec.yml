@@ -1,0 +1,55 @@
+id: crackmapexec
+name: CrackMapExec
+summary: Post-exploitation tool that helps automate assessing the security of large Active Directory networks.
+description: |
+  CrackMapExec (CME) is a post-exploitation tool that helps automate assessing the security of large Active Directory networks. Built upon the Impacket library and PowerSploit, CME provides a swiss-army knife for pentesters and red teamers. It can perform various tasks including credential spraying, lateral movement, and privilege escalation in Active Directory environments.
+categories:
+  - active_directory
+  - network_attack
+tags:
+  - ad_exploitation
+  - post_exploitation
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://github.com/Porchetta-Industries/CrackMapExec
+docs_url: https://mpgn.gitbook.io/crackmapexec/
+download_url: https://github.com/Porchetta-Industries/CrackMapExec
+github_repo: Porchetta-Industries/CrackMapExec
+stars: 10000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - pip install
+    - Git clone
+  commands:
+    - pip install crackmapexec
+    - git clone https://github.com/Porchetta-Industries/CrackMapExec.git
+  package_managers:
+    - pip
+    - apt
+maintainers:
+  - Porchetta-Industries
+authors:
+  - Porchetta-Industries
+  - byt3bl33d3r
+use_cases:
+  - AD security assessment
+  - Credential spraying
+  - Lateral movement
+  - Privilege escalation
+related_tools:
+  - bloodhound
+  - impacket
+similar_tools:
+  - bloodhound
+  - impacket
+  - netexec
+added_at: '2024-01-15'

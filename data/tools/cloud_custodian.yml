@@ -1,0 +1,49 @@
+id: cloud_custodian
+name: Cloud Custodian
+summary: Rules engine for cloud security, compliance, and cost optimization that helps manage cloud resources according to security policies.
+description: |
+  Cloud Custodian is a rules engine for cloud security, compliance, and cost optimization. It allows you to manage cloud resources according to security policies, compliance requirements, and cost optimization rules. Cloud Custodian supports multiple cloud providers including AWS, Azure, and GCP, and can be used for both security assessment and ongoing compliance monitoring.
+categories:
+  - cloud_security
+tags:
+  - cloud_compliance
+  - cloud_governance
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: Apache-2.0
+maturity: stable
+website: https://cloudcustodian.io/
+docs_url: https://cloudcustodian.io/docs/
+download_url: https://github.com/cloud-custodian/cloud-custodian
+github_repo: cloud-custodian/cloud-custodian
+stars: 5000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - pip install
+    - Docker
+  commands:
+    - pip install c7n
+    - docker pull cloudcustodian/c7n
+maintainers:
+  - cloud-custodian
+authors:
+  - cloud-custodian
+use_cases:
+  - Cloud compliance monitoring
+  - Security policy enforcement
+  - Cost optimization
+  - Resource management
+related_tools:
+  - scout_suite
+  - pacu
+similar_tools:
+  - scout_suite
+  - aws_config
+added_at: '2024-01-15'

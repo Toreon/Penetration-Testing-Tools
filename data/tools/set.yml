@@ -1,0 +1,52 @@
+id: set
+name: Social Engineering Toolkit (SET)
+summary: Open-source penetration testing framework designed for social engineering attacks.
+description: |
+  The Social Engineering Toolkit (SET) is an open-source penetration testing framework designed for social engineering. SET has a number of custom attack vectors that allow you to make a believable attack quickly. SET is mainly focused on attacking the human element of security, and it's included in Kali Linux by default. SET includes modules for spear-phishing attacks, website attacks, infectious media generation, and more.
+categories:
+  - network_attack
+tags:
+  - social_engineering
+  - phishing
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://github.com/trustedsec/social-engineer-toolkit
+docs_url: https://github.com/trustedsec/social-engineer-toolkit/wiki
+download_url: https://github.com/trustedsec/social-engineer-toolkit
+github_repo: trustedsec/social-engineer-toolkit
+stars: 8500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Package manager (Kali Linux)
+  commands:
+    - git clone https://github.com/trustedsec/social-engineer-toolkit.git
+    - cd social-engineer-toolkit && python setup.py install
+  package_managers:
+    - apt
+maintainers:
+  - trustedsec
+authors:
+  - trustedsec
+  - davekennedy
+use_cases:
+  - Social engineering attacks
+  - Phishing campaigns
+  - Website cloning
+  - Infectious media creation
+related_tools:
+  - gophish
+  - beef
+similar_tools:
+  - gophish
+  - king-phisher
+added_at: '2024-01-15'

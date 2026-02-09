@@ -1,0 +1,51 @@
+id: jadx
+name: JADX
+summary: Dex to Java decompiler that converts Android DEX and APK files to Java source code.
+description: |
+  JADX is a Dex to Java decompiler that converts Android DEX and APK files to Java source code. It provides a command-line tool and a GUI application for decompiling Android applications. JADX is useful for reverse engineering Android apps, analyzing malware, and understanding application behavior.
+categories:
+  - static_analysis
+tags:
+  - android_security
+  - reverse_engineering
+  - decompiler
+  - oss
+  - gui
+  - cli
+  - java
+platforms:
+  - linux
+  - windows
+  - macos
+license: Apache-2.0
+maturity: stable
+website: https://github.com/skylot/jadx
+docs_url: https://github.com/skylot/jadx/wiki
+download_url: https://github.com/skylot/jadx/releases
+github_repo: skylot/jadx
+stars: 40000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Source compilation
+  commands:
+    - Download from https://github.com/skylot/jadx/releases
+maintainers:
+  - skylot
+authors:
+  - skylot
+use_cases:
+  - Android app decompilation
+  - Reverse engineering
+  - Malware analysis
+  - Code analysis
+related_tools:
+  - apktool
+  - drozer
+similar_tools:
+  - apktool
+  - apkx
+  - apk_studio
+added_at: '2024-01-15'

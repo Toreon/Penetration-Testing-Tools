@@ -1,0 +1,47 @@
+id: foca
+name: FOCA (Fingerprinting Organizations with Collected Archives)
+summary: Tool used mainly to find metadata and hidden information in the documents its scans.
+description: |
+  FOCA (Fingerprinting Organizations with Collected Archives) is a tool used mainly to find metadata and hidden information in the documents its scans. These documents can be found on Google, Bing, and DuckDuckGo. FOCA can extract metadata from PDF, Word, Excel, PowerPoint, and other document formats, revealing information like usernames, software versions, and server names.
+categories:
+  - reconnaissance
+tags:
+  - metadata_extraction
+  - osint
+  - information_gathering
+  - oss
+  - gui
+  - csharp
+platforms:
+  - windows
+license: GPL-3.0
+maturity: stable
+website: https://github.com/ElevenPaths/FOCA
+docs_url: https://github.com/ElevenPaths/FOCA
+download_url: https://github.com/ElevenPaths/FOCA/releases
+github_repo: ElevenPaths/FOCA
+stars: 3000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Source compilation
+  commands:
+    - Download from https://github.com/ElevenPaths/FOCA/releases
+maintainers:
+  - ElevenPaths
+authors:
+  - ElevenPaths
+use_cases:
+  - Metadata extraction
+  - Document analysis
+  - Information gathering
+  - OSINT
+related_tools:
+  - metagoofil
+  - exiftool
+similar_tools:
+  - metagoofil
+  - exiftool
+added_at: '2024-01-15'

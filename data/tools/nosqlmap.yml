@@ -1,0 +1,49 @@
+id: nosqlmap
+name: NoSQLMap
+summary: Automated NoSQL database enumeration and web application exploitation tool that helps identify and exploit NoSQL injection vulnerabilities.
+description: |
+  NoSQLMap is an automated NoSQL database enumeration and web application exploitation tool. It helps identify and exploit NoSQL injection vulnerabilities in web applications that use NoSQL databases like MongoDB, CouchDB, and others. NoSQLMap can perform various attacks including authentication bypass, data extraction, and command execution.
+categories:
+  - web_app_scanner
+  - database_exploitation
+tags:
+  - nosql_injection
+  - database_exploitation
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://github.com/codingo/NoSQLMap
+docs_url: https://github.com/codingo/NoSQLMap
+download_url: https://github.com/codingo/NoSQLMap
+github_repo: codingo/NoSQLMap
+stars: 2500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - pip install
+  commands:
+    - git clone https://github.com/codingo/NoSQLMap.git
+    - pip install -r requirements.txt
+maintainers:
+  - codingo
+authors:
+  - codingo
+use_cases:
+  - NoSQL injection testing
+  - Database enumeration
+  - Authentication bypass
+  - Data extraction
+related_tools:
+  - sqlmap
+  - sqlninja
+similar_tools:
+  - sqlmap
+added_at: '2024-01-15'

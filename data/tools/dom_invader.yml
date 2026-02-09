@@ -1,0 +1,44 @@
+id: dom_invader
+name: DOM Invader
+summary: Browser extension for Burp Suite that helps find DOM-based vulnerabilities.
+description: |
+  DOM Invader is a browser extension for Burp Suite that helps find DOM-based vulnerabilities. It's designed to identify and exploit DOM-based XSS, prototype pollution, and other client-side vulnerabilities. DOM Invader integrates seamlessly with Burp Suite and provides powerful tools for testing client-side security issues.
+categories:
+  - web_app_scanner
+tags:
+  - dom_xss
+  - browser_extension
+  - oss
+  - browser_extension
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://portswigger.net/burp/documentation/desktop/tools/dom-invader
+docs_url: https://portswigger.net/burp/documentation/desktop/tools/dom-invader
+download_url: https://portswigger.net/burp/documentation/desktop/tools/dom-invader
+github_repo: null
+stars: null
+pricing:
+  type: free
+  notes: "Free extension for Burp Suite"
+installation:
+  methods:
+    - Burp Suite extension
+  commands:
+    - Install via Burp Suite's Extensions tab
+maintainers:
+  - PortSwigger
+authors:
+  - PortSwigger
+use_cases:
+  - DOM-based XSS testing
+  - Prototype pollution testing
+  - Client-side vulnerability detection
+related_tools:
+  - burp_suite
+similar_tools:
+  - burp_suite
+added_at: '2024-01-15'

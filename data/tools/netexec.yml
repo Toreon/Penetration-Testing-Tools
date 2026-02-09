@@ -1,0 +1,52 @@
+id: netexec
+name: Netexec
+summary: Network execution tool that provides a swiss-army knife for pentesting Active Directory networks.
+description: |
+  Netexec is a network execution tool that provides a swiss-army knife for pentesting Active Directory networks. It's a successor to CrackMapExec and provides similar functionality with improved performance and additional features. Netexec can perform credential spraying, lateral movement, and various AD exploitation tasks.
+categories:
+  - active_directory
+  - network_attack
+tags:
+  - ad_exploitation
+  - post_exploitation
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://github.com/Pennyw0rth/NetExec
+docs_url: https://github.com/Pennyw0rth/NetExec/wiki
+download_url: https://github.com/Pennyw0rth/NetExec
+github_repo: Pennyw0rth/NetExec
+stars: 3500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - pip install
+    - Git clone
+  commands:
+    - pip install netexec
+    - git clone https://github.com/Pennyw0rth/NetExec.git
+  package_managers:
+    - pip
+maintainers:
+  - Pennyw0rth
+authors:
+  - Pennyw0rth
+use_cases:
+  - AD security assessment
+  - Credential spraying
+  - Lateral movement
+  - Network exploitation
+related_tools:
+  - crackmapexec
+  - impacket
+similar_tools:
+  - crackmapexec
+  - impacket
+added_at: '2024-01-15'

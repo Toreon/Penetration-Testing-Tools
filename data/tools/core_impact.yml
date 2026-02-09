@@ -1,0 +1,48 @@
+id: core_impact
+name: Core Impact
+summary: Comprehensive penetration testing framework that provides automated and manual testing capabilities for security assessments.
+description: |
+  Core Impact is a comprehensive penetration testing framework that provides automated and manual testing capabilities for security assessments. It helps security professionals identify, validate, and remediate security vulnerabilities across networks, systems, and applications. Core Impact offers a wide range of exploits, payloads, and post-exploitation modules to simulate real-world attack scenarios.
+categories:
+  - vulnerability_scanner
+  - network_attack
+tags:
+  - penetration_testing
+  - exploitation_framework
+  - commercial
+  - gui
+platforms:
+  - linux
+  - windows
+license: Proprietary
+maturity: stable
+website: https://www.coresecurity.com/products/core-impact
+docs_url: https://www.coresecurity.com/support/core-impact
+download_url: https://www.coresecurity.com/products/core-impact/download
+github_repo: null
+stars: null
+pricing:
+  type: paid
+  price: "Custom pricing"
+  notes: "Contact for pricing"
+installation:
+  methods:
+    - Download installer
+  commands:
+    - Download from https://www.coresecurity.com/products/core-impact/download
+maintainers:
+  - Core Security
+authors:
+  - Core Security
+use_cases:
+  - Penetration testing
+  - Vulnerability exploitation
+  - Security assessment
+  - Compliance testing
+related_tools:
+  - metasploit
+  - cobalt_strike
+similar_tools:
+  - metasploit
+  - cobalt_strike
+added_at: '2024-01-15'

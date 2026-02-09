@@ -1,0 +1,48 @@
+id: gophish
+name: GoPhish
+summary: Open-source phishing framework that makes it easy to test your organization's exposure to phishing attacks.
+description: |
+  GoPhish is an open-source phishing framework that makes it easy to test your organization's exposure to phishing attacks. It provides a web-based interface for creating and managing phishing campaigns, tracking email opens, link clicks, and credential submissions. GoPhish is designed to be easy to use while providing powerful features for security awareness training and penetration testing.
+categories:
+  - network_attack
+tags:
+  - phishing
+  - social_engineering
+  - oss
+  - web_interface
+  - go
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://getgophish.com/
+docs_url: https://docs.getgophish.com/
+download_url: https://github.com/gophish/gophish/releases
+github_repo: gophish/gophish
+stars: 12000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Source compilation
+  commands:
+    - Download from https://github.com/gophish/gophish/releases
+    - git clone https://github.com/gophish/gophish.git
+maintainers:
+  - gophish
+authors:
+  - gophish
+use_cases:
+  - Phishing campaigns
+  - Security awareness training
+  - Social engineering testing
+related_tools:
+  - set
+  - beef
+similar_tools:
+  - set
+  - king-phisher
+added_at: '2024-01-15'

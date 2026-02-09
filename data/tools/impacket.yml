@@ -1,0 +1,52 @@
+id: impacket
+name: Impacket
+summary: Collection of Python classes for working with network protocols that provides tools for various network-based attacks.
+description: |
+  Impacket is a collection of Python classes for working with network protocols. It provides tools for various network-based attacks including SMB, MSRPC, LDAP, and Kerberos. Impacket is widely used in penetration testing and red team operations for lateral movement, credential dumping, and various other Active Directory attacks.
+categories:
+  - active_directory
+  - network_attack
+tags:
+  - network_protocols
+  - ad_exploitation
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: Apache-2.0
+maturity: stable
+website: https://github.com/fortra/impacket
+docs_url: https://www.fortra.com/impacket
+download_url: https://github.com/fortra/impacket
+github_repo: fortra/impacket
+stars: 15000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - pip install
+    - Git clone
+  commands:
+    - pip install impacket
+    - git clone https://github.com/fortra/impacket.git
+  package_managers:
+    - pip
+maintainers:
+  - Fortra
+authors:
+  - Fortra
+use_cases:
+  - Network protocol attacks
+  - AD exploitation
+  - Lateral movement
+  - Credential dumping
+related_tools:
+  - crackmapexec
+  - bloodhound
+similar_tools:
+  - crackmapexec
+  - netexec
+added_at: '2024-01-15'

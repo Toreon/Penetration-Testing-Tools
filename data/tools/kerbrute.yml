@@ -1,0 +1,51 @@
+id: kerbrute
+name: Kerbrute
+summary: Fast Kerberos pre-auth brute-forcing tool that helps identify valid usernames and passwords in Active Directory environments.
+description: |
+  Kerbrute is a fast Kerberos pre-auth brute-forcing tool that helps identify valid usernames and passwords in Active Directory environments. It's designed to be fast and efficient, using Kerberos pre-authentication to brute-force credentials without generating failed login attempts in Windows Event Logs. Kerbrute is useful for password spraying and username enumeration.
+categories:
+  - active_directory
+  - password_cracker
+tags:
+  - kerberos
+  - brute_force
+  - credential_spraying
+  - oss
+  - cli
+  - go
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://github.com/ropnop/kerbrute
+docs_url: https://github.com/ropnop/kerbrute
+download_url: https://github.com/ropnop/kerbrute/releases
+github_repo: ropnop/kerbrute
+stars: 2500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Go install
+  commands:
+    - go install github.com/ropnop/kerbrute@latest
+    - Download from https://github.com/ropnop/kerbrute/releases
+maintainers:
+  - ropnop
+authors:
+  - ropnop
+use_cases:
+  - Kerberos brute-forcing
+  - Username enumeration
+  - Password spraying
+  - AD security testing
+related_tools:
+  - impacket
+  - crackmapexec
+similar_tools:
+  - impacket
+  - hydra
+added_at: '2024-01-15'

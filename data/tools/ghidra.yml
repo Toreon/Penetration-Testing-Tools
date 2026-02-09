@@ -1,0 +1,49 @@
+id: ghidra
+name: Ghidra
+summary: Software reverse engineering (SRE) framework developed by the National Security Agency (NSA).
+description: |
+  Ghidra is a software reverse engineering (SRE) framework developed by the National Security Agency (NSA). It's a free and open-source tool that provides a comprehensive suite of features for analyzing compiled code. Ghidra includes a disassembler, decompiler, and various analysis tools that help security researchers understand and analyze binary files.
+categories:
+  - static_analysis
+tags:
+  - reverse_engineering
+  - disassembler
+  - decompiler
+  - oss
+  - gui
+  - java
+platforms:
+  - linux
+  - windows
+  - macos
+license: Apache-2.0
+maturity: stable
+website: https://ghidra-sre.org/
+docs_url: https://ghidra-sre.org/CheatSheet.html
+download_url: https://ghidra-sre.org/
+github_repo: NationalSecurityAgency/ghidra
+stars: 45000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download installer
+  commands:
+    - Download from https://ghidra-sre.org/
+maintainers:
+  - NSA
+authors:
+  - NSA
+use_cases:
+  - Reverse engineering
+  - Binary analysis
+  - Malware analysis
+  - Vulnerability research
+related_tools:
+  - ida
+  - radare2
+similar_tools:
+  - ida
+  - radare2
+  - hopper
+added_at: '2024-01-15'

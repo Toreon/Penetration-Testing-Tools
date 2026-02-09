@@ -1,0 +1,51 @@
+id: steghide
+name: Steghide
+summary: Steganography program that is able to hide data in various kinds of image and audio files.
+description: |
+  Steghide is a steganography program that is able to hide data in various kinds of image and audio files. The color respectively sample-frequencies are not changed thus making the embedding resistant against first-order statistical tests. Steghide supports JPEG, BMP, WAV, and AU file formats and provides both encryption and compression of hidden data.
+categories:
+  - reconnaissance
+tags:
+  - steganography
+  - data_hiding
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: http://steghide.sourceforge.net/
+docs_url: http://steghide.sourceforge.net/documentation.php
+download_url: http://steghide.sourceforge.net/download.php
+github_repo: null
+stars: null
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Package manager
+    - Source compilation
+  commands:
+    - sudo apt-get install steghide
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - steghide
+authors:
+  - steghide
+use_cases:
+  - Data hiding in images
+  - Data hiding in audio files
+  - Steganography testing
+related_tools:
+  - openstego
+  - snow
+similar_tools:
+  - openstego
+  - snow
+  - outguess
+added_at: '2024-01-15'

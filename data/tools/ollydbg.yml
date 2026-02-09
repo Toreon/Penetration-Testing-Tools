@@ -1,0 +1,47 @@
+id: ollydbg
+name: OllyDbg
+summary: 32-bit assembler level analyzing debugger for Microsoft Windows.
+description: |
+  OllyDbg is a 32-bit assembler level analyzing debugger for Microsoft Windows. Emphasis on binary code analysis makes it particularly useful in cases where source is unavailable. OllyDbg is a shareware, but you can download and use it for free. It's widely used for reverse engineering, malware analysis, and software debugging.
+categories:
+  - static_analysis
+tags:
+  - debugger
+  - reverse_engineering
+  - windows
+  - commercial
+  - gui
+platforms:
+  - windows
+license: Shareware (Free to use)
+maturity: stable
+website: http://www.ollydbg.de/
+docs_url: http://www.ollydbg.de/
+download_url: http://www.ollydbg.de/
+github_repo: null
+stars: null
+pricing:
+  type: free
+  notes: "Shareware, free to use"
+installation:
+  methods:
+    - Download installer
+  commands:
+    - Download from http://www.ollydbg.de/
+maintainers:
+  - Oleh Yuschuk
+authors:
+  - Oleh Yuschuk
+use_cases:
+  - Reverse engineering
+  - Malware analysis
+  - Software debugging
+  - Binary analysis
+related_tools:
+  - immunity_debugger
+  - ida
+similar_tools:
+  - immunity_debugger
+  - x64dbg
+  - ida
+added_at: '2024-01-15'

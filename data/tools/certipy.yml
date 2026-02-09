@@ -1,0 +1,51 @@
+id: certipy
+name: Certipy
+summary: Python tool for Active Directory Certificate Services enumeration and abuse.
+description: |
+  Certipy is a Python tool for Active Directory Certificate Services enumeration and abuse. It helps security researchers and penetration testers identify and exploit misconfigurations in Active Directory Certificate Services. Certipy can enumerate certificates, request certificates, and perform various attacks against AD CS.
+categories:
+  - active_directory
+tags:
+  - ad_cs
+  - certificate_abuse
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://github.com/ly4k/Certipy
+docs_url: https://github.com/ly4k/Certipy
+download_url: https://github.com/ly4k/Certipy
+github_repo: ly4k/Certipy
+stars: 2500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - pip install
+    - Git clone
+  commands:
+    - pip install certipy-ad
+    - git clone https://github.com/ly4k/Certipy.git
+  package_managers:
+    - pip
+maintainers:
+  - ly4k
+authors:
+  - ly4k
+use_cases:
+  - AD CS enumeration
+  - Certificate abuse
+  - Privilege escalation
+  - Domain compromise
+related_tools:
+  - bloodhound
+  - impacket
+similar_tools:
+  - bloodhound
+  - impacket
+added_at: '2024-01-15'

@@ -1,0 +1,47 @@
+id: mdk4
+name: mdk4
+summary: Proof-of-concept tool to exploit common IEEE 802.11 protocol weaknesses.
+description: |
+  mdk4 is a proof-of-concept tool to exploit common IEEE 802.11 protocol weaknesses. It's designed to test wireless networks for vulnerabilities and can perform various attacks including authentication flood, deauthentication attacks, and beacon flood attacks. mdk4 is useful for wireless security testing and penetration testing.
+categories:
+  - network_attack
+tags:
+  - wireless_security
+  - wifi_attacks
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+license: GPL-2.0
+maturity: stable
+website: https://github.com/aircrack-ng/mdk4
+docs_url: https://github.com/aircrack-ng/mdk4
+download_url: https://github.com/aircrack-ng/mdk4
+github_repo: aircrack-ng/mdk4
+stars: 1500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Package manager
+  commands:
+    - git clone https://github.com/aircrack-ng/mdk4.git
+  package_managers:
+    - apt
+maintainers:
+  - aircrack-ng
+authors:
+  - aircrack-ng
+use_cases:
+  - Wireless protocol testing
+  - Deauthentication attacks
+  - Network stress testing
+related_tools:
+  - aircrack_ng
+  - wifite
+similar_tools:
+  - aircrack_ng
+  - wifite
+added_at: '2024-01-15'

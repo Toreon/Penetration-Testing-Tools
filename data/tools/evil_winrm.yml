@@ -1,0 +1,51 @@
+id: evil_winrm
+name: Evil-WinRM
+summary: Ultimate WinRM shell for hacking/pentesting that provides a powerful interface for Windows Remote Management.
+description: |
+  Evil-WinRM is the ultimate WinRM shell for hacking/pentesting. It provides a powerful interface for Windows Remote Management (WinRM) that allows penetration testers to interact with Windows systems remotely. Evil-WinRM includes features for file upload/download, command execution, and various post-exploitation tasks.
+categories:
+  - network_attack
+tags:
+  - winrm
+  - post_exploitation
+  - oss
+  - cli
+  - ruby
+platforms:
+  - linux
+  - windows
+  - macos
+license: LGPL-3.0
+maturity: stable
+website: https://github.com/Hackplayers/evil-winrm
+docs_url: https://github.com/Hackplayers/evil-winrm/wiki
+download_url: https://github.com/Hackplayers/evil-winrm
+github_repo: Hackplayers/evil-winrm
+stars: 6500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Gem install
+    - Git clone
+  commands:
+    - gem install evil-winrm
+    - git clone https://github.com/Hackplayers/evil-winrm.git
+  package_managers:
+    - gem
+maintainers:
+  - Hackplayers
+authors:
+  - Hackplayers
+use_cases:
+  - WinRM access
+  - Post-exploitation
+  - Lateral movement
+  - Remote command execution
+related_tools:
+  - impacket
+  - crackmapexec
+similar_tools:
+  - impacket
+  - winrm
+added_at: '2024-01-15'

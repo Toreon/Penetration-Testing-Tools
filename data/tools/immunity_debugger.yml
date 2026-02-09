@@ -1,0 +1,48 @@
+id: immunity_debugger
+name: Immunity Debugger
+summary: Powerful way to write exploits and analyze malware, with built-in Python API.
+description: |
+  Immunity Debugger is a powerful way to write exploits and analyze malware. It was built from the ground up with a focus on helping security professionals get their job done. Immunity Debugger has a built-in Python API that allows you to write scripts to automate debugging tasks, making it particularly useful for exploit development and malware analysis.
+categories:
+  - static_analysis
+tags:
+  - debugger
+  - reverse_engineering
+  - windows
+  - commercial
+  - gui
+  - python
+platforms:
+  - windows
+license: Proprietary (Free)
+maturity: stable
+website: https://www.immunityinc.com/products/debugger/
+docs_url: https://www.immunityinc.com/products/debugger/
+download_url: https://www.immunityinc.com/products/debugger/
+github_repo: null
+stars: null
+pricing:
+  type: free
+  notes: "Free for personal use"
+installation:
+  methods:
+    - Download installer
+  commands:
+    - Download from https://www.immunityinc.com/products/debugger/
+maintainers:
+  - Immunity Inc
+authors:
+  - Immunity Inc
+use_cases:
+  - Exploit development
+  - Malware analysis
+  - Reverse engineering
+  - Binary analysis
+related_tools:
+  - ollydbg
+  - ida
+similar_tools:
+  - ollydbg
+  - ida
+  - x64dbg
+added_at: '2024-01-15'

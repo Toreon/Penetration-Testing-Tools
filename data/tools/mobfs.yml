@@ -1,0 +1,52 @@
+id: mobfs
+name: MobFS
+summary: Mobile File System that provides a web-based interface for accessing and analyzing mobile application files.
+description: |
+  MobFS (Mobile File System) is a web-based framework that provides a unified interface for accessing and analyzing mobile application files. It supports both Android and iOS applications and provides features for file browsing, code analysis, and security assessment. MobFS is useful for mobile security researchers and penetration testers.
+categories:
+  - static_analysis
+tags:
+  - mobile_security
+  - file_system
+  - oss
+  - web_interface
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://github.com/MobSF/Mobile-Security-Framework-MobSF
+docs_url: https://mobsf.github.io/docs/
+download_url: https://github.com/MobSF/Mobile-Security-Framework-MobSF
+github_repo: MobSF/Mobile-Security-Framework-MobSF
+stars: 15000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Docker
+    - Git clone
+  commands:
+    - docker pull opensecurity/mobsf
+    - git clone https://github.com/MobSF/Mobile-Security-Framework-MobSF.git
+  package_managers:
+    - docker
+maintainers:
+  - MobSF
+authors:
+  - MobSF
+use_cases:
+  - Mobile app analysis
+  - File system access
+  - Security assessment
+  - Code analysis
+related_tools:
+  - drozer
+  - jadx
+similar_tools:
+  - drozer
+  - jadx
+  - apktool
+added_at: '2024-01-15'

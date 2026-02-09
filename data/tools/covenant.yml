@@ -1,0 +1,53 @@
+id: covenant
+name: Covenant
+summary: .NET command and control framework that aims to highlight the attack surface of .NET, make the use of offensive .NET tradecraft easier, and serve as a collaborative command and control platform for red teams.
+description: |
+  Covenant is a .NET command and control framework that aims to highlight the attack surface of .NET, make the use of offensive .NET tradecraft easier, and serve as a collaborative command and control platform for red teams. Covenant is a .NET Core, cross-platform application that includes a web-based interface that allows multiple users to collaborate on red team engagements.
+categories:
+  - network_attack
+tags:
+  - command_and_control
+  - red_team
+  - post_exploitation
+  - oss
+  - web_interface
+  - csharp
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://github.com/cobbr/Covenant
+docs_url: https://github.com/cobbr/Covenant/wiki
+download_url: https://github.com/cobbr/Covenant
+github_repo: cobbr/Covenant
+stars: 4500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Docker
+  commands:
+    - git clone https://github.com/cobbr/Covenant.git
+    - docker run -it -p 7443:7443 -p 80:80 -p 443:443 --name covenant -v /opt/Covenant/Covenant/Data:/app/Data covenant
+  package_managers:
+    - docker
+maintainers:
+  - cobbr
+authors:
+  - cobbr
+use_cases:
+  - Command and control
+  - Red team operations
+  - Post-exploitation
+  - .NET exploitation
+related_tools:
+  - metasploit
+  - cobalt_strike
+similar_tools:
+  - metasploit
+  - cobalt_strike
+  - empire
+added_at: '2024-01-15'

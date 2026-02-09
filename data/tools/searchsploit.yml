@@ -1,0 +1,48 @@
+id: searchsploit
+name: SearchSploit
+summary: Command line search tool for Exploit-DB that allows you to take a copy of Exploit Database with you wherever you go.
+description: |
+  SearchSploit is a command line search tool for Exploit-DB that allows you to take a copy of Exploit Database with you wherever you go. SearchSploit allows you to perform detailed searches through the local copy of the Exploit Database, making it easy to find exploits for specific software versions, platforms, or vulnerability types. It's included with Exploit-DB and is a standard tool in penetration testing distributions.
+categories:
+  - reconnaissance
+tags:
+  - exploit_database
+  - vulnerability_search
+  - oss
+  - cli
+  - bash
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://www.exploit-db.com/searchsploit
+docs_url: https://www.exploit-db.com/searchsploit
+download_url: https://www.exploit-db.com/searchsploit
+github_repo: null
+stars: null
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Package manager
+    - Git clone
+  commands:
+    - sudo apt-get install exploitdb
+    - git clone https://github.com/offensive-security/exploitdb.git
+  package_managers:
+    - apt
+maintainers:
+  - Offensive Security
+authors:
+  - Offensive Security
+use_cases:
+  - Exploit searching
+  - Vulnerability research
+  - Security testing
+related_tools:
+  - metasploit
+similar_tools:
+  - exploitdb
+added_at: '2024-01-15'

@@ -1,0 +1,52 @@
+id: apktool
+name: APKTool
+summary: Tool for reverse engineering Android APK files that can decode resources to nearly original form and rebuild them.
+description: |
+  APKTool is a tool for reverse engineering Android APK files. It can decode resources to nearly original form and rebuild them. APKTool is useful for analyzing Android applications, modifying APK files, and understanding application structure. It's widely used in mobile security research and Android application analysis.
+categories:
+  - static_analysis
+tags:
+  - android_security
+  - reverse_engineering
+  - oss
+  - cli
+  - java
+platforms:
+  - linux
+  - windows
+  - macos
+license: Apache-2.0
+maturity: stable
+website: https://ibotpeaches.github.io/Apktool/
+docs_url: https://ibotpeaches.github.io/Apktool/documentation/
+download_url: https://ibotpeaches.github.io/Apktool/download/
+github_repo: iBotPeaches/Apktool
+stars: 18000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download JAR
+    - Package manager
+  commands:
+    - Download from https://ibotpeaches.github.io/Apktool/download/
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - iBotPeaches
+authors:
+  - iBotPeaches
+use_cases:
+  - Android APK reverse engineering
+  - APK modification
+  - Mobile app analysis
+  - Security research
+related_tools:
+  - jadx
+  - apkx
+similar_tools:
+  - jadx
+  - apkx
+  - apk_studio
+added_at: '2024-01-15'

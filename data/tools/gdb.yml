@@ -1,0 +1,52 @@
+id: gdb
+name: GNU Debugger (GDB)
+summary: Portable debugger that runs on many Unix-like systems and works for many programming languages.
+description: |
+  The GNU Debugger (GDB) is a portable debugger that runs on many Unix-like systems and works for many programming languages, including Ada, C, C++, Objective-C, Free Pascal, Fortran, Go, and partially others. GDB offers extensive ways to control and inspect the execution of a program, making it an essential tool for software development and security analysis.
+categories:
+  - static_analysis
+tags:
+  - debugger
+  - reverse_engineering
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://www.gnu.org/software/gdb/
+docs_url: https://sourceware.org/gdb/documentation/
+download_url: https://www.gnu.org/software/gdb/download/
+github_repo: null
+stars: null
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Package manager
+    - Source compilation
+  commands:
+    - sudo apt-get install gdb
+  package_managers:
+    - apt
+    - yum
+    - brew
+maintainers:
+  - GNU Project
+authors:
+  - GNU Project
+use_cases:
+  - Software debugging
+  - Reverse engineering
+  - Binary analysis
+  - Exploit development
+related_tools:
+  - ida
+  - ollydbg
+similar_tools:
+  - lldb
+  - radare2
+added_at: '2024-01-15'

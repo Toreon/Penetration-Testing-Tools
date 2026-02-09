@@ -1,0 +1,54 @@
+id: radare2
+name: Radare2
+summary: Unix-like reverse engineering framework and command-line toolset that provides a complete solution for reverse engineering.
+description: |
+  Radare2 is a Unix-like reverse engineering framework and command-line toolset that provides a complete solution for reverse engineering. It includes a disassembler, debugger, and various analysis tools. Radare2 is free and open-source and supports a wide range of architectures and file formats.
+categories:
+  - static_analysis
+tags:
+  - reverse_engineering
+  - disassembler
+  - debugger
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - windows
+  - macos
+license: LGPL-3.0
+maturity: stable
+website: https://www.radare.org/
+docs_url: https://book.rada.re/
+download_url: https://github.com/radareorg/radare2
+github_repo: radareorg/radare2
+stars: 20000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Package manager
+    - Git clone
+  commands:
+    - git clone https://github.com/radareorg/radare2.git
+    - cd radare2 && sys/install.sh
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - radareorg
+authors:
+  - radareorg
+use_cases:
+  - Reverse engineering
+  - Binary analysis
+  - Malware analysis
+  - Exploit development
+related_tools:
+  - ghidra
+  - ida
+similar_tools:
+  - ghidra
+  - ida
+  - hopper
+added_at: '2024-01-15'

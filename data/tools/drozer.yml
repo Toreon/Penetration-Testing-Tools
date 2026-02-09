@@ -1,0 +1,49 @@
+id: drozer
+name: Drozer
+summary: Security assessment framework for Android that allows you to search for security vulnerabilities in apps and devices.
+description: |
+  Drozer is a security assessment framework for Android that allows you to search for security vulnerabilities in apps and devices. It provides tools to help you assess the security posture of Android applications and devices. Drozer can identify vulnerabilities in Android apps, test for common security issues, and help you understand the security implications of Android app permissions and components.
+categories:
+  - static_analysis
+tags:
+  - android_security
+  - mobile_security
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: BSD-3-Clause
+maturity: stable
+website: https://labs.withsecure.com/tools/drozer
+docs_url: https://labs.withsecure.com/tools/drozer
+download_url: https://github.com/WithSecureLabs/drozer
+github_repo: WithSecureLabs/drozer
+stars: 3500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - pip install
+  commands:
+    - git clone https://github.com/WithSecureLabs/drozer.git
+    - pip install drozer-2.4.4-py2-none-any.whl
+maintainers:
+  - WithSecureLabs
+authors:
+  - WithSecureLabs
+use_cases:
+  - Android security assessment
+  - Mobile app vulnerability testing
+  - Permission analysis
+  - Component security testing
+related_tools:
+  - apkx
+  - mobsf
+similar_tools:
+  - apkx
+  - mobsf
+added_at: '2024-01-15'

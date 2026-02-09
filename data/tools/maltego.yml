@@ -1,0 +1,50 @@
+id: maltego
+name: Maltego
+summary: Open source intelligence and forensics application that allows for the gathering and connecting of information for investigative tasks.
+description: |
+  Maltego is an open source intelligence and forensics application that allows for the gathering and connecting of information for investigative tasks. It provides a graphical interface for visualizing relationships between people, companies, websites, domains, IP addresses, and more. Maltego uses transforms to gather information from various data sources and presents it in a graph format.
+categories:
+  - reconnaissance
+tags:
+  - osint
+  - information_gathering
+  - commercial
+  - gui
+  - java
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary (Community Edition available)
+maturity: stable
+website: https://www.maltego.com/
+docs_url: https://docs.maltego.com/
+download_url: https://www.maltego.com/downloads/
+github_repo: null
+stars: null
+pricing:
+  type: freemium
+  price: "Community Edition free, Commercial licenses available"
+  notes: "Community Edition with limited transforms"
+installation:
+  methods:
+    - Download installer
+  commands:
+    - Download from https://www.maltego.com/downloads/
+maintainers:
+  - Paterva
+authors:
+  - Paterva
+use_cases:
+  - OSINT gathering
+  - Link analysis
+  - Investigation
+  - Relationship mapping
+related_tools:
+  - theharvester
+  - recon-ng
+similar_tools:
+  - theharvester
+  - recon-ng
+  - spiderfoot
+added_at: '2024-01-15'

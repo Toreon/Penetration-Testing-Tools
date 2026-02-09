@@ -1,0 +1,53 @@
+id: aircrack_ng
+name: Aircrack-ng
+summary: Complete suite of tools to assess WiFi network security, focusing on different areas of WiFi security.
+description: |
+  Aircrack-ng is a complete suite of tools to assess WiFi network security. It focuses on different areas of WiFi security: Monitoring, Attacking, Testing and Cracking. Aircrack-ng is a set of tools for auditing wireless networks. It consists of: airodump-ng (packet capture), aireplay-ng (packet injection), aircrack-ng (WEP and WPA/WPA2-PSK cracking), and airbase-ng (rogue access point).
+categories:
+  - network_attack
+tags:
+  - wireless_security
+  - wifi_cracking
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://www.aircrack-ng.org/
+docs_url: https://www.aircrack-ng.org/doku.php
+download_url: https://www.aircrack-ng.org/downloads.html
+github_repo: aircrack-ng/aircrack-ng
+stars: 12000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Source compilation
+    - Package manager
+  commands:
+    - git clone https://github.com/aircrack-ng/aircrack-ng.git
+    - cd aircrack-ng && make && sudo make install
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - aircrack-ng
+authors:
+  - aircrack-ng
+  - Thomasd'Otreppe
+use_cases:
+  - WiFi security auditing
+  - WEP/WPA cracking
+  - Wireless network testing
+  - Rogue access point creation
+related_tools:
+  - reaver
+  - hashcat
+similar_tools:
+  - reaver
+  - hashcat
+added_at: '2024-01-15'

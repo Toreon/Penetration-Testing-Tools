@@ -1,0 +1,52 @@
+id: nikto
+name: Nikto
+summary: Web server scanner which performs comprehensive tests against web servers for multiple items, including over 6700 potentially dangerous files/programs.
+description: |
+  Nikto is an Open Source web server scanner which performs comprehensive tests against web servers for multiple items, including over 6700 potentially dangerous files/programs, checks for outdated versions of over 1250 servers, and version specific problems on over 270 servers. It also checks for server configuration items such as the presence of multiple index files, HTTP server options, and will attempt to identify installed web servers and software.
+categories:
+  - web_app_scanner
+  - vulnerability_scanner
+tags:
+  - web_server_scanning
+  - oss
+  - cli
+  - perl
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://cirt.net/Nikto2
+docs_url: https://cirt.net/Nikto2
+download_url: https://github.com/sullo/nikto
+github_repo: sullo/nikto
+stars: 7500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Package manager
+  commands:
+    - git clone https://github.com/sullo/nikto.git
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - sullo
+authors:
+  - sullo
+  - cirt
+use_cases:
+  - Web server scanning
+  - Vulnerability detection
+  - Security auditing
+  - Configuration testing
+related_tools:
+  - nmap
+  - wapiti
+similar_tools:
+  - wapiti
+  - w3af
+added_at: '2024-01-15'

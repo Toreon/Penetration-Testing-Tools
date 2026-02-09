@@ -1,0 +1,53 @@
+id: bettercap
+name: Bettercap
+summary: Swiss Army knife for network attacks and monitoring that provides a powerful framework for network security assessment.
+description: |
+  Bettercap is a Swiss Army knife for network attacks and monitoring. It's a powerful, flexible, and portable framework written in Go that provides a comprehensive set of tools for network security assessment. Bettercap can perform man-in-the-middle attacks, network sniffing, credential harvesting, and many other network security testing tasks.
+categories:
+  - network_attack
+  - network_scanner
+tags:
+  - man_in_the_middle
+  - network_sniffing
+  - oss
+  - cli
+  - go
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://www.bettercap.org/
+docs_url: https://www.bettercap.org/docs/
+download_url: https://github.com/bettercap/bettercap
+github_repo: bettercap/bettercap
+stars: 15000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Go install
+    - Package manager
+  commands:
+    - go install github.com/bettercap/bettercap@latest
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - bettercap
+authors:
+  - bettercap
+use_cases:
+  - Man-in-the-middle attacks
+  - Network monitoring
+  - Credential harvesting
+  - ARP spoofing
+related_tools:
+  - ettercap
+  - wireshark
+similar_tools:
+  - ettercap
+  - mitmf
+added_at: '2024-01-15'

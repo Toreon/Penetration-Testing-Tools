@@ -1,0 +1,46 @@
+id: sharphound
+name: SharpHound
+summary: C# data collector for BloodHound that collects information from Active Directory environments for attack path analysis.
+description: |
+  SharpHound is a C# data collector for BloodHound that collects information from Active Directory environments for attack path analysis. It's designed to be a faster and more efficient alternative to the original BloodHound collectors. SharpHound collects data about users, groups, computers, and relationships in Active Directory to help identify attack paths.
+categories:
+  - active_directory
+tags:
+  - ad_enumeration
+  - data_collection
+  - oss
+  - cli
+  - csharp
+platforms:
+  - windows
+license: GPL-3.0
+maturity: stable
+website: https://github.com/BloodHoundAD/SharpHound
+docs_url: https://github.com/BloodHoundAD/SharpHound
+download_url: https://github.com/BloodHoundAD/SharpHound/releases
+github_repo: BloodHoundAD/SharpHound
+stars: 2000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Build from source
+  commands:
+    - Download from https://github.com/BloodHoundAD/SharpHound/releases
+maintainers:
+  - BloodHoundAD
+authors:
+  - BloodHoundAD
+use_cases:
+  - AD data collection
+  - Attack path analysis
+  - BloodHound data gathering
+  - AD security assessment
+related_tools:
+  - bloodhound
+  - impacket
+similar_tools:
+  - bloodhound
+  - impacket
+added_at: '2024-01-15'

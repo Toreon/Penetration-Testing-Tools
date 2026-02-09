@@ -1,0 +1,53 @@
+id: kismet
+name: Kismet
+summary: Wireless network detector, sniffer, and intrusion detection system that works with Wi-Fi, Bluetooth, and other wireless protocols.
+description: |
+  Kismet is a wireless network detector, sniffer, and intrusion detection system. Kismet works with Wi-Fi interfaces, Bluetooth adapters, some SDR (software defined radio) hardware like the RTLSDR, and other specialized capture hardware. It passively monitors wireless networks and can detect hidden networks, identify network types, and log network traffic.
+categories:
+  - network_scanner
+  - reconnaissance
+tags:
+  - wireless_security
+  - network_detection
+  - oss
+  - cli
+  - gui
+  - c
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://www.kismetwireless.net/
+docs_url: https://www.kismetwireless.net/documentation/
+download_url: https://www.kismetwireless.net/downloads/
+github_repo: kismetwireless/kismet
+stars: 3500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Package manager
+    - Source compilation
+  commands:
+    - sudo apt-get install kismet
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - kismetwireless
+authors:
+  - kismetwireless
+use_cases:
+  - Wireless network detection
+  - Network monitoring
+  - Intrusion detection
+  - Wireless reconnaissance
+related_tools:
+  - aircrack_ng
+  - wireshark
+similar_tools:
+  - aircrack_ng
+  - wireshark
+added_at: '2024-01-15'

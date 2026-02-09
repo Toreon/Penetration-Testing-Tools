@@ -1,0 +1,57 @@
+id: metasploit
+name: Metasploit Framework
+summary: Penetration testing framework that makes hacking simple and helps security teams do more, faster.
+description: |
+  The Metasploit Framework is an open source penetration testing framework that makes hacking simple. It's used by security professionals and ethical hackers to test systems for vulnerabilities, develop exploits, and perform security assessments. Metasploit provides a comprehensive suite of tools for penetration testing, including exploit modules, payloads, encoders, and post-exploitation tools.
+categories:
+  - vulnerability_scanner
+  - network_attack
+tags:
+  - exploitation_framework
+  - penetration_testing
+  - oss
+  - cli
+  - ruby
+platforms:
+  - linux
+  - windows
+  - macos
+license: BSD-3-Clause
+maturity: stable
+website: https://www.metasploit.com/
+docs_url: https://docs.metasploit.com/
+download_url: https://github.com/rapid7/metasploit-framework
+github_repo: rapid7/metasploit-framework
+stars: 35000
+pricing:
+  type: freemium
+  notes: "Metasploit Framework (free), Metasploit Pro (commercial)"
+installation:
+  methods:
+    - Git clone
+    - Package manager (Kali Linux)
+    - Installer
+  commands:
+    - git clone https://github.com/rapid7/metasploit-framework.git
+    - curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb | sudo bash
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - rapid7
+authors:
+  - rapid7
+  - hdm
+  - skape
+use_cases:
+  - Penetration testing
+  - Vulnerability exploitation
+  - Security assessment
+  - Post-exploitation
+related_tools:
+  - cobalt_strike
+  - nessus
+similar_tools:
+  - cobalt_strike
+  - core_impact
+added_at: '2024-01-15'

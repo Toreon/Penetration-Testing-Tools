@@ -1,0 +1,51 @@
+id: patator
+name: Patator
+summary: Multi-purpose brute-forcer with modular design and flexible usage.
+description: |
+  Patator is a multi-purpose brute-forcer with a modular design and a flexible usage. It was written out of frustration from using Hydra, Medusa, Ncrack, Metasploit modules and Nmap NSE scripts for password guessing attacks. Patator is designed to be fast, reliable, and easy to use. It supports many protocols and services including FTP, SSH, HTTP, SMTP, and more.
+categories:
+  - password_cracker
+  - network_attack
+tags:
+  - brute_force
+  - password_cracking
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://github.com/lanjelot/patator
+docs_url: https://github.com/lanjelot/patator
+download_url: https://github.com/lanjelot/patator
+github_repo: lanjelot/patator
+stars: 3500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Package manager
+  commands:
+    - git clone https://github.com/lanjelot/patator.git
+  package_managers:
+    - apt
+maintainers:
+  - lanjelot
+authors:
+  - lanjelot
+use_cases:
+  - Password brute-forcing
+  - Service authentication testing
+  - Credential enumeration
+related_tools:
+  - hydra
+  - medusa
+similar_tools:
+  - hydra
+  - medusa
+  - ncrack
+added_at: '2024-01-15'

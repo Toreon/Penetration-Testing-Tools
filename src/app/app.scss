@@ -25,15 +25,17 @@
     padding: 0.25rem 0.25rem 0.25rem 0.25rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     position: relative;
-    margin-bottom: -16px; // Allow badge and triangle to extend below navbar
+    margin-bottom: 7px; // Allow badge and triangle to extend below navbar
     margin-left: -16px;
     transition: box-shadow 0.2s ease;
+    height: 123px;
 
     &:hover {
       box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
     }
 
     .logo-image {
+      margin-top: 20px;
       height: 120px;
       width: auto;
       display: block;

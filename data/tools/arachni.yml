@@ -1,0 +1,50 @@
+id: arachni
+name: Arachni
+summary: Web application security scanner framework that helps identify security issues in web applications.
+description: |
+  Arachni is a web application security scanner framework that helps identify security issues in web applications. It's designed to be modular and extensible, allowing security professionals to customize and extend its functionality. Arachni can detect a wide range of vulnerabilities including SQL injection, XSS, file inclusion, and many others. It provides both a command-line interface and a web-based user interface.
+categories:
+  - web_app_scanner
+  - vulnerability_scanner
+tags:
+  - web_application
+  - automated_scanning
+  - oss
+  - gui
+  - cli
+  - ruby
+platforms:
+  - linux
+  - windows
+  - macos
+license: Apache-2.0
+maturity: stable
+website: http://www.arachni-scanner.com/
+docs_url: http://www.arachni-scanner.com/help
+download_url: http://www.arachni-scanner.com/download
+github_repo: Arachni/arachni
+stars: 3500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Source compilation
+  commands:
+    - Download from http://www.arachni-scanner.com/download
+maintainers:
+  - Arachni
+authors:
+  - Arachni
+use_cases:
+  - Web application security scanning
+  - Vulnerability detection
+  - Security assessment
+related_tools:
+  - burp_suite
+  - owasp_zap
+similar_tools:
+  - burp_suite
+  - owasp_zap
+  - wapiti
+added_at: '2024-01-15'

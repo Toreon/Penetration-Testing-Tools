@@ -1,0 +1,46 @@
+id: snow
+name: SNOW
+summary: Steganography program that conceals messages in ASCII text by appending whitespace to the end of lines.
+description: |
+  SNOW is a steganography program that conceals messages in ASCII text by appending whitespace to the end of lines. Because spaces and tabs are generally not visible in text viewers, the message is effectively hidden from casual observers. SNOW is useful for hiding messages in plain text files and is commonly used in CTF competitions and steganography challenges.
+categories:
+  - reconnaissance
+tags:
+  - steganography
+  - data_hiding
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - windows
+  - macos
+license: Public Domain
+maturity: stable
+website: http://www.darkside.com.au/snow/
+docs_url: http://www.darkside.com.au/snow/
+download_url: http://www.darkside.com.au/snow/
+github_repo: null
+stars: null
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download source
+  commands:
+    - Download from http://www.darkside.com.au/snow/
+maintainers:
+  - Matthew Kwan
+authors:
+  - Matthew Kwan
+use_cases:
+  - Text steganography
+  - Data hiding in plain text
+  - CTF challenges
+related_tools:
+  - steghide
+  - openstego
+similar_tools:
+  - steghide
+  - openstego
+added_at: '2024-01-15'

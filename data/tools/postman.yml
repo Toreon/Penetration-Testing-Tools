@@ -1,0 +1,49 @@
+id: postman
+name: Postman
+summary: API platform for building and using APIs that helps developers and security testers interact with APIs.
+description: |
+  Postman is an API platform for building and using APIs. While primarily a development tool, it's widely used in security testing for API security assessment, endpoint testing, and API fuzzing. Postman provides a user-friendly interface for making HTTP requests, testing API endpoints, and automating API testing workflows.
+categories:
+  - web_app_scanner
+tags:
+  - api_testing
+  - http_client
+  - commercial
+  - gui
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary (Free tier available)
+maturity: stable
+website: https://www.postman.com/
+docs_url: https://learning.postman.com/
+download_url: https://www.postman.com/downloads/
+github_repo: null
+stars: null
+pricing:
+  type: freemium
+  price: "Free tier available, paid plans start at $12/user/month"
+  notes: "Free tier with limited features"
+installation:
+  methods:
+    - Download installer
+    - Web app
+  commands:
+    - Download from https://www.postman.com/downloads/
+maintainers:
+  - Postman
+authors:
+  - Postman
+use_cases:
+  - API testing
+  - Endpoint testing
+  - API security assessment
+  - Request automation
+related_tools:
+  - burp_suite
+  - owasp_zap
+similar_tools:
+  - insomnia
+  - httpie
+added_at: '2024-01-15'

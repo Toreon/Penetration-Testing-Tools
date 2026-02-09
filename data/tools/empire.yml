@@ -1,0 +1,51 @@
+id: empire
+name: Empire
+summary: PowerShell and Python post-exploitation framework that includes a pure-PowerShell2.0 Windows agent and a pure Python 3.x Linux/OS X agent.
+description: |
+  Empire is a PowerShell and Python post-exploitation framework that includes a pure-PowerShell2.0 Windows agent and a pure Python 3.x Linux/OS X agent. It's designed to be a post-exploitation framework that provides a flexible and extensible platform for security professionals. Empire includes modules for credential harvesting, lateral movement, persistence, and various other post-exploitation tasks.
+categories:
+  - network_attack
+tags:
+  - post_exploitation
+  - command_and_control
+  - powershell
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: BSD-3-Clause
+maturity: stable
+website: https://github.com/BC-SECURITY/Empire
+docs_url: https://github.com/BC-SECURITY/Empire/wiki
+download_url: https://github.com/BC-SECURITY/Empire
+github_repo: BC-SECURITY/Empire
+stars: 7500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - pip install
+  commands:
+    - git clone https://github.com/BC-SECURITY/Empire.git
+    - cd Empire && pip install -r requirements.txt
+maintainers:
+  - BC-SECURITY
+authors:
+  - BC-SECURITY
+use_cases:
+  - Post-exploitation
+  - Command and control
+  - Lateral movement
+  - Credential harvesting
+related_tools:
+  - metasploit
+  - covenant
+similar_tools:
+  - metasploit
+  - covenant
+  - havoc
+added_at: '2024-01-15'

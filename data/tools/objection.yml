@@ -1,0 +1,51 @@
+id: objection
+name: Objection
+summary: Runtime mobile exploration toolkit powered by Frida that helps assess the security posture of mobile applications.
+description: |
+  Objection is a runtime mobile exploration toolkit powered by Frida. It helps assess the security posture of mobile applications by providing tools for dynamic analysis, runtime manipulation, and security testing. Objection is particularly useful for testing iOS and Android applications for security vulnerabilities.
+categories:
+  - static_analysis
+tags:
+  - mobile_security
+  - dynamic_analysis
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://github.com/sensepost/objection
+docs_url: https://github.com/sensepost/objection/wiki
+download_url: https://github.com/sensepost/objection
+github_repo: sensepost/objection
+stars: 6500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - pip install
+    - Git clone
+  commands:
+    - pip install objection
+    - git clone https://github.com/sensepost/objection.git
+  package_managers:
+    - pip
+maintainers:
+  - sensepost
+authors:
+  - sensepost
+use_cases:
+  - Mobile app security testing
+  - Runtime manipulation
+  - Dynamic analysis
+  - SSL pinning bypass
+related_tools:
+  - frida
+  - drozer
+similar_tools:
+  - frida
+  - drozer
+added_at: '2024-01-15'

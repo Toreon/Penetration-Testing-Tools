@@ -1,0 +1,51 @@
+id: amass
+name: Amass
+summary: In-depth attack surface mapping and asset discovery tool that performs DNS enumeration and subdomain discovery.
+description: |
+  Amass is an in-depth attack surface mapping and asset discovery tool that performs DNS enumeration and subdomain discovery. It integrates with over 80 data sources and uses various techniques including passive DNS enumeration, active DNS enumeration, and certificate transparency logs to discover subdomains and other assets. Amass is maintained by OWASP and is widely used for reconnaissance and attack surface mapping.
+categories:
+  - reconnaissance
+tags:
+  - dns_enumeration
+  - subdomain_discovery
+  - osint
+  - oss
+  - cli
+  - go
+platforms:
+  - linux
+  - windows
+  - macos
+license: Apache-2.0
+maturity: stable
+website: https://github.com/owasp-amass/amass
+docs_url: https://github.com/owasp-amass/amass/wiki
+download_url: https://github.com/owasp-amass/amass/releases
+github_repo: owasp-amass/amass
+stars: 12000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Go install
+  commands:
+    - go install -v github.com/owasp-amass/amass/v4/...@master
+    - Download from https://github.com/owasp-amass/amass/releases
+maintainers:
+  - OWASP
+authors:
+  - OWASP
+use_cases:
+  - Subdomain enumeration
+  - DNS reconnaissance
+  - Attack surface mapping
+  - Asset discovery
+related_tools:
+  - theharvester
+  - sublist3r
+similar_tools:
+  - sublist3r
+  - subfinder
+  - assetfinder
+added_at: '2024-01-15'

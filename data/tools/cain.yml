@@ -1,0 +1,47 @@
+id: cain
+name: Cain & Abel
+summary: Password recovery tool for Microsoft Operating Systems that allows recovery of various kinds of passwords.
+description: |
+  Cain & Abel is a password recovery tool for Microsoft Operating Systems. It allows easy recovery of various kinds of passwords by sniffing the network, cracking encrypted passwords using Dictionary, Brute-Force and Cryptanalysis attacks, recording VoIP conversations, decoding scrambled passwords, recovering wireless network keys, revealing password boxes, uncovering cached passwords and analyzing routing protocols.
+categories:
+  - password_cracker
+  - network_attack
+tags:
+  - password_recovery
+  - windows
+  - network_sniffing
+  - commercial
+  - gui
+platforms:
+  - windows
+license: Proprietary (Freeware)
+maturity: archived
+website: https://web.archive.org/web/20180419140000/http://www.oxid.it/cain.html
+docs_url: https://web.archive.org/web/20180419140000/http://www.oxid.it/cain.html
+download_url: https://web.archive.org/web/20180419140000/http://www.oxid.it/cain.html
+github_repo: null
+stars: null
+pricing:
+  type: free
+  notes: "Freeware, but project is archived"
+installation:
+  methods:
+    - Download installer
+  commands:
+    - Download from archived website
+maintainers:
+  - Massimiliano Montoro
+authors:
+  - Massimiliano Montoro
+use_cases:
+  - Password recovery
+  - Network sniffing
+  - VoIP recording
+  - Wireless key recovery
+related_tools:
+  - mimikatz
+  - hashcat
+similar_tools:
+  - mimikatz
+  - hashcat
+added_at: '2024-01-15'

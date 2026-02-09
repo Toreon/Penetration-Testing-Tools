@@ -1,0 +1,47 @@
+id: apkx
+name: APKX
+summary: Android APK decompilation and analysis tool that helps security researchers analyze Android applications.
+description: |
+  APKX is an Android APK decompilation and analysis tool that helps security researchers analyze Android applications. It provides functionality to decompile APK files, extract resources, analyze code, and identify potential security vulnerabilities. APKX is useful for mobile security research and Android application security assessment.
+categories:
+  - static_analysis
+tags:
+  - android_security
+  - mobile_security
+  - reverse_engineering
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://github.com/ax/apkx
+docs_url: https://github.com/ax/apkx
+download_url: https://github.com/ax/apkx
+github_repo: ax/apkx
+stars: 800
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+  commands:
+    - git clone https://github.com/ax/apkx.git
+maintainers:
+  - ax
+authors:
+  - ax
+use_cases:
+  - APK decompilation
+  - Android app analysis
+  - Mobile security research
+related_tools:
+  - drozer
+  - apk_studio
+similar_tools:
+  - apktool
+  - jadx
+added_at: '2024-01-15'

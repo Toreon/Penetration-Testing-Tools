@@ -1,0 +1,49 @@
+id: gau
+name: GAU (Get All URLs)
+summary: Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl.
+description: |
+  GAU (Get All URLs) is a tool that fetches known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl. It's designed to help security researchers and penetration testers discover historical URLs and endpoints that may not be visible in the current application. GAU is useful for finding hidden endpoints, API routes, and other resources.
+categories:
+  - reconnaissance
+tags:
+  - url_discovery
+  - osint
+  - oss
+  - cli
+  - go
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://github.com/lc/gau
+docs_url: https://github.com/lc/gau
+download_url: https://github.com/lc/gau/releases
+github_repo: lc/gau
+stars: 4500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Go install
+  commands:
+    - go install github.com/lc/gau/v2/cmd/gau@latest
+    - Download from https://github.com/lc/gau/releases
+maintainers:
+  - lc
+authors:
+  - lc
+use_cases:
+  - URL discovery
+  - Historical endpoint finding
+  - OSINT gathering
+  - Attack surface mapping
+related_tools:
+  - waybackurls
+  - theharvester
+similar_tools:
+  - waybackurls
+  - hakrawler
+added_at: '2024-01-15'

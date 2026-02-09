@@ -1,0 +1,50 @@
+id: kiterunner
+name: Kiterunner
+summary: Context-driven content discovery tool that uses API routes and content discovery to find hidden endpoints.
+description: |
+  Kiterunner is a context-driven content discovery tool that uses API routes and content discovery to find hidden endpoints. It's designed to discover API endpoints, routes, and resources that may not be visible through normal web crawling. Kiterunner is particularly useful for testing REST APIs and modern web applications.
+categories:
+  - web_app_scanner
+  - reconnaissance
+tags:
+  - api_discovery
+  - content_discovery
+  - oss
+  - cli
+  - go
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://github.com/assetnote/kiterunner
+docs_url: https://github.com/assetnote/kiterunner
+download_url: https://github.com/assetnote/kiterunner/releases
+github_repo: assetnote/kiterunner
+stars: 2500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Go install
+  commands:
+    - Download from https://github.com/assetnote/kiterunner/releases
+maintainers:
+  - assetnote
+authors:
+  - assetnote
+use_cases:
+  - API endpoint discovery
+  - Route enumeration
+  - Content discovery
+  - API security testing
+related_tools:
+  - gobuster
+  - ffuf
+similar_tools:
+  - gobuster
+  - ffuf
+  - arjun
+added_at: '2024-01-15'

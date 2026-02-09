@@ -1,0 +1,55 @@
+id: wfuzz
+name: WFuzz
+summary: Web application brute-forcer that allows you to find resources (directories, files, scripts, etc) not linked.
+description: |
+  WFuzz is a web application brute-forcer that allows you to find resources (directories, files, scripts, etc) not linked. It's designed to be flexible and powerful, allowing you to customize your brute-forcing attacks with various payloads and filters. WFuzz supports multiple injection points, various HTTP methods, and can be used for both directory enumeration and parameter fuzzing.
+categories:
+  - web_app_scanner
+  - reconnaissance
+tags:
+  - web_application
+  - brute_force
+  - fuzzing
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://github.com/xmendez/wfuzz
+docs_url: https://wfuzz.readthedocs.io/
+download_url: https://github.com/xmendez/wfuzz
+github_repo: xmendez/wfuzz
+stars: 5500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - pip install
+    - Git clone
+  commands:
+    - pip install wfuzz
+    - git clone https://github.com/xmendez/wfuzz.git
+  package_managers:
+    - pip
+    - apt
+maintainers:
+  - xmendez
+authors:
+  - xmendez
+use_cases:
+  - Directory enumeration
+  - Parameter fuzzing
+  - Web application brute-forcing
+  - Hidden resource discovery
+related_tools:
+  - gobuster
+  - dirbuster
+similar_tools:
+  - gobuster
+  - dirbuster
+  - dirb
+added_at: '2024-01-15'

@@ -1,0 +1,47 @@
+id: commix
+name: Commix
+summary: Automated command injection exploitation tool that helps identify and exploit command injection vulnerabilities.
+description: |
+  Commix is an automated command injection exploitation tool that helps identify and exploit command injection vulnerabilities in web applications. It's designed to automate the process of finding and testing command injection vulnerabilities. Commix can perform various attacks including OS command injection, blind command injection, and time-based command injection.
+categories:
+  - web_app_scanner
+tags:
+  - command_injection
+  - web_application
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://github.com/commixproject/commix
+docs_url: https://github.com/commixproject/commix/wiki
+download_url: https://github.com/commixproject/commix
+github_repo: commixproject/commix
+stars: 4500
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - pip install
+  commands:
+    - git clone https://github.com/commixproject/commix.git
+    - pip install -r requirements.txt
+maintainers:
+  - commixproject
+authors:
+  - commixproject
+use_cases:
+  - Command injection testing
+  - OS command exploitation
+  - Web application security testing
+related_tools:
+  - sqlmap
+  - burp_suite
+similar_tools:
+  - sqlmap
+added_at: '2024-01-15'

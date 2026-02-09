@@ -1,0 +1,47 @@
+id: wigle
+name: WiGLE (Wireless Geographic Logging Engine)
+summary: Database of wireless networks with statistics and mapping of wireless networks worldwide.
+description: |
+  WiGLE (Wireless Geographic Logging Engine) is a database of wireless networks with statistics and mapping of wireless networks worldwide. It's a collaborative project where users upload wireless network data including SSIDs, MAC addresses, encryption types, and GPS coordinates. WiGLE is useful for OSINT gathering and wireless network research.
+categories:
+  - reconnaissance
+tags:
+  - wireless_mapping
+  - osint
+  - commercial
+  - web_interface
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary
+maturity: stable
+website: https://wigle.net/
+docs_url: https://wigle.net/
+download_url: https://wigle.net/
+github_repo: null
+stars: null
+pricing:
+  type: free
+  notes: "Free access with registration"
+installation:
+  methods:
+    - Web interface
+    - Android app
+  commands:
+    - Access via https://wigle.net/
+maintainers:
+  - WiGLE
+authors:
+  - WiGLE
+use_cases:
+  - Wireless network mapping
+  - OSINT gathering
+  - Network research
+  - Geographic network analysis
+related_tools:
+  - kismet
+  - aircrack_ng
+similar_tools:
+  - kismet
+added_at: '2024-01-15'
