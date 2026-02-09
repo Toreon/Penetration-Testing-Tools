@@ -1,14 +1,40 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, OnDestroy, ChangeDetectorRef } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
+import { CommonModule } from '@angular/common';
+import { ToolsService } from '../../services/tools.service';
+import { Category } from '../../models/category.interface';
+import { Subject } from 'rxjs';
+import { takeUntil } from 'rxjs/operators';
 
 @Component({
   selector: 'app-home',
-  imports: [RouterLink, MatButtonModule, MatCardModule, MatIconModule],
+  imports: [RouterLink, MatButtonModule, MatCardModule, MatIconModule, CommonModule],
   templateUrl: './home.html',
   styleUrl: './home.scss'
 })
-export class Home {
+export class Home implements OnInit, OnDestroy {
+  categories: Category[] = [];
+  private destroy$ = new Subject<void>();
+
+  constructor(
+    private toolsService: ToolsService,
+    private cdr: ChangeDetectorRef
+  ) {}
+
+  ngOnInit(): void {
+    this.toolsService.getCategories()
+      .pipe(takeUntil(this.destroy$))
+      .subscribe((categories: Category[]) => {
+        this.categories = categories;
+        this.cdr.detectChanges();
+      });
+  }
+
+  ngOnDestroy(): void {
+    this.destroy$.next();
+    this.destroy$.complete();
+  }
 }

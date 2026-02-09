@@ -1,3 +1,48 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.logo-container {
+  display: flex;
+  align-items: flex-start;
+  text-decoration: none;
+  margin-right: 1rem;
+  transition: transform 0.2s ease;
+  position: relative;
+  z-index: 10;
+  margin-left: 0; // Start at left edge
+  margin-top: 0; // Start at top edge
+
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  .logo-badge {
+    background: white;
+    border-radius: 0 0 25px 0;
+    padding: 0.25rem 0.25rem 0.25rem 0.25rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    position: relative;
+    margin-bottom: -16px; // Allow badge and triangle to extend below navbar
+    margin-left: -16px;
+    transition: box-shadow 0.2s ease;
+
+    &:hover {
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+    }
+
+    .logo-image {
+      height: 120px;
+      width: auto;
+      display: block;
+      object-fit: contain;
+      max-width: 200px;
+    }
+  }
+}
+
 .spacer {
   flex: 1 1 auto;
 }
@@ -13,7 +58,8 @@ nav {
 
 .main-content {
   padding: 0;
-  min-height: calc(100vh - 64px);
+  flex: 1;
+  min-height: calc(100vh - 64px - 100px); // Account for header and footer
 }
 
 ::ng-deep {
@@ -21,6 +67,9 @@ nav {
     background: rgba(255, 255, 255, 0.03) !important;
     backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    overflow: visible !important; // Allow logo badge to extend beyond toolbar
+    position: relative;
+    z-index: 1;
   }
 
   .mat-mdc-button {

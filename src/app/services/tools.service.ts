@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable, BehaviorSubject, combineLatest, of } from 'rxjs';
 import { map, shareReplay, catchError, startWith, tap, filter, take } from 'rxjs/operators';
 import { Tool } from '../models/tool.interface';
+import { Category } from '../models/category.interface';
 
 export interface FilterOptions {
   categories?: string[];
@@ -21,6 +22,7 @@ export interface SortOption {
 })
 export class ToolsService {
   private tools$: Observable<Tool[]>;
+  private categories$: Observable<Category[]>;
   private filters$ = new BehaviorSubject<FilterOptions>({});
   private searchQuery$ = new BehaviorSubject<string>('');
   private sortOption$ = new BehaviorSubject<SortOption>({ field: 'stars', direction: 'desc' });
@@ -36,6 +38,19 @@ export class ToolsService {
         return of([]);
       })
     );
+
+    // Initialize categories$ immediately to trigger HTTP request
+    this.categories$ = this.http.get<{ categories: Category[] }>('assets/data/categories.json').pipe(
+      map((data: { categories: Category[] }) => data.categories || []),
+      shareReplay(1),
+      catchError(error => {
+        console.error('Error loading categories data:', error);
+        return of([]);
+      })
+    );
+    
+    // Trigger the HTTP request by subscribing (will be shared via shareReplay)
+    this.categories$.subscribe();
   }
 
   getToolsLoaded(): Observable<boolean> {
@@ -144,6 +159,16 @@ export class ToolsService {
 
   setSortOption(sortOption: SortOption): void {
     this.sortOption$.next(sortOption);
+  }
+
+  getCategories(): Observable<Category[]> {
+    return this.categories$;
+  }
+
+  getCategoryById(id: string): Observable<Category | undefined> {
+    return this.categories$.pipe(
+      map(categories => categories.find(cat => cat.id === id))
+    );
   }
 
   getAvailableCategories(): Observable<string[]> {

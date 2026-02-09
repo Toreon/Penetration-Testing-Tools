@@ -1,5 +1,9 @@
 <mat-toolbar color="primary">
-  <span>Pentest Tools Catalogue</span>
+  <a routerLink="/" class="logo-container">
+    <div class="logo-badge">
+      <img src="CYSSDE.png" alt="CYSSDE Logo" class="logo-image">
+    </div>
+  </a>
   <span class="spacer"></span>
   <nav>
     <a mat-button routerLink="/" routerLinkActive="active">Home</a>
@@ -12,3 +16,5 @@
 <main class="main-content">
   <router-outlet />
 </main>
+
+<app-footer></app-footer>

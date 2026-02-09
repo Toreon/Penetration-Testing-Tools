@@ -1,0 +1,78 @@
+categories:
+  - id: web_app_scanner
+    name: Web Application Scanners
+    description: Tools for scanning and testing web applications for vulnerabilities, SQL injection, XSS, and other web-based security issues.
+    icon: 🔍
+    order: 1
+
+  - id: password_cracker
+    name: Password Crackers
+    description: Tools for password recovery, hash cracking, and authentication testing including brute-force and dictionary attacks.
+    icon: 🔐
+    order: 2
+
+  - id: vulnerability_scanner
+    name: Vulnerability Scanners
+    description: Comprehensive vulnerability assessment and network scanning tools that identify security weaknesses across systems and networks.
+    icon: 🛡️
+    order: 3
+
+  - id: cloud_security
+    name: Cloud Security
+    description: Tools for assessing and securing cloud infrastructure and services across AWS, Azure, GCP, and other cloud providers.
+    icon: ☁️
+    order: 4
+
+  - id: active_directory
+    name: Active Directory
+    description: Tools for analyzing and testing Active Directory environments, identifying attack paths, and assessing security posture.
+    icon: 🏢
+    order: 5
+
+  - id: static_analysis
+    name: Static Analysis
+    description: Code analysis tools that examine application source code for security vulnerabilities and coding issues.
+    icon: 📝
+    order: 6
+
+  - id: database_exploitation
+    name: Database Exploitation
+    description: Tools for testing and exploiting database vulnerabilities, SQL injection, and database security assessment.
+    icon: 🗄️
+    order: 7
+
+  - id: network_attack
+    name: Network Attack Tools
+    description: Tools for network-based attacks, protocol testing, and network security assessment.
+    icon: 🌐
+    order: 8
+
+  - id: wordlist_generator
+    name: Wordlist Generators
+    description: Tools for generating custom wordlists for password cracking and security testing.
+    icon: 📚
+    order: 9
+
+  - id: reconnaissance
+    name: Reconnaissance
+    description: Tools for information gathering, enumeration, and reconnaissance activities in penetration testing.
+    icon: 🔎
+    order: 10
+
+  - id: cloud_enumeration
+    name: Cloud Enumeration
+    description: Tools for discovering and enumerating cloud resources and configurations.
+    icon: ☁️
+    order: 11
+
+  - id: code_scanner
+    name: Code Scanners
+    description: Tools for scanning source code and identifying security vulnerabilities in applications.
+    icon: 💻
+    order: 12
+
+  - id: network_scanner
+    name: Network Scanners
+    description: Tools for network discovery, port scanning, and network topology mapping.
+    icon: 📡
+    order: 13

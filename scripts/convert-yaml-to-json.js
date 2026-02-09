@@ -3,15 +3,17 @@ const path = require('path');
 const yaml = require('js-yaml');
 
 const toolsDir = path.join(__dirname, '..', 'data', 'tools');
-const outputFile = path.join(__dirname, '..', 'src', 'assets', 'data', 'tools.json');
+const categoriesFile = path.join(__dirname, '..', 'data', 'categories.yml');
+const toolsOutputFile = path.join(__dirname, '..', 'src', 'assets', 'data', 'tools.json');
+const categoriesOutputFile = path.join(__dirname, '..', 'src', 'assets', 'data', 'categories.json');
 
 // Ensure output directory exists
-const outputDir = path.dirname(outputFile);
+const outputDir = path.dirname(toolsOutputFile);
 if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir, { recursive: true });
 }
 
-// Read all YAML files from data/tools directory
+// Convert tools
 const files = fs.readdirSync(toolsDir).filter(file => file.endsWith('.yml') || file.endsWith('.yaml'));
 
 const tools = [];
@@ -35,8 +37,26 @@ for (const file of files) {
 // Sort tools by name for consistency
 tools.sort((a, b) => a.name.localeCompare(b.name));
 
-// Write to JSON file
-fs.writeFileSync(outputFile, JSON.stringify(tools, null, 2), 'utf8');
+// Write tools to JSON file
+fs.writeFileSync(toolsOutputFile, JSON.stringify(tools, null, 2), 'utf8');
+console.log(`✅ Converted ${tools.length} tool(s) to ${toolsOutputFile}`);
 
-console.log(`Successfully converted ${tools.length} tool(s) from YAML to JSON`);
-console.log(`Output written to: ${outputFile}`);
+// Convert categories
+if (fs.existsSync(categoriesFile)) {
+  try {
+    const categoriesContents = fs.readFileSync(categoriesFile, 'utf8');
+    const categoriesData = yaml.load(categoriesContents);
+    
+    // Sort categories by order
+    if (categoriesData.categories) {
+      categoriesData.categories.sort((a, b) => (a.order || 999) - (b.order || 999));
+    }
+    
+    fs.writeFileSync(categoriesOutputFile, JSON.stringify(categoriesData, null, 2), 'utf8');
+    console.log(`✅ Converted ${categoriesData.categories?.length || 0} categories to ${categoriesOutputFile}`);
+  } catch (error) {
+    console.error(`Error parsing categories file:`, error.message);
+  }
+} else {
+  console.log(`⚠️  Categories file not found: ${categoriesFile}`);
+}

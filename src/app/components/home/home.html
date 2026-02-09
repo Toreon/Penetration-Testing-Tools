@@ -23,45 +23,17 @@
   <div class="categories-section">
     <h2>Tool Categories</h2>
     <div class="category-grid">
-      <mat-card class="category-card" routerLink="/tools">
-        <div class="category-icon">🔍</div>
-        <mat-card-header>
-          <mat-card-title>Web Application Scanners</mat-card-title>
-        </mat-card-header>
-        <mat-card-content>
-          <p>Tools for scanning and testing web applications for vulnerabilities.</p>
-        </mat-card-content>
-      </mat-card>
-
-      <mat-card class="category-card" routerLink="/tools">
-        <div class="category-icon">🔐</div>
-        <mat-card-header>
-          <mat-card-title>Password Crackers</mat-card-title>
-        </mat-card-header>
-        <mat-card-content>
-          <p>Tools for password recovery, hash cracking, and authentication testing.</p>
-        </mat-card-content>
-      </mat-card>
-
-      <mat-card class="category-card" routerLink="/tools">
-        <div class="category-icon">🛡️</div>
-        <mat-card-header>
-          <mat-card-title>Vulnerability Scanners</mat-card-title>
-        </mat-card-header>
-        <mat-card-content>
-          <p>Comprehensive vulnerability assessment and network scanning tools.</p>
-        </mat-card-content>
-      </mat-card>
-
-      <mat-card class="category-card" routerLink="/tools">
-        <div class="category-icon">☁️</div>
-        <mat-card-header>
-          <mat-card-title>Cloud Security</mat-card-title>
-        </mat-card-header>
-        <mat-card-content>
-          <p>Tools for assessing and securing cloud infrastructure and services.</p>
-        </mat-card-content>
-      </mat-card>
+      @for (category of categories; track category.id) {
+        <mat-card class="category-card" routerLink="/tools" [queryParams]="{category: category.id}">
+          <div class="category-icon">{{ category.icon }}</div>
+          <mat-card-header>
+            <mat-card-title>{{ category.name }}</mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <p>{{ category.description }}</p>
+          </mat-card-content>
+        </mat-card>
+      }
     </div>
   </div>
 

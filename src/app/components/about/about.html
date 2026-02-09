@@ -39,30 +39,12 @@
     </mat-card-header>
     <mat-card-content>
       <div class="categories-list">
-        <div class="category-item">
-          <h3>Web Application Scanners</h3>
-          <p>Tools for scanning and testing web applications for vulnerabilities, SQL injection, XSS, and other web-based security issues.</p>
-        </div>
-        <div class="category-item">
-          <h3>Password Crackers</h3>
-          <p>Tools for password recovery, hash cracking, and authentication testing including brute-force and dictionary attacks.</p>
-        </div>
-        <div class="category-item">
-          <h3>Vulnerability Scanners</h3>
-          <p>Comprehensive vulnerability assessment and network scanning tools that identify security weaknesses across systems and networks.</p>
-        </div>
-        <div class="category-item">
-          <h3>Cloud Security</h3>
-          <p>Tools for assessing and securing cloud infrastructure and services across AWS, Azure, GCP, and other cloud providers.</p>
-        </div>
-        <div class="category-item">
-          <h3>Active Directory</h3>
-          <p>Tools for analyzing and testing Active Directory environments, identifying attack paths, and assessing security posture.</p>
-        </div>
-        <div class="category-item">
-          <h3>Static Analysis</h3>
-          <p>Code analysis tools that examine application source code for security vulnerabilities and coding issues.</p>
-        </div>
+        @for (category of categories; track category.id) {
+          <div class="category-item">
+            <h3>{{ category.icon }} {{ category.name }}</h3>
+            <p>{{ category.description }}</p>
+          </div>
+        }
       </div>
     </mat-card-content>
   </mat-card>
