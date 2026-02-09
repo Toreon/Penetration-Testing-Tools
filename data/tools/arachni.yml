@@ -23,7 +23,7 @@ website: http://www.arachni-scanner.com/
 docs_url: http://www.arachni-scanner.com/help
 download_url: http://www.arachni-scanner.com/download
 github_repo: Arachni/arachni
-stars: 3500
+stars: 3996
 pricing:
   type: open_source
 installation:
@@ -36,6 +36,9 @@ maintainers:
   - Arachni
 authors:
   - Arachni
+  - Zapotek
+  - treadie
+  - myrinx
 use_cases:
   - Web application security scanning
   - Vulnerability detection

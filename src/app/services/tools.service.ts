@@ -172,13 +172,13 @@ export class ToolsService {
   }
 
   getAvailableCategories(): Observable<string[]> {
-    return this.tools$.pipe(
-      map(tools => {
-        const categories = new Set<string>();
-        tools.forEach(tool => {
-          tool.categories.forEach(cat => categories.add(cat));
-        });
-        return Array.from(categories).sort();
+    // Return categories from categories.yml, sorted by order
+    return this.categories$.pipe(
+      map(categories => {
+        // Sort categories by order field, then map to IDs
+        return [...categories]
+          .sort((a, b) => (a.order || 0) - (b.order || 0))
+          .map(cat => cat.id);
       })
     );
   }

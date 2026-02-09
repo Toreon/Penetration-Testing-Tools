@@ -22,7 +22,7 @@ website: https://github.com/michenriksen/aquatone
 docs_url: https://github.com/michenriksen/aquatone
 download_url: https://github.com/michenriksen/aquatone/releases
 github_repo: michenriksen/aquatone
-stars: 5500
+stars: 5897
 pricing:
   type: open_source
 installation:
@@ -36,6 +36,8 @@ maintainers:
   - michenriksen
 authors:
   - michenriksen
+  - jolle
+  - vortexau
 use_cases:
   - Subdomain discovery
   - Screenshot capture

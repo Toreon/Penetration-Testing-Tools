@@ -22,7 +22,7 @@ website: https://github.com/vaibhavpandeyvpz/apkstudio
 docs_url: https://github.com/vaibhavpandeyvpz/apkstudio
 download_url: https://github.com/vaibhavpandeyvpz/apkstudio/releases
 github_repo: vaibhavpandeyvpz/apkstudio
-stars: 2000
+stars: 3135
 pricing:
   type: open_source
 installation:
@@ -35,6 +35,8 @@ maintainers:
   - vaibhavpandeyvpz
 authors:
   - vaibhavpandeyvpz
+  - Surendrajat
+  - rabidaudio
 use_cases:
   - Android app reverse engineering
   - APK analysis

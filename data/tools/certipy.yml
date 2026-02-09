@@ -21,7 +21,7 @@ website: https://github.com/ly4k/Certipy
 docs_url: https://github.com/ly4k/Certipy
 download_url: https://github.com/ly4k/Certipy
 github_repo: ly4k/Certipy
-stars: 2500
+stars: 3378
 pricing:
   type: open_source
 installation:
@@ -37,6 +37,8 @@ maintainers:
   - ly4k
 authors:
   - ly4k
+  - Patralos
+  - sploutchy
 use_cases:
   - AD CS enumeration
   - Certificate abuse

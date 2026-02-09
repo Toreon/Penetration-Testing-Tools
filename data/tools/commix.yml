@@ -21,7 +21,7 @@ website: https://github.com/commixproject/commix
 docs_url: https://github.com/commixproject/commix/wiki
 download_url: https://github.com/commixproject/commix
 github_repo: commixproject/commix
-stars: 4500
+stars: 5617
 pricing:
   type: open_source
 installation:
@@ -35,6 +35,9 @@ maintainers:
   - commixproject
 authors:
   - commixproject
+  - stasinopoulos
+  - apprentice
+  - dnet
 use_cases:
   - Command injection testing
   - OS command exploitation

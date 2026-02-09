@@ -22,7 +22,7 @@ website: https://github.com/0xsha/CloudBrute
 docs_url: https://github.com/0xsha/CloudBrute
 download_url: https://github.com/0xsha/CloudBrute
 github_repo: 0xsha/CloudBrute
-stars: 1200
+stars: 1093
 pricing:
   type: open_source
 installation:
@@ -36,6 +36,8 @@ maintainers:
   - 0xsha
 authors:
   - 0xsha
+  - jhaddix
+  - j3ssie
 use_cases:
   - Cloud resource discovery
   - S3 bucket enumeration

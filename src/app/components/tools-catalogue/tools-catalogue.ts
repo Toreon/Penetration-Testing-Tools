@@ -1,9 +1,9 @@
-import { Component, OnInit, OnDestroy, ChangeDetectorRef } from '@angular/core';
+import { Component, OnInit, OnDestroy, ChangeDetectorRef, ViewChild, ElementRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterLink } from '@angular/router';
+import { RouterLink, ActivatedRoute } from '@angular/router';
 import { FormsModule, ReactiveFormsModule, FormBuilder, FormGroup } from '@angular/forms';
-import { Subject } from 'rxjs';
-import { takeUntil, debounceTime, distinctUntilChanged, tap } from 'rxjs/operators';
+import { Subject, combineLatest } from 'rxjs';
+import { takeUntil, debounceTime, distinctUntilChanged, tap, filter } from 'rxjs/operators';
 
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
@@ -37,6 +37,8 @@ import { Tool } from '../../models/tool.interface';
   styleUrl: './tools-catalogue.scss'
 })
 export class ToolsCatalogue implements OnInit, OnDestroy {
+  @ViewChild('catalogueContainer', { static: false }) catalogueContainer!: ElementRef;
+  
   tools: Tool[] = [];
   filteredTools: Tool[] = [];
   categories: string[] = [];
@@ -54,7 +56,8 @@ export class ToolsCatalogue implements OnInit, OnDestroy {
   constructor(
     private toolsService: ToolsService,
     private fb: FormBuilder,
-    private cdr: ChangeDetectorRef
+    private cdr: ChangeDetectorRef,
+    private route: ActivatedRoute
   ) {
     this.searchControl = this.fb.control('');
     this.sortControl = this.fb.control('stars-desc');
@@ -67,6 +70,13 @@ export class ToolsCatalogue implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
+    // Watch for filter changes FIRST - this ensures filters are applied when form changes
+    this.filterForm.valueChanges
+      .pipe(takeUntil(this.destroy$))
+      .subscribe(filters => {
+        this.toolsService.setFilters(filters as FilterOptions);
+      });
+
     // Track when tools are actually loaded from HTTP
     this.toolsService.getToolsLoaded()
       .pipe(takeUntil(this.destroy$))
@@ -110,11 +120,36 @@ export class ToolsCatalogue implements OnInit, OnDestroy {
         this.cdr.detectChanges();
       });
 
-    // Watch for filter changes
-    this.filterForm.valueChanges
+    // Handle query parameters separately - this allows it to react to changes
+    this.route.queryParams
       .pipe(takeUntil(this.destroy$))
-      .subscribe(filters => {
-        this.toolsService.setFilters(filters as FilterOptions);
+      .subscribe(params => {
+        if (params['category']) {
+          const category = params['category'];
+          const currentCategories = this.filterForm.get('categories')?.value || [];
+          
+          // Only set if not already selected to avoid unnecessary updates
+          if (!currentCategories.includes(category)) {
+            // Set the category in the form - this will trigger valueChanges which updates the service
+            this.filterForm.patchValue({
+              categories: [category]
+            }, { emitEvent: true });
+          }
+          
+          // Expand filters to show the selected category
+          this.filtersExpanded = true;
+          
+          // Scroll to top of the page after a brief delay to ensure DOM is updated
+          setTimeout(() => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            // Also scroll the catalogue container if it exists
+            if (this.catalogueContainer?.nativeElement) {
+              this.catalogueContainer.nativeElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }, 100);
+        }
+        
+        this.cdr.detectChanges();
       });
 
     // Watch for search changes with debounce

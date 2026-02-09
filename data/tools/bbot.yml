@@ -21,7 +21,7 @@ website: https://github.com/blacklanternsecurity/bbot
 docs_url: https://github.com/blacklanternsecurity/bbot/wiki
 download_url: https://github.com/blacklanternsecurity/bbot
 github_repo: blacklanternsecurity/bbot
-stars: 3500
+stars: 9407
 pricing:
   type: open_source
 installation:
@@ -37,6 +37,9 @@ maintainers:
   - blacklanternsecurity
 authors:
   - blacklanternsecurity
+  - TheTechromancer
+  - liquidsec
+  - dependabot[bot]
 use_cases:
   - Subdomain enumeration
   - Attack surface mapping

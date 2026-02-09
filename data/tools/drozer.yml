@@ -21,7 +21,7 @@ website: https://labs.withsecure.com/tools/drozer
 docs_url: https://labs.withsecure.com/tools/drozer
 download_url: https://github.com/WithSecureLabs/drozer
 github_repo: WithSecureLabs/drozer
-stars: 3500
+stars: 4440
 pricing:
   type: open_source
 installation:
@@ -35,6 +35,9 @@ maintainers:
   - WithSecureLabs
 authors:
   - WithSecureLabs
+  - metall0id
+  - HenryHoggard
+  - Yogehi
 use_cases:
   - Android security assessment
   - Mobile app vulnerability testing

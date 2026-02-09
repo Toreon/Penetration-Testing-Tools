@@ -21,7 +21,7 @@ website: https://github.com/jpillora/chisel
 docs_url: https://github.com/jpillora/chisel/wiki
 download_url: https://github.com/jpillora/chisel/releases
 github_repo: jpillora/chisel
-stars: 12000
+stars: 15561
 pricing:
   type: open_source
 installation:
@@ -35,6 +35,8 @@ maintainers:
   - jpillora
 authors:
   - jpillora
+  - noahsbwilliams
+  - aus
 use_cases:
   - Network tunneling
   - Pivoting

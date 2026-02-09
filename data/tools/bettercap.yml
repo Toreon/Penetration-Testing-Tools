@@ -22,7 +22,7 @@ website: https://www.bettercap.org/
 docs_url: https://www.bettercap.org/docs/
 download_url: https://github.com/bettercap/bettercap
 github_repo: bettercap/bettercap
-stars: 15000
+stars: 18815
 pricing:
   type: open_source
 installation:
@@ -39,6 +39,9 @@ maintainers:
   - bettercap
 authors:
   - bettercap
+  - evilsocket
+  - buffermet
+  - picatz
 use_cases:
   - Man-in-the-middle attacks
   - Network monitoring

@@ -22,7 +22,7 @@ website: https://github.com/Porchetta-Industries/CrackMapExec
 docs_url: https://mpgn.gitbook.io/crackmapexec/
 download_url: https://github.com/Porchetta-Industries/CrackMapExec
 github_repo: Porchetta-Industries/CrackMapExec
-stars: 10000
+stars: 9056
 pricing:
   type: open_source
 installation:
@@ -40,6 +40,9 @@ maintainers:
 authors:
   - Porchetta-Industries
   - byt3bl33d3r
+  - mpgn
+  - Marshall-Hallenbeck
+  - NeffIsBack
 use_cases:
   - AD security assessment
   - Credential spraying

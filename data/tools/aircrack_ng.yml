@@ -21,7 +21,7 @@ website: https://www.aircrack-ng.org/
 docs_url: https://www.aircrack-ng.org/doku.php
 download_url: https://www.aircrack-ng.org/downloads.html
 github_repo: aircrack-ng/aircrack-ng
-stars: 12000
+stars: 6902
 pricing:
   type: open_source
 installation:
@@ -39,6 +39,9 @@ maintainers:
 authors:
   - aircrack-ng
   - Thomasd'Otreppe
+  - Mister-X-
+  - jbenden
+  - gemesa
 use_cases:
   - WiFi security auditing
   - WEP/WPA cracking

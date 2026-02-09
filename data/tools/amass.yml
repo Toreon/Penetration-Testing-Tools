@@ -22,7 +22,7 @@ website: https://github.com/owasp-amass/amass
 docs_url: https://github.com/owasp-amass/amass/wiki
 download_url: https://github.com/owasp-amass/amass/releases
 github_repo: owasp-amass/amass
-stars: 12000
+stars: 14100
 pricing:
   type: open_source
 installation:
@@ -36,6 +36,9 @@ maintainers:
   - OWASP
 authors:
   - OWASP
+  - caffix
+  - shelld3v
+  - fork-while-fork
 use_cases:
   - Subdomain enumeration
   - DNS reconnaissance

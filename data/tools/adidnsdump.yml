@@ -22,7 +22,7 @@ website: https://github.com/dirkjanm/adidnsdump
 docs_url: https://github.com/dirkjanm/adidnsdump
 download_url: https://github.com/dirkjanm/adidnsdump
 github_repo: dirkjanm/adidnsdump
-stars: 1500
+stars: 1125
 pricing:
   type: open_source
 installation:
@@ -38,6 +38,8 @@ maintainers:
   - dirkjanm
 authors:
   - dirkjanm
+  - CravateRouge
+  - nikallass
 use_cases:
   - DNS enumeration
   - AD reconnaissance

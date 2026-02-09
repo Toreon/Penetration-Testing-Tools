@@ -21,7 +21,7 @@ website: https://cloudcustodian.io/
 docs_url: https://cloudcustodian.io/docs/
 download_url: https://github.com/cloud-custodian/cloud-custodian
 github_repo: cloud-custodian/cloud-custodian
-stars: 5000
+stars: 5924
 pricing:
   type: open_source
 installation:
@@ -35,6 +35,9 @@ maintainers:
   - cloud-custodian
 authors:
   - cloud-custodian
+  - kapilt
+  - thisisshi
+  - ajkerrigan
 use_cases:
   - Cloud compliance monitoring
   - Security policy enforcement

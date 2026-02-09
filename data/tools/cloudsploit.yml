@@ -21,7 +21,7 @@ website: https://github.com/aquasecurity/cloudsploit
 docs_url: https://github.com/aquasecurity/cloudsploit
 download_url: https://github.com/aquasecurity/cloudsploit
 github_repo: aquasecurity/cloudsploit
-stars: 2500
+stars: 3696
 pricing:
   type: open_source
 installation:
@@ -37,6 +37,9 @@ maintainers:
   - aquasecurity
 authors:
   - aquasecurity
+  - AkhtarAmir
+  - alphadev4
+  - abdullahaslam306
 use_cases:
   - Cloud security assessment
   - Compliance auditing

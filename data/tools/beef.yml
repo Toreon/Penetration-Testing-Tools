@@ -22,7 +22,7 @@ website: https://beefproject.com/
 docs_url: https://github.com/beefproject/beef/wiki
 download_url: https://github.com/beefproject/beef
 github_repo: beefproject/beef
-stars: 8500
+stars: 10718
 pricing:
   type: open_source
 installation:
@@ -38,6 +38,9 @@ maintainers:
   - beefproject
 authors:
   - beefproject
+  - bcoles
+  - antisnatchor
+  - dependabot[bot]
 use_cases:
   - Browser exploitation
   - XSS testing

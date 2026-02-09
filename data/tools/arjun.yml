@@ -22,7 +22,7 @@ website: https://github.com/s0md3v/Arjun
 docs_url: https://github.com/s0md3v/Arjun
 download_url: https://github.com/s0md3v/Arjun
 github_repo: s0md3v/Arjun
-stars: 4500
+stars: 6078
 pricing:
   type: open_source
 installation:
@@ -38,6 +38,8 @@ maintainers:
   - s0md3v
 authors:
   - s0md3v
+  - nytr0gen
+  - 0xflotus
 use_cases:
   - HTTP parameter discovery
   - Hidden parameter finding

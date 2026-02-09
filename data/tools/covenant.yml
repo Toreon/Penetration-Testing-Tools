@@ -22,7 +22,7 @@ website: https://github.com/cobbr/Covenant
 docs_url: https://github.com/cobbr/Covenant/wiki
 download_url: https://github.com/cobbr/Covenant
 github_repo: cobbr/Covenant
-stars: 4500
+stars: 4602
 pricing:
   type: open_source
 installation:
@@ -38,6 +38,8 @@ maintainers:
   - cobbr
 authors:
   - cobbr
+  - rasta-mouse
+  - mrjamiebowman
 use_cases:
   - Command and control
   - Red team operations

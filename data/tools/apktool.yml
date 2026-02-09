@@ -21,7 +21,7 @@ website: https://ibotpeaches.github.io/Apktool/
 docs_url: https://ibotpeaches.github.io/Apktool/documentation/
 download_url: https://ibotpeaches.github.io/Apktool/download/
 github_repo: iBotPeaches/Apktool
-stars: 18000
+stars: 23843
 pricing:
   type: open_source
 installation:
@@ -37,6 +37,8 @@ maintainers:
   - iBotPeaches
 authors:
   - iBotPeaches
+  - broo2s
+  - dependabot[bot]
 use_cases:
   - Android APK reverse engineering
   - APK modification

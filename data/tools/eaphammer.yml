@@ -19,7 +19,7 @@ website: https://github.com/s0lst1c3/eaphammer
 docs_url: https://github.com/s0lst1c3/eaphammer/wiki
 download_url: https://github.com/s0lst1c3/eaphammer
 github_repo: s0lst1c3/eaphammer
-stars: 2000
+stars: 2456
 pricing:
   type: open_source
 installation:
@@ -31,6 +31,8 @@ maintainers:
   - s0lst1c3
 authors:
   - s0lst1c3
+  - D3vil0p3r
+  - r4ulcl
 use_cases:
   - Evil twin attacks
   - WPA2-Enterprise attacks
