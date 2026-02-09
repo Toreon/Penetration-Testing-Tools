@@ -18,9 +18,9 @@ platforms:
   - macos
 license: Proprietary (Community Edition available)
 maturity: stable
-website: https://www.peach.tech/
-docs_url: https://www.peach.tech/documentation/
-download_url: https://www.peach.tech/download/
+website: https://peachtech.gitlab.io/peach-fuzzer-community/
+docs_url: https://peachtech.gitlab.io/peach-fuzzer-community/
+download_url: https://peachtech.gitlab.io/peach-fuzzer-community/v3/Installation.html
 github_repo: null
 stars: null
 pricing:
@@ -31,7 +31,7 @@ installation:
   methods:
     - Download installer
   commands:
-    - Download from https://www.peach.tech/download/
+    - Follow https://peachtech.gitlab.io/peach-fuzzer-community/v3/Installation.html
 maintainers:
   - Peach Tech
 authors:
