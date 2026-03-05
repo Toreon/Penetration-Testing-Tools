@@ -20,7 +20,7 @@ website: https://github.com/rasta-mouse/Sherlock
 docs_url: https://github.com/rasta-mouse/Sherlock
 download_url: https://github.com/rasta-mouse/Sherlock
 github_repo: rasta-mouse/Sherlock
-stars: 2500
+stars: 1992
 pricing:
   type: open_source
 installation:
@@ -32,6 +32,7 @@ maintainers:
   - rasta-mouse
 authors:
   - rasta-mouse
+  - recrudesce
 use_cases:
   - Windows privilege escalation
   - Vulnerability detection

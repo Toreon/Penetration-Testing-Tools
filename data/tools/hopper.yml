@@ -1,0 +1,51 @@
+id: hopper
+name: Hopper
+summary: macOS and Linux disassembler for reverse engineering and binary analysis.
+description: |
+  Hopper is a macOS and Linux disassembler for reverse engineering and binary analysis. It provides a graphical interface for disassembling and analyzing binary files, with support for multiple architectures. Hopper includes a decompiler and various analysis features to help reverse engineers understand binary code.
+categories:
+  - static_analysis
+tags:
+  - reverse_engineering
+  - disassembler
+  - decompiler
+  - proprietary
+  - gui
+platforms:
+  - macos
+  - linux
+license: Proprietary
+maturity: stable
+website: https://www.hopperapp.com/
+docs_url: https://www.hopperapp.com/doc/
+download_url: https://www.hopperapp.com/download.html
+github_repo: null
+stars: null
+pricing:
+  type: paid
+  price: '89'
+  currency: USD
+  notes: Commercial license required
+installation:
+  methods:
+    - Download installer
+  commands:
+    - Download from https://www.hopperapp.com/download.html
+maintainers:
+  - Cryptic Apps
+authors:
+  - Cryptic Apps
+use_cases:
+  - Reverse engineering
+  - Binary analysis
+  - Malware analysis
+  - Security research
+related_tools:
+  - ghidra
+  - ida
+  - radare2
+similar_tools:
+  - ghidra
+  - ida
+  - radare2
+added_at: '2026-03-05'

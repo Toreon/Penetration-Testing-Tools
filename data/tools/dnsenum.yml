@@ -1,0 +1,53 @@
+id: dnsenum
+name: Dnsenum
+summary: DNS enumeration tool for gathering DNS information and subdomain discovery.
+description: |
+  Dnsenum is a DNS enumeration tool designed for gathering DNS information and subdomain discovery. It can perform various DNS queries including zone transfers, reverse lookups, subdomain brute-forcing, and DNS record enumeration. Dnsenum is useful for reconnaissance and information gathering during security assessments.
+categories:
+  - reconnaissance
+  - osint
+tags:
+  - dns_enumeration
+  - subdomain_discovery
+  - dns_reconnaissance
+  - oss
+  - cli
+  - perl
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://github.com/fwaeytens/dnsenum
+docs_url: https://github.com/fwaeytens/dnsenum
+download_url: https://github.com/fwaeytens/dnsenum
+github_repo: fwaeytens/dnsenum
+stars: 677
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Package manager
+  commands:
+    - git clone https://github.com/fwaeytens/dnsenum.git
+  package_managers:
+    - apt
+maintainers:
+  - fwaeytens
+authors:
+  - fwaeytens
+use_cases:
+  - DNS enumeration
+  - Subdomain discovery
+  - DNS reconnaissance
+  - Information gathering
+related_tools:
+  - dnsrecon
+  - fierce
+  - sublist3r
+similar_tools:
+  - dnsrecon
+  - fierce
+added_at: '2026-03-05'

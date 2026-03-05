@@ -1,0 +1,53 @@
+id: linkfinder
+name: Linkfinder
+summary: JavaScript endpoint discovery tool for finding endpoints in JavaScript files.
+description: |
+  Linkfinder is a JavaScript endpoint discovery tool for finding endpoints in JavaScript files. It can analyze JavaScript files and extract API endpoints, URLs, and other useful information. Linkfinder is useful for web application security testing and reconnaissance.
+categories:
+  - reconnaissance
+  - web_app_scanner
+tags:
+  - javascript_analysis
+  - endpoint_discovery
+  - reconnaissance
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: active
+website: https://github.com/GerbenJavado/LinkFinder
+docs_url: https://github.com/GerbenJavado/LinkFinder
+download_url: https://github.com/GerbenJavado/LinkFinder
+github_repo: GerbenJavado/LinkFinder
+stars: 4295
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/GerbenJavado/LinkFinder.git
+    - pip install -r requirements.txt
+maintainers:
+  - GerbenJavado
+authors:
+  - GerbenJavado
+  - EdOverflow
+  - Bankde
+use_cases:
+  - JavaScript endpoint discovery
+  - API discovery
+  - Security testing
+  - Reconnaissance
+related_tools:
+  - secretfinder
+  - hakrawler
+similar_tools:
+  - secretfinder
+  - hakrawler
+added_at: '2026-03-05'

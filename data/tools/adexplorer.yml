@@ -1,0 +1,45 @@
+id: adexplorer
+name: ADExplorer
+summary: Advanced Active Directory viewer and editor for exploring AD structure and objects.
+description: |
+  ADExplorer is an advanced Active Directory viewer and editor from Sysinternals for exploring AD structure and objects. It provides a graphical interface to browse AD, view object properties, search for objects, and export AD data. ADExplorer is useful for AD administration, troubleshooting, and security research.
+categories:
+  - active_directory
+tags:
+  - ad_viewer
+  - ad_editor
+  - windows
+  - gui
+  - proprietary
+platforms:
+  - windows
+license: Proprietary
+maturity: stable
+website: https://docs.microsoft.com/en-us/sysinternals/downloads/adexplorer
+docs_url: https://docs.microsoft.com/en-us/sysinternals/downloads/adexplorer
+download_url: https://docs.microsoft.com/en-us/sysinternals/downloads/adexplorer
+github_repo: null
+stars: null
+pricing:
+  type: free
+installation:
+  methods:
+    - Download binary
+  commands:
+    - Download from https://docs.microsoft.com/en-us/sysinternals/downloads/adexplorer
+maintainers:
+  - Microsoft
+authors:
+  - Microsoft
+use_cases:
+  - AD exploration
+  - AD administration
+  - AD troubleshooting
+  - Security research
+related_tools:
+  - bloodhound
+  - adrecon
+similar_tools:
+  - bloodhound
+  - adrecon
+added_at: '2026-03-05'

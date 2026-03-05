@@ -1,0 +1,53 @@
+id: exiftool
+name: ExifTool
+summary: Metadata extraction tool for reading and writing metadata in various file formats.
+description: |
+  ExifTool is a metadata extraction tool for reading and writing metadata in various file formats including images, videos, and documents. It can extract EXIF data, GPS coordinates, and other metadata from files. ExifTool is useful for digital forensics, OSINT, and security research.
+categories:
+  - static_analysis
+tags:
+  - metadata_extraction
+  - exif
+  - digital_forensics
+  - oss
+  - cli
+  - perl
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-1.0
+maturity: stable
+website: https://exiftool.org/
+docs_url: https://exiftool.org/
+download_url: https://exiftool.org/
+github_repo: exiftool/exiftool
+stars: 4476
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Package manager
+  commands:
+    - Download from https://exiftool.org/
+  package_managers:
+    - apt
+    - brew
+    - chocolatey
+maintainers:
+  - exiftool
+authors:
+  - exiftool
+  - boardhead
+use_cases:
+  - Metadata extraction
+  - Digital forensics
+  - OSINT gathering
+  - Security research
+related_tools:
+  - steghide
+  - stegsolve
+similar_tools:
+  - steghide
+added_at: '2026-03-05'

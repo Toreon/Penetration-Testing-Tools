@@ -1,0 +1,49 @@
+id: nrf_connect
+name: nRF Connect
+summary: Mobile application for scanning, discovering, and interacting with Bluetooth Low Energy (BLE) devices.
+description: |
+  nRF Connect is a mobile application for scanning, discovering, and interacting with Bluetooth Low Energy (BLE) devices. It's developed by Nordic Semiconductor and provides comprehensive BLE testing capabilities. nRF Connect is useful for Bluetooth security testing, IoT device analysis, and BLE protocol research.
+categories:
+  - network_scanner
+tags:
+  - android
+  - bluetooth
+  - ble
+  - iot
+  - free
+  - mobile_app
+platforms:
+  - android
+  - ios
+license: Proprietary (Free)
+maturity: stable
+website: https://www.nordicsemi.com/Software-and-tools/Development-Tools/nRF-Connect-for-mobile
+docs_url: https://www.nordicsemi.com/Software-and-tools/Development-Tools/nRF-Connect-for-mobile
+download_url: https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp
+github_repo: null
+stars: null
+pricing:
+  type: free
+  notes: "Free mobile application"
+installation:
+  methods:
+    - Google Play Store
+    - Apple App Store
+  commands:
+    - Install from app stores
+maintainers:
+  - Nordic Semiconductor
+authors:
+  - Nordic Semiconductor
+use_cases:
+  - BLE device scanning
+  - Bluetooth security testing
+  - IoT device analysis
+  - Protocol research
+related_tools:
+  - bluetoothctl
+  - hcitool
+similar_tools:
+  - bluetoothctl
+  - hcitool
+added_at: '2026-03-05'

@@ -1,0 +1,54 @@
+id: cutter
+name: Cutter
+summary: GUI for Radare2 reverse engineering framework with advanced binary analysis features.
+description: |
+  Cutter is a GUI for Radare2 reverse engineering framework with advanced binary analysis features. It provides a user-friendly interface for Radare2's powerful reverse engineering capabilities, including disassembly, decompilation, and binary analysis. Cutter makes Radare2 more accessible to reverse engineers who prefer graphical interfaces.
+categories:
+  - static_analysis
+tags:
+  - reverse_engineering
+  - binary_analysis
+  - gui
+  - oss
+  - cpp
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: active
+website: https://cutter.re/
+docs_url: https://cutter.re/docs/
+download_url: https://github.com/rizinorg/cutter/releases
+github_repo: rizinorg/cutter
+stars: 18447
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Package manager
+  commands:
+    - Download from https://github.com/rizinorg/cutter/releases
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - rizinorg
+authors:
+  - rizinorg
+  - thestr4ng3r
+  - xarkes
+  - karliss
+use_cases:
+  - Reverse engineering
+  - Binary analysis
+  - Malware analysis
+  - Security research
+related_tools:
+  - radare2
+  - ghidra
+similar_tools:
+  - radare2
+  - ghidra
+added_at: '2026-03-05'

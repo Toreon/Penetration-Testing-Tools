@@ -1,0 +1,52 @@
+id: subjack
+name: Subjack
+summary: Subdomain takeover tool for detecting vulnerable subdomains.
+description: |
+  Subjack is a subdomain takeover tool for detecting vulnerable subdomains. It can identify subdomains that are vulnerable to subdomain takeover attacks by checking for various service providers and configurations. Subjack is useful for security assessments and bug bounty hunting.
+categories:
+  - reconnaissance
+  - osint
+tags:
+  - subdomain_takeover
+  - vulnerability_detection
+  - oss
+  - cli
+  - go
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: active
+website: https://github.com/haccer/subjack
+docs_url: https://github.com/haccer/subjack
+download_url: https://github.com/haccer/subjack/releases
+github_repo: haccer/subjack
+stars: 2032
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Go install
+  commands:
+    - go install github.com/haccer/subjack@latest
+    - Download from https://github.com/haccer/subjack/releases
+maintainers:
+  - haccer
+authors:
+  - haccer
+  - MadaraTech
+  - zeknox
+use_cases:
+  - Subdomain takeover detection
+  - Security assessment
+  - Bug bounty hunting
+  - Vulnerability detection
+related_tools:
+  - sublist3r
+  - subfinder
+similar_tools:
+  - sublist3r
+  - subfinder
+added_at: '2026-03-05'

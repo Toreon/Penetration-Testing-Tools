@@ -1,0 +1,53 @@
+id: trape
+name: Trape
+summary: OSINT analysis and research tool for tracking people and gathering intelligence.
+description: |
+  Trape is an OSINT analysis and research tool for tracking people and gathering intelligence. It can track people across social networks, gather information from various sources, and build profiles of targets. Trape helps security researchers and investigators gather intelligence about individuals for security assessments and investigations.
+categories:
+  - osint
+tags:
+  - people_tracking
+  - osint
+  - social_media
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: active
+website: https://github.com/jofpin/trape
+docs_url: https://github.com/jofpin/trape
+download_url: https://github.com/jofpin/trape
+github_repo: jofpin/trape
+stars: 8601
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/jofpin/trape.git
+    - pip install -r requirements.txt
+maintainers:
+  - jofpin
+authors:
+  - jofpin
+  - st4nn
+  - tdenisenko
+  - captain-woof
+use_cases:
+  - People tracking
+  - OSINT gathering
+  - Social media intelligence
+  - Security research
+related_tools:
+  - sherlock
+  - maltego
+similar_tools:
+  - sherlock
+  - maltego
+added_at: '2026-03-05'

@@ -23,7 +23,7 @@ website: https://www.ettercap-project.org/
 docs_url: https://www.ettercap-project.org/documentation/
 download_url: https://github.com/Ettercap/ettercap
 github_repo: Ettercap/ettercap
-stars: 2670
+stars: 2687
 pricing:
   type: open_source
 installation:

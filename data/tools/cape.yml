@@ -1,0 +1,50 @@
+id: cape
+name: CAPE
+summary: Malware configuration extraction and automated analysis platform.
+description: |
+  CAPE (Config And Payload Extraction) is a malware configuration extraction and automated analysis platform. It extends Cuckoo Sandbox with additional analysis capabilities for extracting malware configurations and payloads. CAPE helps security researchers understand malware behavior and extract actionable intelligence.
+categories:
+  - static_analysis
+tags:
+  - malware_analysis
+  - configuration_extraction
+  - automated_analysis
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+license: GPL-3.0
+maturity: active
+website: https://github.com/kevoreilly/CAPEv2
+docs_url: https://github.com/kevoreilly/CAPEv2
+download_url: https://github.com/kevoreilly/CAPEv2
+github_repo: kevoreilly/CAPEv2
+stars: 3051
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Docker
+  commands:
+    - git clone https://github.com/kevoreilly/CAPEv2.git
+    - docker-compose up -d
+maintainers:
+  - kevoreilly
+authors:
+  - kevoreilly
+  - doomedraven
+  - actions-user
+use_cases:
+  - Malware analysis
+  - Configuration extraction
+  - Automated analysis
+  - Security research
+related_tools:
+  - cuckoo_sandbox
+  - yara
+similar_tools:
+  - cuckoo_sandbox
+  - yara
+added_at: '2026-03-05'

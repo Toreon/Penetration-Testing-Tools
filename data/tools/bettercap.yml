@@ -22,7 +22,7 @@ website: https://www.bettercap.org/
 docs_url: https://www.bettercap.org/docs/
 download_url: https://github.com/bettercap/bettercap
 github_repo: bettercap/bettercap
-stars: 18815
+stars: 18894
 pricing:
   type: open_source
 installation:

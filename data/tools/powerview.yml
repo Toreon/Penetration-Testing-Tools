@@ -1,0 +1,50 @@
+id: powerview
+name: PowerView
+summary: PowerShell tool for Active Directory enumeration and reconnaissance.
+description: |
+  PowerView is a PowerShell tool for Active Directory enumeration and reconnaissance. It provides various cmdlets for gathering information about AD environments, including users, groups, computers, shares, and other AD objects. PowerView is part of the PowerSploit framework and is widely used in penetration testing and security assessments.
+categories:
+  - active_directory
+  - reconnaissance
+tags:
+  - ad_enumeration
+  - powershell
+  - windows
+  - oss
+  - cli
+platforms:
+  - windows
+license: BSD-3-Clause
+maturity: active
+website: https://github.com/PowerShellMafia/PowerSploit
+docs_url: https://github.com/PowerShellMafia/PowerSploit
+download_url: https://github.com/PowerShellMafia/PowerSploit
+github_repo: PowerShellMafia/PowerSploit
+stars: 12899
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+  commands:
+    - git clone https://github.com/PowerShellMafia/PowerSploit.git
+    - Import-Module .\Recon\PowerView.ps1
+maintainers:
+  - PowerShellMafia
+authors:
+  - PowerShellMafia
+  - HarmJ0y
+  - ICanHazDonuts
+  - clymb3r
+use_cases:
+  - AD enumeration
+  - AD reconnaissance
+  - Security assessment
+  - Penetration testing
+related_tools:
+  - powersploit
+  - bloodhound
+similar_tools:
+  - powersploit
+  - bloodhound
+added_at: '2026-03-05'

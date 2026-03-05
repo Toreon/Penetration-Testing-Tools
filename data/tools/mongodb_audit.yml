@@ -1,0 +1,49 @@
+id: mongodb_audit
+name: MongoDB-Audit
+summary: MongoDB security auditing tool for assessing MongoDB database security configurations.
+description: |
+  MongoDB-Audit is a MongoDB security auditing tool for assessing MongoDB database security configurations. It can check for common security misconfigurations, weak authentication, and other security issues in MongoDB deployments. MongoDB-Audit helps security professionals assess the security posture of MongoDB databases.
+categories:
+  - database_exploitation
+tags:
+  - mongodb
+  - security_audit
+  - database_security
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: active
+website: https://github.com/stampery/mongoaudit
+docs_url: https://github.com/stampery/mongoaudit
+download_url: https://github.com/stampery/mongoaudit
+github_repo: stampery/mongoaudit
+stars: 1300
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/stampery/mongoaudit.git
+    - pip install -r requirements.txt
+maintainers:
+  - stampery
+authors:
+  - stampery
+use_cases:
+  - MongoDB security auditing
+  - Configuration assessment
+  - Security testing
+  - Database security
+related_tools:
+  - nosqlmap
+  - nosqlattack
+similar_tools:
+  - nosqlmap
+added_at: '2026-03-05'

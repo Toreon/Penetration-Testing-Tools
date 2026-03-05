@@ -1,0 +1,56 @@
+id: semgrep
+name: Semgrep
+summary: Static analysis tool for finding bugs and security vulnerabilities in code.
+description: |
+  Semgrep is a static analysis tool for finding bugs and security vulnerabilities in code. It uses pattern matching to identify security issues, bugs, and code quality problems across multiple programming languages. Semgrep is useful for code security analysis and vulnerability detection.
+categories:
+  - static_analysis
+  - code_scanner
+tags:
+  - static_analysis
+  - code_scanning
+  - vulnerability_detection
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: LGPL-2.1
+maturity: active
+website: https://semgrep.dev/
+docs_url: https://semgrep.dev/docs/
+download_url: https://github.com/semgrep/semgrep
+github_repo: semgrep/semgrep
+stars: 14335
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Pip install
+    - Package manager
+  commands:
+    - pip install semgrep
+  package_managers:
+    - pip
+    - brew
+maintainers:
+  - semgrep
+authors:
+  - semgrep
+  - aryx
+  - mjambon
+  - IagoAbal
+use_cases:
+  - Static code analysis
+  - Vulnerability detection
+  - Security testing
+  - Code quality
+related_tools:
+  - brakeman
+  - findsecbugs
+similar_tools:
+  - brakeman
+  - findsecbugs
+added_at: '2026-03-05'

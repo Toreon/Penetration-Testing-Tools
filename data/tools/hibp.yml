@@ -1,0 +1,51 @@
+id: hibp
+name: Have I Been Pwned (HIBP)
+summary: Free online service that allows users to check if their email addresses or passwords have been compromised in data breaches.
+description: |
+  Have I Been Pwned (HIBP) is a free online service created by security researcher Troy Hunt that allows users to check if their email addresses or passwords have been compromised in data breaches. It provides a searchable database of breached accounts and compromised credentials. HIBP is widely used by security professionals, organizations, and individuals to assess breach exposure and improve security posture.
+categories:
+  - osint
+tags:
+  - osint
+  - data_breach
+  - credential_checking
+  - free
+  - web_interface
+  - api
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary (Free service)
+maturity: stable
+website: https://haveibeenpwned.com/
+docs_url: https://haveibeenpwned.com/API/v3
+download_url: https://haveibeenpwned.com/
+github_repo: null
+stars: null
+pricing:
+  type: free
+  notes: "Free service with API access available"
+installation:
+  methods:
+    - Web interface
+    - API access
+    - Python library
+  commands:
+    - pip install haveibeenpwned
+    - Access via https://haveibeenpwned.com/
+maintainers:
+  - Troy Hunt
+authors:
+  - Troy Hunt
+use_cases:
+  - Breach exposure checking
+  - Credential compromise verification
+  - Security awareness
+  - OSINT gathering
+related_tools:
+  - dehashed
+similar_tools:
+  - dehashed
+  - breachdirectory
+added_at: '2026-03-05'

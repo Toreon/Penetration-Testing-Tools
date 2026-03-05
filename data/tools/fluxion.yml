@@ -1,0 +1,50 @@
+id: fluxion
+name: Fluxion
+summary: WiFi social engineering tool for performing evil twin attacks and credential harvesting.
+description: |
+  Fluxion is a WiFi social engineering tool for performing evil twin attacks and credential harvesting. It creates fake access points and captures WiFi credentials through social engineering techniques. Fluxion is used for security testing and demonstrating WiFi security weaknesses.
+categories:
+  - network_attack
+tags:
+  - wifi
+  - social_engineering
+  - wireless_security
+  - oss
+  - cli
+  - bash
+platforms:
+  - linux
+license: GPL-3.0
+maturity: active
+website: https://github.com/FluxionNetwork/fluxion
+docs_url: https://github.com/FluxionNetwork/fluxion
+download_url: https://github.com/FluxionNetwork/fluxion
+github_repo: FluxionNetwork/fluxion
+stars: 5605
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+  commands:
+    - git clone https://github.com/FluxionNetwork/fluxion.git
+    - cd fluxion && ./fluxion.sh
+maintainers:
+  - FluxionNetwork
+authors:
+  - FluxionNetwork
+  - deltaxflux
+  - MPX4132
+  - strasharo
+use_cases:
+  - WiFi security testing
+  - Social engineering
+  - Credential harvesting
+  - Security assessment
+related_tools:
+  - wifiphisher
+  - aircrack_ng
+similar_tools:
+  - wifiphisher
+  - aircrack_ng
+added_at: '2026-03-05'

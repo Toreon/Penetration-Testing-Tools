@@ -1,0 +1,47 @@
+id: hcitool
+name: hcitool
+summary: Command-line utility for configuring Bluetooth connections and sending special commands to Bluetooth devices.
+description: |
+  hcitool is a command-line utility for configuring Bluetooth connections and sending special commands to Bluetooth devices. It's part of the BlueZ Bluetooth stack and provides low-level access to Bluetooth functionality. hcitool is useful for Bluetooth security testing, device analysis, and protocol research.
+categories:
+  - network_scanner
+tags:
+  - bluetooth
+  - device_configuration
+  - oss
+  - cli
+platforms:
+  - linux
+license: GPL-2.0
+maturity: stable
+website: http://www.bluez.org/
+docs_url: http://www.bluez.org/documentation/
+download_url: http://www.bluez.org/download/
+github_repo: null
+stars: null
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Package manager
+  commands:
+    - apt-get install bluez
+  package_managers:
+    - apt
+    - yum
+maintainers:
+  - BlueZ Project
+authors:
+  - BlueZ Project
+use_cases:
+  - Bluetooth device configuration
+  - Low-level protocol access
+  - Security testing
+  - Device analysis
+related_tools:
+  - bluez
+  - bluetoothctl
+similar_tools:
+  - bluetoothctl
+  - bluez
+added_at: '2026-03-05'

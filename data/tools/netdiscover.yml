@@ -1,0 +1,54 @@
+id: netdiscover
+name: Netdiscover
+summary: Active/passive network discovery tool for LAN scanning and host detection.
+description: |
+  Netdiscover is an active/passive network discovery tool designed for LAN scanning and host detection. It can discover hosts on a network using ARP requests or by passively monitoring network traffic. Netdiscover is useful for network reconnaissance, identifying active hosts, and mapping network topology in local area networks.
+categories:
+  - network_scanner
+  - reconnaissance
+tags:
+  - network_discovery
+  - arp_scanning
+  - lan_scanning
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://sourceforge.net/projects/netdiscover/
+docs_url: https://sourceforge.net/projects/netdiscover/
+download_url: https://sourceforge.net/projects/netdiscover/
+github_repo: null
+stars: 370
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Package manager
+    - Source compilation
+  commands:
+    - apt-get install netdiscover
+    - Download source from https://sourceforge.net/projects/netdiscover/
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - netdiscover
+authors:
+  - eribertomota
+  - jpenalbae
+  - bcoles
+use_cases:
+  - Network discovery
+  - Host detection
+  - LAN scanning
+  - ARP scanning
+related_tools:
+  - nmap
+  - netcat
+similar_tools:
+  - nmap
+added_at: '2026-03-05'

@@ -1,0 +1,53 @@
+id: paramspider
+name: Paramspider
+summary: Parameter discovery tool for finding URL parameters in web applications.
+description: |
+  Paramspider is a parameter discovery tool for finding URL parameters in web applications. It can crawl websites and extract URL parameters that may be vulnerable to various attacks. Paramspider is useful for web application security testing and bug bounty hunting.
+categories:
+  - reconnaissance
+  - web_app_scanner
+tags:
+  - parameter_discovery
+  - url_analysis
+  - reconnaissance
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: active
+website: https://github.com/devanshbatham/ParamSpider
+docs_url: https://github.com/devanshbatham/ParamSpider
+download_url: https://github.com/devanshbatham/ParamSpider
+github_repo: devanshbatham/ParamSpider
+stars: 3012
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/devanshbatham/ParamSpider.git
+    - pip install -r requirements.txt
+maintainers:
+  - devanshbatham
+authors:
+  - devanshbatham
+  - vzamanillo
+  - RoninNakomoto
+use_cases:
+  - Parameter discovery
+  - URL analysis
+  - Security testing
+  - Bug bounty hunting
+related_tools:
+  - arjun
+  - dalfox
+similar_tools:
+  - arjun
+  - dalfox
+added_at: '2026-03-05'

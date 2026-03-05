@@ -4,7 +4,7 @@ summary: Database of wireless networks with statistics and mapping of wireless n
 description: |
   WiGLE (Wireless Geographic Logging Engine) is a database of wireless networks with statistics and mapping of wireless networks worldwide. It's a collaborative project where users upload wireless network data including SSIDs, MAC addresses, encryption types, and GPS coordinates. WiGLE is useful for OSINT gathering and wireless network research.
 categories:
-  - reconnaissance
+  - osint
 tags:
   - wireless_mapping
   - osint

@@ -21,7 +21,7 @@ website: https://www.openvas.org/
 docs_url: https://www.greenbone.net/en/documentation/
 download_url: https://www.greenbone.net/en/install-use-gvm/
 github_repo: greenbone/openvas-scanner
-stars: 4406
+stars: 4461
 pricing:
   type: open_source
   notes: Open source version available, Greenbone offers commercial support

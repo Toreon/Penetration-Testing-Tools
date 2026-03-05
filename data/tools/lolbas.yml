@@ -1,0 +1,48 @@
+id: lolbas
+name: LOLBAS (Living Off The Land Binaries And Scripts)
+summary: Documented collection of Windows binaries, scripts, and libraries that can be used for Living Off The Land techniques.
+description: |
+  LOLBAS (Living Off The Land Binaries And Scripts) is a documented collection of Windows binaries, scripts, and libraries that can be used for Living Off The Land techniques. It provides information about legitimate Windows tools that can be abused for malicious purposes, making it valuable for both red teamers and blue teamers. Similar to GTFOBins but for Windows.
+categories:
+  - guides_and_cheatsheets
+tags:
+  - windows
+  - living_off_the_land
+  - reference
+  - oss
+  - web_interface
+platforms:
+  - windows
+license: MIT
+maturity: stable
+website: https://lolbas-project.github.io/
+docs_url: https://lolbas-project.github.io/
+download_url: https://github.com/LOLBAS-Project/LOLBAS
+github_repo: LOLBAS-Project/LOLBAS
+stars: 8358
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Web interface
+    - Git clone
+  commands:
+    - Access via https://lolbas-project.github.io/
+    - git clone https://github.com/LOLBAS-Project/LOLBAS.git
+maintainers:
+  - LOLBAS-Project
+authors:
+  - LOLBAS-Project
+  - api0cradle
+  - xenoscr
+  - wietze
+use_cases:
+  - Windows security testing
+  - Living Off The Land techniques
+  - Red team operations
+  - Blue team detection
+related_tools:
+  - gtfobins
+similar_tools:
+  - gtfobins
+added_at: '2026-03-05'

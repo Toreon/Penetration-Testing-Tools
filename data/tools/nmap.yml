@@ -23,7 +23,7 @@ website: https://nmap.org/
 docs_url: https://nmap.org/docs.html
 download_url: https://nmap.org/download.html
 github_repo: nmap/nmap
-stars: 12368
+stars: 12489
 pricing:
   type: open_source
 installation:

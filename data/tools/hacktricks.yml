@@ -1,0 +1,50 @@
+id: hacktricks
+name: HackTricks
+summary: Extensive penetration testing wiki covering various techniques, tools, and methodologies for security testing.
+description: |
+  HackTricks is an extensive penetration testing wiki that covers various techniques, tools, and methodologies for security testing. It provides detailed guides on privilege escalation, web application security, network security, cloud security, and more. HackTricks is maintained by the community and is an essential resource for penetration testers and security researchers.
+categories:
+  - guides_and_cheatsheets
+tags:
+  - penetration_testing
+  - wiki
+  - guides
+  - oss
+  - reference
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://book.hacktricks.xyz/
+docs_url: https://book.hacktricks.xyz/
+download_url: https://github.com/carlospolop/hacktricks
+github_repo: carlospolop/hacktricks
+stars: 11002
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Web interface
+    - Git clone
+  commands:
+    - Access via https://book.hacktricks.xyz/
+    - git clone https://github.com/carlospolop/hacktricks.git
+maintainers:
+  - carlospolop
+authors:
+  - carlospolop
+  - congon4tor
+  - MustCodeAl
+use_cases:
+  - Penetration testing reference
+  - Security methodology
+  - Privilege escalation guides
+  - Web application security
+related_tools:
+  - payloadsallthethings
+similar_tools:
+  - payloadsallthethings
+  - pentest_cheatsheets
+added_at: '2026-03-05'

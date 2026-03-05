@@ -1,0 +1,47 @@
+id: bluetoothctl
+name: bluetoothctl
+summary: Command-line utility for managing Bluetooth devices, included as part of the BlueZ Bluetooth stack.
+description: |
+  bluetoothctl is a command-line utility for managing Bluetooth devices, included as part of the BlueZ Bluetooth stack. It provides an interactive interface for scanning, pairing, connecting, and managing Bluetooth devices. bluetoothctl is essential for Bluetooth security testing and device management on Linux systems.
+categories:
+  - network_scanner
+tags:
+  - bluetooth
+  - device_management
+  - oss
+  - cli
+platforms:
+  - linux
+license: GPL-2.0
+maturity: stable
+website: http://www.bluez.org/
+docs_url: http://www.bluez.org/documentation/
+download_url: http://www.bluez.org/download/
+github_repo: null
+stars: null
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Package manager
+  commands:
+    - apt-get install bluez
+  package_managers:
+    - apt
+    - yum
+maintainers:
+  - BlueZ Project
+authors:
+  - BlueZ Project
+use_cases:
+  - Bluetooth device scanning
+  - Device pairing
+  - Connection management
+  - Security testing
+related_tools:
+  - bluez
+  - hcitool
+similar_tools:
+  - hcitool
+  - bluez
+added_at: '2026-03-05'

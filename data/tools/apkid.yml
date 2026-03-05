@@ -1,0 +1,55 @@
+id: apkid
+name: APKiD
+summary: Android application identifier for detecting packers, obfuscators, and protectors.
+description: |
+  APKiD is an Android application identifier that detects packers, obfuscators, and protectors used in Android applications. It can identify various tools and techniques used to protect or obfuscate Android apps, helping security researchers understand what protections are in place and how applications are structured.
+categories:
+  - static_analysis
+tags:
+  - android
+  - mobile_security
+  - obfuscation_detection
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: active
+website: https://github.com/rednaga/APKiD
+docs_url: https://github.com/rednaga/APKiD
+download_url: https://github.com/rednaga/APKiD
+github_repo: rednaga/APKiD
+stars: 2421
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/rednaga/APKiD.git
+    - pip install apkid
+  package_managers:
+    - pip
+maintainers:
+  - rednaga
+authors:
+  - rednaga
+  - enovella
+  - CalebFenton
+  - AbhiTheModder
+use_cases:
+  - Android app analysis
+  - Obfuscation detection
+  - Packer identification
+  - Security research
+related_tools:
+  - apktool
+  - jadx
+similar_tools:
+  - apktool
+  - jadx
+added_at: '2026-03-05'

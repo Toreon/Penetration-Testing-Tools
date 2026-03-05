@@ -1,0 +1,48 @@
+id: l0phtcrack
+name: L0phtCrack
+summary: Windows password auditing and recovery tool for security assessments.
+description: |
+  L0phtCrack is a Windows password auditing and recovery tool for security assessments. It can crack Windows password hashes using various methods including dictionary attacks, brute-force, and hybrid attacks. L0phtCrack helps security professionals assess password strength and identify weak passwords in Windows environments.
+categories:
+  - password_cracker
+tags:
+  - password_cracking
+  - windows
+  - password_auditing
+  - proprietary
+  - gui
+platforms:
+  - windows
+license: Proprietary
+maturity: stable
+website: https://www.l0phtcrack.com/
+docs_url: https://www.l0phtcrack.com/docs/
+download_url: https://www.l0phtcrack.com/download/
+github_repo: null
+stars: null
+pricing:
+  type: paid
+  price: '295'
+  currency: USD
+  notes: Commercial license required
+installation:
+  methods:
+    - Download installer
+  commands:
+    - Download from https://www.l0phtcrack.com/download/
+maintainers:
+  - L0phtCrack
+authors:
+  - L0phtCrack
+use_cases:
+  - Password auditing
+  - Password cracking
+  - Security assessment
+  - Password recovery
+related_tools:
+  - john_the_ripper
+  - hashcat
+similar_tools:
+  - john_the_ripper
+  - hashcat
+added_at: '2026-03-05'

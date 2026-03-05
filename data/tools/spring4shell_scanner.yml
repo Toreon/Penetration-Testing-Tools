@@ -1,0 +1,50 @@
+id: spring4shell_scanner
+name: Spring4Shell-Scanner
+summary: Scanner for detecting Spring4Shell vulnerability (CVE-2022-22965) in Spring Framework applications.
+description: |
+  Spring4Shell-Scanner is a scanner for detecting the Spring4Shell vulnerability (CVE-2022-22965) in Spring Framework applications. It can scan for vulnerable Spring applications and test for exploitation. Spring4Shell-Scanner is useful for security assessments and vulnerability detection.
+categories:
+  - vulnerability_scanner
+tags:
+  - spring
+  - vulnerability_scanning
+  - cve_2022_22965
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: active
+website: https://github.com/fullhunt/spring4shell-scan
+docs_url: https://github.com/fullhunt/spring4shell-scan
+download_url: https://github.com/fullhunt/spring4shell-scan
+github_repo: fullhunt/spring4shell-scan
+stars: 657
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/fullhunt/spring4shell-scan.git
+    - pip install -r requirements.txt
+maintainers:
+  - fullhunt
+authors:
+  - fullhunt
+use_cases:
+  - Spring4Shell vulnerability scanning
+  - Security assessment
+  - Vulnerability detection
+  - Security testing
+related_tools:
+  - nuclei
+  - nmap
+similar_tools:
+  - nuclei
+  - nmap
+added_at: '2026-03-05'

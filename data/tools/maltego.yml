@@ -4,7 +4,7 @@ summary: Open source intelligence and forensics application that allows for the 
 description: |
   Maltego is an open source intelligence and forensics application that allows for the gathering and connecting of information for investigative tasks. It provides a graphical interface for visualizing relationships between people, companies, websites, domains, IP addresses, and more. Maltego uses transforms to gather information from various data sources and presents it in a graph format.
 categories:
-  - reconnaissance
+  - osint
 tags:
   - osint
   - information_gathering

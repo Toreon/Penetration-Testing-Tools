@@ -1,0 +1,53 @@
+id: kubeaudit
+name: Kubeaudit
+summary: Kubernetes security auditor that checks for common security misconfigurations.
+description: |
+  Kubeaudit is a Kubernetes security auditor that checks for common security misconfigurations in Kubernetes clusters. It audits Kubernetes resources against security best practices and identifies potential security issues. Kubeaudit can be run as a command-line tool or integrated into CI/CD pipelines for continuous security auditing.
+categories:
+  - cloud_security
+tags:
+  - kubernetes
+  - security_audit
+  - configuration_audit
+  - oss
+  - cli
+  - go
+platforms:
+  - linux
+  - windows
+  - macos
+  - kubernetes
+license: MIT
+maturity: active
+website: https://github.com/Shopify/kubeaudit
+docs_url: https://github.com/Shopify/kubeaudit
+download_url: https://github.com/Shopify/kubeaudit/releases
+github_repo: Shopify/kubeaudit
+stars: 1932
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Go install
+  commands:
+    - go install github.com/Shopify/kubeaudit/cmd/kubeaudit@latest
+    - Download from https://github.com/Shopify/kubeaudit/releases
+maintainers:
+  - Shopify
+authors:
+  - Shopify
+  - genevieveluyt
+  - klautcomputing
+  - jinankjain
+use_cases:
+  - Kubernetes security auditing
+  - Configuration review
+  - Security best practices
+  - Compliance checking
+related_tools:
+  - kube_hunter
+  - kubesploit
+similar_tools:
+  - kube_hunter
+added_at: '2026-03-05'

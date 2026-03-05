@@ -1,0 +1,57 @@
+id: mitmproxy
+name: Mitmproxy
+summary: Interactive HTTP proxy for intercepting, inspecting, and modifying HTTP/HTTPS traffic.
+description: |
+  Mitmproxy is an interactive HTTP proxy for intercepting, inspecting, and modifying HTTP/HTTPS traffic. It provides a command-line interface and web interface for analyzing network traffic. Mitmproxy is useful for web application security testing, debugging, and traffic analysis.
+categories:
+  - web_utilities
+tags:
+  - http_proxy
+  - traffic_interception
+  - web_security
+  - oss
+  - cli
+  - gui
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://mitmproxy.org/
+docs_url: https://docs.mitmproxy.org/
+download_url: https://mitmproxy.org/
+github_repo: mitmproxy/mitmproxy
+stars: 42512
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Pip install
+    - Package manager
+  commands:
+    - pip install mitmproxy
+  package_managers:
+    - pip
+    - apt
+    - brew
+maintainers:
+  - mitmproxy
+authors:
+  - mitmproxy
+  - mhils
+  - cortesi
+  - Kriechi
+use_cases:
+  - HTTP/HTTPS interception
+  - Traffic analysis
+  - Web security testing
+  - Debugging
+related_tools:
+  - burp_suite
+  - proxify
+similar_tools:
+  - burp_suite
+  - proxify
+added_at: '2026-03-05'

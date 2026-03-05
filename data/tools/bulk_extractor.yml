@@ -1,0 +1,55 @@
+id: bulk_extractor
+name: Bulk Extractor
+summary: Computer forensics tool that scans a disk image, file, or directory of files and extracts useful information without parsing the file system or file system structures.
+description: |
+  Bulk Extractor is a computer forensics tool that scans a disk image, file, or directory of files and extracts useful information without parsing the file system or file system structures. It can extract email addresses, credit card numbers, URLs, and other types of information from various file formats. Bulk Extractor is useful for digital forensics, firmware analysis, and security research.
+categories:
+  - firmware_analysis
+tags:
+  - firmware_analysis
+  - forensics
+  - data_extraction
+  - oss
+  - cli
+  - cpp
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://github.com/simsong/bulk_extractor
+docs_url: https://github.com/simsong/bulk_extractor/wiki
+download_url: https://github.com/simsong/bulk_extractor
+github_repo: simsong/bulk_extractor
+stars: 1337
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Source compilation
+    - Package manager
+  commands:
+    - git clone https://github.com/simsong/bulk_extractor.git
+    - Follow build instructions in repository
+  package_managers:
+    - apt
+maintainers:
+  - simsong
+authors:
+  - simsong
+  - BruceMty
+  - uckelman
+use_cases:
+  - Data extraction
+  - Digital forensics
+  - Firmware analysis
+  - Information discovery
+related_tools:
+  - binwalk
+  - unblob
+similar_tools:
+  - binwalk
+  - unblob
+  - firmwalker
+added_at: '2026-03-05'

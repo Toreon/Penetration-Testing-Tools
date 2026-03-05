@@ -4,7 +4,7 @@ summary: Data breach search engine that allows you to search for compromised cre
 description: |
   Dehashed is a data breach search engine that allows you to search for compromised credentials and leaked data. It provides access to a database of leaked credentials, emails, and other sensitive information from various data breaches. Dehashed is useful for security researchers, penetration testers, and organizations looking to identify compromised credentials.
 categories:
-  - reconnaissance
+  - osint
 tags:
   - data_breach
   - credential_search

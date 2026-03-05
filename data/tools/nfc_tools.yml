@@ -1,0 +1,45 @@
+id: nfc_tools
+name: NFC Tools
+summary: Android application for reading, writing, and emulating NFC tags, useful for NFC security testing and research.
+description: |
+  NFC Tools is an Android application for reading, writing, and emulating NFC tags. It provides comprehensive NFC functionality for security testing, research, and development. NFC Tools is useful for NFC security assessment, contactless payment testing, and NFC protocol research.
+categories:
+  - network_scanner
+tags:
+  - android
+  - nfc
+  - contactless
+  - security_testing
+  - free
+  - mobile_app
+platforms:
+  - android
+license: Proprietary (Free)
+maturity: stable
+website: https://play.google.com/store/apps/details?id=com.wakdev.nfctools
+docs_url: https://play.google.com/store/apps/details?id=com.wakdev.nfctools
+download_url: https://play.google.com/store/apps/details?id=com.wakdev.nfctools
+github_repo: null
+stars: null
+pricing:
+  type: free
+  notes: "Free with in-app purchases"
+installation:
+  methods:
+    - Google Play Store
+  commands:
+    - Install from Google Play Store
+maintainers:
+  - Wakdev
+authors:
+  - Wakdev
+use_cases:
+  - NFC tag reading/writing
+  - NFC security testing
+  - Contactless payment testing
+  - NFC protocol research
+related_tools:
+  - nrf_connect
+similar_tools:
+  - nrf_connect
+added_at: '2026-03-05'

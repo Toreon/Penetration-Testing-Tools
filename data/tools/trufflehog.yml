@@ -1,0 +1,56 @@
+id: trufflehog
+name: TruffleHog
+summary: Tool for finding secrets in git repositories and other data sources.
+description: |
+  TruffleHog is a tool for finding secrets in git repositories and other data sources. It can detect API keys, passwords, tokens, and other sensitive information using various detection methods. TruffleHog is useful for security testing and identifying exposed secrets.
+categories:
+  - static_analysis
+  - code_scanner
+tags:
+  - secret_detection
+  - git_scanning
+  - code_analysis
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: active
+website: https://github.com/trufflesecurity/trufflehog
+docs_url: https://github.com/trufflesecurity/trufflehog
+download_url: https://github.com/trufflesecurity/trufflehog
+github_repo: trufflesecurity/trufflehog
+stars: 24902
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/trufflesecurity/trufflehog.git
+    - pip install truffleHog
+  package_managers:
+    - pip
+maintainers:
+  - trufflesecurity
+authors:
+  - trufflesecurity
+  - renovate[bot]
+  - lonmarsDev
+  - roxanne-tampus
+use_cases:
+  - Secret detection
+  - Git repository scanning
+  - Security testing
+  - Code analysis
+related_tools:
+  - gitleaks
+  - secretfinder
+similar_tools:
+  - gitleaks
+  - secretfinder
+added_at: '2026-03-05'

@@ -16,15 +16,19 @@ platforms:
   - linux
   - windows
   - macos
+target_platforms:
   - android
   - ios
+  - windows
+  - linux
+  - macos
 license: LGPL-2.1
 maturity: stable
 website: https://frida.re/
 docs_url: https://frida.re/docs/
 download_url: https://github.com/frida/frida
 github_repo: frida/frida
-stars: 19690
+stars: 19870
 pricing:
   type: open_source
 installation:

@@ -17,13 +17,15 @@ platforms:
   - linux
   - windows
   - macos
+target_platforms:
+  - android
 license: Apache-2.0
 maturity: stable
 website: https://github.com/skylot/jadx
 docs_url: https://github.com/skylot/jadx/wiki
 download_url: https://github.com/skylot/jadx/releases
 github_repo: skylot/jadx
-stars: 47243
+stars: 47508
 pricing:
   type: open_source
 installation:

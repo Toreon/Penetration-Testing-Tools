@@ -15,13 +15,15 @@ platforms:
   - linux
   - windows
   - macos
+target_platforms:
+  - android
 license: BSD-3-Clause
 maturity: stable
 website: https://labs.withsecure.com/tools/drozer
 docs_url: https://labs.withsecure.com/tools/drozer
 download_url: https://github.com/WithSecureLabs/drozer
 github_repo: WithSecureLabs/drozer
-stars: 4440
+stars: 4464
 pricing:
   type: open_source
 installation:

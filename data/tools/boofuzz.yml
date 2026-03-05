@@ -1,0 +1,54 @@
+id: boofuzz
+name: Boofuzz
+summary: Network protocol fuzzer for testing network services and applications.
+description: |
+  Boofuzz is a network protocol fuzzer for testing network services and applications. It can fuzz network protocols by sending malformed or unexpected data to network services. Boofuzz is useful for finding vulnerabilities in network protocols and services through automated fuzzing.
+categories:
+  - fuzzing
+  - network_attack
+tags:
+  - fuzzing
+  - network_protocols
+  - vulnerability_discovery
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: active
+website: https://github.com/jtpereyda/boofuzz
+docs_url: https://github.com/jtpereyda/boofuzz
+download_url: https://github.com/jtpereyda/boofuzz
+github_repo: jtpereyda/boofuzz
+stars: 2318
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/jtpereyda/boofuzz.git
+    - pip install boofuzz
+  package_managers:
+    - pip
+maintainers:
+  - jtpereyda
+authors:
+  - jtpereyda
+  - SR4ven
+  - aedrax
+use_cases:
+  - Network protocol fuzzing
+  - Vulnerability discovery
+  - Security testing
+  - Protocol testing
+related_tools:
+  - peach
+  - sulley
+similar_tools:
+  - peach
+added_at: '2026-03-05'

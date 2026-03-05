@@ -1,0 +1,52 @@
+id: adrecon
+name: ADRecon
+summary: Active Directory reconnaissance tool for gathering information from AD environments.
+description: |
+  ADRecon is an Active Directory reconnaissance tool designed for gathering information from AD environments. It collects data about users, groups, computers, organizational units, and other AD objects to help security researchers understand the AD structure and identify potential security issues. ADRecon generates comprehensive reports in various formats for analysis.
+categories:
+  - active_directory
+  - reconnaissance
+tags:
+  - ad_enumeration
+  - ad_reconnaissance
+  - windows
+  - oss
+  - cli
+  - powershell
+platforms:
+  - windows
+license: GPL-3.0
+maturity: active
+website: https://github.com/adrecon/ADRecon
+docs_url: https://github.com/adrecon/ADRecon
+download_url: https://github.com/adrecon/ADRecon
+github_repo: adrecon/ADRecon
+stars: 907
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Download release
+  commands:
+    - git clone https://github.com/adrecon/ADRecon.git
+    - Download from https://github.com/adrecon/ADRecon/releases
+maintainers:
+  - adrecon
+authors:
+  - adrecon
+  - prashant3535
+  - smcgu
+  - noraj
+use_cases:
+  - AD reconnaissance
+  - AD enumeration
+  - Security assessment
+  - Information gathering
+related_tools:
+  - bloodhound
+  - sharphound
+similar_tools:
+  - bloodhound
+  - sharphound
+added_at: '2026-03-05'

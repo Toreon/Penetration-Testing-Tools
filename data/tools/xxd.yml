@@ -1,0 +1,56 @@
+id: xxd
+name: xxd
+summary: Command-line utility that creates a hex dump of a given file or standard input, and can also convert a hex dump back to binary.
+description: |
+  xxd is a command-line utility that creates a hex dump of a given file or standard input, and can also convert a hex dump back to binary. It's commonly used in reverse engineering, binary analysis, and digital forensics. xxd is part of the vim package and is available on most Unix-like systems.
+categories:
+  - linux_utilities
+tags:
+  - hex_dump
+  - binary_analysis
+  - reverse_engineering
+  - oss
+  - cli
+platforms:
+  - linux
+  - windows
+  - macos
+license: Vim
+maturity: stable
+website: https://www.vim.org/
+docs_url: https://www.vim.org/
+download_url: https://github.com/vim/vim
+github_repo: vim/vim
+stars: 39957
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Package manager
+    - Source compilation
+  commands:
+    - apt-get install vim-common
+    - brew install vim
+  package_managers:
+    - apt
+    - brew
+    - yum
+maintainers:
+  - vim
+authors:
+  - vim
+  - brammool
+  - chrisbra
+  - zeertzjq
+use_cases:
+  - Hex dump creation
+  - Binary analysis
+  - Reverse engineering
+  - Digital forensics
+related_tools:
+  - file
+  - hexdump
+similar_tools:
+  - hexdump
+  - od
+added_at: '2026-03-05'

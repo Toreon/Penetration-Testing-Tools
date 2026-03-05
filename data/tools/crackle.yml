@@ -1,0 +1,47 @@
+id: crackle
+name: crackle
+summary: Tool for cracking Bluetooth Low Energy (BLE) encryption, useful for BLE security assessment and research.
+description: |
+  crackle is a tool for cracking Bluetooth Low Energy (BLE) encryption. It can decrypt BLE encrypted connections by exploiting weaknesses in the pairing process. crackle is useful for BLE security assessment, protocol research, and understanding BLE security vulnerabilities.
+categories:
+  - network_attack
+tags:
+  - bluetooth
+  - ble
+  - encryption_cracking
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+license: GPL-3.0
+maturity: stable
+website: https://github.com/mikeryan/crackle
+docs_url: https://github.com/mikeryan/crackle
+download_url: https://github.com/mikeryan/crackle
+github_repo: mikeryan/crackle
+stars: 948
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+  commands:
+    - git clone https://github.com/mikeryan/crackle.git
+maintainers:
+  - mikeryan
+authors:
+  - mikeryan
+  - JelteF
+  - R1kk3r
+use_cases:
+  - BLE encryption cracking
+  - Security assessment
+  - Protocol research
+  - Vulnerability analysis
+related_tools:
+  - bluez
+  - bluetoothctl
+similar_tools:
+  - bluez
+added_at: '2026-03-05'

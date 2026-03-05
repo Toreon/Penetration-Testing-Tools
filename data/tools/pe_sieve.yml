@@ -1,0 +1,50 @@
+id: pe_sieve
+name: PE-sieve
+summary: PE file scanner for detecting and dumping in-memory payloads and malware.
+description: |
+  PE-sieve is a PE file scanner for detecting and dumping in-memory payloads and malware. It can scan running processes for suspicious PE files, detect code injection, and dump malicious payloads from memory. PE-sieve is useful for malware analysis and incident response.
+categories:
+  - static_analysis
+tags:
+  - pe_scanning
+  - malware_detection
+  - memory_analysis
+  - oss
+  - cli
+  - cpp
+platforms:
+  - windows
+license: GPL-3.0
+maturity: active
+website: https://github.com/hasherezade/pe-sieve
+docs_url: https://github.com/hasherezade/pe-sieve
+download_url: https://github.com/hasherezade/pe-sieve/releases
+github_repo: hasherezade/pe-sieve
+stars: 3562
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Git clone
+  commands:
+    - Download from https://github.com/hasherezade/pe-sieve/releases
+    - git clone https://github.com/hasherezade/pe-sieve.git
+maintainers:
+  - hasherezade
+authors:
+  - hasherezade
+  - baranpirincal
+  - secDre4mer
+use_cases:
+  - PE file scanning
+  - Malware detection
+  - Memory analysis
+  - Incident response
+related_tools:
+  - pe_bear
+  - detect_it_easy
+similar_tools:
+  - pe_bear
+  - detect_it_easy
+added_at: '2026-03-05'

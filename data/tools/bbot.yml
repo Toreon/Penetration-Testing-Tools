@@ -4,7 +4,7 @@ summary: Modular OSINT framework for automated reconnaissance that performs subd
 description: |
   BBOT (Black Lantern Security OSINT Tool) is a modular OSINT framework for automated reconnaissance. It performs subdomain enumeration, attack surface mapping, and various other reconnaissance tasks. BBOT is designed to be fast, efficient, and modular, allowing users to customize and extend its functionality for their specific needs.
 categories:
-  - reconnaissance
+  - osint
 tags:
   - osint
   - subdomain_enumeration
@@ -21,7 +21,7 @@ website: https://github.com/blacklanternsecurity/bbot
 docs_url: https://github.com/blacklanternsecurity/bbot/wiki
 download_url: https://github.com/blacklanternsecurity/bbot
 github_repo: blacklanternsecurity/bbot
-stars: 9407
+stars: 9469
 pricing:
   type: open_source
 installation:

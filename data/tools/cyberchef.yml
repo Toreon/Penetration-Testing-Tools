@@ -1,0 +1,52 @@
+id: cyberchef
+name: CyberChef
+summary: Web-based application for encoding, decoding, encrypting, decrypting, and data transformation operations commonly used in cybersecurity and digital forensics.
+description: |
+  CyberChef is a web-based application for encoding, decoding, encrypting, decrypting, and data transformation operations commonly used in cybersecurity and digital forensics. It provides a graphical interface with hundreds of operations that can be chained together to perform complex data transformations. CyberChef is widely used by security professionals, penetration testers, and digital forensics investigators.
+categories:
+  - web_utilities
+tags:
+  - encoding
+  - decoding
+  - data_transformation
+  - encryption
+  - free
+  - web_interface
+platforms:
+  - linux
+  - windows
+  - macos
+license: Apache-2.0
+maturity: stable
+website: https://gchq.github.io/CyberChef/
+docs_url: https://github.com/gchq/CyberChef/wiki
+download_url: https://github.com/gchq/CyberChef
+github_repo: gchq/CyberChef
+stars: 34200
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Web interface
+    - Self-hosted
+    - Node.js
+  commands:
+    - Access via https://gchq.github.io/CyberChef/
+    - npm install -g cyberchef
+maintainers:
+  - GCHQ
+authors:
+  - GCHQ
+  - n1474335
+  - j433866
+  - d98762625
+use_cases:
+  - Data encoding/decoding
+  - Encryption/decryption
+  - Data transformation
+  - Digital forensics
+related_tools:
+  - gtfobins
+similar_tools:
+  - gtfobins
+added_at: '2026-03-05'

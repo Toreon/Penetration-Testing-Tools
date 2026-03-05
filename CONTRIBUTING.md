@@ -61,10 +61,13 @@ categories:                     # List of categories
 tags:                           # List of tags
   - tag1
   - tag2
-platforms:                      # Supported platforms
+platforms:                      # Execution platforms (where the tool runs)
   - linux
   - windows
   - macos
+target_platforms:                # Optional: Target platforms (what the tool analyzes)
+  - android                     # Example: JADX runs on Linux/Windows but targets Android
+  - ios
 license: License Name           # License identifier or name
 maturity: stable                # One of: stable, active, experimental, archived
 ```
@@ -151,6 +154,13 @@ Available categories include:
 - `network_attack`
 - `wordlist_generator`
 - `reconnaissance`
+- `osint` - OSINT (Open Source Intelligence)
+- `fuzzing` - Fuzzing tools
+- `firmware_analysis` - Firmware Analysis
+- `operating_systems` - Operating Systems
+- `web_utilities` - Web Utilities
+- `linux_utilities` - Linux Utilities
+- `guides_and_cheatsheets` - Guides & Cheat Sheets
 
 If you need a new category, please open an issue to discuss it first.
 

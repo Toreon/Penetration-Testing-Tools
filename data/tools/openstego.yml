@@ -21,7 +21,7 @@ website: https://www.openstego.com/
 docs_url: https://www.openstego.com/
 download_url: https://github.com/syvaidya/openstego/releases
 github_repo: syvaidya/openstego
-stars: 1358
+stars: 1363
 pricing:
   type: open_source
 installation:

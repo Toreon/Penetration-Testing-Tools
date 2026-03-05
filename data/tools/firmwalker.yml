@@ -1,0 +1,49 @@
+id: firmwalker
+name: Firmwalker
+summary: Simple bash script for searching extracted firmware file systems for interesting files, strings, and potential security issues.
+description: |
+  Firmwalker is a simple bash script for searching extracted firmware file systems for interesting files, strings, and potential security issues. It automates the process of analyzing firmware file systems by searching for common security-sensitive files, hardcoded credentials, certificates, and other potentially interesting artifacts. Firmwalker is useful for IoT security research and firmware analysis.
+categories:
+  - firmware_analysis
+tags:
+  - firmware_analysis
+  - security_scanning
+  - file_system_analysis
+  - oss
+  - cli
+  - bash
+platforms:
+  - linux
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://github.com/craigz28/firmwalker
+docs_url: https://github.com/craigz28/firmwalker
+download_url: https://github.com/craigz28/firmwalker
+github_repo: craigz28/firmwalker
+stars: 1193
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+  commands:
+    - git clone https://github.com/craigz28/firmwalker.git
+maintainers:
+  - craigz28
+authors:
+  - craigz28
+  - misterch0c
+  - thanasisk
+use_cases:
+  - Firmware security analysis
+  - File system scanning
+  - Credential discovery
+  - IoT security research
+related_tools:
+  - binwalk
+  - unblob
+similar_tools:
+  - binwalk
+  - unblob
+added_at: '2026-02-09'

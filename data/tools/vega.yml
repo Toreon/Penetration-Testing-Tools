@@ -1,0 +1,48 @@
+id: vega
+name: Vega
+summary: Web vulnerability scanner and testing platform with GUI for security testing.
+description: |
+  Vega is a web vulnerability scanner and testing platform with a graphical user interface for security testing. It helps security researchers find and validate SQL injection, cross-site scripting (XSS), and other vulnerabilities in web applications. Vega includes a proxy for intercepting requests, a scanner for automated vulnerability detection, and various tools for manual testing.
+categories:
+  - web_app_scanner
+  - vulnerability_scanner
+tags:
+  - web_security
+  - vulnerability_scanning
+  - gui
+  - oss
+  - java
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://subgraph.com/vega/
+docs_url: https://subgraph.com/vega/documentation/
+download_url: https://subgraph.com/vega/download/
+github_repo: null
+stars: null
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+  commands:
+    - Download from https://subgraph.com/vega/download/
+maintainers:
+  - Subgraph
+authors:
+  - Subgraph
+use_cases:
+  - Web vulnerability scanning
+  - Security testing
+  - Manual testing
+  - Proxy interception
+related_tools:
+  - burp_suite
+  - owasp_zap
+similar_tools:
+  - burp_suite
+  - owasp_zap
+added_at: '2026-03-05'

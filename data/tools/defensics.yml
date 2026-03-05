@@ -1,0 +1,50 @@
+id: defensics
+name: Defensics
+summary: Commercial fuzzing platform from Synopsys for testing network protocols, file formats, and APIs to identify security vulnerabilities.
+description: |
+  Defensics is a commercial fuzzing platform from Synopsys designed for testing network protocols, file formats, and APIs to identify security vulnerabilities. It provides comprehensive fuzzing test suites for hundreds of protocols and file formats. Defensics is used by security researchers, developers, and organizations for vulnerability discovery and security testing.
+categories:
+  - fuzzing
+tags:
+  - fuzzing
+  - protocol_testing
+  - vulnerability_discovery
+  - commercial
+  - gui
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary
+maturity: stable
+website: https://www.synopsys.com/software-integrity/security-testing/fuzz-testing.html
+docs_url: https://www.synopsys.com/software-integrity/security-testing/fuzz-testing.html
+download_url: https://www.synopsys.com/software-integrity/security-testing/fuzz-testing.html
+github_repo: null
+stars: null
+pricing:
+  type: paid
+  price: "Commercial licenses available"
+  notes: "Contact Synopsys for pricing"
+installation:
+  methods:
+    - Download installer
+  commands:
+    - Download from vendor website
+maintainers:
+  - Synopsys
+authors:
+  - Synopsys
+use_cases:
+  - Protocol fuzzing
+  - File format testing
+  - API security testing
+  - Vulnerability discovery
+related_tools:
+  - peach
+  - bestorm_fuzzer
+similar_tools:
+  - peach
+  - bestorm_fuzzer
+  - afl
+added_at: '2026-03-05'

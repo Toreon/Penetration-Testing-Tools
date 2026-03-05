@@ -1,0 +1,50 @@
+id: radamsa
+name: Radamsa
+summary: General-purpose fuzzer for generating test cases and finding bugs.
+description: |
+  Radamsa is a general-purpose fuzzer for generating test cases and finding bugs. It can mutate input data in various ways to create test cases for fuzzing applications. Radamsa is useful for fuzzing file formats, network protocols, and other types of input data to find security vulnerabilities.
+categories:
+  - fuzzing
+tags:
+  - fuzzing
+  - test_case_generation
+  - vulnerability_discovery
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: active
+website: https://gitlab.com/akihe/radamsa
+docs_url: https://gitlab.com/akihe/radamsa
+download_url: https://gitlab.com/akihe/radamsa
+github_repo: null
+stars: null
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Source compilation
+  commands:
+    - git clone https://gitlab.com/akihe/radamsa.git
+    - cd radamsa && make
+maintainers:
+  - akihe
+authors:
+  - akihe
+use_cases:
+  - Fuzzing
+  - Test case generation
+  - Vulnerability discovery
+  - Security testing
+related_tools:
+  - afl
+  - libfuzzer
+similar_tools:
+  - afl
+  - libfuzzer
+added_at: '2026-03-05'

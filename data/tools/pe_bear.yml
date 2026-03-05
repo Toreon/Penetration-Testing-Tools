@@ -1,0 +1,52 @@
+id: pe_bear
+name: PE-bear
+summary: PE file analysis tool for reverse engineering and malware analysis.
+description: |
+  PE-bear is a PE (Portable Executable) file analysis tool for reverse engineering and malware analysis. It provides a graphical interface for analyzing PE files, viewing sections, imports, exports, and other PE structures. PE-bear is useful for reverse engineering and malware analysis of Windows executables.
+categories:
+  - static_analysis
+tags:
+  - pe_analysis
+  - reverse_engineering
+  - malware_analysis
+  - gui
+  - oss
+  - cpp
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: active
+website: https://github.com/hasherezade/pe-bear
+docs_url: https://github.com/hasherezade/pe-bear
+download_url: https://github.com/hasherezade/pe-bear/releases
+github_repo: hasherezade/pe-bear
+stars: 3493
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Git clone
+  commands:
+    - Download from https://github.com/hasherezade/pe-bear/releases
+    - git clone https://github.com/hasherezade/pe-bear.git
+maintainers:
+  - hasherezade
+authors:
+  - hasherezade
+  - fairycn
+  - visuve
+use_cases:
+  - PE file analysis
+  - Reverse engineering
+  - Malware analysis
+  - Security research
+related_tools:
+  - pe_sieve
+  - detect_it_easy
+similar_tools:
+  - pe_sieve
+  - detect_it_easy
+added_at: '2026-03-05'

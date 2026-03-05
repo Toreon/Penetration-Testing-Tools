@@ -1,0 +1,53 @@
+id: autopsy
+name: Autopsy
+summary: Digital forensics platform with graphical interface for analyzing disk images and file systems.
+description: |
+  Autopsy is a digital forensics platform with a graphical interface for analyzing disk images and file systems. It provides tools for file system analysis, keyword searching, timeline analysis, and artifact extraction. Autopsy is used in digital forensics investigations and incident response.
+categories:
+  - static_analysis
+tags:
+  - digital_forensics
+  - file_system_analysis
+  - gui
+  - oss
+  - java
+platforms:
+  - linux
+  - windows
+  - macos
+license: Apache-2.0
+maturity: stable
+website: https://www.autopsy.com/
+docs_url: https://www.autopsy.com/user-guide/
+download_url: https://www.autopsy.com/download/
+github_repo: sleuthkit/autopsy
+stars: 3035
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download installer
+    - Package manager
+  commands:
+    - Download from https://www.autopsy.com/download/
+  package_managers:
+    - apt
+maintainers:
+  - sleuthkit
+authors:
+  - sleuthkit
+  - rcordovano
+  - gdicristofaro
+  - adam-m
+use_cases:
+  - Digital forensics
+  - File system analysis
+  - Incident response
+  - Evidence extraction
+related_tools:
+  - sleuth_kit
+  - volatility
+similar_tools:
+  - sleuth_kit
+  - volatility
+added_at: '2026-03-05'

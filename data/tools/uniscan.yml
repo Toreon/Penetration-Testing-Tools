@@ -1,0 +1,52 @@
+id: uniscan
+name: Uniscan
+summary: Web application vulnerability scanner for detecting security issues in web applications.
+description: |
+  Uniscan is a web application vulnerability scanner designed to detect security issues in web applications. It performs various tests including directory enumeration, file discovery, and vulnerability detection. Uniscan can identify common vulnerabilities such as SQL injection, XSS, and other web application security issues through automated scanning.
+categories:
+  - web_app_scanner
+  - vulnerability_scanner
+tags:
+  - web_security
+  - vulnerability_scanning
+  - directory_enumeration
+  - oss
+  - cli
+  - perl
+platforms:
+  - linux
+  - windows
+license: GPL-2.0
+maturity: stable
+website: https://github.com/poerschke/Uniscan
+docs_url: https://github.com/poerschke/Uniscan
+download_url: https://github.com/poerschke/Uniscan
+github_repo: poerschke/Uniscan
+stars: 141
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Package manager
+  commands:
+    - git clone https://github.com/poerschke/Uniscan.git
+    - cd Uniscan && perl Makefile.PL && make && make install
+  package_managers:
+    - apt
+maintainers:
+  - poerschke
+authors:
+  - poerschke
+use_cases:
+  - Web application scanning
+  - Vulnerability detection
+  - Directory enumeration
+  - Security assessment
+related_tools:
+  - nikto
+  - dirbuster
+similar_tools:
+  - nikto
+  - dirbuster
+added_at: '2026-03-05'

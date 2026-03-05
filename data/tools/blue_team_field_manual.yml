@@ -1,0 +1,47 @@
+id: blue_team_field_manual
+name: Blue Team Field Manual
+summary: Concise reference guide for blue team operations, incident response, and defensive security techniques.
+description: |
+  Blue Team Field Manual (BTFM) is a concise reference guide for blue team operations, incident response, and defensive security techniques. It provides quick reference information for common defensive commands, tools, and procedures used in security operations. The manual complements the Red Team Field Manual and is designed for incident responders and security analysts.
+categories:
+  - guides_and_cheatsheets
+tags:
+  - blue_team
+  - incident_response
+  - defensive_security
+  - reference
+  - cheat_sheet
+  - oss
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://github.com/leandrowd/btfm
+docs_url: https://github.com/leandrowd/btfm
+download_url: https://github.com/leandrowd/btfm
+github_repo: leandrowd/btfm
+stars: 3000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - PDF download
+  commands:
+    - git clone https://github.com/leandrowd/btfm.git
+maintainers:
+  - leandrowd
+authors:
+  - leandrowd
+use_cases:
+  - Incident response
+  - Blue team operations
+  - Defensive security reference
+  - Security analysis
+related_tools:
+  - red_team_field_manual
+similar_tools:
+  - red_team_field_manual
+added_at: '2026-03-05'

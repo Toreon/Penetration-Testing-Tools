@@ -1,0 +1,51 @@
+id: wifiphisher
+name: Wifiphisher
+summary: Automated phishing attack tool for WiFi networks using rogue access points.
+description: |
+  Wifiphisher is an automated phishing attack tool for WiFi networks using rogue access points. It creates fake access points and performs automated phishing attacks to capture WiFi credentials. Wifiphisher is used for security testing and demonstrating WiFi security vulnerabilities.
+categories:
+  - network_attack
+tags:
+  - wifi
+  - phishing
+  - wireless_security
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+license: MIT
+maturity: active
+website: https://github.com/wifiphisher/wifiphisher
+docs_url: https://github.com/wifiphisher/wifiphisher
+download_url: https://github.com/wifiphisher/wifiphisher
+github_repo: wifiphisher/wifiphisher
+stars: 14477
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/wifiphisher/wifiphisher.git
+    - pip install -r requirements.txt
+maintainers:
+  - wifiphisher
+authors:
+  - wifiphisher
+  - sophron
+  - blackHatMonkey
+  - anakin1028
+use_cases:
+  - WiFi security testing
+  - Automated phishing
+  - Credential harvesting
+  - Security assessment
+related_tools:
+  - fluxion
+  - aircrack_ng
+similar_tools:
+  - fluxion
+  - aircrack_ng
+added_at: '2026-03-05'

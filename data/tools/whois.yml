@@ -1,0 +1,55 @@
+id: whois
+name: whois
+summary: Command-line utility for querying WHOIS databases to retrieve domain registration and ownership information.
+description: |
+  whois is a command-line utility for querying WHOIS databases to retrieve domain registration and ownership information. It's a standard tool available on most Unix-like systems and provides information about domain names, IP addresses, and autonomous system numbers. whois is essential for OSINT gathering, domain research, and network reconnaissance.
+categories:
+  - osint
+tags:
+  - osint
+  - domain_research
+  - network_reconnaissance
+  - oss
+  - cli
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://github.com/rfc1036/whois
+docs_url: https://github.com/rfc1036/whois
+download_url: https://github.com/rfc1036/whois
+github_repo: rfc1036/whois
+stars: 588
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Package manager
+    - Source compilation
+  commands:
+    - apt-get install whois
+    - brew install whois
+  package_managers:
+    - apt
+    - brew
+    - yum
+maintainers:
+  - rfc1036
+authors:
+  - rfc1036
+  - ppisar
+  - qboosh
+use_cases:
+  - Domain registration lookup
+  - IP address information
+  - Network ownership research
+  - OSINT gathering
+related_tools:
+  - dig
+  - nslookup
+similar_tools:
+  - dig
+  - nslookup
+added_at: '2026-03-05'

@@ -1,0 +1,52 @@
+id: iotseeker
+name: IoTSeeker
+summary: IoT device scanner for discovering and testing Internet of Things devices.
+description: |
+  IoTSeeker is an IoT device scanner for discovering and testing Internet of Things devices. It can scan for IoT devices on networks, identify device types, and test for common vulnerabilities. IoTSeeker helps security researchers discover and assess the security of IoT devices in networks.
+categories:
+  - firmware_analysis
+  - network_scanner
+tags:
+  - iot
+  - device_scanning
+  - vulnerability_scanning
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+license: GPL-3.0
+maturity: active
+website: https://github.com/rapid7/IoTSeeker
+docs_url: https://github.com/rapid7/IoTSeeker
+download_url: https://github.com/rapid7/IoTSeeker
+github_repo: rapid7/IoTSeeker
+stars: 796
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/rapid7/IoTSeeker.git
+    - pip install -r requirements.txt
+maintainers:
+  - rapid7
+authors:
+  - rapid7
+  - jinq102030
+  - simonirwin-r7
+  - aRobinson-R7
+use_cases:
+  - IoT device discovery
+  - Device scanning
+  - Vulnerability testing
+  - Security assessment
+related_tools:
+  - nmap
+  - routersploit
+similar_tools:
+  - nmap
+  - routersploit
+added_at: '2026-03-05'

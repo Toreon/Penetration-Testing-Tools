@@ -1,0 +1,50 @@
+id: heartbleed
+name: Heartbleed
+summary: Heartbleed vulnerability scanner for detecting OpenSSL Heartbleed vulnerability.
+description: |
+  Heartbleed is a vulnerability scanner for detecting the OpenSSL Heartbleed vulnerability (CVE-2014-0160). It can test SSL/TLS servers for the Heartbleed vulnerability and demonstrate the security issue. This tool is useful for security assessments and vulnerability scanning.
+categories:
+  - vulnerability_scanner
+tags:
+  - heartbleed
+  - vulnerability_scanning
+  - ssl
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://github.com/mpgn/heartbleed-PoC
+docs_url: https://github.com/mpgn/heartbleed-PoC
+download_url: https://github.com/mpgn/heartbleed-PoC
+github_repo: mpgn/heartbleed-PoC
+stars: 85
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/mpgn/heartbleed-PoC.git
+    - pip install -r requirements.txt
+maintainers:
+  - mpgn
+authors:
+  - mpgn
+use_cases:
+  - Heartbleed vulnerability scanning
+  - Security assessment
+  - Vulnerability detection
+  - Security testing
+related_tools:
+  - sslyze
+  - testssl
+similar_tools:
+  - sslyze
+  - testssl
+added_at: '2026-03-05'

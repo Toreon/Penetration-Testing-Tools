@@ -22,7 +22,7 @@ website: https://github.com/fortra/impacket
 docs_url: https://www.fortra.com/impacket
 download_url: https://github.com/fortra/impacket
 github_repo: fortra/impacket
-stars: 15436
+stars: 15512
 pricing:
   type: open_source
 installation:

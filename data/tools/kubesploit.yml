@@ -1,0 +1,52 @@
+id: kubesploit
+name: Kubesploit
+summary: Kubernetes post-exploitation framework for security testing and penetration testing.
+description: |
+  Kubesploit is a Kubernetes post-exploitation framework designed for security testing and penetration testing. It provides various modules for post-exploitation activities in Kubernetes environments, including privilege escalation, lateral movement, and data exfiltration. Kubesploit helps security researchers test Kubernetes security and demonstrate attack scenarios.
+categories:
+  - cloud_security
+  - network_attack
+tags:
+  - kubernetes
+  - post_exploitation
+  - penetration_testing
+  - oss
+  - cli
+  - go
+platforms:
+  - linux
+  - kubernetes
+license: Apache-2.0
+maturity: active
+website: https://github.com/cyberark/kubesploit
+docs_url: https://github.com/cyberark/kubesploit
+download_url: https://github.com/cyberark/kubesploit
+github_repo: cyberark/kubesploit
+stars: 1215
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Go build
+  commands:
+    - git clone https://github.com/cyberark/kubesploit.git
+    - cd kubesploit && go build
+maintainers:
+  - cyberark
+authors:
+  - cyberark
+  - g3rzi
+  - yanivyakobovich
+  - yanivyakobovich1
+use_cases:
+  - Kubernetes post-exploitation
+  - Security testing
+  - Penetration testing
+  - Attack simulation
+related_tools:
+  - kube_hunter
+  - kubeaudit
+similar_tools:
+  - kube_hunter
+added_at: '2026-03-05'

@@ -1,0 +1,54 @@
+id: holehe
+name: Holehe
+summary: Email checker tool that checks if an email is attached to an account on various sites.
+description: |
+  Holehe is an email checker tool that checks if an email is attached to an account on various sites. It can identify which online services and platforms are associated with a given email address, helping with OSINT gathering and account enumeration. Holehe is useful for security research and social engineering assessments.
+categories:
+  - osint
+tags:
+  - email_checking
+  - account_enumeration
+  - osint
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: active
+website: https://github.com/megadose/holehe
+docs_url: https://github.com/megadose/holehe
+download_url: https://github.com/megadose/holehe
+github_repo: megadose/holehe
+stars: 10319
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/megadose/holehe.git
+    - pip install holehe
+  package_managers:
+    - pip
+maintainers:
+  - megadose
+authors:
+  - megadose
+  - Eriys
+  - novitae
+use_cases:
+  - Email enumeration
+  - Account discovery
+  - OSINT gathering
+  - Social engineering research
+related_tools:
+  - sherlock
+  - theharvester
+similar_tools:
+  - sherlock
+  - theharvester
+added_at: '2026-03-05'

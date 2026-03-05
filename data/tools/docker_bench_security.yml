@@ -1,0 +1,52 @@
+id: docker_bench_security
+name: Docker Bench Security
+summary: Script that checks for dozens of common best practices around deploying Docker containers in production.
+description: |
+  Docker Bench Security is a script that checks for dozens of common best practices around deploying Docker containers in production. It runs as a container and checks the host system configuration, Docker daemon configuration, container images, and container runtime settings. Docker Bench Security helps ensure Docker deployments follow security best practices.
+categories:
+  - cloud_security
+  - cloud_enumeration
+tags:
+  - docker
+  - container_security
+  - security_audit
+  - oss
+  - cli
+  - shell
+platforms:
+  - linux
+  - docker
+license: Apache-2.0
+maturity: stable
+website: https://github.com/docker/docker-bench-security
+docs_url: https://github.com/docker/docker-bench-security
+download_url: https://github.com/docker/docker-bench-security
+github_repo: docker/docker-bench-security
+stars: 9599
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Docker run
+  commands:
+    - git clone https://github.com/docker/docker-bench-security.git
+    - docker run --rm --net host --pid host --userns host --cap-add audit_control -e DOCKER_CONTENT_TRUST=$DOCKER_CONTENT_TRUST -v /etc:/etc:ro -v /usr/bin/containerd:/usr/bin/containerd:ro -v /usr/bin/runc:/usr/bin/runc:ro -v /usr/lib/systemd:/usr/lib/systemd:ro -v /var/lib:/var/lib:ro -v /var/run/docker.sock:/var/run/docker.sock:ro --label docker_bench_security docker/docker-bench-security
+maintainers:
+  - docker
+authors:
+  - docker
+  - konstruktoid
+  - razvanstoica89
+  - diogomonica
+use_cases:
+  - Docker security auditing
+  - Container security assessment
+  - Best practices checking
+  - Security compliance
+related_tools:
+  - trivy
+  - clair
+similar_tools:
+  - trivy
+added_at: '2026-03-05'

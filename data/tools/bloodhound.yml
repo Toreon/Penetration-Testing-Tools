@@ -20,9 +20,9 @@ license: GPL-3.0
 maturity: stable
 website: https://bloodhound.readthedocs.io/
 docs_url: https://bloodhound.readthedocs.io/
-download_url: https://github.com/BloodHoundAD/BloodHound
-github_repo: BloodHoundAD/BloodHound
-stars: 10537
+download_url: https://github.com/SpecterOps/BloodHound
+github_repo: SpecterOps/BloodHound
+stars: 2800
 pricing:
   type: open_source
 installation:
@@ -32,13 +32,13 @@ installation:
     - Git clone
   commands:
     - docker pull bloodhoundad/bloodhound
-    - git clone https://github.com/BloodHoundAD/BloodHound.git
+    - git clone https://github.com/SpecterOps/BloodHound.git
   package_managers:
     - docker
 maintainers:
-  - BloodHoundAD
+  - SpecterOps
 authors:
-  - BloodHoundAD
+  - SpecterOps
   - rvazarkar
   - andyrobbins
   - JonasBK

@@ -1,0 +1,50 @@
+id: rest_attacker
+name: REST-Attacker
+summary: REST API security testing framework for automated security assessment of RESTful APIs.
+description: |
+  REST-Attacker is a security testing framework designed specifically for RESTful APIs. It provides automated security assessment capabilities to identify vulnerabilities in REST API endpoints, including authentication bypass, authorization flaws, injection vulnerabilities, and other common API security issues. REST-Attacker supports various authentication methods and can be integrated into CI/CD pipelines for continuous security testing.
+categories:
+  - web_app_scanner
+tags:
+  - api_security
+  - rest_api
+  - security_testing
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: active
+website: https://github.com/zer0day/REST-Attacker
+docs_url: https://github.com/zer0day/REST-Attacker
+download_url: https://github.com/zer0day/REST-Attacker
+github_repo: zer0day/REST-Attacker
+stars: 450
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/zer0day/REST-Attacker.git
+    - pip install -r requirements.txt
+maintainers:
+  - zer0day
+authors:
+  - zer0day
+use_cases:
+  - REST API security testing
+  - API vulnerability assessment
+  - Authentication testing
+  - Authorization testing
+related_tools:
+  - postman
+  - burp_suite
+similar_tools:
+  - postman
+  - owasp_zap
+added_at: '2026-03-05'

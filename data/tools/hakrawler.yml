@@ -1,0 +1,53 @@
+id: hakrawler
+name: Hakrawler
+summary: Web crawler for penetration testing and reconnaissance.
+description: |
+  Hakrawler is a web crawler for penetration testing and reconnaissance. It can crawl websites, discover endpoints, and extract useful information for security testing. Hakrawler is useful for web application security testing and reconnaissance.
+categories:
+  - reconnaissance
+  - web_app_scanner
+tags:
+  - web_crawling
+  - reconnaissance
+  - endpoint_discovery
+  - oss
+  - cli
+  - go
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: active
+website: https://github.com/hakluke/hakrawler
+docs_url: https://github.com/hakluke/hakrawler
+download_url: https://github.com/hakluke/hakrawler/releases
+github_repo: hakluke/hakrawler
+stars: 4999
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Go install
+  commands:
+    - go install github.com/hakluke/hakrawler@latest
+    - Download from https://github.com/hakluke/hakrawler/releases
+maintainers:
+  - hakluke
+authors:
+  - hakluke
+  - garlic0x1
+  - delic
+use_cases:
+  - Web crawling
+  - Reconnaissance
+  - Endpoint discovery
+  - Security testing
+related_tools:
+  - gau
+  - waybackurls
+similar_tools:
+  - gau
+  - waybackurls
+added_at: '2026-03-05'

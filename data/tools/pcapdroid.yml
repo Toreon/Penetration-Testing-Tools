@@ -1,0 +1,48 @@
+id: pcapdroid
+name: PCAPdroid
+summary: Android application for capturing network traffic without root access, useful for network analysis and security testing.
+description: |
+  PCAPdroid is an Android application for capturing network traffic without root access. It can capture network packets and save them in PCAP format for analysis with tools like Wireshark. PCAPdroid is useful for network analysis, security testing, and mobile application security assessment.
+categories:
+  - network_scanner
+tags:
+  - android
+  - network_capture
+  - packet_analysis
+  - oss
+  - mobile_app
+platforms:
+  - android
+license: GPL-3.0
+maturity: stable
+website: https://github.com/emanuele-f/PCAPdroid
+docs_url: https://github.com/emanuele-f/PCAPdroid
+download_url: https://github.com/emanuele-f/PCAPdroid/releases
+github_repo: emanuele-f/PCAPdroid
+stars: 3766
+pricing:
+  type: open_source
+installation:
+  methods:
+    - APK download
+    - Google Play Store
+  commands:
+    - Download APK from GitHub releases
+maintainers:
+  - emanuele-f
+authors:
+  - emanuele-f
+  - sr093906
+  - dmnsea
+use_cases:
+  - Network traffic capture
+  - Mobile app security testing
+  - Network analysis
+  - Packet inspection
+related_tools:
+  - wireshark
+  - tcpdump
+similar_tools:
+  - wireshark
+  - tcpdump
+added_at: '2026-03-05'

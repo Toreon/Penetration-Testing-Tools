@@ -1,0 +1,52 @@
+id: killerbee
+name: KillerBee
+summary: Framework for testing ZigBee and IEEE 802.15.4 networks, providing tools for security assessment and protocol analysis.
+description: |
+  KillerBee is a framework for testing ZigBee and IEEE 802.15.4 networks. It provides tools for capturing, analyzing, and attacking ZigBee networks. KillerBee is useful for IoT security research, wireless protocol testing, and ZigBee network security assessment.
+categories:
+  - network_attack
+tags:
+  - zigbee
+  - iot
+  - wireless
+  - security_testing
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+license: GPL-2.0
+maturity: stable
+website: https://github.com/riverloopsec/killerbee
+docs_url: https://github.com/riverloopsec/killerbee
+download_url: https://github.com/riverloopsec/killerbee
+github_repo: riverloopsec/killerbee
+stars: 835
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - pip install
+  commands:
+    - git clone https://github.com/riverloopsec/killerbee.git
+    - pip install killerbee
+  package_managers:
+    - pip
+maintainers:
+  - riverloopsec
+authors:
+  - riverloopsec
+  - rmspeers
+  - AdamLaurie
+  - Crypt0s
+use_cases:
+  - ZigBee network testing
+  - IoT security research
+  - Wireless protocol analysis
+  - Security assessment
+related_tools:
+  - aircrack_ng
+similar_tools:
+  - aircrack_ng
+added_at: '2026-03-05'

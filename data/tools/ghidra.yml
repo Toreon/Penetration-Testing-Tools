@@ -22,7 +22,7 @@ website: https://ghidra-sre.org/
 docs_url: https://ghidra-sre.org/CheatSheet.html
 download_url: https://ghidra-sre.org/
 github_repo: NationalSecurityAgency/ghidra
-stars: 64213
+stars: 65366
 pricing:
   type: open_source
 installation:

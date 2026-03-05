@@ -1,0 +1,52 @@
+id: privilege_escalation_cheatsheet
+name: Privilege Escalation Cheat Sheet
+summary: Comprehensive reference guide for privilege escalation techniques on Linux, Windows, and other platforms.
+description: |
+  Privilege Escalation Cheat Sheet is a comprehensive reference guide for privilege escalation techniques on Linux, Windows, and other platforms. It covers various methods for escalating privileges, including kernel exploits, misconfigurations, and common vulnerabilities. This resource is essential for penetration testers and security researchers.
+categories:
+  - guides_and_cheatsheets
+tags:
+  - privilege_escalation
+  - cheat_sheet
+  - linux
+  - windows
+  - oss
+  - reference
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Privilege%20Escalation.md
+docs_url: https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Privilege%20Escalation.md
+download_url: https://github.com/swisskyrepo/PayloadsAllTheThings
+github_repo: swisskyrepo/PayloadsAllTheThings
+stars: 75731
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Web interface
+  commands:
+    - git clone https://github.com/swisskyrepo/PayloadsAllTheThings.git
+maintainers:
+  - swisskyrepo
+authors:
+  - swisskyrepo
+  - p0dalirius
+  - noraj
+use_cases:
+  - Privilege escalation reference
+  - Linux security testing
+  - Windows security testing
+  - Penetration testing
+related_tools:
+  - linpeas
+  - winpeas
+  - payloadsallthethings
+similar_tools:
+  - linpeas
+  - winpeas
+added_at: '2026-03-05'

@@ -1,0 +1,56 @@
+id: ike_scan
+name: Ike-scan
+summary: VPN scanner and testing tool for IPsec VPN discovery and security assessment.
+description: |
+  Ike-scan is a VPN scanner and testing tool designed for IPsec VPN discovery and security assessment. It can discover IKE (Internet Key Exchange) services, identify VPN implementations, and test for common VPN vulnerabilities. Ike-scan is useful for network reconnaissance and security testing of VPN infrastructure.
+categories:
+  - network_scanner
+  - network_attack
+tags:
+  - vpn_scanning
+  - ipsec
+  - ike
+  - security_testing
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://github.com/royhills/ike-scan
+docs_url: https://github.com/royhills/ike-scan
+download_url: https://github.com/royhills/ike-scan
+github_repo: royhills/ike-scan
+stars: 409
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Package manager
+    - Source compilation
+  commands:
+    - git clone https://github.com/royhills/ike-scan.git
+    - cd ike-scan && ./configure && make && sudo make install
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - royhills
+authors:
+  - royhills
+  - thesamesam
+  - elboulangero
+use_cases:
+  - VPN discovery
+  - IPsec testing
+  - VPN security assessment
+  - Network reconnaissance
+related_tools:
+  - nmap
+  - hping
+similar_tools:
+  - nmap
+added_at: '2026-03-05'

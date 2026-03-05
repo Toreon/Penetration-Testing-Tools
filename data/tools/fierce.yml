@@ -1,0 +1,56 @@
+id: fierce
+name: Fierce
+summary: DNS reconnaissance tool for locating non-contiguous IP space and hostnames.
+description: |
+  Fierce is a DNS reconnaissance tool designed for locating non-contiguous IP space and hostnames against specified domains. It uses various techniques including zone transfers, dictionary attacks, and reverse DNS lookups to discover subdomains and associated IP addresses. Fierce is useful for network reconnaissance and subdomain enumeration during security assessments.
+categories:
+  - reconnaissance
+  - osint
+tags:
+  - dns_enumeration
+  - subdomain_discovery
+  - dns_reconnaissance
+  - oss
+  - cli
+  - perl
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://github.com/mschwager/fierce
+docs_url: https://github.com/mschwager/fierce
+download_url: https://github.com/mschwager/fierce
+github_repo: mschwager/fierce
+stars: 1765
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/mschwager/fierce.git
+    - pip install fierce
+  package_managers:
+    - pip
+maintainers:
+  - mschwager
+authors:
+  - mschwager
+  - timmc
+  - zeedo
+use_cases:
+  - DNS enumeration
+  - Subdomain discovery
+  - Network reconnaissance
+  - Information gathering
+related_tools:
+  - dnsenum
+  - dnsrecon
+  - sublist3r
+similar_tools:
+  - dnsenum
+  - dnsrecon
+added_at: '2026-03-05'

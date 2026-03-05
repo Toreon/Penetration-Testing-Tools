@@ -1,0 +1,49 @@
+id: android_studio
+name: Android Studio
+summary: Official integrated development environment (IDE) for Android app development, including Android emulator and development tools.
+description: |
+  Android Studio is the official integrated development environment (IDE) for Android app development. It includes the Android emulator, development tools, and comprehensive support for Android app development. Android Studio is essential for Android security research, app development, and mobile security testing.
+categories:
+  - static_analysis
+tags:
+  - android
+  - ide
+  - development
+  - emulation
+  - free
+  - gui
+platforms:
+  - linux
+  - windows
+  - macos
+license: Apache-2.0
+maturity: stable
+website: https://developer.android.com/studio
+docs_url: https://developer.android.com/studio/intro
+download_url: https://developer.android.com/studio
+github_repo: null
+stars: null
+pricing:
+  type: free
+  notes: "Free IDE from Google"
+installation:
+  methods:
+    - Download installer
+  commands:
+    - Download from Android Developer website
+maintainers:
+  - Google
+authors:
+  - Google
+use_cases:
+  - Android app development
+  - Mobile security research
+  - App analysis
+  - Development
+related_tools:
+  - adb
+  - genymotion
+similar_tools:
+  - genymotion
+  - xcode
+added_at: '2026-03-05'

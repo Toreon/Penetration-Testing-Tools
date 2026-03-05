@@ -1,0 +1,47 @@
+id: attifyos
+name: AttifyOS
+summary: IoT security testing platform and operating system for penetration testing of IoT devices.
+description: |
+  AttifyOS is an IoT security testing platform and operating system designed for penetration testing of IoT devices. It comes pre-installed with various tools for firmware analysis, hardware hacking, radio frequency analysis, and IoT device security testing. AttifyOS provides a comprehensive environment for IoT security research.
+categories:
+  - operating_systems
+  - firmware_analysis
+tags:
+  - iot
+  - operating_system
+  - penetration_testing
+  - oss
+platforms:
+  - linux
+license: GPL-3.0
+maturity: active
+website: https://github.com/adi0x90/attifyos
+docs_url: https://github.com/adi0x90/attifyos
+download_url: https://github.com/adi0x90/attifyos
+github_repo: adi0x90/attifyos
+stars: 1021
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download ISO
+    - Virtual machine
+  commands:
+    - Download ISO from https://github.com/adi0x90/attifyos/releases
+    - Boot from ISO or install in VM
+maintainers:
+  - adi0x90
+authors:
+  - adi0x90
+use_cases:
+  - IoT security testing
+  - Firmware analysis
+  - Hardware hacking
+  - Penetration testing
+related_tools:
+  - kali_linux
+  - parrot_os
+similar_tools:
+  - kali_linux
+  - parrot_os
+added_at: '2026-03-05'

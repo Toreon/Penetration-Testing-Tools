@@ -1,0 +1,48 @@
+id: payloadsallthethings
+name: PayloadsAllTheThings
+summary: Comprehensive list of payloads and bypasses for Web Application Security and Pentest/CTF.
+description: |
+  PayloadsAllTheThings is a comprehensive list of payloads and bypasses for Web Application Security and Pentest/CTF. It contains a collection of useful payloads, bypasses, fuzzing dictionaries, and pentesting methodologies. This repository is an essential reference for penetration testers, bug bounty hunters, and security researchers.
+categories:
+  - guides_and_cheatsheets
+tags:
+  - payloads
+  - bypasses
+  - cheat_sheet
+  - oss
+  - reference
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://github.com/swisskyrepo/PayloadsAllTheThings
+docs_url: https://github.com/swisskyrepo/PayloadsAllTheThings
+download_url: https://github.com/swisskyrepo/PayloadsAllTheThings
+github_repo: swisskyrepo/PayloadsAllTheThings
+stars: 75731
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+  commands:
+    - git clone https://github.com/swisskyrepo/PayloadsAllTheThings.git
+maintainers:
+  - swisskyrepo
+authors:
+  - swisskyrepo
+  - p0dalirius
+  - noraj
+use_cases:
+  - Payload reference
+  - Bypass techniques
+  - Web application security testing
+  - CTF preparation
+related_tools:
+  - seclists
+similar_tools:
+  - seclists
+  - hacktricks
+added_at: '2026-03-05'

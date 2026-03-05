@@ -22,7 +22,7 @@ website: https://www.metasploit.com/
 docs_url: https://docs.metasploit.com/
 download_url: https://github.com/rapid7/metasploit-framework
 github_repo: rapid7/metasploit-framework
-stars: 37476
+stars: 37656
 pricing:
   type: freemium
   notes: Metasploit Framework (free), Metasploit Pro (commercial)

@@ -55,9 +55,51 @@ categories:
 
   - id: reconnaissance
     name: Reconnaissance
-    description: Tools for information gathering, enumeration, and reconnaissance activities in penetration testing.
+    description: Tools for information gathering, enumeration, and reconnaissance activities in penetration testing. Distinct from OSINT tools which focus on open source intelligence gathering.
     icon: 🔎
     order: 10
+
+  - id: osint
+    name: OSINT (Open Source Intelligence)
+    description: Tools for gathering and analyzing open source intelligence from publicly available sources such as social media, search engines, and public databases.
+    icon: 🔍
+    order: 14
+
+  - id: fuzzing
+    name: Fuzzing
+    description: Tools for automated software testing that provide invalid, unexpected, or random data as inputs to find security vulnerabilities and software bugs.
+    icon: 🎯
+    order: 15
+
+  - id: firmware_analysis
+    name: Firmware Analysis
+    description: Tools for analyzing, extracting, and reverse engineering firmware from embedded devices and IoT systems.
+    icon: 🔧
+    order: 16
+
+  - id: operating_systems
+    name: Operating Systems
+    description: Specialized operating systems and distributions designed for penetration testing, security auditing, and digital forensics.
+    icon: 💿
+    order: 17
+
+  - id: web_utilities
+    name: Web Utilities
+    description: Online web-based tools and utilities for encoding, decoding, data transformation, password cracking, and privilege escalation techniques.
+    icon: 🌐
+    order: 18
+
+  - id: linux_utilities
+    name: Linux Utilities
+    description: Common Linux command-line utilities frequently used in penetration testing workflows for file analysis, network operations, and data manipulation.
+    icon: 🐧
+    order: 19
+
+  - id: guides_and_cheatsheets
+    name: Guides & Cheat Sheets
+    description: Public guides, cheat sheets, and reference materials to complement the tool catalog and provide practical reference material.
+    icon: 📖
+    order: 20
 
   - id: cloud_enumeration
     name: Cloud Enumeration

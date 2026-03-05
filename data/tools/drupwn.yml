@@ -1,0 +1,54 @@
+id: drupwn
+name: Drupwn
+summary: Drupal security scanner for detecting vulnerabilities in Drupal installations.
+description: |
+  Drupwn is a Drupal security scanner designed to detect vulnerabilities in Drupal content management system installations. It can identify Drupal version information, enumerate modules and themes, detect known vulnerabilities, and perform security assessments. Drupwn helps security researchers and administrators identify security issues in Drupal-based websites.
+categories:
+  - web_app_scanner
+  - vulnerability_scanner
+tags:
+  - drupal
+  - cms_security
+  - vulnerability_scanning
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: active
+website: https://github.com/immunIT/drupwn
+docs_url: https://github.com/immunIT/drupwn
+download_url: https://github.com/immunIT/drupwn
+github_repo: immunIT/drupwn
+stars: 610
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/immunIT/drupwn.git
+    - pip install -r requirements.txt
+maintainers:
+  - immunIT
+authors:
+  - immunIT
+  - tophertimzen
+  - Script-Nomad
+  - noraj
+use_cases:
+  - Drupal security scanning
+  - Vulnerability detection
+  - Module enumeration
+  - Security assessment
+related_tools:
+  - wpscan
+  - joomscan
+similar_tools:
+  - wpscan
+  - joomscan
+added_at: '2026-03-05'

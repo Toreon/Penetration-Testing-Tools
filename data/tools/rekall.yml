@@ -1,0 +1,55 @@
+id: rekall
+name: Rekall
+summary: Memory analysis framework for extracting digital artifacts from memory images.
+description: |
+  Rekall is a memory analysis framework for extracting digital artifacts from memory images. It provides capabilities for analyzing memory dumps from various operating systems and extracting forensic artifacts. Rekall is used in digital forensics and incident response for memory analysis.
+categories:
+  - static_analysis
+tags:
+  - memory_forensics
+  - digital_forensics
+  - incident_response
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: active
+website: https://github.com/google/rekall
+docs_url: https://github.com/google/rekall
+download_url: https://github.com/google/rekall
+github_repo: google/rekall
+stars: 1999
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/google/rekall.git
+    - pip install rekall
+  package_managers:
+    - pip
+maintainers:
+  - google
+authors:
+  - google
+  - scudette
+  - the80srobot
+  - parkisan
+use_cases:
+  - Memory forensics
+  - Digital forensics
+  - Incident response
+  - Memory analysis
+related_tools:
+  - volatility
+  - autopsy
+similar_tools:
+  - volatility
+  - autopsy
+added_at: '2026-03-05'

@@ -4,7 +4,7 @@ summary: In-depth attack surface mapping and asset discovery tool that performs 
 description: |
   Amass is an in-depth attack surface mapping and asset discovery tool that performs DNS enumeration and subdomain discovery. It integrates with over 80 data sources and uses various techniques including passive DNS enumeration, active DNS enumeration, and certificate transparency logs to discover subdomains and other assets. Amass is maintained by OWASP and is widely used for reconnaissance and attack surface mapping.
 categories:
-  - reconnaissance
+  - osint
 tags:
   - dns_enumeration
   - subdomain_discovery
@@ -22,7 +22,7 @@ website: https://github.com/owasp-amass/amass
 docs_url: https://github.com/owasp-amass/amass/wiki
 download_url: https://github.com/owasp-amass/amass/releases
 github_repo: owasp-amass/amass
-stars: 14100
+stars: 14209
 pricing:
   type: open_source
 installation:

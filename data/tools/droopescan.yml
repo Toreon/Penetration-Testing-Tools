@@ -17,11 +17,11 @@ platforms:
   - macos
 license: GPL-3.0
 maturity: stable
-website: https://github.com/droope/droopescan
-docs_url: https://github.com/droope/droopescan
-download_url: https://github.com/droope/droopescan
-github_repo: droope/droopescan
-stars: 1400
+website: https://github.com/SamJoan/droopescan
+docs_url: https://github.com/SamJoan/droopescan
+download_url: https://github.com/SamJoan/droopescan
+github_repo: SamJoan/droopescan
+stars: 1406
 pricing:
   type: open_source
 installation:
@@ -30,13 +30,16 @@ installation:
     - Git clone
   commands:
     - pip install droopescan
-    - git clone https://github.com/droope/droopescan.git
+    - git clone https://github.com/SamJoan/droopescan.git
   package_managers:
     - pip
 maintainers:
-  - droope
+  - SamJoan
 authors:
-  - droope
+  - SamJoan
+  - SamJoan
+  - kieran-github
+  - noraj
 use_cases:
   - CMS vulnerability scanning
   - Web application security

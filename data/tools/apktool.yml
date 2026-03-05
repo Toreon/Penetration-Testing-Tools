@@ -15,13 +15,15 @@ platforms:
   - linux
   - windows
   - macos
+target_platforms:
+  - android
 license: Apache-2.0
 maturity: stable
 website: https://ibotpeaches.github.io/Apktool/
 docs_url: https://ibotpeaches.github.io/Apktool/documentation/
 download_url: https://ibotpeaches.github.io/Apktool/download/
 github_repo: iBotPeaches/Apktool
-stars: 23843
+stars: 23990
 pricing:
   type: open_source
 installation:

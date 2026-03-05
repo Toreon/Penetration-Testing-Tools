@@ -1,0 +1,56 @@
+id: angry_ip_scanner
+name: Angry IP Scanner
+summary: Fast and friendly network scanner with GUI for network discovery and port scanning.
+description: |
+  Angry IP Scanner is a fast and friendly network scanner with a graphical user interface for network discovery and port scanning. It can scan IP addresses and ports, resolve hostnames, determine MAC addresses, and detect NetBIOS information. Angry IP Scanner is cross-platform and provides an intuitive interface for network administrators and security professionals.
+categories:
+  - network_scanner
+  - reconnaissance
+tags:
+  - network_scanning
+  - port_scanning
+  - gui
+  - oss
+  - java
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://angryip.org/
+docs_url: https://angryip.org/documentation/
+download_url: https://angryip.org/download/
+github_repo: angryip/ipscan
+stars: 4862
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Package manager
+  commands:
+    - Download from https://angryip.org/download/
+  package_managers:
+    - apt
+    - brew
+    - chocolatey
+maintainers:
+  - angryip
+authors:
+  - angryip
+  - angryziber
+  - akryvtsun
+  - marek22k
+use_cases:
+  - Network scanning
+  - Port scanning
+  - Network discovery
+  - Host enumeration
+related_tools:
+  - nmap
+  - zenmap
+similar_tools:
+  - nmap
+  - zenmap
+added_at: '2026-03-05'

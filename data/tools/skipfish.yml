@@ -1,0 +1,51 @@
+id: skipfish
+name: Skipfish
+summary: Active web application security reconnaissance tool for comprehensive security scanning.
+description: |
+  Skipfish is an active web application security reconnaissance tool designed for comprehensive security scanning. It performs an active analysis of web applications by crawling and analyzing the application structure, identifying potential security vulnerabilities, and generating detailed security reports. Skipfish is fast, thorough, and produces comprehensive security assessment reports.
+categories:
+  - web_app_scanner
+  - vulnerability_scanner
+tags:
+  - web_security
+  - reconnaissance
+  - vulnerability_scanning
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - macos
+license: Apache-2.0
+maturity: stable
+website: https://code.google.com/archive/p/skipfish/
+docs_url: https://code.google.com/archive/p/skipfish/
+download_url: https://github.com/spinkham/skipfish
+github_repo: spinkham/skipfish
+stars: 843
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Source compilation
+  commands:
+    - git clone https://github.com/spinkham/skipfish.git
+    - cd skipfish && make
+maintainers:
+  - spinkham
+authors:
+  - Google
+  - spinkham
+use_cases:
+  - Web application reconnaissance
+  - Security scanning
+  - Vulnerability assessment
+  - Security reporting
+related_tools:
+  - nikto
+  - w3af
+similar_tools:
+  - nikto
+  - w3af
+added_at: '2026-03-05'

@@ -1,0 +1,58 @@
+id: binwalk
+name: Binwalk
+summary: Firmware analysis tool designed to help with reverse engineering, extracting, and analyzing firmware images.
+description: |
+  Binwalk is a firmware analysis tool designed to help with reverse engineering, extracting, and analyzing firmware images. It can identify and extract various file systems, compressed archives, and executable code from firmware images. Binwalk is widely used in IoT security research, firmware analysis, and embedded device security assessment.
+categories:
+  - firmware_analysis
+tags:
+  - firmware_analysis
+  - reverse_engineering
+  - extraction
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://github.com/ReFirmLabs/binwalk
+docs_url: https://github.com/ReFirmLabs/binwalk/wiki
+download_url: https://github.com/ReFirmLabs/binwalk
+github_repo: ReFirmLabs/binwalk
+stars: 13685
+pricing:
+  type: open_source
+installation:
+  methods:
+    - pip install
+    - Git clone
+    - Package manager
+  commands:
+    - pip install binwalk
+    - git clone https://github.com/ReFirmLabs/binwalk.git
+  package_managers:
+    - pip
+    - apt
+maintainers:
+  - ReFirmLabs
+authors:
+  - ReFirmLabs
+  - devttys0
+  - eacmen
+  - sundhaug92
+use_cases:
+  - Firmware extraction
+  - File system identification
+  - Embedded device analysis
+  - IoT security research
+related_tools:
+  - firmwalker
+  - unblob
+similar_tools:
+  - firmwalker
+  - unblob
+  - bulk_extractor
+added_at: '2026-03-05'

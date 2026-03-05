@@ -1,0 +1,49 @@
+id: pipal
+name: Pipal
+summary: Password analysis tool for analyzing password lists and identifying patterns.
+description: |
+  Pipal is a password analysis tool for analyzing password lists and identifying patterns. It can analyze password lists to identify common patterns, character sets, and password composition rules. Pipal helps security researchers understand password characteristics and improve password policies.
+categories:
+  - password_cracker
+  - wordlist_generator
+tags:
+  - password_analysis
+  - pattern_analysis
+  - oss
+  - cli
+  - ruby
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: active
+website: https://github.com/digininja/pipal
+docs_url: https://github.com/digininja/pipal
+download_url: https://github.com/digininja/pipal
+github_repo: digininja/pipal
+stars: 661
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+  commands:
+    - git clone https://github.com/digininja/pipal.git
+maintainers:
+  - digininja
+authors:
+  - digininja
+  - maggick
+  - WebBreacher
+use_cases:
+  - Password analysis
+  - Pattern identification
+  - Password policy assessment
+  - Security research
+related_tools:
+  - hashcat
+  - john_the_ripper
+similar_tools:
+  - hashcat
+added_at: '2026-03-05'

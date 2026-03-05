@@ -22,7 +22,7 @@ website: https://wapiti.sourceforge.io/
 docs_url: https://wapiti.readthedocs.io/
 download_url: https://github.com/wapiti-scanner/wapiti
 github_repo: wapiti-scanner/wapiti
-stars: 1625
+stars: 1652
 pricing:
   type: open_source
 installation:

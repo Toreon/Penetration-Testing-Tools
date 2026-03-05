@@ -16,13 +16,15 @@ platforms:
   - linux
   - windows
   - macos
+target_platforms:
+  - android
 license: Apache-2.0
 maturity: stable
 website: https://github.com/vaibhavpandeyvpz/apkstudio
 docs_url: https://github.com/vaibhavpandeyvpz/apkstudio
 download_url: https://github.com/vaibhavpandeyvpz/apkstudio/releases
 github_repo: vaibhavpandeyvpz/apkstudio
-stars: 3135
+stars: 3854
 pricing:
   type: open_source
 installation:

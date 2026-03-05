@@ -1,0 +1,50 @@
+id: oscp_cheat_sheet
+name: OSCP Cheat Sheet
+summary: Comprehensive cheat sheet for Offensive Security Certified Professional (OSCP) exam preparation and penetration testing.
+description: |
+  OSCP Cheat Sheet is a comprehensive reference guide for Offensive Security Certified Professional (OSCP) exam preparation and penetration testing. It contains common commands, techniques, and methodologies used in penetration testing, organized for quick reference during exams and real-world assessments.
+categories:
+  - guides_and_cheatsheets
+tags:
+  - oscp
+  - certification
+  - cheat_sheet
+  - penetration_testing
+  - oss
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://github.com/0x4D31/awesome-oscp
+docs_url: https://github.com/0x4D31/awesome-oscp
+download_url: https://github.com/0x4D31/awesome-oscp
+github_repo: 0x4D31/awesome-oscp
+stars: 3367
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+  commands:
+    - git clone https://github.com/0x4D31/awesome-oscp.git
+maintainers:
+  - 19761
+authors:
+  - 19761
+  - '0x4D31'
+  - FazleArefin
+  - piyush-security
+use_cases:
+  - OSCP exam preparation
+  - Penetration testing reference
+  - Security certification study
+  - Quick command reference
+related_tools:
+  - pentest_cheatsheets
+  - hacktricks
+similar_tools:
+  - pentest_cheatsheets
+  - hacktricks
+added_at: '2026-03-05'

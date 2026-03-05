@@ -1,0 +1,56 @@
+id: sslscan
+name: sslscan
+summary: Fast SSL scanner that tests SSL/TLS enabled services to discover supported cipher suites and identify weak configurations.
+description: |
+  sslscan is a fast SSL scanner that tests SSL/TLS enabled services to discover supported cipher suites, protocols, and identify weak configurations. It's designed to help security professionals assess the security of SSL/TLS implementations and identify vulnerabilities such as weak ciphers, deprecated protocols, and misconfigurations.
+categories:
+  - network_scanner
+tags:
+  - ssl_tls
+  - security_assessment
+  - cipher_analysis
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://github.com/rbsec/sslscan
+docs_url: https://github.com/rbsec/sslscan
+download_url: https://github.com/rbsec/sslscan
+github_repo: rbsec/sslscan
+stars: 2582
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Package manager
+    - Source compilation
+  commands:
+    - apt-get install sslscan
+    - brew install sslscan
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - rbsec
+authors:
+  - rbsec
+  - jtesta
+  - ioerror
+use_cases:
+  - SSL/TLS security assessment
+  - Cipher suite analysis
+  - Protocol testing
+  - Security auditing
+related_tools:
+  - testssl
+  - sslyze
+similar_tools:
+  - testssl
+  - sslyze
+  - nmap
+added_at: '2026-03-05'

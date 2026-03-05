@@ -1,0 +1,54 @@
+id: cuckoo_sandbox
+name: Cuckoo Sandbox
+summary: Automated malware analysis system for analyzing suspicious files and URLs.
+description: |
+  Cuckoo Sandbox is an automated malware analysis system for analyzing suspicious files and URLs. It provides automated dynamic analysis of malware in isolated environments, generating detailed reports of malware behavior. Cuckoo Sandbox is widely used in malware research, incident response, and security analysis.
+categories:
+  - static_analysis
+tags:
+  - malware_analysis
+  - sandbox
+  - automated_analysis
+  - oss
+  - gui
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://cuckoosandbox.org/
+docs_url: https://cuckoosandbox.org/docs/
+download_url: https://github.com/cuckoosandbox/cuckoo
+github_repo: cuckoosandbox/cuckoo
+stars: 5921
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/cuckoosandbox/cuckoo.git
+    - pip install -r requirements.txt
+maintainers:
+  - cuckoosandbox
+authors:
+  - cuckoosandbox
+  - jekil
+  - jbremer
+  - rodionovd
+use_cases:
+  - Malware analysis
+  - Automated analysis
+  - Incident response
+  - Security research
+related_tools:
+  - yara
+  - cape
+similar_tools:
+  - yara
+  - cape
+added_at: '2026-03-05'

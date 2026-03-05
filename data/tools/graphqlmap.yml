@@ -1,0 +1,51 @@
+id: graphqlmap
+name: GraphQLmap
+summary: Scripting engine to interact with GraphQL endpoints for security testing.
+description: |
+  GraphQLmap is a scripting engine to interact with GraphQL endpoints for security testing. It provides an interactive shell to explore GraphQL schemas, perform introspection queries, and test for common GraphQL vulnerabilities such as introspection disclosure, injection attacks, and authorization bypasses. GraphQLmap helps security researchers and penetration testers identify security issues in GraphQL implementations.
+categories:
+  - web_app_scanner
+tags:
+  - graphql
+  - api_security
+  - security_testing
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: active
+website: https://github.com/swisskyrepo/GraphQLmap
+docs_url: https://github.com/swisskyrepo/GraphQLmap
+download_url: https://github.com/swisskyrepo/GraphQLmap
+github_repo: swisskyrepo/GraphQLmap
+stars: 1631
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/swisskyrepo/GraphQLmap.git
+    - pip install -r requirements.txt
+maintainers:
+  - swisskyrepo
+authors:
+  - swisskyrepo
+  - fuomag9
+  - 0xflotus
+use_cases:
+  - GraphQL security testing
+  - GraphQL introspection
+  - API vulnerability assessment
+  - Schema analysis
+related_tools:
+  - graphw00f
+  - burp_suite
+similar_tools:
+  - graphw00f
+added_at: '2026-03-05'

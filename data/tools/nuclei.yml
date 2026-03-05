@@ -22,7 +22,7 @@ website: https://github.com/projectdiscovery/nuclei
 docs_url: https://docs.nuclei.sh/
 download_url: https://github.com/projectdiscovery/nuclei/releases
 github_repo: projectdiscovery/nuclei
-stars: 26940
+stars: 27320
 pricing:
   type: open_source
 installation:

@@ -1,0 +1,50 @@
+id: bestorm_fuzzer
+name: BeStorm Fuzzer
+summary: Commercial fuzzing platform for testing network protocols, file formats, and APIs to discover security vulnerabilities.
+description: |
+  BeStorm Fuzzer is a commercial fuzzing platform designed for testing network protocols, file formats, and APIs to discover security vulnerabilities. It provides comprehensive fuzzing capabilities with support for various protocols and file formats. BeStorm is used by security researchers and organizations for vulnerability discovery and security testing.
+categories:
+  - fuzzing
+tags:
+  - fuzzing
+  - protocol_testing
+  - vulnerability_discovery
+  - commercial
+  - gui
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary
+maturity: stable
+website: https://www.beyondsecurity.com/bestorm
+docs_url: https://www.beyondsecurity.com/bestorm
+download_url: https://www.beyondsecurity.com/bestorm
+github_repo: null
+stars: null
+pricing:
+  type: paid
+  price: "Commercial licenses available"
+  notes: "Contact vendor for pricing"
+installation:
+  methods:
+    - Download installer
+  commands:
+    - Download from vendor website
+maintainers:
+  - Beyond Security
+authors:
+  - Beyond Security
+use_cases:
+  - Protocol fuzzing
+  - File format testing
+  - API security testing
+  - Vulnerability discovery
+related_tools:
+  - peach
+  - defensics
+similar_tools:
+  - peach
+  - defensics
+  - afl
+added_at: '2026-03-05'

@@ -4,7 +4,7 @@ summary: Search engine that enables computer scientists to ask questions about t
 description: |
   Censys is a search engine that enables computer scientists to ask questions about the devices and networks that compose the Internet. It provides comprehensive data about Internet-connected devices, certificates, and services. Censys is used by security researchers, penetration testers, and network administrators to discover exposed services, analyze SSL/TLS certificates, and perform Internet-wide research.
 categories:
-  - reconnaissance
+  - osint
 tags:
   - search_engine
   - osint

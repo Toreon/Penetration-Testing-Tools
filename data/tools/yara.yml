@@ -1,0 +1,56 @@
+id: yara
+name: YARA
+summary: Pattern matching tool for malware research and identification.
+description: |
+  YARA is a pattern matching tool for malware research and identification. It allows security researchers to create rules that describe malware families based on textual or binary patterns. YARA is widely used in malware analysis, threat hunting, and security research for identifying and classifying malware.
+categories:
+  - static_analysis
+tags:
+  - malware_analysis
+  - pattern_matching
+  - threat_hunting
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - windows
+  - macos
+license: Apache-2.0
+maturity: stable
+website: https://virustotal.github.io/yara/
+docs_url: https://yara.readthedocs.io/
+download_url: https://github.com/VirusTotal/yara
+github_repo: VirusTotal/yara
+stars: 9459
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Package manager
+    - Source compilation
+  commands:
+    - git clone https://github.com/VirusTotal/yara.git
+    - cd yara && ./bootstrap.sh && ./configure && make
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - VirusTotal
+authors:
+  - VirusTotal
+  - plusvic
+  - wxsBSD
+  - hillu
+use_cases:
+  - Malware identification
+  - Pattern matching
+  - Threat hunting
+  - Security research
+related_tools:
+  - cuckoo_sandbox
+  - cape
+similar_tools:
+  - cuckoo_sandbox
+added_at: '2026-03-05'

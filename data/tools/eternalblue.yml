@@ -1,0 +1,54 @@
+id: eternalblue
+name: EternalBlue
+summary: SMB exploit scanner for detecting systems vulnerable to EternalBlue (MS17-010).
+description: |
+  EternalBlue is an SMB exploit scanner for detecting systems vulnerable to the EternalBlue exploit (MS17-010). It can scan for vulnerable SMB services and test for the vulnerability. This tool is useful for security assessments and vulnerability detection.
+categories:
+  - vulnerability_scanner
+  - network_attack
+tags:
+  - eternalblue
+  - smb
+  - vulnerability_scanning
+  - ms17_010
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: active
+website: https://github.com/3ndG4me/AutoBlue-MS17-010
+docs_url: https://github.com/3ndG4me/AutoBlue-MS17-010
+download_url: https://github.com/3ndG4me/AutoBlue-MS17-010
+github_repo: 3ndG4me/AutoBlue-MS17-010
+stars: 1346
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/3ndG4me/AutoBlue-MS17-010.git
+    - pip install -r requirements.txt
+maintainers:
+  - 3ndG4me
+authors:
+  - 3ndG4me
+  - IamCarron
+  - AdrianVollmer
+use_cases:
+  - EternalBlue vulnerability scanning
+  - SMB security assessment
+  - Vulnerability detection
+  - Security testing
+related_tools:
+  - metasploit
+  - nmap
+similar_tools:
+  - metasploit
+  - nmap
+added_at: '2026-03-05'

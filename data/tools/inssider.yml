@@ -1,0 +1,47 @@
+id: inssider
+name: inSSIDer
+summary: Wi-Fi network scanner and analyzer for Windows that provides detailed information about wireless networks and their security configurations.
+description: |
+  inSSIDer is a Wi-Fi network scanner and analyzer for Windows that provides detailed information about wireless networks and their security configurations. It displays network names, signal strength, encryption types, and other relevant information. inSSIDer is useful for wireless security assessment, network analysis, and Wi-Fi troubleshooting.
+categories:
+  - network_scanner
+tags:
+  - wireless
+  - network_analysis
+  - commercial
+  - gui
+platforms:
+  - windows
+license: Proprietary
+maturity: stable
+website: https://www.metageek.com/products/inssider/
+docs_url: https://www.metageek.com/support/inssider/
+download_url: https://www.metageek.com/products/inssider/
+github_repo: null
+stars: null
+pricing:
+  type: freemium
+  price: "Free version available, paid versions available"
+  notes: "Free version with limited features"
+installation:
+  methods:
+    - Download installer
+  commands:
+    - Download from Metageek website
+maintainers:
+  - Metageek
+authors:
+  - Metageek
+use_cases:
+  - Wi-Fi network scanning
+  - Wireless security assessment
+  - Network analysis
+  - Signal strength monitoring
+related_tools:
+  - kismet
+  - aircrack_ng
+similar_tools:
+  - kismet
+  - aircrack_ng
+  - netstumbler
+added_at: '2026-03-05'

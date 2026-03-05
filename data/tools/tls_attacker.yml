@@ -1,0 +1,54 @@
+id: tls_attacker
+name: TLS-Attacker
+summary: TLS protocol testing framework for analyzing and testing TLS implementations.
+description: |
+  TLS-Attacker is a TLS protocol testing framework for analyzing and testing TLS implementations. It can perform various TLS protocol tests, fuzzing, and security analysis. TLS-Attacker is useful for TLS security research and vulnerability discovery.
+categories:
+  - fuzzing
+  - vulnerability_scanner
+tags:
+  - tls
+  - protocol_testing
+  - fuzzing
+  - oss
+  - cli
+  - java
+platforms:
+  - linux
+  - windows
+  - macos
+license: Apache-2.0
+maturity: active
+website: https://github.com/tls-attacker/TLS-Attacker
+docs_url: https://github.com/tls-attacker/TLS-Attacker
+download_url: https://github.com/tls-attacker/TLS-Attacker
+github_repo: tls-attacker/TLS-Attacker
+stars: 864
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Maven build
+  commands:
+    - git clone https://github.com/tls-attacker/TLS-Attacker.git
+    - cd TLS-Attacker && mvn clean package
+maintainers:
+  - tls-attacker
+authors:
+  - tls-attacker
+  - ic0ns
+  - mmaehren
+  - NErinola
+use_cases:
+  - TLS protocol testing
+  - Fuzzing
+  - Security research
+  - Vulnerability discovery
+related_tools:
+  - sslyze
+  - testssl
+similar_tools:
+  - sslyze
+  - testssl
+added_at: '2026-03-05'

@@ -23,7 +23,7 @@ website: https://www.kismetwireless.net/
 docs_url: https://www.kismetwireless.net/documentation/
 download_url: https://www.kismetwireless.net/downloads/
 github_repo: kismetwireless/kismet
-stars: 2043
+stars: 2059
 pricing:
   type: open_source
 installation:

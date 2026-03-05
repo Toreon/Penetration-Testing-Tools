@@ -1,0 +1,56 @@
+id: dnsrecon
+name: Dnsrecon
+summary: DNS enumeration script for comprehensive DNS reconnaissance and information gathering.
+description: |
+  Dnsrecon is a DNS enumeration script designed for comprehensive DNS reconnaissance and information gathering. It can perform various DNS operations including zone transfers, reverse lookups, subdomain brute-forcing, and DNS record enumeration. Dnsrecon provides detailed DNS information useful for security assessments and penetration testing.
+categories:
+  - reconnaissance
+  - osint
+tags:
+  - dns_enumeration
+  - subdomain_discovery
+  - dns_reconnaissance
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://github.com/darkoperator/dnsrecon
+docs_url: https://github.com/darkoperator/dnsrecon
+download_url: https://github.com/darkoperator/dnsrecon
+github_repo: darkoperator/dnsrecon
+stars: 2958
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/darkoperator/dnsrecon.git
+    - pip install dnsrecon
+  package_managers:
+    - pip
+maintainers:
+  - darkoperator
+authors:
+  - darkoperator
+  - L1ghtn1ng
+  - dependabot[bot]
+use_cases:
+  - DNS enumeration
+  - Subdomain discovery
+  - DNS reconnaissance
+  - Information gathering
+related_tools:
+  - dnsenum
+  - fierce
+  - sublist3r
+similar_tools:
+  - dnsenum
+  - fierce
+added_at: '2026-03-05'

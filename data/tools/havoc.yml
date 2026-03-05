@@ -22,7 +22,7 @@ website: https://github.com/HavocFramework/Havoc
 docs_url: https://github.com/HavocFramework/Havoc/wiki
 download_url: https://github.com/HavocFramework/Havoc/releases
 github_repo: HavocFramework/Havoc
-stars: 8500
+stars: 8203
 pricing:
   type: open_source
 installation:
@@ -36,6 +36,9 @@ maintainers:
   - HavocFramework
 authors:
   - HavocFramework
+  - S4ntiagoP
+  - Cracked5pider
+  - p4p1
 use_cases:
   - Command and control
   - Post-exploitation

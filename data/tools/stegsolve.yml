@@ -1,0 +1,49 @@
+id: stegsolve
+name: Stegsolve
+summary: Steganography analysis tool for analyzing images and detecting hidden data.
+description: |
+  Stegsolve is a steganography analysis tool for analyzing images and detecting hidden data. It provides various image analysis functions including color plane analysis, image filtering, and data extraction. Stegsolve is useful for steganography challenges and security research.
+categories:
+  - static_analysis
+tags:
+  - steganography
+  - image_analysis
+  - gui
+  - oss
+  - java
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://github.com/Giotino/stegsolve
+docs_url: https://github.com/Giotino/stegsolve
+download_url: https://github.com/Giotino/stegsolve/releases
+github_repo: Giotino/stegsolve
+stars: 298
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Git clone
+  commands:
+    - Download from https://github.com/Giotino/stegsolve/releases
+    - git clone https://github.com/Giotino/stegsolve.git
+maintainers:
+  - Giotino
+authors:
+  - Giotino
+use_cases:
+  - Steganography analysis
+  - Image analysis
+  - CTF challenges
+  - Security research
+related_tools:
+  - steghide
+  - stegseek
+similar_tools:
+  - steghide
+  - stegseek
+added_at: '2026-03-05'

@@ -1,0 +1,56 @@
+id: kube_hunter
+name: Kube-hunter
+summary: Kubernetes penetration testing tool for finding security issues in Kubernetes clusters.
+description: |
+  Kube-hunter is a Kubernetes penetration testing tool designed for finding security issues in Kubernetes clusters. It hunts for security weaknesses in Kubernetes clusters and reports them. Kube-hunter can run as a pod inside the cluster or as a standalone tool, and it tests for various misconfigurations and vulnerabilities in Kubernetes deployments.
+categories:
+  - cloud_security
+  - network_attack
+tags:
+  - kubernetes
+  - penetration_testing
+  - security_testing
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - docker
+  - kubernetes
+license: Apache-2.0
+maturity: active
+website: https://github.com/aquasecurity/kube-hunter
+docs_url: https://github.com/aquasecurity/kube-hunter
+download_url: https://github.com/aquasecurity/kube-hunter
+github_repo: aquasecurity/kube-hunter
+stars: 5007
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+    - Docker
+  commands:
+    - git clone https://github.com/aquasecurity/kube-hunter.git
+    - pip install kube-hunter
+    - docker run -it --rm --network host aquasec/kube-hunter
+maintainers:
+  - aquasecurity
+authors:
+  - aquasecurity
+  - danielsagi
+  - lizrice
+  - oriagmon
+use_cases:
+  - Kubernetes security testing
+  - Penetration testing
+  - Vulnerability detection
+  - Security assessment
+related_tools:
+  - kubeaudit
+  - kubesploit
+similar_tools:
+  - kubeaudit
+  - kubesploit
+added_at: '2026-03-05'

@@ -1,0 +1,49 @@
+id: social_links
+name: Social Links
+summary: Professional OSINT platform for investigating people, companies, and connections across social media and public data sources.
+description: |
+  Social Links is a professional OSINT platform designed for investigating people, companies, and connections across social media and public data sources. It provides a comprehensive suite of tools for gathering intelligence from various platforms including social networks, search engines, and public databases. Social Links is used by security professionals, investigators, and researchers for deep-dive OSINT investigations.
+categories:
+  - osint
+tags:
+  - osint
+  - social_media
+  - investigation
+  - commercial
+  - gui
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary
+maturity: stable
+website: https://sociallinks.io/
+docs_url: https://docs.sociallinks.io/
+download_url: https://sociallinks.io/download/
+github_repo: null
+stars: null
+pricing:
+  type: paid
+  price: "Commercial licenses available"
+  notes: "Professional OSINT platform with various licensing options"
+installation:
+  methods:
+    - Download installer
+  commands:
+    - Download from https://sociallinks.io/download/
+maintainers:
+  - Social Links
+authors:
+  - Social Links
+use_cases:
+  - Social media investigation
+  - People investigation
+  - Company research
+  - Connection mapping
+related_tools:
+  - maltego
+  - spiderfoot
+similar_tools:
+  - maltego
+  - spiderfoot
+added_at: '2026-03-05'

@@ -22,7 +22,7 @@ website: http://www.hping.org/
 docs_url: http://www.hping.org/manpage.html
 download_url: http://www.hping.org/download.html
 github_repo: antirez/hping
-stars: 1667
+stars: 1669
 pricing:
   type: open_source
 installation:

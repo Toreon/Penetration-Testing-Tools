@@ -1,0 +1,49 @@
+id: bully
+name: bully
+summary: WPS (Wi-Fi Protected Setup) brute force attack tool that attempts to recover WPA/WPA2 passphrases.
+description: |
+  bully is a WPS (Wi-Fi Protected Setup) brute force attack tool that attempts to recover WPA/WPA2 passphrases by exploiting vulnerabilities in the WPS protocol. It's designed to be faster and more efficient than similar tools. bully is used for wireless security testing and WPS vulnerability assessment.
+categories:
+  - network_attack
+tags:
+  - wireless
+  - wps
+  - brute_force
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+license: GPL-3.0
+maturity: stable
+website: https://github.com/aanarchyy/bully
+docs_url: https://github.com/aanarchyy/bully
+download_url: https://github.com/aanarchyy/bully
+github_repo: aanarchyy/bully
+stars: 571
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Source compilation
+  commands:
+    - git clone https://github.com/aanarchyy/bully.git
+maintainers:
+  - aanarchyy
+authors:
+  - aanarchyy
+  - soxrok2212
+  - wiire-a
+use_cases:
+  - WPS brute force attacks
+  - Wireless security testing
+  - WPA/WPA2 passphrase recovery
+  - Security assessment
+related_tools:
+  - reaver
+  - aircrack_ng
+similar_tools:
+  - reaver
+  - aircrack_ng
+added_at: '2026-03-05'

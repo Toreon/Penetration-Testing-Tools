@@ -21,7 +21,7 @@ website: https://github.com/oddcod3/Phantom-Evasion
 docs_url: https://github.com/oddcod3/Phantom-Evasion
 download_url: https://github.com/oddcod3/Phantom-Evasion
 github_repo: oddcod3/Phantom-Evasion
-stars: 1500
+stars: 1450
 pricing:
   type: open_source
 installation:
@@ -34,6 +34,8 @@ maintainers:
   - oddcod3
 authors:
   - oddcod3
+  - phra
+  - WaGi-Coding
 use_cases:
   - AV evasion
   - Payload generation

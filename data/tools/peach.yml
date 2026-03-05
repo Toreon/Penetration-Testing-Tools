@@ -4,7 +4,7 @@ summary: Smart fuzzer that is capable of performing both generation and mutation
 description: |
   Peach is a smart fuzzer that is capable of performing both generation and mutation based fuzzing. Peach is designed to help security researchers find vulnerabilities in software by automatically generating malformed inputs and monitoring the target application for crashes or other anomalous behavior. Peach supports a wide range of protocols and file formats.
 categories:
-  - static_analysis
+  - fuzzing
 tags:
   - fuzzing
   - vulnerability_research

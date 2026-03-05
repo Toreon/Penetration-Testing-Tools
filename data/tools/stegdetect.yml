@@ -1,0 +1,50 @@
+id: stegdetect
+name: Stegdetect
+summary: Steganography detection tool for identifying steganographic content in images.
+description: |
+  Stegdetect is a steganography detection tool for identifying steganographic content in images. It can detect various steganographic techniques including jsteg, outguess, and others. Stegdetect is useful for steganography analysis and security research.
+categories:
+  - static_analysis
+tags:
+  - steganography
+  - detection
+  - image_analysis
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://github.com/redNixon/stegdetect
+docs_url: https://github.com/redNixon/stegdetect
+download_url: https://github.com/redNixon/stegdetect
+github_repo: redNixon/stegdetect
+stars: 69
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Source compilation
+  commands:
+    - git clone https://github.com/redNixon/stegdetect.git
+    - cd stegdetect && ./configure && make
+maintainers:
+  - redNixon
+authors:
+  - redNixon
+  - abeluck
+use_cases:
+  - Steganography detection
+  - Image analysis
+  - Security research
+  - CTF challenges
+related_tools:
+  - stegsolve
+  - zsteg
+similar_tools:
+  - stegsolve
+  - zsteg
+added_at: '2026-03-05'

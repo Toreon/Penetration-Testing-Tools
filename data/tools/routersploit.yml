@@ -1,0 +1,53 @@
+id: routersploit
+name: RouterSploit
+summary: Exploitation framework for embedded devices and routers.
+description: |
+  RouterSploit is an exploitation framework for embedded devices and routers. It provides various exploits, scanners, and payloads for testing the security of routers and embedded devices. RouterSploit helps security researchers identify and exploit vulnerabilities in network devices.
+categories:
+  - firmware_analysis
+  - network_attack
+tags:
+  - iot
+  - router_exploitation
+  - embedded_security
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: BSD-3-Clause
+maturity: active
+website: https://github.com/threat9/routersploit
+docs_url: https://github.com/threat9/routersploit
+download_url: https://github.com/threat9/routersploit
+github_repo: threat9/routersploit
+stars: 13012
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/threat9/routersploit.git
+    - pip install -r requirements.txt
+maintainers:
+  - threat9
+authors:
+  - threat9
+  - lucyoa
+  - fwkz
+  - 0BuRner
+use_cases:
+  - Router exploitation
+  - Embedded device testing
+  - Security assessment
+  - Penetration testing
+related_tools:
+  - metasploit
+  - iotseeker
+similar_tools:
+  - metasploit
+added_at: '2026-03-05'

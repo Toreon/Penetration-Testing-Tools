@@ -1,0 +1,51 @@
+id: androbugs
+name: AndroBugs
+summary: Android vulnerability scanner that focuses on security issues in Android applications.
+description: |
+  AndroBugs is an Android vulnerability scanner that focuses on security issues in Android applications. It can detect various security vulnerabilities including insecure data storage, insecure communications, weak cryptography, and other common Android security issues. AndroBugs helps security researchers identify security weaknesses in Android apps.
+categories:
+  - static_analysis
+  - vulnerability_scanner
+tags:
+  - android
+  - mobile_security
+  - vulnerability_scanning
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: active
+website: https://github.com/AndroBugs/AndroBugs_Framework
+docs_url: https://github.com/AndroBugs/AndroBugs_Framework
+download_url: https://github.com/AndroBugs/AndroBugs_Framework
+github_repo: AndroBugs/AndroBugs_Framework
+stars: 1221
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/AndroBugs/AndroBugs_Framework.git
+    - pip install -r requirements.txt
+maintainers:
+  - AndroBugs
+authors:
+  - AndroBugs
+use_cases:
+  - Android vulnerability scanning
+  - Security assessment
+  - Vulnerability detection
+  - Security research
+related_tools:
+  - mobsf
+  - drozer
+similar_tools:
+  - mobsf
+  - drozer
+added_at: '2026-03-05'

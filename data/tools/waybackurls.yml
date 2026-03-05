@@ -1,0 +1,51 @@
+id: waybackurls
+name: Waybackurls
+summary: Fetch URLs from Wayback Machine for historical URL discovery and reconnaissance.
+description: |
+  Waybackurls is a tool for fetching URLs from the Wayback Machine for historical URL discovery and reconnaissance. It can retrieve historical URLs and endpoints from archived web pages, helping security researchers discover hidden endpoints and attack surfaces. Waybackurls is useful for web application security testing and reconnaissance.
+categories:
+  - reconnaissance
+  - osint
+tags:
+  - wayback_machine
+  - url_discovery
+  - historical_data
+  - oss
+  - cli
+  - go
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: active
+website: https://github.com/tomnomnom/waybackurls
+docs_url: https://github.com/tomnomnom/waybackurls
+download_url: https://github.com/tomnomnom/waybackurls/releases
+github_repo: tomnomnom/waybackurls
+stars: 4341
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Go install
+  commands:
+    - go install github.com/tomnomnom/waybackurls@latest
+    - Download from https://github.com/tomnomnom/waybackurls/releases
+maintainers:
+  - tomnomnom
+authors:
+  - tomnomnom
+use_cases:
+  - Historical URL discovery
+  - Reconnaissance
+  - Endpoint discovery
+  - Security research
+related_tools:
+  - gau
+  - hakrawler
+similar_tools:
+  - gau
+  - hakrawler
+added_at: '2026-03-05'

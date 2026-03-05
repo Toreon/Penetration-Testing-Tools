@@ -1,0 +1,55 @@
+id: curl
+name: curl
+summary: Command-line tool and library for transferring data with URLs, supporting various protocols including HTTP, HTTPS, FTP, and more.
+description: |
+  curl is a command-line tool and library for transferring data with URLs, supporting various protocols including HTTP, HTTPS, FTP, SFTP, and more. It's one of the most commonly used utilities in penetration testing for making HTTP requests, testing web applications, and transferring files. curl is available on virtually all Unix-like systems and is essential for security testing workflows.
+categories:
+  - linux_utilities
+tags:
+  - http_client
+  - file_transfer
+  - network_utility
+  - oss
+  - cli
+platforms:
+  - linux
+  - windows
+  - macos
+license: curl
+maturity: stable
+website: https://curl.se/
+docs_url: https://curl.se/docs/
+download_url: https://curl.se/download.html
+github_repo: curl/curl
+stars: 41058
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Package manager
+    - Source compilation
+  commands:
+    - apt-get install curl
+    - brew install curl
+  package_managers:
+    - apt
+    - brew
+    - yum
+maintainers:
+  - curl
+authors:
+  - curl
+  - bagder
+  - vszakats
+  - yangtse
+use_cases:
+  - HTTP requests
+  - API testing
+  - File transfer
+  - Web application testing
+related_tools:
+  - wget
+similar_tools:
+  - wget
+  - httpie
+added_at: '2026-03-05'

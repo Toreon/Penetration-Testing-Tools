@@ -1,0 +1,48 @@
+id: vmware
+name: VMware
+summary: Commercial virtualization platform that provides enterprise-grade virtualization solutions for various use cases.
+description: |
+  VMware is a commercial virtualization platform that provides enterprise-grade virtualization solutions. It includes products like VMware Workstation, VMware Fusion, and vSphere. VMware is widely used in enterprise environments for virtualization, cloud computing, and security testing. It offers advanced features for professional security research and testing.
+categories:
+  - static_analysis
+tags:
+  - virtualization
+  - commercial
+  - gui
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary
+maturity: stable
+website: https://www.vmware.com/
+docs_url: https://docs.vmware.com/
+download_url: https://www.vmware.com/products/workstation-pro.html
+github_repo: null
+stars: null
+pricing:
+  type: paid
+  price: "Commercial licenses available"
+  notes: "Free versions available for personal use"
+installation:
+  methods:
+    - Download installer
+  commands:
+    - Download from VMware website
+maintainers:
+  - VMware
+authors:
+  - VMware
+use_cases:
+  - Enterprise virtualization
+  - Security testing environments
+  - Cloud computing
+  - Professional development
+related_tools:
+  - qemu
+  - virtualbox
+similar_tools:
+  - qemu
+  - virtualbox
+  - hyper-v
+added_at: '2026-03-05'

@@ -1,0 +1,50 @@
+id: reverse_shell_cheatsheet
+name: Reverse Shell Cheat Sheet
+summary: Comprehensive collection of reverse shell one-liners and payloads for various programming languages and systems.
+description: |
+  Reverse Shell Cheat Sheet is a comprehensive collection of reverse shell one-liners and payloads for various programming languages and systems. It provides ready-to-use reverse shell commands for Bash, Python, Perl, PHP, Ruby, and many other languages. This resource is essential for penetration testers and security researchers during post-exploitation phases.
+categories:
+  - guides_and_cheatsheets
+tags:
+  - reverse_shell
+  - payloads
+  - cheat_sheet
+  - post_exploitation
+  - oss
+  - reference
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md
+docs_url: https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md
+download_url: https://github.com/swisskyrepo/PayloadsAllTheThings
+github_repo: swisskyrepo/PayloadsAllTheThings
+stars: 75731
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Web interface
+  commands:
+    - git clone https://github.com/swisskyrepo/PayloadsAllTheThings.git
+maintainers:
+  - swisskyrepo
+authors:
+  - swisskyrepo
+  - p0dalirius
+  - noraj
+use_cases:
+  - Reverse shell payloads
+  - Post-exploitation
+  - Command injection testing
+  - Penetration testing
+related_tools:
+  - payloadsallthethings
+  - netcat
+similar_tools:
+  - payloadsallthethings
+added_at: '2026-03-05'

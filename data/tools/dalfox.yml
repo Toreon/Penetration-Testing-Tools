@@ -1,0 +1,52 @@
+id: dalfox
+name: Dalfox
+summary: Fast XSS parameter analysis and fuzzing tool for web application security testing.
+description: |
+  Dalfox is a fast XSS (Cross-Site Scripting) parameter analysis and fuzzing tool designed for web application security testing. It automatically discovers parameters in web applications and tests them for XSS vulnerabilities using various payloads and techniques. Dalfox supports multiple injection points, can bypass WAFs, and provides detailed reports of discovered vulnerabilities.
+categories:
+  - web_app_scanner
+tags:
+  - xss
+  - parameter_fuzzing
+  - web_security
+  - oss
+  - cli
+  - go
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: active
+website: https://github.com/hahwul/dalfox
+docs_url: https://github.com/hahwul/dalfox
+download_url: https://github.com/hahwul/dalfox/releases
+github_repo: hahwul/dalfox
+stars: 4860
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Go install
+  commands:
+    - go install github.com/hahwul/dalfox/v2@latest
+    - Download from https://github.com/hahwul/dalfox/releases
+maintainers:
+  - hahwul
+authors:
+  - hahwul
+  - dependabot[bot]
+  - github-actions[bot]
+use_cases:
+  - XSS vulnerability testing
+  - Parameter discovery
+  - Web application fuzzing
+  - Security assessment
+related_tools:
+  - xsser
+  - burp_suite
+similar_tools:
+  - xsser
+  - arjun
+added_at: '2026-03-05'

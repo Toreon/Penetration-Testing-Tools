@@ -1,0 +1,52 @@
+id: seatbelt
+name: Seatbelt
+summary: C# security audit tool for Windows environments that collects security-relevant information.
+description: |
+  Seatbelt is a C# security audit tool for Windows environments that collects security-relevant information. It gathers information about system configuration, installed software, network configuration, user accounts, and other security-relevant data. Seatbelt is useful for security assessments, incident response, and system auditing.
+categories:
+  - active_directory
+  - reconnaissance
+tags:
+  - security_audit
+  - windows
+  - system_enumeration
+  - oss
+  - cli
+  - csharp
+platforms:
+  - windows
+license: GPL-3.0
+maturity: active
+website: https://github.com/GhostPack/Seatbelt
+docs_url: https://github.com/GhostPack/Seatbelt
+download_url: https://github.com/GhostPack/Seatbelt
+github_repo: GhostPack/Seatbelt
+stars: 4492
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Download binary
+  commands:
+    - git clone https://github.com/GhostPack/Seatbelt.git
+    - Download from https://github.com/GhostPack/Seatbelt/releases
+maintainers:
+  - GhostPack
+authors:
+  - GhostPack
+  - HarmJ0y
+  - leechristensen
+  - cnotin
+use_cases:
+  - Security auditing
+  - System enumeration
+  - Security assessment
+  - Incident response
+related_tools:
+  - winpeas
+  - linpeas
+similar_tools:
+  - winpeas
+  - linpeas
+added_at: '2026-03-05'

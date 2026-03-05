@@ -1,0 +1,52 @@
+id: afl
+name: AFL
+summary: American Fuzzy Lop fuzzer for automated software testing and vulnerability discovery.
+description: |
+  AFL (American Fuzzy Lop) is a security-oriented fuzzer for automated software testing and vulnerability discovery. It uses genetic algorithms and code coverage feedback to efficiently find bugs and security vulnerabilities in software. AFL is widely used for fuzzing applications and discovering security issues.
+categories:
+  - fuzzing
+tags:
+  - fuzzing
+  - vulnerability_discovery
+  - automated_testing
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - macos
+license: Apache-2.0
+maturity: stable
+website: https://github.com/google/AFL
+docs_url: https://github.com/google/AFL
+download_url: https://github.com/google/AFL
+github_repo: google/AFL
+stars: 4068
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Source compilation
+  commands:
+    - git clone https://github.com/google/AFL.git
+    - cd AFL && make
+maintainers:
+  - google
+authors:
+  - google
+  - Dor1s
+  - jonathanmetzman
+  - RootUp
+use_cases:
+  - Fuzzing
+  - Vulnerability discovery
+  - Automated testing
+  - Security research
+related_tools:
+  - afl_plus_plus
+  - libfuzzer
+similar_tools:
+  - afl_plus_plus
+  - libfuzzer
+added_at: '2026-03-05'

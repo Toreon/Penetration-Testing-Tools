@@ -1,0 +1,54 @@
+id: sslyze
+name: SSLyze
+summary: Fast and comprehensive SSL/TLS scanner for analyzing SSL/TLS configurations.
+description: |
+  SSLyze is a fast and comprehensive SSL/TLS scanner for analyzing SSL/TLS configurations. It can test SSL/TLS servers for various security issues including weak ciphers, certificate problems, and protocol vulnerabilities. SSLyze is useful for SSL/TLS security assessment and compliance checking.
+categories:
+  - vulnerability_scanner
+tags:
+  - ssl
+  - tls
+  - certificate_analysis
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://github.com/nabla-c0d3/sslyze
+docs_url: https://github.com/nabla-c0d3/sslyze
+download_url: https://github.com/nabla-c0d3/sslyze
+github_repo: nabla-c0d3/sslyze
+stars: 3741
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/nabla-c0d3/sslyze.git
+    - pip install sslyze
+  package_managers:
+    - pip
+maintainers:
+  - nabla-c0d3
+authors:
+  - nabla-c0d3
+  - trolldbois
+  - fabian-hk
+use_cases:
+  - SSL/TLS scanning
+  - Certificate analysis
+  - Security assessment
+  - Compliance checking
+related_tools:
+  - testssl
+  - sslscan
+similar_tools:
+  - testssl
+  - sslscan
+added_at: '2026-03-05'

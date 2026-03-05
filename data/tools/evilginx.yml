@@ -1,0 +1,53 @@
+id: evilginx
+name: Evilginx
+summary: Phishing framework with 2FA bypass capabilities for advanced phishing attacks.
+description: |
+  Evilginx is a phishing framework with 2FA bypass capabilities for advanced phishing attacks. It uses a man-in-the-middle approach to intercept authentication sessions, including those protected by two-factor authentication. Evilginx is used for security testing and demonstrating the effectiveness of phishing attacks against modern authentication systems.
+categories:
+  - network_attack
+tags:
+  - phishing
+  - social_engineering
+  - 2fa_bypass
+  - mitm
+  - oss
+  - cli
+  - go
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: active
+website: https://github.com/kgretzky/evilginx2
+docs_url: https://github.com/kgretzky/evilginx2
+download_url: https://github.com/kgretzky/evilginx2
+github_repo: kgretzky/evilginx2
+stars: 14677
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Go build
+  commands:
+    - git clone https://github.com/kgretzky/evilginx2.git
+    - cd evilginx2 && go build
+maintainers:
+  - kgretzky
+authors:
+  - kgretzky
+  - An0nUD4Y
+  - JamesCullum
+use_cases:
+  - Phishing attacks
+  - 2FA bypass testing
+  - Security testing
+  - Social engineering research
+related_tools:
+  - gophish
+  - king_phisher
+similar_tools:
+  - gophish
+  - king_phisher
+added_at: '2026-03-05'

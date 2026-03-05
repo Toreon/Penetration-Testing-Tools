@@ -1,0 +1,54 @@
+id: httpx
+name: Httpx
+summary: Fast and multi-purpose HTTP toolkit for web security testing and reconnaissance.
+description: |
+  Httpx is a fast and multi-purpose HTTP toolkit for web security testing and reconnaissance. It can perform HTTP requests, probe web servers, extract technologies, and perform various web security tests. Httpx is useful for web application security testing and reconnaissance.
+categories:
+  - web_app_scanner
+  - reconnaissance
+tags:
+  - http_toolkit
+  - web_security
+  - reconnaissance
+  - oss
+  - cli
+  - go
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: active
+website: https://github.com/projectdiscovery/httpx
+docs_url: https://github.com/projectdiscovery/httpx
+download_url: https://github.com/projectdiscovery/httpx/releases
+github_repo: projectdiscovery/httpx
+stars: 9630
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Go install
+  commands:
+    - go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+    - Download from https://github.com/projectdiscovery/httpx/releases
+maintainers:
+  - projectdiscovery
+authors:
+  - projectdiscovery
+  - dependabot[bot]
+  - Mzack9999
+  - ehsandeep
+use_cases:
+  - HTTP probing
+  - Web security testing
+  - Reconnaissance
+  - Technology detection
+related_tools:
+  - nuclei
+  - gau
+similar_tools:
+  - nuclei
+  - gau
+added_at: '2026-03-05'

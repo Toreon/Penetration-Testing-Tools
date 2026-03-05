@@ -1,0 +1,57 @@
+id: zmap
+name: Zmap
+summary: Fast internet-wide scanner for large-scale network scanning and research.
+description: |
+  Zmap is a fast internet-wide scanner designed for large-scale network scanning and research. It can scan the entire IPv4 address space in under 45 minutes from a single machine, making it ideal for internet-wide studies and security research. Zmap is significantly faster than traditional scanners and is used for network discovery, port scanning, and security research at scale.
+categories:
+  - network_scanner
+  - reconnaissance
+tags:
+  - network_scanning
+  - port_scanning
+  - internet_wide
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - macos
+license: Apache-2.0
+maturity: stable
+website: https://zmap.io/
+docs_url: https://github.com/zmap/zmap
+download_url: https://github.com/zmap/zmap
+github_repo: zmap/zmap
+stars: 6120
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Package manager
+    - Source compilation
+  commands:
+    - git clone https://github.com/zmap/zmap.git
+    - cd zmap && cmake . && make
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - zmap
+authors:
+  - zmap
+  - zakird
+  - dadrian
+  - phillip-stephens
+use_cases:
+  - Internet-wide scanning
+  - Large-scale network discovery
+  - Port scanning
+  - Security research
+related_tools:
+  - nmap
+  - masscan
+similar_tools:
+  - nmap
+  - masscan
+added_at: '2026-03-05'

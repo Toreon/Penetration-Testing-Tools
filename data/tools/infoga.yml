@@ -1,0 +1,50 @@
+id: infoga
+name: Infoga
+summary: Email OSINT tool for gathering information about email addresses from public sources.
+description: |
+  Infoga is an email OSINT tool for gathering information about email addresses from public sources. It can collect information from search engines, social networks, and other public sources to build profiles of email addresses. Infoga helps security researchers gather intelligence about email addresses for security assessments.
+categories:
+  - osint
+tags:
+  - email_osint
+  - information_gathering
+  - osint
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: active
+website: https://github.com/m4ll0k/Infoga
+docs_url: https://github.com/m4ll0k/Infoga
+download_url: https://github.com/m4ll0k/Infoga
+github_repo: m4ll0k/Infoga
+stars: 2100
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/m4ll0k/Infoga.git
+    - pip install -r requirements.txt
+maintainers:
+  - m4ll0k
+authors:
+  - m4ll0k
+use_cases:
+  - Email OSINT
+  - Information gathering
+  - Account enumeration
+  - Security research
+related_tools:
+  - holehe
+  - theharvester
+similar_tools:
+  - holehe
+  - theharvester
+added_at: '2026-03-05'

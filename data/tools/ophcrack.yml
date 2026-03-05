@@ -1,0 +1,53 @@
+id: ophcrack
+name: Ophcrack
+summary: Windows password cracker based on rainbow tables for password recovery.
+description: |
+  Ophcrack is a Windows password cracker based on rainbow tables for password recovery. It can crack Windows password hashes using precomputed rainbow tables, making it faster than brute-force attacks. Ophcrack is useful for password recovery, security assessments, and demonstrating password security weaknesses.
+categories:
+  - password_cracker
+tags:
+  - password_cracking
+  - windows
+  - rainbow_tables
+  - oss
+  - gui
+  - cli
+  - cpp
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://ophcrack.sourceforge.io/
+docs_url: https://ophcrack.sourceforge.io/
+download_url: https://ophcrack.sourceforge.io/download.php
+github_repo: null
+stars: null
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Package manager
+  commands:
+    - Download from https://ophcrack.sourceforge.io/download.php
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - ophcrack
+authors:
+  - ophcrack
+use_cases:
+  - Password recovery
+  - Password cracking
+  - Security assessment
+  - Password auditing
+related_tools:
+  - john_the_ripper
+  - hashcat
+similar_tools:
+  - john_the_ripper
+  - hashcat
+added_at: '2026-03-05'

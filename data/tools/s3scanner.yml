@@ -1,0 +1,53 @@
+id: s3scanner
+name: S3Scanner
+summary: Tool to find open S3 buckets and dump their contents for security assessment.
+description: |
+  S3Scanner is a tool designed to find open S3 buckets and dump their contents for security assessment. It can scan for publicly accessible S3 buckets, enumerate bucket contents, and identify misconfigured buckets. S3Scanner helps security researchers identify exposed cloud storage and assess the security of S3 bucket configurations.
+categories:
+  - cloud_security
+  - cloud_enumeration
+tags:
+  - aws
+  - s3
+  - bucket_enumeration
+  - security_assessment
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: active
+website: https://github.com/sa7mon/S3Scanner
+docs_url: https://github.com/sa7mon/S3Scanner
+download_url: https://github.com/sa7mon/S3Scanner
+github_repo: sa7mon/S3Scanner
+stars: 2998
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/sa7mon/S3Scanner.git
+    - pip install -r requirements.txt
+maintainers:
+  - sa7mon
+authors:
+  - sa7mon
+  - dependabot[bot]
+  - alanyee
+use_cases:
+  - S3 bucket discovery
+  - Cloud storage security
+  - Bucket enumeration
+  - Security assessment
+related_tools:
+  - cloudbrute
+  - cloudsplaining
+similar_tools:
+  - cloudbrute
+added_at: '2026-03-05'

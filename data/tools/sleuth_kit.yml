@@ -1,0 +1,56 @@
+id: sleuth_kit
+name: Sleuth Kit
+summary: Digital forensics toolkit for analyzing disk images and file systems.
+description: |
+  Sleuth Kit is a digital forensics toolkit for analyzing disk images and file systems. It provides command-line tools for file system analysis, file recovery, and artifact extraction. Sleuth Kit is the underlying toolkit used by Autopsy and other forensics tools.
+categories:
+  - static_analysis
+tags:
+  - digital_forensics
+  - file_system_analysis
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://www.sleuthkit.org/
+docs_url: https://www.sleuthkit.org/sleuthkit/docs.php
+download_url: https://www.sleuthkit.org/sleuthkit/download.php
+github_repo: sleuthkit/sleuthkit
+stars: 2998
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Package manager
+    - Source compilation
+  commands:
+    - git clone https://github.com/sleuthkit/sleuthkit.git
+    - cd sleuthkit && ./bootstrap && ./configure && make
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - sleuthkit
+authors:
+  - sleuthkit
+  - bcarrier
+  - rcordovano
+  - APriestman
+use_cases:
+  - Digital forensics
+  - File system analysis
+  - File recovery
+  - Evidence extraction
+related_tools:
+  - autopsy
+  - volatility
+similar_tools:
+  - autopsy
+  - volatility
+added_at: '2026-03-05'

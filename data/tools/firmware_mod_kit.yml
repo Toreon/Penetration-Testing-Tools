@@ -1,0 +1,48 @@
+id: firmware_mod_kit
+name: Firmware-mod-kit
+summary: Toolkit for modifying firmware images for embedded devices and routers.
+description: |
+  Firmware-mod-kit is a toolkit for modifying firmware images for embedded devices and routers. It can extract, modify, and repackage firmware images, allowing security researchers to modify firmware for testing, analysis, or customization. Firmware-mod-kit is useful for firmware modification and security research.
+categories:
+  - firmware_analysis
+tags:
+  - firmware
+  - iot
+  - firmware_modification
+  - embedded_security
+  - oss
+  - cli
+  - shell
+platforms:
+  - linux
+license: GPL-2.0
+maturity: stable
+website: https://github.com/rampageX/firmware-mod-kit
+docs_url: https://github.com/rampageX/firmware-mod-kit
+download_url: https://github.com/rampageX/firmware-mod-kit
+github_repo: rampageX/firmware-mod-kit
+stars: 966
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+  commands:
+    - git clone https://github.com/rampageX/firmware-mod-kit.git
+maintainers:
+  - rampageX
+authors:
+  - rampageX
+  - jeremycollake
+  - devttys0
+use_cases:
+  - Firmware modification
+  - Firmware customization
+  - Security research
+  - Testing
+related_tools:
+  - binwalk
+  - firmware_analysis_toolkit
+similar_tools:
+  - binwalk
+added_at: '2026-03-05'

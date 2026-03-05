@@ -1,0 +1,51 @@
+id: firmadyne
+name: Firmadyne
+summary: Firmware emulation framework for automated dynamic analysis of Linux-based firmware.
+description: |
+  Firmadyne is a firmware emulation framework for automated dynamic analysis of Linux-based firmware. It can extract, emulate, and analyze firmware images to identify security vulnerabilities and understand firmware behavior. Firmadyne helps security researchers perform dynamic analysis of embedded device firmware.
+categories:
+  - firmware_analysis
+tags:
+  - firmware
+  - iot
+  - emulation
+  - embedded_security
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+license: GPL-2.0
+maturity: active
+website: https://github.com/firmadyne/firmadyne
+docs_url: https://github.com/firmadyne/firmadyne
+download_url: https://github.com/firmadyne/firmadyne
+github_repo: firmadyne/firmadyne
+stars: 2047
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+  commands:
+    - git clone --recursive https://github.com/firmadyne/firmadyne.git
+    - cd firmadyne && ./download.sh
+maintainers:
+  - firmadyne
+authors:
+  - firmadyne
+  - ddcc
+  - kyechou
+  - brianpow
+use_cases:
+  - Firmware emulation
+  - Dynamic analysis
+  - IoT security assessment
+  - Vulnerability detection
+related_tools:
+  - binwalk
+  - firmware_analysis_toolkit
+similar_tools:
+  - binwalk
+  - firmware_analysis_toolkit
+added_at: '2026-03-05'

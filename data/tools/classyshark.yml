@@ -1,0 +1,54 @@
+id: classyshark
+name: ClassyShark
+summary: Android and Java bytecode viewer for analyzing APK and JAR files.
+description: |
+  ClassyShark is an Android and Java bytecode viewer for analyzing APK and JAR files. It provides a graphical interface to explore the structure of Android applications, view classes, methods, and resources. ClassyShark is useful for reverse engineering, security analysis, and understanding Android application internals.
+categories:
+  - static_analysis
+tags:
+  - android
+  - java
+  - bytecode_viewer
+  - mobile_security
+  - gui
+  - oss
+  - java
+platforms:
+  - linux
+  - windows
+  - macos
+license: Apache-2.0
+maturity: stable
+website: https://github.com/google/android-classyshark
+docs_url: https://github.com/google/android-classyshark
+download_url: https://github.com/google/android-classyshark/releases
+github_repo: google/android-classyshark
+stars: 7601
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Git clone
+  commands:
+    - Download from https://github.com/google/android-classyshark/releases
+    - git clone https://github.com/google/android-classyshark.git
+maintainers:
+  - google
+authors:
+  - google
+  - borisf
+  - tiwiz
+  - andreban
+use_cases:
+  - Android app analysis
+  - Bytecode viewing
+  - Reverse engineering
+  - Security research
+related_tools:
+  - jadx
+  - apktool
+similar_tools:
+  - jadx
+  - apktool
+added_at: '2026-03-05'

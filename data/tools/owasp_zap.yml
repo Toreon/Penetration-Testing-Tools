@@ -22,7 +22,7 @@ website: https://www.zaproxy.org/
 docs_url: https://www.zaproxy.org/docs/
 download_url: https://www.zaproxy.org/download/
 github_repo: zaproxy/zaproxy
-stars: 14724
+stars: 14826
 pricing:
   type: open_source
 installation:

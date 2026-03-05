@@ -1,0 +1,48 @@
+id: rsmangler
+name: RSMangler
+summary: Wordlist generator that creates variations of words for password cracking.
+description: |
+  RSMangler is a wordlist generator that creates variations of words for password cracking. It can generate wordlist variations by applying common password patterns, character substitutions, and transformations. RSMangler helps security researchers create comprehensive wordlists for password cracking and security testing.
+categories:
+  - wordlist_generator
+tags:
+  - wordlist_generation
+  - password_cracking
+  - oss
+  - cli
+  - ruby
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: active
+website: https://github.com/digininja/RSMangler
+docs_url: https://github.com/digininja/RSMangler
+download_url: https://github.com/digininja/RSMangler
+github_repo: digininja/RSMangler
+stars: 231
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+  commands:
+    - git clone https://github.com/digininja/RSMangler.git
+maintainers:
+  - digininja
+authors:
+  - digininja
+  - erwanlr
+  - ethicalhack3r
+use_cases:
+  - Wordlist generation
+  - Password cracking
+  - Security testing
+  - Dictionary attacks
+related_tools:
+  - cewl
+  - hashcat
+similar_tools:
+  - cewl
+added_at: '2026-03-05'

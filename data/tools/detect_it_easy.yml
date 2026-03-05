@@ -1,0 +1,52 @@
+id: detect_it_easy
+name: Detect-It-Easy
+summary: File type identifier and packer detector for analyzing executable files.
+description: |
+  Detect-It-Easy (DiE) is a file type identifier and packer detector for analyzing executable files. It can identify file types, detect packers, cryptors, and compilers used in executable files. Detect-It-Easy is useful for reverse engineering and malware analysis.
+categories:
+  - static_analysis
+tags:
+  - file_identification
+  - packer_detection
+  - reverse_engineering
+  - gui
+  - oss
+  - cpp
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: active
+website: https://github.com/horsicq/Detect-It-Easy
+docs_url: https://github.com/horsicq/Detect-It-Easy
+download_url: https://github.com/horsicq/Detect-It-Easy/releases
+github_repo: horsicq/Detect-It-Easy
+stars: 10364
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Git clone
+  commands:
+    - Download from https://github.com/horsicq/Detect-It-Easy/releases
+    - git clone https://github.com/horsicq/Detect-It-Easy.git
+maintainers:
+  - horsicq
+authors:
+  - horsicq
+  - DosX-dev
+  - BJNFNE
+use_cases:
+  - File type identification
+  - Packer detection
+  - Reverse engineering
+  - Malware analysis
+related_tools:
+  - pe_bear
+  - pe_sieve
+similar_tools:
+  - pe_bear
+  - pe_sieve
+added_at: '2026-03-05'

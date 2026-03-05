@@ -15,11 +15,11 @@ platforms:
   - windows
 license: GPL-3.0
 maturity: stable
-website: https://github.com/BloodHoundAD/SharpHound
-docs_url: https://github.com/BloodHoundAD/SharpHound
-download_url: https://github.com/BloodHoundAD/SharpHound/releases
-github_repo: BloodHoundAD/SharpHound
-stars: 1188
+website: https://github.com/SpecterOps/SharpHound
+docs_url: https://github.com/SpecterOps/SharpHound
+download_url: https://github.com/SpecterOps/SharpHound/releases
+github_repo: SpecterOps/SharpHound
+stars: 1202
 pricing:
   type: open_source
 installation:
@@ -27,11 +27,11 @@ installation:
     - Download binary
     - Build from source
   commands:
-    - Download from https://github.com/BloodHoundAD/SharpHound/releases
+    - Download from https://github.com/SpecterOps/SharpHound/releases
 maintainers:
-  - BloodHoundAD
+  - SpecterOps
 authors:
-  - BloodHoundAD
+  - SpecterOps
   - rvazarkar
   - JonasBK
   - ddlees

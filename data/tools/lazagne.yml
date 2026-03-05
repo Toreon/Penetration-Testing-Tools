@@ -22,7 +22,7 @@ website: https://github.com/AlessandroZ/LaZagne
 docs_url: https://github.com/AlessandroZ/LaZagne
 download_url: https://github.com/AlessandroZ/LaZagne/releases
 github_repo: AlessandroZ/LaZagne
-stars: 12000
+stars: 10696
 pricing:
   type: open_source
 installation:
@@ -38,6 +38,8 @@ maintainers:
   - AlessandroZ
 authors:
   - AlessandroZ
+  - cclauss
+  - MyLoginOnGitHub
 use_cases:
   - Credential harvesting
   - Password recovery

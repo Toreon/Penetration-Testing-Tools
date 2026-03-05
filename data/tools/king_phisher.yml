@@ -1,0 +1,54 @@
+id: king_phisher
+name: King Phisher
+summary: Phishing campaign toolkit for creating and managing phishing campaigns for security testing.
+description: |
+  King Phisher is a phishing campaign toolkit for creating and managing phishing campaigns for security testing. It provides a server and client application for creating realistic phishing campaigns, tracking user interactions, and managing templates. King Phisher is used for security awareness training and phishing simulation exercises.
+categories:
+  - network_attack
+tags:
+  - phishing
+  - social_engineering
+  - security_testing
+  - oss
+  - gui
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: BSD-3-Clause
+maturity: active
+website: https://github.com/rsmusllp/king-phisher
+docs_url: https://github.com/rsmusllp/king-phisher
+download_url: https://github.com/rsmusllp/king-phisher
+github_repo: rsmusllp/king-phisher
+stars: 2511
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/rsmusllp/king-phisher.git
+    - pip install -r requirements.txt
+maintainers:
+  - rsmusllp
+authors:
+  - rsmusllp
+  - zeroSteiner
+  - wolfthefallen
+  - Script-Nomad
+use_cases:
+  - Phishing campaigns
+  - Security awareness training
+  - Social engineering testing
+  - Security assessment
+related_tools:
+  - gophish
+  - set
+similar_tools:
+  - gophish
+  - set
+added_at: '2026-03-05'

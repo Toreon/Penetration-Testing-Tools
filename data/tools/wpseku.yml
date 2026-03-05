@@ -1,0 +1,51 @@
+id: wpseku
+name: WPSeku
+summary: WordPress security scanner for detecting vulnerabilities in WordPress installations.
+description: |
+  WPSeku is a WordPress security scanner designed to detect vulnerabilities in WordPress installations. It can identify common WordPress security issues including outdated plugins, weak configurations, and known vulnerabilities. WPSeku helps security researchers and website administrators assess the security posture of WordPress sites.
+categories:
+  - web_app_scanner
+  - vulnerability_scanner
+tags:
+  - wordpress
+  - cms_security
+  - vulnerability_scanning
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: active
+website: https://github.com/m4ll0k/WPSeku
+docs_url: https://github.com/m4ll0k/WPSeku
+download_url: https://github.com/m4ll0k/WPSeku
+github_repo: m4ll0k/WPSeku
+stars: 1800
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/m4ll0k/WPSeku.git
+    - pip install -r requirements.txt
+maintainers:
+  - m4ll0k
+authors:
+  - m4ll0k
+use_cases:
+  - WordPress security scanning
+  - Vulnerability detection
+  - Plugin security assessment
+  - Configuration review
+related_tools:
+  - wpscan
+  - nikto
+similar_tools:
+  - wpscan
+  - nikto
+added_at: '2026-03-05'

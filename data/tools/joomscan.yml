@@ -1,0 +1,56 @@
+id: joomscan
+name: Joomscan
+summary: Joomla vulnerability scanner for detecting security issues in Joomla installations.
+description: |
+  Joomscan is a Joomla vulnerability scanner designed to detect security issues in Joomla content management system installations. It can identify outdated Joomla versions, vulnerable components, configuration issues, and known security vulnerabilities. Joomscan helps security researchers and administrators assess the security posture of Joomla-based websites.
+categories:
+  - web_app_scanner
+  - vulnerability_scanner
+tags:
+  - joomla
+  - cms_security
+  - vulnerability_scanning
+  - oss
+  - cli
+  - perl
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://github.com/OWASP/joomscan
+docs_url: https://github.com/OWASP/joomscan
+download_url: https://github.com/OWASP/joomscan
+github_repo: OWASP/joomscan
+stars: 1172
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Package manager
+  commands:
+    - git clone https://github.com/OWASP/joomscan.git
+    - cd joomscan && perl joomscan.pl
+  package_managers:
+    - apt
+maintainers:
+  - OWASP
+authors:
+  - OWASP
+  - rezasp
+  - mostafahussein
+  - hack-tramp
+use_cases:
+  - Joomla security scanning
+  - Vulnerability detection
+  - Component security assessment
+  - Configuration review
+related_tools:
+  - wpscan
+  - nikto
+similar_tools:
+  - wpscan
+  - nikto
+added_at: '2026-03-05'

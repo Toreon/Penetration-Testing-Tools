@@ -1,0 +1,53 @@
+id: bluekeep
+name: BlueKeep
+summary: RDP vulnerability scanner for detecting systems vulnerable to BlueKeep (CVE-2019-0708).
+description: |
+  BlueKeep is an RDP vulnerability scanner for detecting systems vulnerable to the BlueKeep vulnerability (CVE-2019-0708). It can scan for vulnerable RDP services and test for the vulnerability. This tool is useful for security assessments and vulnerability detection.
+categories:
+  - vulnerability_scanner
+tags:
+  - bluekeep
+  - rdp
+  - vulnerability_scanning
+  - cve_2019_0708
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: active
+website: https://github.com/robertdavidgraham/rdpscan
+docs_url: https://github.com/robertdavidgraham/rdpscan
+download_url: https://github.com/robertdavidgraham/rdpscan
+github_repo: robertdavidgraham/rdpscan
+stars: 913
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Go build
+  commands:
+    - git clone https://github.com/robertdavidgraham/rdpscan.git
+    - cd rdpscan && go build
+maintainers:
+  - robertdavidgraham
+authors:
+  - robertdavidgraham
+  - BrendanGrant
+  - danijeljw
+use_cases:
+  - BlueKeep vulnerability scanning
+  - RDP security assessment
+  - Vulnerability detection
+  - Security testing
+related_tools:
+  - nmap
+  - metasploit
+similar_tools:
+  - nmap
+  - metasploit
+added_at: '2026-03-05'

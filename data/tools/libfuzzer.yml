@@ -1,0 +1,55 @@
+id: libfuzzer
+name: LibFuzzer
+summary: In-process fuzzing engine integrated with LLVM for fuzzing C/C++ code.
+description: |
+  LibFuzzer is an in-process fuzzing engine integrated with LLVM for fuzzing C/C++ code. It performs coverage-guided fuzzing and is designed to be fast and efficient. LibFuzzer is part of the LLVM project and is widely used for fuzzing libraries and applications written in C/C++.
+categories:
+  - fuzzing
+tags:
+  - fuzzing
+  - vulnerability_discovery
+  - llvm
+  - oss
+  - cli
+  - cpp
+platforms:
+  - linux
+  - windows
+  - macos
+license: Apache-2.0
+maturity: stable
+website: https://llvm.org/docs/LibFuzzer.html
+docs_url: https://llvm.org/docs/LibFuzzer.html
+download_url: https://github.com/llvm/llvm-project
+github_repo: llvm/llvm-project
+stars: 37225
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Package manager
+    - Source compilation
+  commands:
+    - apt-get install clang
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - llvm
+authors:
+  - llvm
+  - lattner
+  - topperc
+  - RKSimon
+use_cases:
+  - Fuzzing
+  - Vulnerability discovery
+  - Automated testing
+  - Security research
+related_tools:
+  - afl
+  - afl_plus_plus
+similar_tools:
+  - afl
+  - afl_plus_plus
+added_at: '2026-03-05'

@@ -1,0 +1,51 @@
+id: printnightmare
+name: PrintNightmare
+summary: Print Spooler vulnerability scanner for detecting systems vulnerable to PrintNightmare (CVE-2021-1675).
+description: |
+  PrintNightmare is a Print Spooler vulnerability scanner for detecting systems vulnerable to the PrintNightmare vulnerability (CVE-2021-1675). It can scan for vulnerable Print Spooler services and test for the vulnerability. This tool is useful for security assessments and vulnerability detection.
+categories:
+  - vulnerability_scanner
+tags:
+  - printnightmare
+  - print_spooler
+  - vulnerability_scanning
+  - cve_2021_1675
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: active
+website: https://github.com/cube0x0/CVE-2021-1675
+docs_url: https://github.com/cube0x0/CVE-2021-1675
+download_url: https://github.com/cube0x0/CVE-2021-1675
+github_repo: cube0x0/CVE-2021-1675
+stars: 1967
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/cube0x0/CVE-2021-1675.git
+    - pip install -r requirements.txt
+maintainers:
+  - cube0x0
+authors:
+  - cube0x0
+use_cases:
+  - PrintNightmare vulnerability scanning
+  - Print Spooler security assessment
+  - Vulnerability detection
+  - Security testing
+related_tools:
+  - nmap
+  - metasploit
+similar_tools:
+  - nmap
+  - metasploit
+added_at: '2026-03-05'

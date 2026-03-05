@@ -1,0 +1,52 @@
+id: afl_plus_plus
+name: AFL++
+summary: Advanced fork of AFL with improved fuzzing capabilities and additional features.
+description: |
+  AFL++ is an advanced fork of AFL (American Fuzzy Lop) with improved fuzzing capabilities and additional features. It includes various improvements, new mutation strategies, and better performance compared to the original AFL. AFL++ is actively maintained and provides enhanced fuzzing capabilities for security research.
+categories:
+  - fuzzing
+tags:
+  - fuzzing
+  - vulnerability_discovery
+  - automated_testing
+  - oss
+  - cli
+  - cpp
+platforms:
+  - linux
+  - macos
+license: Apache-2.0
+maturity: active
+website: https://github.com/AFLplusplus/AFLplusplus
+docs_url: https://github.com/AFLplusplus/AFLplusplus
+download_url: https://github.com/AFLplusplus/AFLplusplus
+github_repo: AFLplusplus/AFLplusplus
+stars: 6339
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Source compilation
+  commands:
+    - git clone https://github.com/AFLplusplus/AFLplusplus.git
+    - cd AFLplusplus && make
+maintainers:
+  - AFLplusplus
+authors:
+  - AFLplusplus
+  - vanhauser-thc
+  - hexcoder-
+  - domenukk
+use_cases:
+  - Fuzzing
+  - Vulnerability discovery
+  - Automated testing
+  - Security research
+related_tools:
+  - afl
+  - libfuzzer
+similar_tools:
+  - afl
+  - libfuzzer
+added_at: '2026-03-05'

@@ -4,7 +4,7 @@ summary: Search engine for Internet-connected devices that allows you to find sp
 description: |
   Shodan is a search engine for Internet-connected devices. It's the world's first search engine for Internet-connected devices. Shodan lets you find specific types of computers and services (routers, servers, etc.) using a variety of filters. It's widely used by security researchers, penetration testers, and network administrators to discover exposed services and vulnerabilities.
 categories:
-  - reconnaissance
+  - osint
 tags:
   - search_engine
   - osint

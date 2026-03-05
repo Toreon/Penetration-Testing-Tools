@@ -1,0 +1,51 @@
+id: adb
+name: Android Debug Bridge (ADB)
+summary: Command-line tool that enables communication with Android devices for debugging, app installation, and device management.
+description: |
+  Android Debug Bridge (ADB) is a command-line tool that enables communication with Android devices. It's part of the Android SDK platform tools and provides capabilities for debugging, app installation, file transfer, shell access, and device management. ADB is essential for Android security testing, mobile app development, and device analysis.
+categories:
+  - static_analysis
+tags:
+  - android
+  - debugging
+  - device_management
+  - oss
+  - cli
+platforms:
+  - linux
+  - windows
+  - macos
+license: Apache-2.0
+maturity: stable
+website: https://developer.android.com/studio/command-line/adb
+docs_url: https://developer.android.com/studio/command-line/adb
+download_url: https://developer.android.com/studio/releases/platform-tools
+github_repo: null
+stars: null
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Android SDK Platform Tools
+    - Package manager
+  commands:
+    - Download from Android Developer website
+    - apt-get install android-tools-adb
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - Google
+authors:
+  - Google
+use_cases:
+  - Android device debugging
+  - App installation
+  - File transfer
+  - Mobile security testing
+related_tools:
+  - jadx
+  - apktool
+similar_tools:
+  - fastboot
+added_at: '2026-03-05'

@@ -1,0 +1,51 @@
+id: virtualbox
+name: VirtualBox
+summary: Cross-platform virtualization software that allows running multiple operating systems on a single machine.
+description: |
+  VirtualBox is a cross-platform virtualization software that allows running multiple operating systems on a single machine. It's widely used for creating isolated testing environments, running different operating systems, and security research. VirtualBox is free and open source, making it popular among security professionals and developers.
+categories:
+  - static_analysis
+tags:
+  - virtualization
+  - oss
+  - gui
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://www.virtualbox.org/
+docs_url: https://www.virtualbox.org/manual/
+download_url: https://www.virtualbox.org/wiki/Downloads
+github_repo: null
+stars: null
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download installer
+    - Package manager
+  commands:
+    - Download from VirtualBox website
+    - apt-get install virtualbox
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - Oracle
+authors:
+  - Oracle
+use_cases:
+  - Virtualization
+  - Testing environments
+  - Security research
+  - Cross-platform development
+related_tools:
+  - qemu
+  - vmware
+similar_tools:
+  - qemu
+  - vmware
+  - hyper-v
+added_at: '2026-03-05'

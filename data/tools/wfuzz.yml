@@ -5,7 +5,7 @@ description: |
   WFuzz is a web application brute-forcer that allows you to find resources (directories, files, scripts, etc) not linked. It's designed to be flexible and powerful, allowing you to customize your brute-forcing attacks with various payloads and filters. WFuzz supports multiple injection points, various HTTP methods, and can be used for both directory enumeration and parameter fuzzing.
 categories:
   - web_app_scanner
-  - reconnaissance
+  - fuzzing
 tags:
   - web_application
   - brute_force
@@ -23,7 +23,7 @@ website: https://github.com/xmendez/wfuzz
 docs_url: https://wfuzz.readthedocs.io/
 download_url: https://github.com/xmendez/wfuzz
 github_repo: xmendez/wfuzz
-stars: 6412
+stars: 6434
 pricing:
   type: open_source
 installation:

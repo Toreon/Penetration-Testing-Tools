@@ -1,0 +1,53 @@
+id: security_cheatsheets
+name: Security Cheat Sheets
+summary: Collection of security-related cheat sheets covering web security, network security, cryptography, and more.
+description: |
+  Security Cheat Sheets is a collection of security-related cheat sheets covering web security, network security, cryptography, and various security testing methodologies. It provides quick reference guides for common security tasks, vulnerability testing, and security assessment procedures. This resource is useful for security professionals and penetration testers.
+categories:
+  - guides_and_cheatsheets
+tags:
+  - security
+  - cheat_sheet
+  - web_security
+  - network_security
+  - oss
+  - reference
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://github.com/OWASP/CheatSheetSeries
+docs_url: https://cheatsheetseries.owasp.org/
+download_url: https://github.com/OWASP/CheatSheetSeries
+github_repo: OWASP/CheatSheetSeries
+stars: 31475
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Web interface
+  commands:
+    - git clone https://github.com/OWASP/CheatSheetSeries.git
+    - Access via https://cheatsheetseries.owasp.org/
+maintainers:
+  - OWASP
+authors:
+  - OWASP
+  - righettod
+  - jmanico
+  - rbsec
+use_cases:
+  - Web security reference
+  - Security best practices
+  - Vulnerability testing
+  - Security assessment
+related_tools:
+  - hacktricks
+  - pentest_cheatsheets
+similar_tools:
+  - hacktricks
+  - pentest_cheatsheets
+added_at: '2026-03-05'

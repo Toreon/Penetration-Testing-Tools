@@ -1,0 +1,51 @@
+id: firmware_analysis_toolkit
+name: Firmware Analysis Toolkit
+summary: Framework for automated firmware analysis and security assessment of embedded devices.
+description: |
+  Firmware Analysis Toolkit (FAT) is a framework for automated firmware analysis and security assessment of embedded devices. It automates the process of extracting, analyzing, and emulating firmware images to identify security vulnerabilities. FAT helps security researchers analyze IoT and embedded device firmware efficiently.
+categories:
+  - firmware_analysis
+tags:
+  - firmware
+  - iot
+  - embedded_security
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+license: GPL-3.0
+maturity: active
+website: https://github.com/attify/firmware-analysis-toolkit
+docs_url: https://github.com/attify/firmware-analysis-toolkit
+download_url: https://github.com/attify/firmware-analysis-toolkit
+github_repo: attify/firmware-analysis-toolkit
+stars: 1534
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Docker
+  commands:
+    - git clone https://github.com/attify/firmware-analysis-toolkit.git
+    - docker build -t firmware-analysis-toolkit .
+maintainers:
+  - attify
+authors:
+  - attify
+  - extremecoders-re
+  - adi0x90
+  - decidedlygray
+use_cases:
+  - Firmware analysis
+  - IoT security assessment
+  - Embedded device security
+  - Vulnerability detection
+related_tools:
+  - binwalk
+  - firmadyne
+similar_tools:
+  - binwalk
+  - firmadyne
+added_at: '2026-03-05'

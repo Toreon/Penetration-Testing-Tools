@@ -135,6 +135,13 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for deta
 - **Cloud Security**: Tools for cloud infrastructure security
 - **Active Directory**: Tools for AD analysis and testing
 - **Static Analysis**: Code analysis tools
+- **OSINT (Open Source Intelligence)**: Tools for gathering and analyzing open source intelligence
+- **Fuzzing**: Tools for automated software testing and vulnerability discovery
+- **Firmware Analysis**: Tools for analyzing, extracting, and reverse engineering firmware
+- **Operating Systems**: Specialized operating systems and distributions for penetration testing
+- **Web Utilities**: Online web-based tools and utilities for encoding, decoding, and data transformation
+- **Linux Utilities**: Common Linux command-line utilities frequently used in penetration testing
+- **Guides & Cheat Sheets**: Public guides, cheat sheets, and reference materials
 
 ## License
 

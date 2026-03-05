@@ -23,7 +23,7 @@ website: https://www.wireshark.org/
 docs_url: https://www.wireshark.org/docs/
 download_url: https://www.wireshark.org/download.html
 github_repo: wireshark/wireshark
-stars: 8987
+stars: 9043
 pricing:
   type: open_source
 installation:

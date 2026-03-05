@@ -1,0 +1,55 @@
+id: whatweb
+name: WhatWeb
+summary: Web technology identifier that recognizes web technologies including content management systems, web servers, and JavaScript frameworks.
+description: |
+  WhatWeb is a web technology identifier that recognizes web technologies including content management systems, web servers, JavaScript frameworks, analytics tools, and more. It can identify over 1800 different web technologies by analyzing HTTP headers, HTML content, cookies, and other indicators. WhatWeb is useful for reconnaissance and understanding the technology stack of target web applications.
+categories:
+  - web_app_scanner
+  - reconnaissance
+tags:
+  - fingerprinting
+  - technology_detection
+  - web_reconnaissance
+  - oss
+  - cli
+  - ruby
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://www.morningstarsecurity.com/research/whatweb
+docs_url: https://github.com/urbanadventurer/WhatWeb
+download_url: https://github.com/urbanadventurer/WhatWeb
+github_repo: urbanadventurer/WhatWeb
+stars: 6438
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Package manager
+  commands:
+    - git clone https://github.com/urbanadventurer/WhatWeb.git
+    - cd WhatWeb && bundle install
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - urbanadventurer
+authors:
+  - urbanadventurer
+  - bcoles
+  - pvdl
+use_cases:
+  - Technology fingerprinting
+  - Web reconnaissance
+  - CMS detection
+  - Framework identification
+related_tools:
+  - wafw00f
+  - nikto
+similar_tools:
+  - wafw00f
+added_at: '2026-03-05'

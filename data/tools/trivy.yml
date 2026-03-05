@@ -1,0 +1,60 @@
+id: trivy
+name: Trivy
+summary: Comprehensive security scanner for containers, filesystems, and Git repositories.
+description: |
+  Trivy is a comprehensive security scanner for containers, filesystems, and Git repositories. It detects vulnerabilities in container images, filesystem directories, and Git repositories. Trivy supports multiple vulnerability databases, can scan for misconfigurations, and integrates with CI/CD pipelines for continuous security scanning.
+categories:
+  - cloud_security
+  - vulnerability_scanner
+tags:
+  - container_security
+  - vulnerability_scanning
+  - security_scanning
+  - oss
+  - cli
+  - go
+platforms:
+  - linux
+  - windows
+  - macos
+  - docker
+license: Apache-2.0
+maturity: stable
+website: https://aquasecurity.github.io/trivy/
+docs_url: https://aquasecurity.github.io/trivy/latest/
+download_url: https://github.com/aquasecurity/trivy/releases
+github_repo: aquasecurity/trivy
+stars: 9487
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Package manager
+    - Go install
+  commands:
+    - go install github.com/aquasecurity/trivy/cmd/trivy@latest
+    - Download from https://github.com/aquasecurity/trivy/releases
+  package_managers:
+    - apt
+    - brew
+    - chocolatey
+maintainers:
+  - aquasecurity
+authors:
+  - aquasecurity
+  - knqyf263
+  - DmitriyLewen
+  - dependabot[bot]
+use_cases:
+  - Container vulnerability scanning
+  - Filesystem security scanning
+  - Git repository scanning
+  - CI/CD security integration
+related_tools:
+  - docker_bench_security
+  - clair
+similar_tools:
+  - clair
+  - docker_bench_security
+added_at: '2026-03-05'

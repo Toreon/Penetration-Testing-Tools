@@ -21,7 +21,7 @@ website: https://github.com/RhinoSecurityLabs/pacu
 docs_url: https://rhinosecuritylabs.com/aws/pacu-open-source-aws-exploitation-framework/
 download_url: https://github.com/RhinoSecurityLabs/pacu
 github_repo: RhinoSecurityLabs/pacu
-stars: 5063
+stars: 5080
 pricing:
   type: open_source
 installation:

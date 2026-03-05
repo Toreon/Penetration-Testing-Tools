@@ -1,0 +1,53 @@
+id: proxify
+name: Proxify
+summary: HTTP proxy tool for intercepting and analyzing HTTP/HTTPS traffic.
+description: |
+  Proxify is an HTTP proxy tool for intercepting and analyzing HTTP/HTTPS traffic. It can capture, modify, and analyze HTTP/HTTPS requests and responses. Proxify is useful for web application security testing, traffic analysis, and debugging.
+categories:
+  - web_utilities
+tags:
+  - http_proxy
+  - traffic_interception
+  - web_security
+  - oss
+  - cli
+  - go
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: active
+website: https://github.com/projectdiscovery/proxify
+docs_url: https://github.com/projectdiscovery/proxify
+download_url: https://github.com/projectdiscovery/proxify/releases
+github_repo: projectdiscovery/proxify
+stars: 2988
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Go install
+  commands:
+    - go install github.com/projectdiscovery/proxify/cmd/proxify@latest
+    - Download from https://github.com/projectdiscovery/proxify/releases
+maintainers:
+  - projectdiscovery
+authors:
+  - projectdiscovery
+  - dependabot[bot]
+  - ehsandeep
+  - Mzack9999
+use_cases:
+  - HTTP/HTTPS interception
+  - Traffic analysis
+  - Web security testing
+  - Debugging
+related_tools:
+  - mitmproxy
+  - burp_suite
+similar_tools:
+  - mitmproxy
+  - burp_suite
+added_at: '2026-03-05'

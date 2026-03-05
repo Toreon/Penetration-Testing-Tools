@@ -20,7 +20,7 @@ website: https://github.com/Tib3rius/AutoRecon
 docs_url: https://github.com/Tib3rius/AutoRecon
 download_url: https://github.com/Tib3rius/AutoRecon
 github_repo: Tib3rius/AutoRecon
-stars: 4500
+stars: 5923
 pricing:
   type: open_source
 installation:
@@ -36,6 +36,8 @@ maintainers:
   - Tib3rius
 authors:
   - Tib3rius
+  - VainXploits
+  - 45im
 use_cases:
   - Automated reconnaissance
   - Network discovery

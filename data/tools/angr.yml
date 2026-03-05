@@ -1,0 +1,55 @@
+id: angr
+name: angr
+summary: Binary analysis framework for symbolic execution and vulnerability research.
+description: |
+  angr is a binary analysis framework for symbolic execution and vulnerability research. It provides powerful capabilities for analyzing binaries, including symbolic execution, constraint solving, and program analysis. angr is used for vulnerability discovery, exploit generation, and automated reverse engineering tasks.
+categories:
+  - static_analysis
+tags:
+  - reverse_engineering
+  - binary_analysis
+  - symbolic_execution
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: BSD-2-Clause
+maturity: active
+website: https://angr.io/
+docs_url: https://docs.angr.io/
+download_url: https://github.com/angr/angr
+github_repo: angr/angr
+stars: 8528
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/angr/angr.git
+    - pip install angr
+  package_managers:
+    - pip
+maintainers:
+  - angr
+authors:
+  - angr
+  - ltfish
+  - zardus
+  - rhelmot
+use_cases:
+  - Binary analysis
+  - Symbolic execution
+  - Vulnerability research
+  - Exploit generation
+related_tools:
+  - ghidra
+  - radare2
+similar_tools:
+  - ghidra
+  - radare2
+added_at: '2026-03-05'

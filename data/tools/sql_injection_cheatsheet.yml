@@ -1,0 +1,51 @@
+id: sql_injection_cheatsheet
+name: SQL Injection Cheat Sheet
+summary: Comprehensive reference guide for SQL injection techniques, payloads, and bypass methods for database security testing.
+description: |
+  SQL Injection Cheat Sheet is a comprehensive reference guide for SQL injection techniques, payloads, and bypass methods for database security testing. It covers various SQL injection types, database-specific payloads, and filter bypass techniques. This resource is essential for web application security testers and penetration testers.
+categories:
+  - guides_and_cheatsheets
+tags:
+  - sql_injection
+  - database_security
+  - payloads
+  - cheat_sheet
+  - oss
+  - reference
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SQL%20Injection/README.md
+docs_url: https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SQL%20Injection/README.md
+download_url: https://github.com/swisskyrepo/PayloadsAllTheThings
+github_repo: swisskyrepo/PayloadsAllTheThings
+stars: 75731
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Web interface
+  commands:
+    - git clone https://github.com/swisskyrepo/PayloadsAllTheThings.git
+maintainers:
+  - swisskyrepo
+authors:
+  - swisskyrepo
+  - p0dalirius
+  - noraj
+use_cases:
+  - SQL injection testing
+  - Database security assessment
+  - Web application security
+  - Penetration testing
+related_tools:
+  - sqlmap
+  - payloadsallthethings
+similar_tools:
+  - sqlmap
+  - payloadsallthethings
+added_at: '2026-03-05'

@@ -1,0 +1,55 @@
+id: zsteg
+name: Zsteg
+summary: PNG/BMP steganography detector for finding hidden data in PNG and BMP images.
+description: |
+  Zsteg is a PNG/BMP steganography detector for finding hidden data in PNG and BMP images. It can detect various steganographic techniques and extract hidden data from images. Zsteg is useful for steganography analysis and CTF challenges.
+categories:
+  - static_analysis
+tags:
+  - steganography
+  - png
+  - bmp
+  - detection
+  - oss
+  - cli
+  - ruby
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: active
+website: https://github.com/zed-0xff/zsteg
+docs_url: https://github.com/zed-0xff/zsteg
+download_url: https://github.com/zed-0xff/zsteg
+github_repo: zed-0xff/zsteg
+stars: 1540
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Gem install
+  commands:
+    - git clone https://github.com/zed-0xff/zsteg.git
+    - gem install zsteg
+  package_managers:
+    - gem
+maintainers:
+  - zed-0xff
+authors:
+  - zed-0xff
+  - dependabot[bot]
+  - FieryRMS
+use_cases:
+  - PNG/BMP steganography detection
+  - Image analysis
+  - CTF challenges
+  - Security research
+related_tools:
+  - stegsolve
+  - stegdetect
+similar_tools:
+  - stegsolve
+  - stegdetect
+added_at: '2026-03-05'

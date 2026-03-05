@@ -22,7 +22,7 @@ website: https://www.openwall.com/john/
 docs_url: https://www.openwall.com/john/doc/
 download_url: https://www.openwall.com/john/
 github_repo: openwall/john
-stars: 12687
+stars: 12798
 pricing:
   type: open_source
 installation:

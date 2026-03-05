@@ -1,0 +1,53 @@
+id: clair
+name: Clair
+summary: Vulnerability static analysis for container images and application containers.
+description: |
+  Clair is a vulnerability static analysis tool for container images and application containers. It scans container images layer by layer to identify known vulnerabilities in the software stack. Clair provides an API for vulnerability scanning and can be integrated into container registries and CI/CD pipelines for continuous security monitoring.
+categories:
+  - cloud_security
+  - vulnerability_scanner
+tags:
+  - container_security
+  - vulnerability_scanning
+  - static_analysis
+  - oss
+  - cli
+  - go
+platforms:
+  - linux
+  - docker
+license: Apache-2.0
+maturity: stable
+website: https://github.com/quay/clair
+docs_url: https://github.com/quay/clair
+download_url: https://github.com/quay/clair
+github_repo: quay/clair
+stars: 10942
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Docker
+  commands:
+    - git clone https://github.com/quay/clair.git
+    - docker-compose up -d
+maintainers:
+  - quay
+authors:
+  - quay
+  - hdonnay
+  - jzelinskie
+  - dependabot[bot]
+use_cases:
+  - Container vulnerability scanning
+  - Image security analysis
+  - Vulnerability detection
+  - Security monitoring
+related_tools:
+  - trivy
+  - docker_bench_security
+similar_tools:
+  - trivy
+  - docker_bench_security
+added_at: '2026-03-05'

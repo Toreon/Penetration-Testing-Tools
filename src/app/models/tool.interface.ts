@@ -5,7 +5,8 @@ export interface Tool {
   description?: string;
   categories: string[];
   tags: string[];
-  platforms: string[];
+  platforms: string[];  // Execution platforms (where the tool runs)
+  target_platforms?: string[];  // Target platforms (what the tool analyzes)
   license: string;
   maturity: 'stable' | 'active' | 'experimental' | 'archived';
   website?: string;

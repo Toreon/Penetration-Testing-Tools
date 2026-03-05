@@ -1,0 +1,52 @@
+id: creepy
+name: Creepy
+summary: Geolocation OSINT tool for gathering geolocation-related information from online sources.
+description: |
+  Creepy is a geolocation OSINT tool for gathering geolocation-related information from online sources. It can collect geolocation data from social networks, images, and other online sources to map locations associated with targets. Creepy helps security researchers and investigators gather geolocation intelligence for security assessments.
+categories:
+  - osint
+tags:
+  - geolocation
+  - osint
+  - location_tracking
+  - oss
+  - gui
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: active
+website: https://github.com/ilektrojohn/creepy
+docs_url: https://github.com/ilektrojohn/creepy
+download_url: https://github.com/ilektrojohn/creepy
+github_repo: ilektrojohn/creepy
+stars: 1413
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/ilektrojohn/creepy.git
+    - pip install -r requirements.txt
+maintainers:
+  - ilektrojohn
+authors:
+  - ilektrojohn
+  - jkakavas
+  - wheresalice
+use_cases:
+  - Geolocation OSINT
+  - Location tracking
+  - Intelligence gathering
+  - Security research
+related_tools:
+  - maltego
+  - trape
+similar_tools:
+  - maltego
+  - trape
+added_at: '2026-03-05'

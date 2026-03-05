@@ -1,0 +1,49 @@
+id: unicornscan
+name: Unicornscan
+summary: Network port scanner with advanced capabilities for network reconnaissance.
+description: |
+  Unicornscan is a network port scanner with advanced capabilities for network reconnaissance. It provides asynchronous TCP and UDP scanning, service version detection, and OS fingerprinting. Unicornscan is designed to be fast and efficient, making it useful for large-scale network scanning and security assessments.
+categories:
+  - network_scanner
+  - reconnaissance
+tags:
+  - network_scanning
+  - port_scanning
+  - os_fingerprinting
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+license: GPL-2.0
+maturity: stable
+website: https://github.com/dneufeld/unicornscan
+docs_url: https://github.com/dneufeld/unicornscan
+download_url: https://github.com/dneufeld/unicornscan
+github_repo: dneufeld/unicornscan
+stars: 79
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Source compilation
+  commands:
+    - git clone https://github.com/dneufeld/unicornscan.git
+    - cd unicornscan && ./configure && make && sudo make install
+maintainers:
+  - dneufeld
+authors:
+  - dneufeld
+use_cases:
+  - Network port scanning
+  - Service detection
+  - OS fingerprinting
+  - Network reconnaissance
+related_tools:
+  - nmap
+  - masscan
+similar_tools:
+  - nmap
+  - masscan
+added_at: '2026-03-05'

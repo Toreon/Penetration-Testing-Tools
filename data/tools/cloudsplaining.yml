@@ -1,0 +1,57 @@
+id: cloudsplaining
+name: Cloudsplaining
+summary: Security assessment tool that identifies violations of least privilege in AWS IAM policies.
+description: |
+  Cloudsplaining is a security assessment tool that identifies violations of least privilege in AWS IAM policies. It analyzes IAM policies and generates a report showing which actions are allowed, which resources are accessible, and potential security risks. Cloudsplaining helps identify over-privileged IAM policies and improve AWS security posture.
+categories:
+  - cloud_security
+  - cloud_enumeration
+tags:
+  - aws
+  - iam
+  - security_assessment
+  - policy_analysis
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: active
+website: https://github.com/salesforce/cloudsplaining
+docs_url: https://github.com/salesforce/cloudsplaining
+download_url: https://github.com/salesforce/cloudsplaining
+github_repo: salesforce/cloudsplaining
+stars: 2187
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/salesforce/cloudsplaining.git
+    - pip install cloudsplaining
+  package_managers:
+    - pip
+maintainers:
+  - salesforce
+authors:
+  - salesforce
+  - kmcquade
+  - dependabot[bot]
+  - actions-user
+use_cases:
+  - AWS IAM policy analysis
+  - Security assessment
+  - Least privilege auditing
+  - Cloud security
+related_tools:
+  - prowler
+  - scout_suite
+similar_tools:
+  - prowler
+  - scout_suite
+added_at: '2026-03-05'

@@ -1,0 +1,51 @@
+id: ileapp
+name: iLEAPP
+summary: iOS Logs, Events, And Plists Parser for iOS device forensics and analysis.
+description: |
+  iLEAPP (iOS Logs, Events, And Plists Parser) is a tool for iOS device forensics and analysis. It parses various iOS artifacts including logs, events, and plist files to extract useful information for digital forensics and security analysis. iLEAPP helps investigators analyze iOS device data and extract evidence.
+categories:
+  - static_analysis
+tags:
+  - ios
+  - mobile_security
+  - forensics
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: Apache-2.0
+maturity: active
+website: https://github.com/abrignoni/iLEAPP
+docs_url: https://github.com/abrignoni/iLEAPP
+download_url: https://github.com/abrignoni/iLEAPP
+github_repo: abrignoni/iLEAPP
+stars: 1026
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/abrignoni/iLEAPP.git
+    - pip install -r requirements.txt
+maintainers:
+  - abrignoni
+authors:
+  - abrignoni
+  - Johann-PLW
+  - stark4n6
+use_cases:
+  - iOS forensics
+  - Mobile device analysis
+  - Evidence extraction
+  - Security research
+related_tools:
+  - mobsf
+  - frida
+similar_tools:
+  - mobsf
+added_at: '2026-03-05'

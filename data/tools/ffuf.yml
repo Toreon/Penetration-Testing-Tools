@@ -5,7 +5,7 @@ description: |
   FFUF (Fuzz Faster U Fool) is a fast web fuzzer written in Go. It's designed for finding hidden files, directories, and parameters in web applications. FFUF is multithreaded and can perform fuzzing operations at very high speeds, making it one of the fastest web fuzzers available. It supports various HTTP methods, custom wordlists, and advanced filtering options.
 categories:
   - web_app_scanner
-  - reconnaissance
+  - fuzzing
 tags:
   - web_fuzzing
   - directory_brute_force
@@ -22,7 +22,7 @@ website: https://github.com/ffuf/ffuf
 docs_url: https://github.com/ffuf/ffuf/wiki
 download_url: https://github.com/ffuf/ffuf/releases
 github_repo: ffuf/ffuf
-stars: 15556
+stars: 15689
 pricing:
   type: open_source
 installation:

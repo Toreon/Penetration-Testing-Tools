@@ -1,0 +1,56 @@
+id: falco
+name: Falco
+summary: Cloud-native runtime security monitoring tool for detecting anomalous activity in containers and Kubernetes.
+description: |
+  Falco is a cloud-native runtime security monitoring tool for detecting anomalous activity in containers and Kubernetes. It uses kernel events to detect suspicious behavior, policy violations, and security threats in real-time. Falco can monitor system calls, file access, network activity, and other runtime behaviors to provide comprehensive security visibility.
+categories:
+  - cloud_security
+tags:
+  - container_security
+  - runtime_security
+  - security_monitoring
+  - kubernetes
+  - oss
+  - cli
+  - cpp
+platforms:
+  - linux
+  - docker
+  - kubernetes
+license: Apache-2.0
+maturity: stable
+website: https://falco.org/
+docs_url: https://falco.org/docs/
+download_url: https://github.com/falcosecurity/falco
+github_repo: falcosecurity/falco
+stars: 8705
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Package manager
+    - Docker
+    - Kubernetes
+  commands:
+    - curl -s https://falco.org/repo/falcosecurity-3672BA8F.asc | apt-key add -
+    - apt-get install -y falco
+  package_managers:
+    - apt
+maintainers:
+  - falcosecurity
+authors:
+  - falcosecurity
+  - FedeDP
+  - jasondellaluce
+  - leodido
+use_cases:
+  - Runtime security monitoring
+  - Anomaly detection
+  - Container security
+  - Kubernetes security
+related_tools:
+  - kube_hunter
+  - kubeaudit
+similar_tools:
+  - kube_hunter
+added_at: '2026-03-05'

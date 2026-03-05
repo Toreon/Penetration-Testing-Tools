@@ -1,0 +1,53 @@
+id: photon
+name: Photon
+summary: Incredibly fast crawler designed for OSINT reconnaissance.
+description: |
+  Photon is an incredibly fast crawler designed for OSINT reconnaissance. It can crawl websites, extract URLs, emails, social media accounts, and other information from web pages. Photon is optimized for speed and provides comprehensive data extraction capabilities for OSINT gathering and reconnaissance.
+categories:
+  - osint
+  - reconnaissance
+tags:
+  - web_crawling
+  - osint
+  - information_extraction
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: active
+website: https://github.com/s0md3v/Photon
+docs_url: https://github.com/s0md3v/Photon
+download_url: https://github.com/s0md3v/Photon
+github_repo: s0md3v/Photon
+stars: 12720
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/s0md3v/Photon.git
+    - pip install -r requirements.txt
+maintainers:
+  - s0md3v
+authors:
+  - s0md3v
+  - oXis
+  - connorskees
+use_cases:
+  - Web crawling
+  - OSINT gathering
+  - Information extraction
+  - Reconnaissance
+related_tools:
+  - theharvester
+  - hakrawler
+similar_tools:
+  - theharvester
+  - hakrawler
+added_at: '2026-03-05'

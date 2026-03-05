@@ -1,0 +1,52 @@
+id: wget
+name: wget
+summary: Command-line utility for retrieving files using HTTP, HTTPS, and FTP protocols, supporting recursive downloads and various options.
+description: |
+  wget is a command-line utility for retrieving files using HTTP, HTTPS, and FTP protocols. It supports recursive downloads, bandwidth limiting, and various other options. wget is commonly used in penetration testing for downloading files, mirroring websites, and automating web requests. It's available on virtually all Unix-like systems.
+categories:
+  - linux_utilities
+tags:
+  - http_client
+  - file_download
+  - network_utility
+  - oss
+  - cli
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: stable
+website: https://www.gnu.org/software/wget/
+docs_url: https://www.gnu.org/software/wget/manual/
+download_url: https://www.gnu.org/software/wget/
+github_repo: null
+stars: null
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Package manager
+    - Source compilation
+  commands:
+    - apt-get install wget
+    - brew install wget
+  package_managers:
+    - apt
+    - brew
+    - yum
+maintainers:
+  - GNU
+authors:
+  - GNU
+use_cases:
+  - File downloading
+  - Website mirroring
+  - Automated downloads
+  - Web application testing
+related_tools:
+  - curl
+similar_tools:
+  - curl
+  - aria2
+added_at: '2026-03-05'

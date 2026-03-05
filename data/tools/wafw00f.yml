@@ -1,0 +1,55 @@
+id: wafw00f
+name: Wafw00f
+summary: Web Application Firewall detection tool for identifying and fingerprinting WAFs.
+description: |
+  Wafw00f is a Web Application Firewall (WAF) detection tool designed to identify and fingerprint WAFs protecting web applications. It can detect various WAF products including Cloudflare, AWS WAF, ModSecurity, and many others. Wafw00f helps security researchers understand what security controls are in place and can assist in bypassing WAF protections during security assessments.
+categories:
+  - web_app_scanner
+  - reconnaissance
+tags:
+  - waf_detection
+  - fingerprinting
+  - web_security
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: BSD-3-Clause
+maturity: stable
+website: https://github.com/EnableSecurity/wafw00f
+docs_url: https://github.com/EnableSecurity/wafw00f
+download_url: https://github.com/EnableSecurity/wafw00f
+github_repo: EnableSecurity/wafw00f
+stars: 6213
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/EnableSecurity/wafw00f.git
+    - pip install wafw00f
+  package_managers:
+    - pip
+maintainers:
+  - EnableSecurity
+authors:
+  - EnableSecurity
+  - 0xInfection
+  - sandrogauci
+  - akun
+use_cases:
+  - WAF detection
+  - Security control identification
+  - Web application reconnaissance
+  - Bypass testing
+related_tools:
+  - whatweb
+  - nikto
+similar_tools:
+  - whatweb
+added_at: '2026-03-05'

@@ -1,0 +1,54 @@
+id: binary_ninja
+name: Binary Ninja
+summary: Reverse engineering platform with advanced binary analysis capabilities.
+description: |
+  Binary Ninja is a reverse engineering platform with advanced binary analysis capabilities. It provides a powerful disassembler, decompiler, and binary analysis framework for analyzing compiled code. Binary Ninja supports multiple architectures and provides an API for automated analysis, making it a popular choice for security researchers and reverse engineers.
+categories:
+  - static_analysis
+tags:
+  - reverse_engineering
+  - binary_analysis
+  - disassembler
+  - decompiler
+  - proprietary
+  - gui
+  - cli
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary
+maturity: stable
+website: https://binary.ninja/
+docs_url: https://docs.binary.ninja/
+download_url: https://binary.ninja/
+github_repo: null
+stars: null
+pricing:
+  type: paid
+  price: '149'
+  currency: USD
+  notes: Commercial license required
+installation:
+  methods:
+    - Download installer
+  commands:
+    - Download from https://binary.ninja/
+maintainers:
+  - Vector35
+authors:
+  - Vector35
+use_cases:
+  - Reverse engineering
+  - Binary analysis
+  - Malware analysis
+  - Vulnerability research
+related_tools:
+  - ghidra
+  - ida
+  - radare2
+similar_tools:
+  - ghidra
+  - ida
+  - radare2
+added_at: '2026-03-05'

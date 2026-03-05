@@ -1,0 +1,57 @@
+id: scapy
+name: Scapy
+summary: Powerful Python library for packet manipulation, network discovery, and protocol testing.
+description: |
+  Scapy is a powerful Python library for packet manipulation, network discovery, and protocol testing. It can forge or decode packets of a wide number of protocols, send them on the wire, capture them, match requests and replies, and more. Scapy is used for network discovery, packet crafting, protocol testing, and security research.
+categories:
+  - network_scanner
+  - network_attack
+tags:
+  - packet_manipulation
+  - network_protocols
+  - packet_crafting
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://scapy.net/
+docs_url: https://scapy.readthedocs.io/
+download_url: https://github.com/secdev/scapy
+github_repo: secdev/scapy
+stars: 12087
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Pip install
+    - Package manager
+  commands:
+    - pip install scapy
+  package_managers:
+    - pip
+    - apt
+    - brew
+maintainers:
+  - secdev
+authors:
+  - secdev
+  - gpotter2
+  - p-l-
+  - guedou
+use_cases:
+  - Packet manipulation
+  - Network protocol testing
+  - Packet crafting
+  - Network discovery
+related_tools:
+  - tcpdump
+  - wireshark
+similar_tools:
+  - tcpdump
+  - wireshark
+added_at: '2026-03-05'

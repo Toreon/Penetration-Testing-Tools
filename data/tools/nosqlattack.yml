@@ -1,0 +1,50 @@
+id: nosqlattack
+name: NoSQLAttack
+summary: NoSQL injection framework for testing and exploiting NoSQL database vulnerabilities.
+description: |
+  NoSQLAttack is a NoSQL injection framework for testing and exploiting NoSQL database vulnerabilities. It can test for various NoSQL injection vulnerabilities including MongoDB, CouchDB, and other NoSQL databases. NoSQLAttack helps security researchers identify and exploit NoSQL injection vulnerabilities.
+categories:
+  - database_exploitation
+tags:
+  - nosql
+  - injection
+  - database_security
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: active
+website: https://github.com/youngyangyang04/NoSQLAttack
+docs_url: https://github.com/youngyangyang04/NoSQLAttack
+download_url: https://github.com/youngyangyang04/NoSQLAttack
+github_repo: youngyangyang04/NoSQLAttack
+stars: 314
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/youngyangyang04/NoSQLAttack.git
+    - pip install -r requirements.txt
+maintainers:
+  - youngyangyang04
+authors:
+  - youngyangyang04
+use_cases:
+  - NoSQL injection testing
+  - Database security assessment
+  - Vulnerability exploitation
+  - Security testing
+related_tools:
+  - nosqlmap
+  - sqlmap
+similar_tools:
+  - nosqlmap
+  - sqlmap
+added_at: '2026-03-05'

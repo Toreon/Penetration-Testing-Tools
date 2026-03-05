@@ -23,7 +23,7 @@ website: https://brakemanscanner.org/
 docs_url: https://brakemanscanner.org/docs/
 download_url: https://github.com/presidentbeef/brakeman
 github_repo: presidentbeef/brakeman
-stars: 7195
+stars: 7202
 pricing:
   type: open_source
 installation:

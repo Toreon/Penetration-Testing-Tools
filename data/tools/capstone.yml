@@ -1,0 +1,57 @@
+id: capstone
+name: Capstone
+summary: Multi-architecture disassembly framework for reverse engineering and binary analysis.
+description: |
+  Capstone is a multi-architecture disassembly framework for reverse engineering and binary analysis. It provides a lightweight, multi-platform disassembly engine that supports many architectures including x86, ARM, MIPS, and PowerPC. Capstone is used as a library in various reverse engineering tools and security research projects.
+categories:
+  - static_analysis
+tags:
+  - reverse_engineering
+  - disassembly
+  - binary_analysis
+  - oss
+  - library
+  - c
+platforms:
+  - linux
+  - windows
+  - macos
+license: BSD-3-Clause
+maturity: stable
+website: https://www.capstone-engine.org/
+docs_url: https://www.capstone-engine.org/documentation.html
+download_url: https://github.com/capstone-engine/capstone
+github_repo: capstone-engine/capstone
+stars: 8576
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Package manager
+    - Source compilation
+  commands:
+    - git clone https://github.com/capstone-engine/capstone.git
+    - cd capstone && ./make.sh
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - capstone-engine
+authors:
+  - capstone-engine
+  - aquynh
+  - kabeor
+  - Rot127
+use_cases:
+  - Disassembly
+  - Reverse engineering
+  - Binary analysis
+  - Security research
+related_tools:
+  - radare2
+  - ghidra
+similar_tools:
+  - radare2
+  - ghidra
+added_at: '2026-03-05'

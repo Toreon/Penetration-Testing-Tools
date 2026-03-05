@@ -1,0 +1,49 @@
+id: genymotion
+name: Genymotion
+summary: Android emulation platform that provides fast and reliable Android virtual devices for testing and development.
+description: |
+  Genymotion is an Android emulation platform that provides fast and reliable Android virtual devices for testing and development. It offers better performance than the standard Android emulator and includes features for app testing, security research, and development. Genymotion is widely used by mobile security researchers and developers.
+categories:
+  - static_analysis
+tags:
+  - android
+  - emulation
+  - virtualization
+  - commercial
+  - gui
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary
+maturity: stable
+website: https://www.genymotion.com/
+docs_url: https://www.genymotion.com/help/
+download_url: https://www.genymotion.com/download/
+github_repo: null
+stars: null
+pricing:
+  type: freemium
+  price: "Free personal edition available, commercial licenses available"
+  notes: "Free version for personal use"
+installation:
+  methods:
+    - Download installer
+  commands:
+    - Download from Genymotion website
+maintainers:
+  - Genymotion
+authors:
+  - Genymotion
+use_cases:
+  - Android app testing
+  - Mobile security research
+  - Development
+  - Security testing
+related_tools:
+  - android_studio
+  - qemu
+similar_tools:
+  - android_studio
+  - qemu
+added_at: '2026-03-05'

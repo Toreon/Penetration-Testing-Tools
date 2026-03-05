@@ -1,0 +1,52 @@
+id: sslsplit
+name: SSLsplit
+summary: SSL/TLS man-in-the-middle tool for transparent SSL/TLS interception and analysis.
+description: |
+  SSLsplit is an SSL/TLS man-in-the-middle tool for transparent SSL/TLS interception and analysis. It can intercept SSL/TLS connections, decrypt traffic, and analyze encrypted communications. SSLsplit is useful for security testing, network analysis, and demonstrating SSL/TLS interception capabilities.
+categories:
+  - network_attack
+tags:
+  - ssl
+  - tls
+  - mitm
+  - traffic_interception
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - macos
+license: BSD-2-Clause
+maturity: stable
+website: https://www.roe.ch/SSLsplit
+docs_url: https://www.roe.ch/SSLsplit
+download_url: https://github.com/droe/sslsplit
+github_repo: droe/sslsplit
+stars: 1858
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Source compilation
+  commands:
+    - git clone https://github.com/droe/sslsplit.git
+    - cd sslsplit && make
+maintainers:
+  - droe
+authors:
+  - droe
+  - sonertari
+  - landonf
+use_cases:
+  - SSL/TLS interception
+  - Traffic analysis
+  - Security testing
+  - Network analysis
+related_tools:
+  - mitmproxy
+  - burp_suite
+similar_tools:
+  - mitmproxy
+  - burp_suite
+added_at: '2026-03-05'

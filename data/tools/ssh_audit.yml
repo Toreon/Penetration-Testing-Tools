@@ -1,0 +1,54 @@
+id: ssh_audit
+name: ssh-audit
+summary: SSH server auditing tool that tests SSH server configurations for security issues and policy compliance.
+description: |
+  ssh-audit is an SSH server auditing tool that tests SSH server configurations for security issues and policy compliance. It identifies weak algorithms, deprecated protocols, and misconfigurations in SSH implementations. ssh-audit helps security professionals assess SSH server security and ensure compliance with security policies.
+categories:
+  - network_scanner
+tags:
+  - ssh
+  - security_assessment
+  - configuration_audit
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://github.com/jtesta/ssh-audit
+docs_url: https://github.com/jtesta/ssh-audit
+download_url: https://github.com/jtesta/ssh-audit
+github_repo: jtesta/ssh-audit
+stars: 4118
+pricing:
+  type: open_source
+installation:
+  methods:
+    - pip install
+    - Git clone
+  commands:
+    - pip install ssh-audit
+    - git clone https://github.com/jtesta/ssh-audit.git
+  package_managers:
+    - pip
+maintainers:
+  - jtesta
+authors:
+  - jtesta
+  - arthepsy
+  - thecliguy
+use_cases:
+  - SSH security assessment
+  - Configuration auditing
+  - Policy compliance checking
+  - Security testing
+related_tools:
+  - sslscan
+  - testssl
+similar_tools:
+  - sslscan
+  - testssl
+added_at: '2026-03-05'

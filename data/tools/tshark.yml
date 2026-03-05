@@ -1,0 +1,58 @@
+id: tshark
+name: Tshark
+summary: Command-line version of Wireshark for network protocol analysis and packet capture.
+description: |
+  Tshark is the command-line version of Wireshark, a network protocol analyzer. It can capture packets from a live network or read packets from a previously saved capture file. Tshark provides powerful filtering and analysis capabilities, making it ideal for automated network analysis, scripting, and command-line workflows. It supports hundreds of protocols and provides detailed packet inspection.
+categories:
+  - network_scanner
+  - reconnaissance
+tags:
+  - packet_analysis
+  - network_capture
+  - protocol_analysis
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://www.wireshark.org/docs/man-pages/tshark.html
+docs_url: https://www.wireshark.org/docs/man-pages/tshark.html
+download_url: https://www.wireshark.org/download.html
+github_repo: wireshark/wireshark
+stars: 9043
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Package manager
+    - Download binary
+  commands:
+    - apt-get install tshark
+  package_managers:
+    - apt
+    - yum
+    - brew
+    - chocolatey
+maintainers:
+  - wireshark
+authors:
+  - wireshark
+  - guyharris
+  - geraldcombs
+  - AndersBroman
+use_cases:
+  - Network protocol analysis
+  - Packet capture
+  - Network troubleshooting
+  - Security analysis
+related_tools:
+  - wireshark
+  - tcpdump
+similar_tools:
+  - wireshark
+  - tcpdump
+added_at: '2026-03-05'

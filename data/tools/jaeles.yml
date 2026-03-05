@@ -1,0 +1,54 @@
+id: jaeles
+name: Jaeles
+summary: Powerful, flexible web application scanner framework for security testing.
+description: |
+  Jaeles is a powerful and flexible web application scanner framework designed for security testing. It provides a template-based approach to vulnerability scanning, allowing security researchers to create custom signatures for specific vulnerabilities. Jaeles supports various authentication methods, can handle complex web applications, and provides detailed reporting capabilities for security assessments.
+categories:
+  - web_app_scanner
+  - vulnerability_scanner
+tags:
+  - web_security
+  - vulnerability_scanning
+  - template_based
+  - oss
+  - cli
+  - go
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: active
+website: https://github.com/jaeles-project/jaeles
+docs_url: https://github.com/jaeles-project/jaeles
+download_url: https://github.com/jaeles-project/jaeles/releases
+github_repo: jaeles-project/jaeles
+stars: 2324
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Go install
+  commands:
+    - go install github.com/jaeles-project/jaeles/cmd/jaeles@latest
+    - Download from https://github.com/jaeles-project/jaeles/releases
+maintainers:
+  - jaeles-project
+authors:
+  - jaeles-project
+  - j3ssie
+  - Nishantbhagat57
+  - nannal
+use_cases:
+  - Web application scanning
+  - Vulnerability detection
+  - Security assessment
+  - Custom signature testing
+related_tools:
+  - nuclei
+  - nikto
+similar_tools:
+  - nuclei
+  - nikto
+added_at: '2026-03-05'

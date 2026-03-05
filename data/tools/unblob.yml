@@ -1,0 +1,56 @@
+id: unblob
+name: Unblob
+summary: Fast and accurate extraction suite for analyzing unknown binary blobs and extracting embedded file systems and archives.
+description: |
+  Unblob is a fast and accurate extraction suite for analyzing unknown binary blobs and extracting embedded file systems and archives. It's designed to handle various file formats and compression algorithms commonly found in firmware images. Unblob is used for firmware analysis, digital forensics, and embedded device security assessment.
+categories:
+  - firmware_analysis
+tags:
+  - firmware_analysis
+  - extraction
+  - file_system_analysis
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://github.com/onekey-sec/unblob
+docs_url: https://github.com/onekey-sec/unblob
+download_url: https://github.com/onekey-sec/unblob
+github_repo: onekey-sec/unblob
+stars: 2438
+pricing:
+  type: open_source
+installation:
+  methods:
+    - pip install
+    - Git clone
+  commands:
+    - pip install unblob
+    - git clone https://github.com/onekey-sec/unblob.git
+  package_managers:
+    - pip
+maintainers:
+  - onekey-sec
+authors:
+  - onekey-sec
+  - qkaiser
+  - vlaci
+  - renovate[bot]
+use_cases:
+  - Firmware extraction
+  - Binary blob analysis
+  - File system extraction
+  - Embedded device analysis
+related_tools:
+  - binwalk
+  - firmwalker
+similar_tools:
+  - binwalk
+  - firmwalker
+  - bulk_extractor
+added_at: '2026-03-05'

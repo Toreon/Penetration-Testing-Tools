@@ -21,7 +21,7 @@ website: https://cirt.net/Nikto2
 docs_url: https://cirt.net/Nikto2
 download_url: https://github.com/sullo/nikto
 github_repo: sullo/nikto
-stars: 10067
+stars: 10149
 pricing:
   type: open_source
 installation:

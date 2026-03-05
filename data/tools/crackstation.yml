@@ -1,0 +1,48 @@
+id: crackstation
+name: CrackStation
+summary: Free online hash cracking service that uses massive pre-computed lookup tables to crack password hashes.
+description: |
+  CrackStation is a free online hash cracking service that uses massive pre-computed lookup tables to crack password hashes. It supports various hash algorithms including MD5, SHA1, SHA256, and others. CrackStation is useful for password recovery, security testing, and digital forensics. The service uses large lookup tables to quickly identify common passwords.
+categories:
+  - web_utilities
+tags:
+  - password_cracking
+  - hash_cracking
+  - free
+  - web_interface
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary (Free service)
+maturity: stable
+website: https://crackstation.net/
+docs_url: https://crackstation.net/
+download_url: https://crackstation.net/
+github_repo: null
+stars: null
+pricing:
+  type: free
+  notes: "Free online service"
+installation:
+  methods:
+    - Web interface
+  commands:
+    - Access via https://crackstation.net/
+maintainers:
+  - CrackStation
+authors:
+  - CrackStation
+use_cases:
+  - Password hash cracking
+  - Password recovery
+  - Security testing
+  - Digital forensics
+related_tools:
+  - hashcat
+  - john_the_ripper
+similar_tools:
+  - hashcat
+  - john_the_ripper
+  - online_hash_crack
+added_at: '2026-03-05'

@@ -1,0 +1,56 @@
+id: qemu
+name: QEMU
+summary: Open source machine emulator and virtualizer that supports various architectures and operating systems.
+description: |
+  QEMU is an open source machine emulator and virtualizer that supports various architectures and operating systems. It can run operating systems and programs made for one machine on a different machine. QEMU is widely used for virtualization, emulation, and security research. It's essential for creating isolated testing environments and running different operating systems.
+categories:
+  - static_analysis
+tags:
+  - virtualization
+  - emulation
+  - oss
+  - cli
+  - gui
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://www.qemu.org/
+docs_url: https://www.qemu.org/documentation/
+download_url: https://www.qemu.org/download/
+github_repo: qemu/qemu
+stars: 12786
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Package manager
+    - Source compilation
+  commands:
+    - apt-get install qemu
+    - brew install qemu
+  package_managers:
+    - apt
+    - brew
+maintainers:
+  - QEMU Project
+authors:
+  - QEMU Project
+  - pm215
+  - rth7680
+  - philmd
+use_cases:
+  - Virtualization
+  - System emulation
+  - Security testing environments
+  - Cross-platform development
+related_tools:
+  - virtualbox
+  - vmware
+similar_tools:
+  - virtualbox
+  - vmware
+  - kvm
+added_at: '2026-03-05'

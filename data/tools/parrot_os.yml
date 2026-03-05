@@ -1,0 +1,50 @@
+id: parrot_os
+name: Parrot OS
+summary: Security-oriented Linux distribution designed for penetration testing, computer forensics, reverse engineering, and privacy protection.
+description: |
+  Parrot OS is a security-oriented Linux distribution designed for penetration testing, computer forensics, reverse engineering, and privacy protection. It's based on Debian and includes a comprehensive set of security tools. Parrot OS is an alternative to Kali Linux and is widely used by security professionals, penetration testers, and security researchers.
+categories:
+  - operating_systems
+tags:
+  - linux_distribution
+  - penetration_testing
+  - forensics
+  - oss
+  - operating_system
+platforms:
+  - linux
+license: Various (GPL and others)
+maturity: stable
+website: https://parrotsec.org/
+docs_url: https://parrotsec.org/docs/
+download_url: https://parrotsec.org/download/
+github_repo: null
+stars: null
+pricing:
+  type: open_source
+installation:
+  methods:
+    - ISO download
+    - Virtual machine image
+    - Cloud images
+  commands:
+    - Download ISO from https://parrotsec.org/download/
+  package_managers:
+    - apt
+maintainers:
+  - Parrot Security
+authors:
+  - Parrot Security
+use_cases:
+  - Penetration testing
+  - Security auditing
+  - Digital forensics
+  - Reverse engineering
+related_tools:
+  - kali_linux
+  - metasploit
+  - nmap
+similar_tools:
+  - kali_linux
+  - blackarch
+added_at: '2026-03-05'

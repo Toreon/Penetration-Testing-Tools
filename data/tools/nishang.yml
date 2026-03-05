@@ -20,7 +20,7 @@ website: https://github.com/samratashok/nishang
 docs_url: https://github.com/samratashok/nishang/wiki
 download_url: https://github.com/samratashok/nishang
 github_repo: samratashok/nishang
-stars: 8000
+stars: 9784
 pricing:
   type: open_source
 installation:
@@ -32,6 +32,8 @@ maintainers:
   - samratashok
 authors:
   - samratashok
+  - sammbertram
+  - Dliv3
 use_cases:
   - PowerShell exploitation
   - Post-exploitation

@@ -1,0 +1,52 @@
+id: testssl
+name: testssl.sh
+summary: Command-line tool for testing SSL/TLS encryption on any remote server, providing comprehensive security assessment.
+description: |
+  testssl.sh is a command-line tool for testing SSL/TLS encryption on any remote server. It provides comprehensive security assessment including protocol support, cipher suite analysis, certificate validation, and vulnerability detection. testssl.sh is widely used by security professionals for SSL/TLS security testing and compliance checking.
+categories:
+  - network_scanner
+tags:
+  - ssl_tls
+  - security_assessment
+  - cipher_analysis
+  - oss
+  - cli
+  - bash
+platforms:
+  - linux
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://testssl.sh/
+docs_url: https://testssl.sh/
+download_url: https://github.com/drwetter/testssl.sh
+github_repo: drwetter/testssl.sh
+stars: 8929
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+  commands:
+    - git clone --depth 1 https://github.com/drwetter/testssl.sh.git
+  package_managers:
+    - apt
+maintainers:
+  - drwetter
+authors:
+  - drwetter
+  - dcooper16
+  - dependabot[bot]
+use_cases:
+  - SSL/TLS security assessment
+  - Certificate validation
+  - Protocol testing
+  - Vulnerability detection
+related_tools:
+  - sslscan
+  - sslyze
+similar_tools:
+  - sslscan
+  - sslyze
+  - nmap
+added_at: '2026-03-05'

@@ -1,0 +1,56 @@
+id: tcpdump
+name: Tcpdump
+summary: Command-line packet analyzer for network traffic capture and analysis.
+description: |
+  Tcpdump is a powerful command-line packet analyzer for network traffic capture and analysis. It allows users to capture and display TCP/IP and other packets being transmitted or received over a network. Tcpdump is widely used for network troubleshooting, security analysis, and protocol debugging. It provides detailed packet inspection capabilities and supports various output formats.
+categories:
+  - network_scanner
+  - reconnaissance
+tags:
+  - packet_analysis
+  - network_capture
+  - traffic_analysis
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - macos
+license: BSD-4-Clause
+maturity: stable
+website: https://www.tcpdump.org/
+docs_url: https://www.tcpdump.org/manpages/tcpdump.1.html
+download_url: https://www.tcpdump.org/
+github_repo: the-tcpdump-group/tcpdump
+stars: 3139
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Package manager
+    - Source compilation
+  commands:
+    - apt-get install tcpdump
+  package_managers:
+    - apt
+    - yum
+    - brew
+maintainers:
+  - the-tcpdump-group
+authors:
+  - the-tcpdump-group
+  - guyharris
+  - fxlb
+  - infrastation
+use_cases:
+  - Network traffic capture
+  - Packet analysis
+  - Network troubleshooting
+  - Security monitoring
+related_tools:
+  - wireshark
+  - tshark
+similar_tools:
+  - wireshark
+  - tshark
+added_at: '2026-03-05'

@@ -20,7 +20,7 @@ website: https://github.com/six2dez/reconftw
 docs_url: https://github.com/six2dez/reconftw/wiki
 download_url: https://github.com/six2dez/reconftw
 github_repo: six2dez/reconftw
-stars: 5500
+stars: 7281
 pricing:
   type: open_source
 installation:
@@ -33,6 +33,8 @@ maintainers:
   - six2dez
 authors:
   - six2dez
+  - bileltechno
+  - kleozzy
 use_cases:
   - Automated reconnaissance
   - Subdomain enumeration

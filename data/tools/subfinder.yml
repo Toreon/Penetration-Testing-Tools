@@ -4,7 +4,7 @@ summary: Subdomain discovery tool that discovers valid subdomains for websites b
 description: |
   Subfinder is a subdomain discovery tool that discovers valid subdomains for websites by using passive online sources. It's designed to be fast and accurate, using multiple passive sources to find subdomains. Subfinder is part of the ProjectDiscovery suite and is widely used in bug bounty hunting and penetration testing.
 categories:
-  - reconnaissance
+  - osint
 tags:
   - subdomain_enumeration
   - osint
@@ -21,7 +21,7 @@ website: https://github.com/projectdiscovery/subfinder
 docs_url: https://github.com/projectdiscovery/subfinder/wiki
 download_url: https://github.com/projectdiscovery/subfinder/releases
 github_repo: projectdiscovery/subfinder
-stars: 13039
+stars: 13170
 pricing:
   type: open_source
 installation:

@@ -1,0 +1,49 @@
+id: gtfobins
+name: GTFOBins
+summary: Curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems.
+description: |
+  GTFOBins is a curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems. It provides examples of how to use common Unix utilities for privilege escalation, file transfer, reverse shells, and other security testing scenarios. GTFOBins is an essential reference for penetration testers and security researchers working on Linux/Unix systems.
+categories:
+  - web_utilities
+tags:
+  - privilege_escalation
+  - exploitation
+  - reference
+  - free
+  - web_interface
+platforms:
+  - linux
+  - macos
+license: MIT
+maturity: stable
+website: https://gtfobins.github.io/
+docs_url: https://gtfobins.github.io/
+download_url: https://github.com/GTFOBins/GTFOBins.github.io
+github_repo: GTFOBins/GTFOBins.github.io
+stars: 12737
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Web interface
+    - Git clone
+  commands:
+    - Access via https://gtfobins.github.io/
+    - git clone https://github.com/GTFOBins/GTFOBins.github.io.git
+maintainers:
+  - GTFOBins
+authors:
+  - GTFOBins
+  - cyrus-and
+  - epinna
+  - d4t4s3c
+use_cases:
+  - Privilege escalation
+  - Exploitation techniques
+  - Security testing reference
+  - Penetration testing
+related_tools:
+  - cyberchef
+similar_tools:
+  - lolbas
+added_at: '2026-03-05'

@@ -1,0 +1,52 @@
+id: honggfuzz
+name: Honggfuzz
+summary: Security-oriented fuzzer with support for various fuzzing strategies.
+description: |
+  Honggfuzz is a security-oriented fuzzer with support for various fuzzing strategies including coverage-guided fuzzing, persistent mode, and hardware-based feedback. It can fuzz various types of applications and is designed to be efficient and effective at finding security vulnerabilities.
+categories:
+  - fuzzing
+tags:
+  - fuzzing
+  - vulnerability_discovery
+  - automated_testing
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - macos
+license: Apache-2.0
+maturity: active
+website: https://github.com/google/honggfuzz
+docs_url: https://github.com/google/honggfuzz
+download_url: https://github.com/google/honggfuzz
+github_repo: google/honggfuzz
+stars: 3310
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Source compilation
+  commands:
+    - git clone https://github.com/google/honggfuzz.git
+    - cd honggfuzz && make
+maintainers:
+  - google
+authors:
+  - google
+  - robertswiecki
+  - anestisb
+  - devnexen
+use_cases:
+  - Fuzzing
+  - Vulnerability discovery
+  - Automated testing
+  - Security research
+related_tools:
+  - afl
+  - libfuzzer
+similar_tools:
+  - afl
+  - libfuzzer
+added_at: '2026-03-05'

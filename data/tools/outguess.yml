@@ -1,0 +1,51 @@
+id: outguess
+name: Outguess
+summary: Universal steganographic tool for hiding data in images and extracting hidden data.
+description: |
+  Outguess is a universal steganographic tool for hiding data in images and extracting hidden data. It supports various image formats and steganographic techniques for embedding and extracting data. Outguess is useful for steganography research and security testing.
+categories:
+  - static_analysis
+tags:
+  - steganography
+  - data_hiding
+  - image_analysis
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://github.com/resurrecting-open-source-projects/outguess
+docs_url: https://github.com/resurrecting-open-source-projects/outguess
+download_url: https://github.com/resurrecting-open-source-projects/outguess
+github_repo: resurrecting-open-source-projects/outguess
+stars: 323
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Source compilation
+  commands:
+    - git clone https://github.com/resurrecting-open-source-projects/outguess.git
+    - cd outguess && ./configure && make
+maintainers:
+  - resurrecting-open-source-projects
+authors:
+  - resurrecting-open-source-projects
+  - eribertomota
+  - hoijui
+use_cases:
+  - Steganography
+  - Data hiding
+  - Security research
+  - CTF challenges
+related_tools:
+  - steghide
+  - jsteg
+similar_tools:
+  - steghide
+  - jsteg
+added_at: '2026-03-05'

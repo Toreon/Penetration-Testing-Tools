@@ -137,13 +137,25 @@
             <mat-divider></mat-divider>
 
             <div class="info-item">
-              <strong>Platforms:</strong>
+              <strong>Execution Platforms:</strong>
               <div class="platforms">
                 @for (platform of tool.platforms; track platform) {
                   <span class="platform-badge">{{ platform }}</span>
                 }
               </div>
             </div>
+
+            @if (tool.target_platforms && tool.target_platforms.length > 0) {
+              <mat-divider></mat-divider>
+              <div class="info-item">
+                <strong>Target Platforms:</strong>
+                <div class="platforms">
+                  @for (targetPlatform of tool.target_platforms; track targetPlatform) {
+                    <span class="platform-badge target-platform">{{ targetPlatform }}</span>
+                  }
+                </div>
+              </div>
+            }
 
             <mat-divider></mat-divider>
 

@@ -1,0 +1,50 @@
+id: jsteg
+name: Jsteg
+summary: JPEG steganography tool for hiding data in JPEG images.
+description: |
+  Jsteg is a JPEG steganography tool for hiding data in JPEG images. It uses the least significant bit (LSB) technique to embed data in JPEG files. Jsteg is useful for steganography research and security testing.
+categories:
+  - static_analysis
+tags:
+  - steganography
+  - jpeg
+  - data_hiding
+  - oss
+  - cli
+  - c
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://github.com/lukechampine/jsteg
+docs_url: https://github.com/lukechampine/jsteg
+download_url: https://github.com/lukechampine/jsteg
+github_repo: lukechampine/jsteg
+stars: 638
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Go build
+  commands:
+    - git clone https://github.com/lukechampine/jsteg.git
+    - cd jsteg && go build
+maintainers:
+  - lukechampine
+authors:
+  - lukechampine
+use_cases:
+  - JPEG steganography
+  - Data hiding
+  - Security research
+  - CTF challenges
+related_tools:
+  - steghide
+  - outguess
+similar_tools:
+  - steghide
+  - outguess
+added_at: '2026-03-05'

@@ -1,0 +1,51 @@
+id: graphw00f
+name: Graphw00f
+summary: GraphQL fingerprinting and exploitation tool for security testing.
+description: |
+  Graphw00f is a GraphQL fingerprinting and exploitation tool designed for security testing. It can identify GraphQL implementations, detect introspection capabilities, and test for common vulnerabilities. Graphw00f helps security researchers understand GraphQL endpoint configurations and identify potential security weaknesses in GraphQL APIs.
+categories:
+  - web_app_scanner
+tags:
+  - graphql
+  - fingerprinting
+  - api_security
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: active
+website: https://github.com/dolevf/graphw00f
+docs_url: https://github.com/dolevf/graphw00f
+download_url: https://github.com/dolevf/graphw00f
+github_repo: dolevf/graphw00f
+stars: 813
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/dolevf/graphw00f.git
+    - pip install -r requirements.txt
+maintainers:
+  - dolevf
+authors:
+  - dolevf
+  - cataliniovita
+  - azuax
+use_cases:
+  - GraphQL fingerprinting
+  - GraphQL security testing
+  - API reconnaissance
+  - Vulnerability detection
+related_tools:
+  - graphqlmap
+  - burp_suite
+similar_tools:
+  - graphqlmap
+added_at: '2026-03-05'

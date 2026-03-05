@@ -1,0 +1,48 @@
+id: xss_payloads
+name: XSS Payloads
+summary: Comprehensive collection of XSS (Cross-Site Scripting) payloads and bypass techniques for web application security testing.
+description: |
+  XSS Payloads is a comprehensive collection of XSS (Cross-Site Scripting) payloads and bypass techniques for web application security testing. It includes various XSS vectors, filter bypasses, and testing methodologies. This resource is essential for web application security testers, bug bounty hunters, and penetration testers focusing on web security.
+categories:
+  - guides_and_cheatsheets
+tags:
+  - xss
+  - web_security
+  - payloads
+  - bypasses
+  - oss
+  - reference
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://github.com/payloadbox/xss-payload-list
+docs_url: https://github.com/payloadbox/xss-payload-list
+download_url: https://github.com/payloadbox/xss-payload-list
+github_repo: payloadbox/xss-payload-list
+stars: 5000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+  commands:
+    - git clone https://github.com/payloadbox/xss-payload-list.git
+maintainers:
+  - payloadbox
+authors:
+  - payloadbox
+use_cases:
+  - XSS testing
+  - Web application security
+  - Bug bounty hunting
+  - Security assessment
+related_tools:
+  - payloadsallthethings
+  - xsser
+similar_tools:
+  - payloadsallthethings
+  - xsser
+added_at: '2026-03-05'

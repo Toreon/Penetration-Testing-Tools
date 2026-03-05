@@ -1,0 +1,55 @@
+id: volatility
+name: Volatility
+summary: Memory forensics framework for analyzing volatile memory dumps from compromised systems.
+description: |
+  Volatility is a memory forensics framework for analyzing volatile memory dumps from compromised systems. It can extract information from memory images including running processes, network connections, registry hives, and other artifacts. Volatility is widely used in digital forensics and incident response for analyzing memory dumps.
+categories:
+  - static_analysis
+tags:
+  - memory_forensics
+  - digital_forensics
+  - incident_response
+  - oss
+  - cli
+  - python
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://www.volatilityfoundation.org/
+docs_url: https://github.com/volatilityfoundation/volatility/wiki
+download_url: https://github.com/volatilityfoundation/volatility
+github_repo: volatilityfoundation/volatility
+stars: 7972
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Pip install
+  commands:
+    - git clone https://github.com/volatilityfoundation/volatility.git
+    - pip install volatility3
+  package_managers:
+    - pip
+maintainers:
+  - volatilityfoundation
+authors:
+  - volatilityfoundation
+  - iMHLv2
+  - atcuno
+  - gleeda
+use_cases:
+  - Memory forensics
+  - Digital forensics
+  - Incident response
+  - Malware analysis
+related_tools:
+  - rekall
+  - autopsy
+similar_tools:
+  - rekall
+  - autopsy
+added_at: '2026-03-05'

@@ -1,0 +1,46 @@
+id: red_team_field_manual
+name: Red Team Field Manual
+summary: Concise reference guide for red team operations, penetration testing, and offensive security techniques.
+description: |
+  Red Team Field Manual (RTFM) is a concise reference guide for red team operations, penetration testing, and offensive security techniques. It provides quick reference information for common commands, tools, and techniques used in red team exercises. The manual is designed to be a portable reference during security assessments.
+categories:
+  - guides_and_cheatsheets
+tags:
+  - red_team
+  - penetration_testing
+  - reference
+  - cheat_sheet
+  - oss
+platforms:
+  - linux
+  - windows
+  - macos
+license: MIT
+maturity: stable
+website: https://github.com/leandrowd/rtfm
+docs_url: https://github.com/leandrowd/rtfm
+download_url: https://github.com/leandrowd/rtfm
+github_repo: leandrowd/rtfm
+stars: 5000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - PDF download
+  commands:
+    - git clone https://github.com/leandrowd/rtfm.git
+maintainers:
+  - leandrowd
+authors:
+  - leandrowd
+use_cases:
+  - Red team operations
+  - Penetration testing reference
+  - Quick command reference
+  - Security assessment
+related_tools:
+  - blue_team_field_manual
+similar_tools:
+  - blue_team_field_manual
+added_at: '2026-03-05'

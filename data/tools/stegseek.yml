@@ -1,0 +1,52 @@
+id: stegseek
+name: Stegseek
+summary: Fast steganography tool for extracting hidden data from images using dictionary attacks.
+description: |
+  Stegseek is a fast steganography tool for extracting hidden data from images using dictionary attacks. It can crack steganographic passwords and extract hidden data from images created with tools like steghide. Stegseek is optimized for speed and is useful for steganography analysis and CTF challenges.
+categories:
+  - static_analysis
+tags:
+  - steganography
+  - password_cracking
+  - image_analysis
+  - oss
+  - cli
+  - cpp
+platforms:
+  - linux
+  - windows
+  - macos
+license: GPL-3.0
+maturity: active
+website: https://github.com/RickdeJager/stegseek
+docs_url: https://github.com/RickdeJager/stegseek
+download_url: https://github.com/RickdeJager/stegseek/releases
+github_repo: RickdeJager/stegseek
+stars: 1242
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Download binary
+    - Git clone
+  commands:
+    - Download from https://github.com/RickdeJager/stegseek/releases
+    - git clone https://github.com/RickdeJager/stegseek.git
+maintainers:
+  - RickdeJager
+authors:
+  - RickdeJager
+  - kenohassler
+  - fvcr
+use_cases:
+  - Steganography analysis
+  - Password cracking
+  - CTF challenges
+  - Security research
+related_tools:
+  - steghide
+  - stegsolve
+similar_tools:
+  - steghide
+  - stegsolve
+added_at: '2026-03-05'

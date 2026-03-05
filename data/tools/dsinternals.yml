@@ -1,0 +1,51 @@
+id: dsinternals
+name: DSInternals
+summary: PowerShell module for Directory Services Internals and security research.
+description: |
+  DSInternals is a PowerShell module for Directory Services Internals and security research. It provides cmdlets for working with Active Directory database files, extracting password hashes, analyzing AD security, and performing various AD-related operations. DSInternals is useful for security research, forensics, and AD security assessment.
+categories:
+  - active_directory
+tags:
+  - ad_security
+  - powershell
+  - password_extraction
+  - windows
+  - oss
+  - cli
+platforms:
+  - windows
+license: MIT
+maturity: active
+website: https://github.com/MichaelGrafnetter/DSInternals
+docs_url: https://github.com/MichaelGrafnetter/DSInternals
+download_url: https://github.com/MichaelGrafnetter/DSInternals
+github_repo: MichaelGrafnetter/DSInternals
+stars: 1903
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - PowerShell Gallery
+  commands:
+    - git clone https://github.com/MichaelGrafnetter/DSInternals.git
+    - Install-Module -Name DSInternals
+  package_managers:
+    - powershell_gallery
+maintainers:
+  - MichaelGrafnetter
+authors:
+  - MichaelGrafnetter
+  - matrix
+  - aseigler
+use_cases:
+  - AD security research
+  - Password hash extraction
+  - AD database analysis
+  - Security assessment
+related_tools:
+  - mimikatz
+  - bloodhound
+similar_tools:
+  - mimikatz
+added_at: '2026-03-05'

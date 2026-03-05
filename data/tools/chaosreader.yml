@@ -1,0 +1,52 @@
+id: chaosreader
+name: Chaosreader
+summary: Network traffic analyzer that reconstructs TCP/UDP sessions from packet captures.
+description: |
+  Chaosreader is a network traffic analyzer that reconstructs TCP/UDP sessions from packet captures. It can extract files, images, and other data from network traffic, making it useful for network forensics and security analysis. Chaosreader processes pcap files and generates HTML reports with reconstructed sessions and extracted content.
+categories:
+  - network_scanner
+  - reconnaissance
+tags:
+  - traffic_analysis
+  - session_reconstruction
+  - network_forensics
+  - oss
+  - cli
+  - perl
+platforms:
+  - linux
+  - macos
+license: GPL-2.0
+maturity: stable
+website: https://github.com/brendangregg/chaosreader
+docs_url: https://github.com/brendangregg/chaosreader
+download_url: https://github.com/brendangregg/chaosreader
+github_repo: brendangregg/chaosreader
+stars: 238
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Git clone
+    - Download script
+  commands:
+    - git clone https://github.com/brendangregg/chaosreader.git
+    - wget http://chaosreader.sourceforge.net/chaosreader0.94
+maintainers:
+  - brendangregg
+authors:
+  - brendangregg
+  - pexnet
+  - icrushservers
+use_cases:
+  - Network traffic analysis
+  - Session reconstruction
+  - Network forensics
+  - Data extraction
+related_tools:
+  - wireshark
+  - tcpdump
+similar_tools:
+  - wireshark
+  - tcpdump
+added_at: '2026-03-05'

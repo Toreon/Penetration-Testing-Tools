@@ -21,7 +21,7 @@ website: https://github.com/RustScan/RustScan
 docs_url: https://github.com/RustScan/RustScan/wiki
 download_url: https://github.com/RustScan/RustScan/releases
 github_repo: RustScan/RustScan
-stars: 19173
+stars: 19350
 pricing:
   type: open_source
 installation:
