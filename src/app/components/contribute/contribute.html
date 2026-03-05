@@ -9,8 +9,8 @@
       </div>
       <h2>Add a New Tool Easily!</h2>
       <p class="cta-description">
-        Use our template to add a new tool. View the template, create a new file, copy the template content, 
-        change the filename, fill in your tool's information, and submit a pull request!
+        Click "Edit Template" to open GitHub's editor with the template content already loaded. 
+        Just change the filename, fill in your tool's information, and submit a pull request!
       </p>
       <div class="cta-buttons">
         <a 
@@ -26,12 +26,12 @@
         <a 
           mat-raised-button 
           color="accent" 
-          [href]="newFileUrl" 
+          [href]="editTemplateUrl" 
           target="_blank" 
           rel="noopener"
           class="cta-button">
-          <mat-icon>add</mat-icon>
-          Create New File
+          <mat-icon>edit</mat-icon>
+          Edit Template (Auto-filled)
         </a>
       </div>
       <div class="cta-steps">
@@ -40,12 +40,12 @@
           <span>View the template</span>
         </div>
         <div class="step">
-          <mat-icon>add</mat-icon>
-          <span>Create new file</span>
+          <mat-icon>edit</mat-icon>
+          <span>Edit template (auto-filled)</span>
         </div>
         <div class="step">
-          <mat-icon>content_copy</mat-icon>
-          <span>Copy template content</span>
+          <mat-icon>drive_file_rename_outline</mat-icon>
+          <span>Change filename</span>
         </div>
         <div class="step">
           <mat-icon>edit</mat-icon>
@@ -66,10 +66,8 @@
     <mat-card-content>
       <p><strong>Recommended:</strong> Use the template above for the easiest contribution experience!</p>
       <ol>
-        <li>Click "View Template" to see the template file</li>
-        <li>Click "Create New File" to open GitHub's editor</li>
-        <li>Copy the template content from <a [href]="templateUrl" target="_blank">tool_template.yml</a> into your new file</li>
-        <li>Change the filename to match your tool's ID (e.g., <code>my-tool.yml</code>)</li>
+        <li>Click "Edit Template (Auto-filled)" to open GitHub's editor with the template content already loaded</li>
+        <li>Change the filename from <code>tool_template.yml</code> to match your tool's ID (e.g., <code>my-tool.yml</code>)</li>
         <li>Fill in all the required fields and any optional information</li>
         <li>Commit the file and open a pull request</li>
       </ol>

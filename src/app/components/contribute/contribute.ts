@@ -11,5 +11,5 @@ import { MatIconModule } from '@angular/material/icon';
 })
 export class Contribute {
   readonly templateUrl = 'https://github.com/Toreon/Penetration-Testing-Tools/blob/main/data/tools/tool_template.yml';
-  readonly newFileUrl = 'https://github.com/Toreon/Penetration-Testing-Tools/new/main/data/tools';
+  readonly editTemplateUrl = 'https://github.com/Toreon/Penetration-Testing-Tools/edit/main/data/tools/tool_template.yml';
 }

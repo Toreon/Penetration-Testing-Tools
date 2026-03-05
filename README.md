@@ -18,16 +18,14 @@ This platform serves as a collective representation of common tools used in the 
 Want to add a tool to the catalogue? It's easy! Use our template to get started.
 
 - **[View Template](https://github.com/Toreon/Penetration-Testing-Tools/blob/main/data/tools/tool_template.yml)** - See the template file
-- **[Create New File](https://github.com/Toreon/Penetration-Testing-Tools/new/main/data/tools)** - Open GitHub's editor
+- **[Edit Template (Auto-filled)](https://github.com/Toreon/Penetration-Testing-Tools/edit/main/data/tools/tool_template.yml)** - Open GitHub's editor with template content pre-filled
 
 ### How it works
 
-1. **View the template** - Click the link above to see `tool_template.yml`
-2. **Create a new file** - Click "Create New File" to open GitHub's editor
-3. **Copy the template** - Copy the content from the template into your new file
-4. **Change the filename** - Rename it to match your tool's ID (e.g., `my-tool.yml`)
-5. **Fill in your tool info** - Complete the required fields and add optional details
-6. **Commit and open a pull request** - GitHub will guide you through creating a PR
+1. **Click "Edit Template"** - Opens GitHub's editor with the template content already loaded
+2. **Change the filename** - Rename from `tool_template.yml` to match your tool's ID (e.g., `my-tool.yml`)
+3. **Fill in your tool info** - Complete the required fields and add optional details
+4. **Commit and open a pull request** - GitHub will guide you through creating a PR
 
 That's it! Your contribution will be reviewed and merged. For more details, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
