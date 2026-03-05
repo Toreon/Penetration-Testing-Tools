@@ -1,0 +1,47 @@
+id: urlencoder
+name: URL Encoder/Decoder
+summary: Online URL encoder and decoder for encoding and decoding URL-encoded strings.
+description: |
+  URL Encoder/Decoder is an online tool for encoding and decoding URL-encoded strings. It's useful for web application security testing, creating URL-encoded payloads, and decoding URL parameters. URL encoding is essential for web security testing and payload creation.
+categories:
+  - web_utilities
+tags:
+  - url_encoding
+  - encoding
+  - decoding
+  - web_security
+  - free
+  - web_interface
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary (Free service)
+maturity: stable
+website: https://www.urlencoder.org/
+docs_url: https://www.urlencoder.org/
+download_url: https://www.urlencoder.org/
+github_repo: null
+stars: null
+pricing:
+  type: free
+  notes: "Free online service"
+installation:
+  methods:
+    - Web interface
+  commands:
+    - Access via https://www.urlencoder.org/
+maintainers:
+  - URL Encoder
+authors:
+  - URL Encoder
+use_cases:
+  - URL encoding/decoding
+  - Payload creation
+  - Web application testing
+  - Security testing
+related_tools:
+  - cyberchef
+similar_tools:
+  - cyberchef
+added_at: '2026-03-05'

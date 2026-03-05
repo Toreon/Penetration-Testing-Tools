@@ -1,0 +1,48 @@
+id: crtsh
+name: crt.sh
+summary: Certificate Transparency log search engine for discovering SSL/TLS certificates and subdomains.
+description: |
+  crt.sh is a Certificate Transparency log search engine that allows you to search for SSL/TLS certificates by domain name, organization, or other criteria. It's useful for discovering subdomains, finding certificates issued to target organizations, and researching certificate information. crt.sh is widely used in reconnaissance and OSINT gathering.
+categories:
+  - web_utilities
+tags:
+  - certificate_transparency
+  - subdomain_discovery
+  - ssl_tls
+  - free
+  - web_interface
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary (Free service)
+maturity: stable
+website: https://crt.sh/
+docs_url: https://crt.sh/
+download_url: https://crt.sh/
+github_repo: null
+stars: null
+pricing:
+  type: free
+  notes: "Free online service"
+installation:
+  methods:
+    - Web interface
+  commands:
+    - Access via https://crt.sh/
+maintainers:
+  - crt.sh
+authors:
+  - crt.sh
+use_cases:
+  - Subdomain discovery
+  - Certificate research
+  - SSL/TLS certificate analysis
+  - OSINT gathering
+related_tools:
+  - amass
+  - subfinder
+similar_tools:
+  - amass
+  - subfinder
+added_at: '2026-03-05'

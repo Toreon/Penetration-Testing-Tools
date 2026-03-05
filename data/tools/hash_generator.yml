@@ -1,0 +1,48 @@
+id: hash_generator
+name: Online Hash Generator
+summary: Online tool for generating various hash types including MD5, SHA1, SHA256, and more.
+description: |
+  Online Hash Generator is a web-based tool for generating various hash types including MD5, SHA1, SHA256, SHA512, and other cryptographic hashes. It's useful for password hashing, data integrity verification, and security testing. Hash generators are commonly used in penetration testing and security research.
+categories:
+  - web_utilities
+tags:
+  - hashing
+  - password_hashing
+  - cryptography
+  - free
+  - web_interface
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary (Free service)
+maturity: stable
+website: https://www.md5hashgenerator.com/
+docs_url: https://www.md5hashgenerator.com/
+download_url: https://www.md5hashgenerator.com/
+github_repo: null
+stars: null
+pricing:
+  type: free
+  notes: "Free online service"
+installation:
+  methods:
+    - Web interface
+  commands:
+    - Access via https://www.md5hashgenerator.com/ or similar hash generator sites
+maintainers:
+  - Hash Generator
+authors:
+  - Hash Generator
+use_cases:
+  - Hash generation
+  - Password hashing
+  - Data integrity verification
+  - Security testing
+related_tools:
+  - hashcat
+  - john_the_ripper
+similar_tools:
+  - hashcat
+  - john_the_ripper
+added_at: '2026-03-05'

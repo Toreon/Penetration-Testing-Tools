@@ -1,0 +1,48 @@
+id: jsonformatter
+name: JSON Formatter
+summary: Online JSON formatter, validator, and beautifier for working with JSON data.
+description: |
+  JSON Formatter is an online tool for formatting, validating, and beautifying JSON data. It helps make JSON readable, validates JSON syntax, and provides error messages for invalid JSON. JSON Formatter is useful for API testing, data analysis, and working with JSON responses during security testing.
+categories:
+  - web_utilities
+tags:
+  - json
+  - formatting
+  - validation
+  - data_analysis
+  - free
+  - web_interface
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary (Free service)
+maturity: stable
+website: https://jsonformatter.org/
+docs_url: https://jsonformatter.org/
+download_url: https://jsonformatter.org/
+github_repo: null
+stars: null
+pricing:
+  type: free
+  notes: "Free online service"
+installation:
+  methods:
+    - Web interface
+  commands:
+    - Access via https://jsonformatter.org/
+maintainers:
+  - JSON Formatter
+authors:
+  - JSON Formatter
+use_cases:
+  - JSON formatting
+  - JSON validation
+  - API testing
+  - Data analysis
+related_tools:
+  - postman
+  - cyberchef
+similar_tools:
+  - cyberchef
+added_at: '2026-03-05'

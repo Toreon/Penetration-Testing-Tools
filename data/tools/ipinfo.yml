@@ -1,0 +1,53 @@
+id: ipinfo
+name: IPinfo
+summary: IP geolocation and information service for looking up IP address details and location data.
+description: |
+  IPinfo is an IP geolocation and information service that provides details about IP addresses including location, ISP, organization, and other metadata. It's useful for network reconnaissance, IP analysis, and geolocation research. IPinfo offers both free and paid tiers with API access for automated lookups.
+categories:
+  - web_utilities
+tags:
+  - ip_lookup
+  - geolocation
+  - network_analysis
+  - osint
+  - freemium
+  - web_interface
+  - api
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary
+maturity: stable
+website: https://ipinfo.io/
+docs_url: https://ipinfo.io/docs
+download_url: https://ipinfo.io/
+github_repo: null
+stars: null
+pricing:
+  type: freemium
+  price: "Free tier available, paid plans available"
+  notes: "Free tier with limited queries, API access available"
+installation:
+  methods:
+    - Web interface
+    - API access
+  commands:
+    - Access via https://ipinfo.io/
+    - curl https://ipinfo.io/8.8.8.8
+maintainers:
+  - IPinfo
+authors:
+  - IPinfo
+use_cases:
+  - IP geolocation
+  - Network reconnaissance
+  - IP analysis
+  - OSINT gathering
+related_tools:
+  - shodan
+  - censys
+similar_tools:
+  - shodan
+  - censys
+added_at: '2026-03-05'

@@ -1,0 +1,46 @@
+id: backbox
+name: BackBox Linux
+summary: Ubuntu-based penetration testing distribution designed for security assessment and penetration testing.
+description: |
+  BackBox Linux is an Ubuntu-based penetration testing distribution designed for security assessment and penetration testing. It includes a comprehensive set of security tools and follows open source community standards. BackBox is designed to be fast, easy to use, and provides a minimal yet complete desktop environment for penetration testing activities.
+categories:
+  - operating_systems
+tags:
+  - linux_distribution
+  - penetration_testing
+  - oss
+  - operating_system
+platforms:
+  - linux
+license: Various (GPL and others)
+maturity: stable
+website: https://www.backbox.org/
+docs_url: https://www.backbox.org/documentation
+download_url: https://www.backbox.org/download
+github_repo: null
+stars: null
+pricing:
+  type: open_source
+installation:
+  methods:
+    - ISO download
+  commands:
+    - Download ISO from https://www.backbox.org/download
+  package_managers:
+    - apt
+maintainers:
+  - BackBox Team
+authors:
+  - BackBox Team
+use_cases:
+  - Penetration testing
+  - Security assessment
+  - Network security testing
+  - Web application security
+related_tools:
+  - kali_linux
+  - parrot_os
+similar_tools:
+  - kali_linux
+  - parrot_os
+added_at: '2026-03-05'

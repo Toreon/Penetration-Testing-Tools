@@ -1,0 +1,46 @@
+id: bugtraq
+name: Bugtraq
+summary: Debian-based penetration testing distribution with a focus on security tools and ethical hacking.
+description: |
+  Bugtraq is a Debian-based penetration testing distribution with a focus on security tools and ethical hacking. It includes a comprehensive collection of security tools for penetration testing, vulnerability assessment, and security research. Bugtraq provides both desktop and server editions for different use cases.
+categories:
+  - operating_systems
+tags:
+  - linux_distribution
+  - penetration_testing
+  - oss
+  - operating_system
+platforms:
+  - linux
+license: Various (GPL and others)
+maturity: stable
+website: https://bugtraq-team.com/
+docs_url: https://bugtraq-team.com/documentation/
+download_url: https://bugtraq-team.com/download/
+github_repo: null
+stars: null
+pricing:
+  type: open_source
+installation:
+  methods:
+    - ISO download
+  commands:
+    - Download ISO from https://bugtraq-team.com/download/
+  package_managers:
+    - apt
+maintainers:
+  - Bugtraq Team
+authors:
+  - Bugtraq Team
+use_cases:
+  - Penetration testing
+  - Security research
+  - Vulnerability assessment
+  - Ethical hacking
+related_tools:
+  - kali_linux
+  - parrot_os
+similar_tools:
+  - kali_linux
+  - parrot_os
+added_at: '2026-03-05'

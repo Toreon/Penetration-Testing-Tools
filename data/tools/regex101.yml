@@ -1,0 +1,47 @@
+id: regex101
+name: Regex101
+summary: Online regex tester and debugger for creating, testing, and debugging regular expressions.
+description: |
+  Regex101 is an online regex tester and debugger that allows you to create, test, and debug regular expressions. It provides detailed explanations of regex patterns, matches, and errors. Regex101 is useful for security testing, log analysis, and pattern matching in penetration testing workflows.
+categories:
+  - web_utilities
+tags:
+  - regex
+  - pattern_matching
+  - testing
+  - free
+  - web_interface
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary (Free tier available)
+maturity: stable
+website: https://regex101.com/
+docs_url: https://regex101.com/
+download_url: https://regex101.com/
+github_repo: null
+stars: null
+pricing:
+  type: freemium
+  price: "Free tier available, paid plans available"
+  notes: "Free tier with basic features"
+installation:
+  methods:
+    - Web interface
+  commands:
+    - Access via https://regex101.com/
+maintainers:
+  - Regex101
+authors:
+  - Regex101
+use_cases:
+  - Regex pattern testing
+  - Log analysis
+  - Pattern matching
+  - Security testing
+related_tools:
+  - cyberchef
+similar_tools:
+  - cyberchef
+added_at: '2026-03-05'

@@ -1,0 +1,47 @@
+id: base64encode
+name: Base64 Encode/Decode
+summary: Online Base64 encoder and decoder for encoding and decoding Base64 strings.
+description: |
+  Base64 Encode/Decode is an online tool for encoding and decoding Base64 strings. It's useful for data transformation, encoding payloads, and decoding encoded data during security testing. Base64 encoding is commonly used in web applications and security testing scenarios.
+categories:
+  - web_utilities
+tags:
+  - encoding
+  - decoding
+  - base64
+  - data_transformation
+  - free
+  - web_interface
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary (Free service)
+maturity: stable
+website: https://www.base64encode.org/
+docs_url: https://www.base64encode.org/
+download_url: https://www.base64encode.org/
+github_repo: null
+stars: null
+pricing:
+  type: free
+  notes: "Free online service"
+installation:
+  methods:
+    - Web interface
+  commands:
+    - Access via https://www.base64encode.org/
+maintainers:
+  - Base64 Encode
+authors:
+  - Base64 Encode
+use_cases:
+  - Base64 encoding/decoding
+  - Data transformation
+  - Payload encoding
+  - Security testing
+related_tools:
+  - cyberchef
+similar_tools:
+  - cyberchef
+added_at: '2026-03-05'

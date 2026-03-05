@@ -4,7 +4,7 @@ summary: HTTP proxy tool for intercepting and analyzing HTTP/HTTPS traffic.
 description: |
   Proxify is an HTTP proxy tool for intercepting and analyzing HTTP/HTTPS traffic. It can capture, modify, and analyze HTTP/HTTPS requests and responses. Proxify is useful for web application security testing, traffic analysis, and debugging.
 categories:
-  - web_utilities
+  - web_app_scanner
 tags:
   - http_proxy
   - traffic_interception

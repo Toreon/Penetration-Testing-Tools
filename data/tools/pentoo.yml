@@ -1,0 +1,47 @@
+id: pentoo
+name: Pentoo Linux
+summary: Gentoo-based penetration testing distribution with a focus on security tools and live CD/USB capabilities.
+description: |
+  Pentoo Linux is a Gentoo-based penetration testing distribution with a focus on security tools and live CD/USB capabilities. It includes a wide range of security tools and can be used as a live system or installed to disk. Pentoo is known for its customization capabilities and is popular among security professionals who prefer Gentoo's package management system.
+categories:
+  - operating_systems
+tags:
+  - linux_distribution
+  - penetration_testing
+  - oss
+  - operating_system
+platforms:
+  - linux
+license: Various (GPL and others)
+maturity: stable
+website: https://www.pentoo.ch/
+docs_url: https://www.pentoo.ch/documentation/
+download_url: https://www.pentoo.ch/download/
+github_repo: null
+stars: null
+pricing:
+  type: open_source
+installation:
+  methods:
+    - ISO download
+    - USB live system
+  commands:
+    - Download ISO from https://www.pentoo.ch/download/
+  package_managers:
+    - emerge
+maintainers:
+  - Pentoo Team
+authors:
+  - Pentoo Team
+use_cases:
+  - Penetration testing
+  - Security research
+  - Live security testing
+  - Custom security environments
+related_tools:
+  - kali_linux
+  - blackarch
+similar_tools:
+  - kali_linux
+  - blackarch
+added_at: '2026-03-05'

@@ -1,0 +1,47 @@
+id: jwt_io
+name: jwt.io
+summary: Online JWT (JSON Web Token) decoder and encoder for analyzing and manipulating JWT tokens.
+description: |
+  jwt.io is an online JWT (JSON Web Token) decoder and encoder that allows you to decode, verify, and create JWT tokens. It's useful for web application security testing, analyzing authentication tokens, and understanding JWT structure. jwt.io is widely used by security researchers and developers for JWT analysis.
+categories:
+  - web_utilities
+tags:
+  - jwt
+  - token_analysis
+  - web_security
+  - free
+  - web_interface
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary (Free service)
+maturity: stable
+website: https://jwt.io/
+docs_url: https://jwt.io/
+download_url: https://jwt.io/
+github_repo: null
+stars: null
+pricing:
+  type: free
+  notes: "Free online service"
+installation:
+  methods:
+    - Web interface
+  commands:
+    - Access via https://jwt.io/
+maintainers:
+  - Auth0
+authors:
+  - Auth0
+use_cases:
+  - JWT token analysis
+  - Authentication testing
+  - Web application security
+  - Token manipulation
+related_tools:
+  - burp_suite
+  - cyberchef
+similar_tools:
+  - cyberchef
+added_at: '2026-03-05'

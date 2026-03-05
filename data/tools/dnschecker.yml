@@ -1,0 +1,48 @@
+id: dnschecker
+name: DNS Checker
+summary: Online DNS propagation checker and DNS lookup tool for verifying DNS records globally.
+description: |
+  DNS Checker is an online DNS propagation checker and DNS lookup tool that allows you to verify DNS records across multiple DNS servers worldwide. It's useful for checking DNS propagation, verifying DNS changes, and troubleshooting DNS issues. DNS Checker is commonly used in network security testing and DNS analysis.
+categories:
+  - web_utilities
+tags:
+  - dns
+  - network_analysis
+  - dns_lookup
+  - free
+  - web_interface
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary (Free service)
+maturity: stable
+website: https://dnschecker.org/
+docs_url: https://dnschecker.org/
+download_url: https://dnschecker.org/
+github_repo: null
+stars: null
+pricing:
+  type: free
+  notes: "Free online service"
+installation:
+  methods:
+    - Web interface
+  commands:
+    - Access via https://dnschecker.org/
+maintainers:
+  - DNS Checker
+authors:
+  - DNS Checker
+use_cases:
+  - DNS propagation checking
+  - DNS record verification
+  - Network troubleshooting
+  - DNS analysis
+related_tools:
+  - dig
+  - nslookup
+similar_tools:
+  - dig
+  - nslookup
+added_at: '2026-03-05'

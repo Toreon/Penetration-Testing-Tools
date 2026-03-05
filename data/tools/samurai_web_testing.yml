@@ -1,0 +1,44 @@
+id: samurai_web_testing
+name: Samurai Web Testing Framework
+summary: Linux distribution focused specifically on web application penetration testing and security assessment.
+description: |
+  Samurai Web Testing Framework is a Linux distribution focused specifically on web application penetration testing and security assessment. It includes a pre-configured collection of web application security tools and is designed to be used in a virtual machine environment. Samurai is ideal for web application security testing and training.
+categories:
+  - operating_systems
+tags:
+  - linux_distribution
+  - web_security
+  - penetration_testing
+  - oss
+  - operating_system
+platforms:
+  - linux
+license: Various (GPL and others)
+maturity: stable
+website: http://samurai.inguardians.com/
+docs_url: http://samurai.inguardians.com/
+download_url: http://samurai.inguardians.com/
+github_repo: null
+stars: null
+pricing:
+  type: open_source
+installation:
+  methods:
+    - Virtual machine image
+  commands:
+    - Download VM image from http://samurai.inguardians.com/
+maintainers:
+  - InGuardians
+authors:
+  - InGuardians
+use_cases:
+  - Web application security testing
+  - Penetration testing
+  - Security training
+  - Web vulnerability assessment
+related_tools:
+  - burp_suite
+  - owasp_zap
+similar_tools:
+  - kali_linux
+added_at: '2026-03-05'

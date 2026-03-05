@@ -1,0 +1,49 @@
+id: blackarch
+name: BlackArch Linux
+summary: Arch Linux-based penetration testing distribution for security researchers and penetration testers.
+description: |
+  BlackArch Linux is an Arch Linux-based penetration testing distribution for security researchers and penetration testers. It provides a large repository of security tools that can be installed individually or as groups. BlackArch can be installed on top of an existing Arch Linux installation or used as a standalone distribution. It's known for its extensive tool collection and rolling release model.
+categories:
+  - operating_systems
+tags:
+  - linux_distribution
+  - penetration_testing
+  - oss
+  - operating_system
+platforms:
+  - linux
+license: Various (GPL and others)
+maturity: stable
+website: https://blackarch.org/
+docs_url: https://blackarch.org/guide.html
+download_url: https://blackarch.org/downloads.html
+github_repo: null
+stars: null
+pricing:
+  type: open_source
+installation:
+  methods:
+    - ISO download
+    - Install on Arch Linux
+  commands:
+    - Download ISO from https://blackarch.org/downloads.html
+    - curl -O https://blackarch.org/strap.sh && sh strap.sh
+  package_managers:
+    - pacman
+maintainers:
+  - BlackArch Team
+authors:
+  - BlackArch Team
+use_cases:
+  - Penetration testing
+  - Security research
+  - Tool development
+  - Security auditing
+related_tools:
+  - kali_linux
+  - parrot_os
+similar_tools:
+  - kali_linux
+  - parrot_os
+  - pentoo
+added_at: '2026-03-05'

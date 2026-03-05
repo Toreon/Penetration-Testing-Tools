@@ -1,0 +1,48 @@
+id: security_onion
+name: Security Onion
+summary: Linux distribution for intrusion detection, network security monitoring, and log management.
+description: |
+  Security Onion is a Linux distribution for intrusion detection, network security monitoring, and log management. It includes tools like Snort, Suricata, Zeek, Wazuh, and Elastic Stack for comprehensive security monitoring. Security Onion is designed for security analysts and network defenders to detect and respond to security threats.
+categories:
+  - operating_systems
+tags:
+  - linux_distribution
+  - network_security
+  - intrusion_detection
+  - oss
+  - operating_system
+platforms:
+  - linux
+license: Various (GPL and others)
+maturity: stable
+website: https://securityonion.net/
+docs_url: https://docs.securityonion.net/
+download_url: https://securityonion.net/download
+github_repo: Security-Onion-Solutions/securityonion
+stars: 4000
+pricing:
+  type: open_source
+installation:
+  methods:
+    - ISO download
+    - Virtual machine image
+  commands:
+    - Download ISO from https://securityonion.net/download
+  package_managers:
+    - apt
+maintainers:
+  - Security Onion Solutions
+authors:
+  - Security Onion Solutions
+use_cases:
+  - Network security monitoring
+  - Intrusion detection
+  - Log management
+  - Security analysis
+related_tools:
+  - snort
+  - suricata
+  - zeek
+similar_tools:
+  - snort
+added_at: '2026-03-05'

@@ -1,0 +1,48 @@
+id: wayback_machine
+name: Wayback Machine
+summary: Digital archive of the World Wide Web for viewing historical versions of websites and pages.
+description: |
+  Wayback Machine is a digital archive of the World Wide Web that allows you to view historical versions of websites and pages. It's useful for OSINT gathering, finding deleted content, researching website history, and discovering old endpoints or exposed information. Wayback Machine is maintained by the Internet Archive and is widely used in security research and reconnaissance.
+categories:
+  - web_utilities
+tags:
+  - web_archive
+  - osint
+  - historical_data
+  - free
+  - web_interface
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary (Free service)
+maturity: stable
+website: https://web.archive.org/
+docs_url: https://web.archive.org/
+download_url: https://web.archive.org/
+github_repo: null
+stars: null
+pricing:
+  type: free
+  notes: "Free online service from Internet Archive"
+installation:
+  methods:
+    - Web interface
+    - API access
+  commands:
+    - Access via https://web.archive.org/
+maintainers:
+  - Internet Archive
+authors:
+  - Internet Archive
+use_cases:
+  - Historical website research
+  - OSINT gathering
+  - Finding deleted content
+  - Endpoint discovery
+related_tools:
+  - gau
+  - waybackurls
+similar_tools:
+  - gau
+added_at: '2026-03-05'

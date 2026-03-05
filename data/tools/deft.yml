@@ -1,0 +1,47 @@
+id: deft
+name: DEFT (Digital Evidence & Forensics Toolkit)
+summary: Ubuntu-based Linux distribution designed for computer forensics, incident response, and digital evidence collection.
+description: |
+  DEFT (Digital Evidence & Forensics Toolkit) is an Ubuntu-based Linux distribution designed for computer forensics, incident response, and digital evidence collection. It provides a comprehensive set of forensic tools and utilities for analyzing digital evidence. DEFT is used by law enforcement, incident responders, and digital forensics professionals.
+categories:
+  - operating_systems
+tags:
+  - linux_distribution
+  - forensics
+  - digital_investigation
+  - oss
+  - operating_system
+platforms:
+  - linux
+license: Various (GPL and others)
+maturity: stable
+website: https://www.deftlinux.net/
+docs_url: https://www.deftlinux.net/documentation/
+download_url: https://www.deftlinux.net/download/
+github_repo: null
+stars: null
+pricing:
+  type: open_source
+installation:
+  methods:
+    - ISO download
+    - USB live system
+  commands:
+    - Download ISO from https://www.deftlinux.net/download/
+  package_managers:
+    - apt
+maintainers:
+  - DEFT Team
+authors:
+  - DEFT Team
+use_cases:
+  - Digital forensics
+  - Incident response
+  - Evidence collection
+  - Computer investigation
+related_tools:
+  - caine
+  - autopsy
+similar_tools:
+  - caine
+added_at: '2026-03-05'

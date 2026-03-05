@@ -1,0 +1,47 @@
+id: caine
+name: CAINE (Computer Aided INvestigative Environment)
+summary: Ubuntu-based Linux distribution designed for digital forensics and computer investigation tasks.
+description: |
+  CAINE (Computer Aided INvestigative Environment) is an Ubuntu-based Linux distribution designed for digital forensics and computer investigation tasks. It provides a complete forensic environment with tools for evidence collection, analysis, and reporting. CAINE includes both open source and proprietary tools and is widely used by digital forensics investigators and law enforcement.
+categories:
+  - operating_systems
+tags:
+  - linux_distribution
+  - forensics
+  - digital_investigation
+  - oss
+  - operating_system
+platforms:
+  - linux
+license: Various (GPL and others)
+maturity: stable
+website: https://www.caine-live.net/
+docs_url: https://www.caine-live.net/page4/page4.html
+download_url: https://www.caine-live.net/page5/page5.html
+github_repo: null
+stars: null
+pricing:
+  type: open_source
+installation:
+  methods:
+    - ISO download
+    - USB live system
+  commands:
+    - Download ISO from https://www.caine-live.net/page5/page5.html
+  package_managers:
+    - apt
+maintainers:
+  - CAINE Team
+authors:
+  - CAINE Team
+use_cases:
+  - Digital forensics
+  - Computer investigation
+  - Evidence collection
+  - Incident response
+related_tools:
+  - autopsy
+  - volatility
+similar_tools:
+  - deft
+added_at: '2026-03-05'

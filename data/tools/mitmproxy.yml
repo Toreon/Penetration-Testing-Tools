@@ -4,7 +4,7 @@ summary: Interactive HTTP proxy for intercepting, inspecting, and modifying HTTP
 description: |
   Mitmproxy is an interactive HTTP proxy for intercepting, inspecting, and modifying HTTP/HTTPS traffic. It provides a command-line interface and web interface for analyzing network traffic. Mitmproxy is useful for web application security testing, debugging, and traffic analysis.
 categories:
-  - web_utilities
+  - web_app_scanner
 tags:
   - http_proxy
   - traffic_interception

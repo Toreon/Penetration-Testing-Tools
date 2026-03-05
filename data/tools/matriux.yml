@@ -1,0 +1,46 @@
+id: matriux
+name: Matriux
+summary: Debian-based security distribution designed for penetration testing and security assessment.
+description: |
+  Matriux is a Debian-based security distribution designed for penetration testing and security assessment. It includes a comprehensive set of security tools organized by categories. Matriux is designed to be user-friendly while providing powerful security testing capabilities for penetration testers and security researchers.
+categories:
+  - operating_systems
+tags:
+  - linux_distribution
+  - penetration_testing
+  - oss
+  - operating_system
+platforms:
+  - linux
+license: Various (GPL and others)
+maturity: stable
+website: https://www.matriux.com/
+docs_url: https://www.matriux.com/documentation/
+download_url: https://www.matriux.com/download/
+github_repo: null
+stars: null
+pricing:
+  type: open_source
+installation:
+  methods:
+    - ISO download
+  commands:
+    - Download ISO from https://www.matriux.com/download/
+  package_managers:
+    - apt
+maintainers:
+  - Matriux Team
+authors:
+  - Matriux Team
+use_cases:
+  - Penetration testing
+  - Security assessment
+  - Vulnerability testing
+  - Security research
+related_tools:
+  - kali_linux
+  - parrot_os
+similar_tools:
+  - kali_linux
+  - parrot_os
+added_at: '2026-03-05'

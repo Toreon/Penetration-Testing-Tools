@@ -1,0 +1,49 @@
+id: ssllabs
+name: SSL Labs SSL Test
+summary: Online SSL/TLS server testing tool for analyzing SSL/TLS configuration and security.
+description: |
+  SSL Labs SSL Test is an online tool for testing and analyzing SSL/TLS server configurations. It provides comprehensive analysis of SSL/TLS certificates, cipher suites, protocol support, and security issues. SSL Labs SSL Test is widely used by security professionals for SSL/TLS security assessment and compliance checking.
+categories:
+  - web_utilities
+tags:
+  - ssl_tls
+  - security_assessment
+  - certificate_analysis
+  - free
+  - web_interface
+platforms:
+  - linux
+  - windows
+  - macos
+license: Proprietary (Free service)
+maturity: stable
+website: https://www.ssllabs.com/ssltest/
+docs_url: https://www.ssllabs.com/ssltest/
+download_url: https://www.ssllabs.com/ssltest/
+github_repo: null
+stars: null
+pricing:
+  type: free
+  notes: "Free online service from Qualys SSL Labs"
+installation:
+  methods:
+    - Web interface
+    - API access
+  commands:
+    - Access via https://www.ssllabs.com/ssltest/
+maintainers:
+  - Qualys SSL Labs
+authors:
+  - Qualys SSL Labs
+use_cases:
+  - SSL/TLS security assessment
+  - Certificate analysis
+  - Protocol testing
+  - Security compliance
+related_tools:
+  - testssl
+  - sslscan
+similar_tools:
+  - testssl
+  - sslscan
+added_at: '2026-03-05'
