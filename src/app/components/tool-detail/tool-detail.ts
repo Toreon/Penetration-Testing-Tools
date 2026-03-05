@@ -127,4 +127,12 @@ export class ToolDetail implements OnInit, OnDestroy {
   formatCategory(category: string): string {
     return category.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
   }
+
+  getEditToolUrl(): string {
+    if (!this.tool) {
+      return '';
+    }
+    // Generate GitHub edit URL for the tool's YAML file
+    return `https://github.com/Toreon/Penetration-Testing-Tools/edit/main/data/tools/${this.tool.id}.yml`;
+  }
 }

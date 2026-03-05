@@ -8,6 +8,7 @@
     "build:data": "node scripts/convert-yaml-to-json.js",
     "convert-yaml": "node scripts/convert-yaml-to-json.js",
     "update-tools": "node scripts/update-tools-from-github.js",
+    "generate-urls": "node scripts/generate-github-urls.js",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

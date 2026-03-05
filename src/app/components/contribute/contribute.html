@@ -1,18 +1,79 @@
 <div class="contribute-container">
   <h1>How to Contribute</h1>
 
+  <!-- Prominent One-Click CTA Section -->
+  <mat-card class="cta-card">
+    <mat-card-content class="cta-content">
+      <div class="cta-icon">
+        <mat-icon>add_circle</mat-icon>
+      </div>
+      <h2>Add a New Tool Easily!</h2>
+      <p class="cta-description">
+        Use our template to add a new tool. View the template, create a new file, copy the template content, 
+        change the filename, fill in your tool's information, and submit a pull request!
+      </p>
+      <div class="cta-buttons">
+        <a 
+          mat-raised-button 
+          color="primary" 
+          [href]="templateUrl" 
+          target="_blank" 
+          rel="noopener"
+          class="cta-button">
+          <mat-icon>description</mat-icon>
+          View Template
+        </a>
+        <a 
+          mat-raised-button 
+          color="accent" 
+          [href]="newFileUrl" 
+          target="_blank" 
+          rel="noopener"
+          class="cta-button">
+          <mat-icon>add</mat-icon>
+          Create New File
+        </a>
+      </div>
+      <div class="cta-steps">
+        <div class="step">
+          <mat-icon>description</mat-icon>
+          <span>View the template</span>
+        </div>
+        <div class="step">
+          <mat-icon>add</mat-icon>
+          <span>Create new file</span>
+        </div>
+        <div class="step">
+          <mat-icon>content_copy</mat-icon>
+          <span>Copy template content</span>
+        </div>
+        <div class="step">
+          <mat-icon>edit</mat-icon>
+          <span>Fill in your tool info</span>
+        </div>
+        <div class="step">
+          <mat-icon>merge_type</mat-icon>
+          <span>Submit pull request</span>
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
+
   <mat-card class="section-card">
     <mat-card-header>
       <mat-card-title>Adding a New Tool</mat-card-title>
     </mat-card-header>
     <mat-card-content>
-      <p>To add a new tool to the catalogue:</p>
+      <p><strong>Recommended:</strong> Use the template above for the easiest contribution experience!</p>
       <ol>
-        <li>Create a new YAML file in the <code>data/tools/</code> directory</li>
-        <li>Name the file using the tool's ID (e.g., <code>my-tool.yml</code>)</li>
-        <li>Fill in all required fields following the schema below</li>
-        <li>Submit a pull request with your changes</li>
+        <li>Click "View Template" to see the template file</li>
+        <li>Click "Create New File" to open GitHub's editor</li>
+        <li>Copy the template content from <a [href]="templateUrl" target="_blank">tool_template.yml</a> into your new file</li>
+        <li>Change the filename to match your tool's ID (e.g., <code>my-tool.yml</code>)</li>
+        <li>Fill in all the required fields and any optional information</li>
+        <li>Commit the file and open a pull request</li>
       </ol>
+      <p><strong>Alternative method:</strong> If you prefer to work locally, you can clone the repository, copy <code>data/tools/tool_template.yml</code>, rename it, fill it in, and submit a pull request.</p>
     </mat-card-content>
   </mat-card>
 

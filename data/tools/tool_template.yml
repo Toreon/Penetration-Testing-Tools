@@ -1,0 +1,119 @@
+# Tool Template
+# Fill in the information below to add a new tool to the catalogue.
+# Required fields are marked with comments. Optional fields can be removed if not applicable.
+
+# REQUIRED: Unique identifier (lowercase, hyphens only, URL-safe)
+id: new-tool-id
+
+# REQUIRED: Human-readable tool name
+name: Tool Name
+
+# REQUIRED: Short one-paragraph description
+summary: Brief description of what the tool does and its primary purpose.
+
+# OPTIONAL: Longer multi-paragraph description (can span multiple lines)
+description: |
+  Detailed description of the tool, its features, and use cases.
+  This can span multiple paragraphs and lines.
+
+# REQUIRED: List of categories (see CONTRIBUTING.md for available categories)
+categories:
+  - category1
+  - category2
+
+# REQUIRED: List of tags describing the tool
+tags:
+  - tag1
+  - tag2
+  - oss
+  - cli
+
+# REQUIRED: Execution platforms (where the tool runs)
+platforms:
+  - linux
+  # - windows
+  # - macos
+
+# OPTIONAL: Target platforms (what the tool analyzes)
+# target_platforms:
+#   - android
+#   - ios
+
+# REQUIRED: License identifier or name
+license: MIT
+
+# REQUIRED: Maturity level (one of: stable, active, experimental, archived)
+maturity: active
+
+# OPTIONAL: Tool website URL
+website: https://example.com
+
+# OPTIONAL: Documentation URL
+docs_url: https://docs.example.com
+
+# OPTIONAL: Download URL
+download_url: https://github.com/owner/tool/releases
+
+# OPTIONAL: GitHub repository (format: owner/repository-name)
+github_repo: owner/repository-name
+
+# OPTIONAL: Cached GitHub star count (auto-updated via utility script)
+stars: null
+
+# OPTIONAL: Tool logo/image URL
+# image_url: https://raw.githubusercontent.com/owner/repo/main/logo.png
+
+# OPTIONAL: Pricing information
+pricing:
+  type: open_source  # One of: free, paid, freemium, open_source
+  # price: "$99/year"  # Optional: Price string
+  # currency: USD  # Optional: Currency code
+  # notes: Additional pricing details  # Optional: Additional notes
+
+# OPTIONAL: Installation information
+installation:
+  methods:
+    - Git clone
+    # - pip install
+    # - Package manager
+  commands:
+    - git clone https://github.com/owner/tool.git
+    # - pip install tool-name
+  package_managers:
+    # - pip
+    # - apt
+    # - brew
+    # - gem
+    # - docker
+
+# OPTIONAL: List of maintainer GitHub usernames (can be auto-updated via utility script)
+maintainers:
+  - maintainer1
+
+# OPTIONAL: List of author GitHub usernames (can be auto-updated via utility script)
+authors:
+  - author1
+
+# OPTIONAL: List of primary use cases
+use_cases:
+  - Use case 1
+  - Use case 2
+
+# OPTIONAL: Compliance standards mapping
+# compliance_mapping:
+#   ISO_27001:
+#     - A.12.6.1
+#     - A.14.2.1
+
+# OPTIONAL: List of related tool IDs
+# related_tools:
+#   - tool-id-1
+#   - tool-id-2
+
+# OPTIONAL: List of similar tool IDs (tools with similar functionality)
+# similar_tools:
+#   - tool-id-1
+#   - tool-id-2
+
+# OPTIONAL: Date when tool was added (ISO date string: YYYY-MM-DD)
+added_at: '2026-01-01'

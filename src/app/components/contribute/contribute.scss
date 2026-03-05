@@ -9,6 +9,97 @@
     text-align: center;
   }
 
+  .cta-card {
+    margin-bottom: 3rem;
+    background: linear-gradient(135deg, rgba(100, 181, 246, 0.15) 0%, rgba(156, 39, 176, 0.15) 100%);
+    border: 2px solid rgba(100, 181, 246, 0.3);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+
+    .cta-content {
+      text-align: center;
+      padding: 2.5rem 2rem;
+
+      .cta-icon {
+        margin-bottom: 1rem;
+
+        mat-icon {
+          font-size: 4rem;
+          width: 4rem;
+          height: 4rem;
+          color: #64b5f6;
+        }
+      }
+
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        color: #64b5f6;
+      }
+
+      .cta-description {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 1.6;
+      }
+
+      .cta-buttons {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+      }
+
+      .cta-button {
+        font-size: 1.2rem;
+        padding: 1rem 2.5rem;
+        min-width: 200px;
+        height: auto;
+
+        mat-icon {
+          margin-right: 0.5rem;
+          font-size: 1.5rem;
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+      }
+
+      .cta-steps {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+
+        .step {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 0.5rem;
+          padding: 1rem;
+          background-color: rgba(255, 255, 255, 0.05);
+          border-radius: 8px;
+          min-width: 150px;
+
+          mat-icon {
+            font-size: 2rem;
+            width: 2rem;
+            height: 2rem;
+            color: #64b5f6;
+          }
+
+          span {
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.9);
+          }
+        }
+      }
+    }
+  }
+
   .section-card {
     margin-bottom: 2rem;
 

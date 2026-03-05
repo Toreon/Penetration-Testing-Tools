@@ -13,6 +13,24 @@ This platform serves as a collective representation of common tools used in the 
 - **GitHub Integration**: Live GitHub star counts with caching
 - **Community-Driven**: Easy to contribute new tools or update existing ones via YAML files
 
+## Add a New Tool
+
+Want to add a tool to the catalogue? It's easy! Use our template to get started.
+
+- **[View Template](https://github.com/Toreon/Penetration-Testing-Tools/blob/main/data/tools/tool_template.yml)** - See the template file
+- **[Create New File](https://github.com/Toreon/Penetration-Testing-Tools/new/main/data/tools)** - Open GitHub's editor
+
+### How it works
+
+1. **View the template** - Click the link above to see `tool_template.yml`
+2. **Create a new file** - Click "Create New File" to open GitHub's editor
+3. **Copy the template** - Copy the content from the template into your new file
+4. **Change the filename** - Rename it to match your tool's ID (e.g., `my-tool.yml`)
+5. **Fill in your tool info** - Complete the required fields and add optional details
+6. **Commit and open a pull request** - GitHub will guide you through creating a PR
+
+That's it! Your contribution will be reviewed and merged. For more details, see [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## Tech Stack
 
 - **Angular**: Modern SPA framework with standalone components

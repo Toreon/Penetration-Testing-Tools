@@ -6,6 +6,25 @@ Thank you for your interest in contributing to the Pentest Tools Catalogue! This
 
 ### Adding a New Tool
 
+The easiest way to add a new tool is using our template:
+
+- **[View Template](https://github.com/Toreon/Penetration-Testing-Tools/blob/main/data/tools/tool_template.yml)** - See the template file
+- **[Create New File](https://github.com/Toreon/Penetration-Testing-Tools/new/main/data/tools)** - Open GitHub's editor
+
+**How it works:**
+1. View the template file to see the structure
+2. Create a new file in the `data/tools/` directory
+3. Copy the template content into your new file
+4. Change the filename to match your tool's ID (e.g., `my-tool.yml`)
+5. Fill in the tool information (required fields are marked with comments)
+6. Commit the file and open a pull request
+
+GitHub will automatically create a fork and guide you through the PR process. That's it!
+
+**Alternative method (manual):**
+
+If you prefer to work locally, you can also:
+
 1. **Create a YAML file**: Create a new file in the `data/tools/` directory
    - Filename should match the tool's ID (e.g., `my-tool.yml`)
    - Use lowercase letters, numbers, and hyphens only
